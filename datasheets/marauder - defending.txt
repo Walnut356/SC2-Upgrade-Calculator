@@ -1,4 +1,4 @@
-stalker attacking marauder
+zealot attacking marauder
 ---
 +0 att vs +0 arm:     	9 shots | 7.74sec
 +0 att vs +1 arm:     	11 shots | 9.46sec

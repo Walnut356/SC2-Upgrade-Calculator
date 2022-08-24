@@ -1,4 +1,4 @@
-baneling attacking stalker
+baneling attacking zealot
 ---
 +0 att vs +0 arm/+0 sh:	5 shots | 0.05sec
 +0 att vs +0 arm/+1 sh:	5 shots | 0.05sec
@@ -13,20 +13,20 @@ baneling attacking stalker
 +0 att vs +2 arm/+0 sh:	5 shots | 0.05sec
 +0 att vs +2 arm/+1 sh:	5 shots | 0.05sec
 +0 att vs +2 arm/+2 sh:	5 shots | 0.05sec
-+0 att vs +2 arm/+3 sh:	6 shots | 0.06sec
++0 att vs +2 arm/+3 sh:	5 shots | 0.05sec
 ---
 +0 att vs +3 arm/+0 sh:	5 shots | 0.05sec
 +0 att vs +3 arm/+1 sh:	5 shots | 0.05sec
-+0 att vs +3 arm/+2 sh:	6 shots | 0.06sec
-+0 att vs +3 arm/+3 sh:	6 shots | 0.06sec
++0 att vs +3 arm/+2 sh:	5 shots | 0.05sec
++0 att vs +3 arm/+3 sh:	5 shots | 0.05sec
 ---
 ---
-+1 att vs +0 arm/+0 sh:	5 shots | 0.05sec
-+1 att vs +0 arm/+1 sh:	5 shots | 0.05sec
++1 att vs +0 arm/+0 sh:	4 shots | 0.04sec
++1 att vs +0 arm/+1 sh:	4 shots | 0.04sec
 +1 att vs +0 arm/+2 sh:	5 shots | 0.05sec
 +1 att vs +0 arm/+3 sh:	5 shots | 0.05sec
 ---
-+1 att vs +1 arm/+0 sh:	5 shots | 0.05sec
++1 att vs +1 arm/+0 sh:	4 shots | 0.04sec
 +1 att vs +1 arm/+1 sh:	5 shots | 0.05sec
 +1 att vs +1 arm/+2 sh:	5 shots | 0.05sec
 +1 att vs +1 arm/+3 sh:	5 shots | 0.05sec
@@ -55,12 +55,12 @@ baneling attacking stalker
 +2 att vs +2 arm/+0 sh:	4 shots | 0.04sec
 +2 att vs +2 arm/+1 sh:	4 shots | 0.04sec
 +2 att vs +2 arm/+2 sh:	4 shots | 0.04sec
-+2 att vs +2 arm/+3 sh:	5 shots | 0.05sec
++2 att vs +2 arm/+3 sh:	4 shots | 0.04sec
 ---
 +2 att vs +3 arm/+0 sh:	4 shots | 0.04sec
 +2 att vs +3 arm/+1 sh:	4 shots | 0.04sec
-+2 att vs +3 arm/+2 sh:	5 shots | 0.05sec
-+2 att vs +3 arm/+3 sh:	5 shots | 0.05sec
++2 att vs +3 arm/+2 sh:	4 shots | 0.04sec
++2 att vs +3 arm/+3 sh:	4 shots | 0.04sec
 ---
 ---
 +3 att vs +0 arm/+0 sh:	4 shots | 0.04sec

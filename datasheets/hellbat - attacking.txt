@@ -1,4 +1,4 @@
-hellbat attacking stalker
+hellbat attacking zealot
 ---
 +0 att vs +0 arm/+0 sh:	6 shots | 8.58sec
 +0 att vs +0 arm/+1 sh:	6 shots | 8.58sec
@@ -18,25 +18,25 @@ hellbat attacking stalker
 +0 att vs +3 arm/+0 sh:	6 shots | 8.58sec
 +0 att vs +3 arm/+1 sh:	6 shots | 8.58sec
 +0 att vs +3 arm/+2 sh:	6 shots | 8.58sec
-+0 att vs +3 arm/+3 sh:	7 shots | 10.01sec
++0 att vs +3 arm/+3 sh:	6 shots | 8.58sec
 ---
 ---
 +1 att vs +0 arm/+0 sh:	5 shots | 7.15sec
-+1 att vs +0 arm/+1 sh:	6 shots | 8.58sec
-+1 att vs +0 arm/+2 sh:	6 shots | 8.58sec
-+1 att vs +0 arm/+3 sh:	6 shots | 8.58sec
++1 att vs +0 arm/+1 sh:	5 shots | 7.15sec
++1 att vs +0 arm/+2 sh:	5 shots | 7.15sec
++1 att vs +0 arm/+3 sh:	5 shots | 7.15sec
 ---
-+1 att vs +1 arm/+0 sh:	6 shots | 8.58sec
-+1 att vs +1 arm/+1 sh:	6 shots | 8.58sec
-+1 att vs +1 arm/+2 sh:	6 shots | 8.58sec
-+1 att vs +1 arm/+3 sh:	6 shots | 8.58sec
++1 att vs +1 arm/+0 sh:	5 shots | 7.15sec
++1 att vs +1 arm/+1 sh:	5 shots | 7.15sec
++1 att vs +1 arm/+2 sh:	5 shots | 7.15sec
++1 att vs +1 arm/+3 sh:	5 shots | 7.15sec
 ---
-+1 att vs +2 arm/+0 sh:	6 shots | 8.58sec
-+1 att vs +2 arm/+1 sh:	6 shots | 8.58sec
-+1 att vs +2 arm/+2 sh:	6 shots | 8.58sec
++1 att vs +2 arm/+0 sh:	5 shots | 7.15sec
++1 att vs +2 arm/+1 sh:	5 shots | 7.15sec
++1 att vs +2 arm/+2 sh:	5 shots | 7.15sec
 +1 att vs +2 arm/+3 sh:	6 shots | 8.58sec
 ---
-+1 att vs +3 arm/+0 sh:	6 shots | 8.58sec
++1 att vs +3 arm/+0 sh:	5 shots | 7.15sec
 +1 att vs +3 arm/+1 sh:	6 shots | 8.58sec
 +1 att vs +3 arm/+2 sh:	6 shots | 8.58sec
 +1 att vs +3 arm/+3 sh:	6 shots | 8.58sec
@@ -63,12 +63,12 @@ hellbat attacking stalker
 +2 att vs +3 arm/+3 sh:	5 shots | 7.15sec
 ---
 ---
-+3 att vs +0 arm/+0 sh:	5 shots | 7.15sec
-+3 att vs +0 arm/+1 sh:	5 shots | 7.15sec
++3 att vs +0 arm/+0 sh:	4 shots | 5.72sec
++3 att vs +0 arm/+1 sh:	4 shots | 5.72sec
 +3 att vs +0 arm/+2 sh:	5 shots | 7.15sec
 +3 att vs +0 arm/+3 sh:	5 shots | 7.15sec
 ---
-+3 att vs +1 arm/+0 sh:	5 shots | 7.15sec
++3 att vs +1 arm/+0 sh:	4 shots | 5.72sec
 +3 att vs +1 arm/+1 sh:	5 shots | 7.15sec
 +3 att vs +1 arm/+2 sh:	5 shots | 7.15sec
 +3 att vs +1 arm/+3 sh:	5 shots | 7.15sec

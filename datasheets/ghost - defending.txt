@@ -1,4 +1,4 @@
-stalker attacking ghost
+zealot attacking ghost
 ---
 +0 att vs +0 arm:     	7 shots | 6.02sec
 +0 att vs +1 arm:     	8 shots | 6.88sec

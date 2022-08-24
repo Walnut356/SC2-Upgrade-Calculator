@@ -1,4 +1,4 @@
-stalker attacking spinecrawler
+zealot attacking spinecrawler
 ---
 +0 att vs +0 arm:     	27 shots | 23.22sec
 +0 att vs +1 arm:     	27 shots | 23.22sec

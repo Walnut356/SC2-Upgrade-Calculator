@@ -1,4 +1,4 @@
-stalker attacking roach
+zealot attacking roach
 ---
 +0 att vs +0 arm:     	11 shots | 9.46sec
 +0 att vs +1 arm:     	13 shots | 11.18sec

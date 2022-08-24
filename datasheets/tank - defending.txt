@@ -1,4 +1,4 @@
-stalker attacking tank
+zealot attacking tank
 ---
 +0 att vs +0 arm:     	13 shots | 11.18sec
 +0 att vs +1 arm:     	15 shots | 12.9sec

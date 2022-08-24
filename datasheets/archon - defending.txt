@@ -1,4 +1,4 @@
-stalker attacking archon
+zealot attacking archon
 ---
 +0 att vs +0 arm/+0 sh:	23 shots | 19.78sec
 +0 att vs +0 arm/+1 sh:	26 shots | 22.36sec

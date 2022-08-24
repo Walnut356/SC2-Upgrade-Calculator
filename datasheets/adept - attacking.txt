@@ -1,48 +1,48 @@
-adept attacking stalker
+adept attacking zealot
 ---
 +0 att vs +0 arm/+0 sh:	8 shots | 8.88sec
 +0 att vs +0 arm/+1 sh:	8 shots | 8.88sec
 +0 att vs +0 arm/+2 sh:	8 shots | 8.88sec
-+0 att vs +0 arm/+3 sh:	9 shots | 9.99sec
++0 att vs +0 arm/+3 sh:	8 shots | 8.88sec
 ---
 +0 att vs +1 arm/+0 sh:	8 shots | 8.88sec
 +0 att vs +1 arm/+1 sh:	8 shots | 8.88sec
-+0 att vs +1 arm/+2 sh:	9 shots | 9.99sec
-+0 att vs +1 arm/+3 sh:	9 shots | 9.99sec
++0 att vs +1 arm/+2 sh:	8 shots | 8.88sec
++0 att vs +1 arm/+3 sh:	8 shots | 8.88sec
 ---
 +0 att vs +2 arm/+0 sh:	8 shots | 8.88sec
-+0 att vs +2 arm/+1 sh:	9 shots | 9.99sec
-+0 att vs +2 arm/+2 sh:	9 shots | 9.99sec
-+0 att vs +2 arm/+3 sh:	9 shots | 9.99sec
++0 att vs +2 arm/+1 sh:	8 shots | 8.88sec
++0 att vs +2 arm/+2 sh:	8 shots | 8.88sec
++0 att vs +2 arm/+3 sh:	8 shots | 8.88sec
 ---
-+0 att vs +3 arm/+0 sh:	9 shots | 9.99sec
-+0 att vs +3 arm/+1 sh:	9 shots | 9.99sec
++0 att vs +3 arm/+0 sh:	8 shots | 8.88sec
++0 att vs +3 arm/+1 sh:	8 shots | 8.88sec
 +0 att vs +3 arm/+2 sh:	9 shots | 9.99sec
 +0 att vs +3 arm/+3 sh:	9 shots | 9.99sec
 ---
 ---
 +1 att vs +0 arm/+0 sh:	7 shots | 7.77sec
-+1 att vs +0 arm/+1 sh:	8 shots | 8.88sec
-+1 att vs +0 arm/+2 sh:	8 shots | 8.88sec
-+1 att vs +0 arm/+3 sh:	8 shots | 8.88sec
++1 att vs +0 arm/+1 sh:	7 shots | 7.77sec
++1 att vs +0 arm/+2 sh:	7 shots | 7.77sec
++1 att vs +0 arm/+3 sh:	7 shots | 7.77sec
 ---
 +1 att vs +1 arm/+0 sh:	7 shots | 7.77sec
-+1 att vs +1 arm/+1 sh:	8 shots | 8.88sec
-+1 att vs +1 arm/+2 sh:	8 shots | 8.88sec
++1 att vs +1 arm/+1 sh:	7 shots | 7.77sec
++1 att vs +1 arm/+2 sh:	7 shots | 7.77sec
 +1 att vs +1 arm/+3 sh:	8 shots | 8.88sec
 ---
-+1 att vs +2 arm/+0 sh:	8 shots | 8.88sec
-+1 att vs +2 arm/+1 sh:	8 shots | 8.88sec
++1 att vs +2 arm/+0 sh:	7 shots | 7.77sec
++1 att vs +2 arm/+1 sh:	7 shots | 7.77sec
 +1 att vs +2 arm/+2 sh:	8 shots | 8.88sec
 +1 att vs +2 arm/+3 sh:	8 shots | 8.88sec
 ---
-+1 att vs +3 arm/+0 sh:	8 shots | 8.88sec
++1 att vs +3 arm/+0 sh:	7 shots | 7.77sec
 +1 att vs +3 arm/+1 sh:	8 shots | 8.88sec
 +1 att vs +3 arm/+2 sh:	8 shots | 8.88sec
 +1 att vs +3 arm/+3 sh:	8 shots | 8.88sec
 ---
 ---
-+2 att vs +0 arm/+0 sh:	7 shots | 7.77sec
++2 att vs +0 arm/+0 sh:	6 shots | 6.66sec
 +2 att vs +0 arm/+1 sh:	7 shots | 7.77sec
 +2 att vs +0 arm/+2 sh:	7 shots | 7.77sec
 +2 att vs +0 arm/+3 sh:	7 shots | 7.77sec
@@ -55,30 +55,30 @@ adept attacking stalker
 +2 att vs +2 arm/+0 sh:	7 shots | 7.77sec
 +2 att vs +2 arm/+1 sh:	7 shots | 7.77sec
 +2 att vs +2 arm/+2 sh:	7 shots | 7.77sec
-+2 att vs +2 arm/+3 sh:	8 shots | 8.88sec
++2 att vs +2 arm/+3 sh:	7 shots | 7.77sec
 ---
 +2 att vs +3 arm/+0 sh:	7 shots | 7.77sec
 +2 att vs +3 arm/+1 sh:	7 shots | 7.77sec
 +2 att vs +3 arm/+2 sh:	7 shots | 7.77sec
-+2 att vs +3 arm/+3 sh:	8 shots | 8.88sec
++2 att vs +3 arm/+3 sh:	7 shots | 7.77sec
 ---
 ---
 +3 att vs +0 arm/+0 sh:	6 shots | 6.66sec
 +3 att vs +0 arm/+1 sh:	6 shots | 6.66sec
-+3 att vs +0 arm/+2 sh:	7 shots | 7.77sec
-+3 att vs +0 arm/+3 sh:	7 shots | 7.77sec
++3 att vs +0 arm/+2 sh:	6 shots | 6.66sec
++3 att vs +0 arm/+3 sh:	6 shots | 6.66sec
 ---
 +3 att vs +1 arm/+0 sh:	6 shots | 6.66sec
-+3 att vs +1 arm/+1 sh:	7 shots | 7.77sec
-+3 att vs +1 arm/+2 sh:	7 shots | 7.77sec
-+3 att vs +1 arm/+3 sh:	7 shots | 7.77sec
++3 att vs +1 arm/+1 sh:	6 shots | 6.66sec
++3 att vs +1 arm/+2 sh:	6 shots | 6.66sec
++3 att vs +1 arm/+3 sh:	6 shots | 6.66sec
 ---
-+3 att vs +2 arm/+0 sh:	7 shots | 7.77sec
-+3 att vs +2 arm/+1 sh:	7 shots | 7.77sec
-+3 att vs +2 arm/+2 sh:	7 shots | 7.77sec
++3 att vs +2 arm/+0 sh:	6 shots | 6.66sec
++3 att vs +2 arm/+1 sh:	6 shots | 6.66sec
++3 att vs +2 arm/+2 sh:	6 shots | 6.66sec
 +3 att vs +2 arm/+3 sh:	7 shots | 7.77sec
 ---
-+3 att vs +3 arm/+0 sh:	7 shots | 7.77sec
++3 att vs +3 arm/+0 sh:	6 shots | 6.66sec
 +3 att vs +3 arm/+1 sh:	7 shots | 7.77sec
 +3 att vs +3 arm/+2 sh:	7 shots | 7.77sec
 +3 att vs +3 arm/+3 sh:	7 shots | 7.77sec

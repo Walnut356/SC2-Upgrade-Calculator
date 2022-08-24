@@ -1,4 +1,4 @@
-stalker attacking hydralisk
+zealot attacking hydralisk
 ---
 +0 att vs +0 arm:     	6 shots | 5.16sec
 +0 att vs +1 arm:     	7 shots | 6.02sec

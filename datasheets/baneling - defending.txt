@@ -1,4 +1,4 @@
-stalker attacking baneling
+zealot attacking baneling
 ---
 +0 att vs +0 arm:     	3 shots | 2.58sec
 +0 att vs +1 arm:     	3 shots | 2.58sec

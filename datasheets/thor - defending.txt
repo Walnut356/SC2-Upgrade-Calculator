@@ -1,4 +1,4 @@
-stalker attacking thor
+zealot attacking thor
 ---
 +0 att vs +0 arm:     	29 shots | 24.94sec
 +0 att vs +1 arm:     	34 shots | 29.24sec

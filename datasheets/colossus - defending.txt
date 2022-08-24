@@ -1,4 +1,4 @@
-stalker attacking colossus
+zealot attacking colossus
 ---
 +0 att vs +0 arm/+0 sh:	24 shots | 20.64sec
 +0 att vs +0 arm/+1 sh:	26 shots | 22.36sec

@@ -1,4 +1,4 @@
-stalker attacking ultralisk
+zealot attacking ultralisk
 ---
 +0 att vs +0 arm:     	69 shots | 59.34sec
 +0 att vs +1 arm:     	94 shots | 80.84sec

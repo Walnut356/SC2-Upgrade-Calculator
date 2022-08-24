@@ -1,86 +1,86 @@
-spinecrawler attacking stalker
+spinecrawler attacking zealot
 ---
 +0 att vs +0 arm/+0 sh:	7 shots | 9.24sec
 +0 att vs +0 arm/+1 sh:	7 shots | 9.24sec
 +0 att vs +0 arm/+2 sh:	7 shots | 9.24sec
-+0 att vs +0 arm/+3 sh:	8 shots | 10.56sec
++0 att vs +0 arm/+3 sh:	7 shots | 9.24sec
 ---
 +0 att vs +1 arm/+0 sh:	7 shots | 9.24sec
 +0 att vs +1 arm/+1 sh:	7 shots | 9.24sec
-+0 att vs +1 arm/+2 sh:	8 shots | 10.56sec
-+0 att vs +1 arm/+3 sh:	8 shots | 10.56sec
++0 att vs +1 arm/+2 sh:	7 shots | 9.24sec
++0 att vs +1 arm/+3 sh:	7 shots | 9.24sec
 ---
 +0 att vs +2 arm/+0 sh:	7 shots | 9.24sec
 +0 att vs +2 arm/+1 sh:	7 shots | 9.24sec
-+0 att vs +2 arm/+2 sh:	8 shots | 10.56sec
-+0 att vs +2 arm/+3 sh:	8 shots | 10.56sec
++0 att vs +2 arm/+2 sh:	7 shots | 9.24sec
++0 att vs +2 arm/+3 sh:	7 shots | 9.24sec
 ---
 +0 att vs +3 arm/+0 sh:	7 shots | 9.24sec
-+0 att vs +3 arm/+1 sh:	8 shots | 10.56sec
-+0 att vs +3 arm/+2 sh:	8 shots | 10.56sec
++0 att vs +3 arm/+1 sh:	7 shots | 9.24sec
++0 att vs +3 arm/+2 sh:	7 shots | 9.24sec
 +0 att vs +3 arm/+3 sh:	8 shots | 10.56sec
 ---
 ---
 +1 att vs +0 arm/+0 sh:	7 shots | 9.24sec
 +1 att vs +0 arm/+1 sh:	7 shots | 9.24sec
 +1 att vs +0 arm/+2 sh:	7 shots | 9.24sec
-+1 att vs +0 arm/+3 sh:	8 shots | 10.56sec
++1 att vs +0 arm/+3 sh:	7 shots | 9.24sec
 ---
 +1 att vs +1 arm/+0 sh:	7 shots | 9.24sec
 +1 att vs +1 arm/+1 sh:	7 shots | 9.24sec
-+1 att vs +1 arm/+2 sh:	8 shots | 10.56sec
-+1 att vs +1 arm/+3 sh:	8 shots | 10.56sec
++1 att vs +1 arm/+2 sh:	7 shots | 9.24sec
++1 att vs +1 arm/+3 sh:	7 shots | 9.24sec
 ---
 +1 att vs +2 arm/+0 sh:	7 shots | 9.24sec
 +1 att vs +2 arm/+1 sh:	7 shots | 9.24sec
-+1 att vs +2 arm/+2 sh:	8 shots | 10.56sec
-+1 att vs +2 arm/+3 sh:	8 shots | 10.56sec
++1 att vs +2 arm/+2 sh:	7 shots | 9.24sec
++1 att vs +2 arm/+3 sh:	7 shots | 9.24sec
 ---
 +1 att vs +3 arm/+0 sh:	7 shots | 9.24sec
-+1 att vs +3 arm/+1 sh:	8 shots | 10.56sec
-+1 att vs +3 arm/+2 sh:	8 shots | 10.56sec
++1 att vs +3 arm/+1 sh:	7 shots | 9.24sec
++1 att vs +3 arm/+2 sh:	7 shots | 9.24sec
 +1 att vs +3 arm/+3 sh:	8 shots | 10.56sec
 ---
 ---
 +2 att vs +0 arm/+0 sh:	7 shots | 9.24sec
 +2 att vs +0 arm/+1 sh:	7 shots | 9.24sec
 +2 att vs +0 arm/+2 sh:	7 shots | 9.24sec
-+2 att vs +0 arm/+3 sh:	8 shots | 10.56sec
++2 att vs +0 arm/+3 sh:	7 shots | 9.24sec
 ---
 +2 att vs +1 arm/+0 sh:	7 shots | 9.24sec
 +2 att vs +1 arm/+1 sh:	7 shots | 9.24sec
-+2 att vs +1 arm/+2 sh:	8 shots | 10.56sec
-+2 att vs +1 arm/+3 sh:	8 shots | 10.56sec
++2 att vs +1 arm/+2 sh:	7 shots | 9.24sec
++2 att vs +1 arm/+3 sh:	7 shots | 9.24sec
 ---
 +2 att vs +2 arm/+0 sh:	7 shots | 9.24sec
 +2 att vs +2 arm/+1 sh:	7 shots | 9.24sec
-+2 att vs +2 arm/+2 sh:	8 shots | 10.56sec
-+2 att vs +2 arm/+3 sh:	8 shots | 10.56sec
++2 att vs +2 arm/+2 sh:	7 shots | 9.24sec
++2 att vs +2 arm/+3 sh:	7 shots | 9.24sec
 ---
 +2 att vs +3 arm/+0 sh:	7 shots | 9.24sec
-+2 att vs +3 arm/+1 sh:	8 shots | 10.56sec
-+2 att vs +3 arm/+2 sh:	8 shots | 10.56sec
++2 att vs +3 arm/+1 sh:	7 shots | 9.24sec
++2 att vs +3 arm/+2 sh:	7 shots | 9.24sec
 +2 att vs +3 arm/+3 sh:	8 shots | 10.56sec
 ---
 ---
 +3 att vs +0 arm/+0 sh:	7 shots | 9.24sec
 +3 att vs +0 arm/+1 sh:	7 shots | 9.24sec
 +3 att vs +0 arm/+2 sh:	7 shots | 9.24sec
-+3 att vs +0 arm/+3 sh:	8 shots | 10.56sec
++3 att vs +0 arm/+3 sh:	7 shots | 9.24sec
 ---
 +3 att vs +1 arm/+0 sh:	7 shots | 9.24sec
 +3 att vs +1 arm/+1 sh:	7 shots | 9.24sec
-+3 att vs +1 arm/+2 sh:	8 shots | 10.56sec
-+3 att vs +1 arm/+3 sh:	8 shots | 10.56sec
++3 att vs +1 arm/+2 sh:	7 shots | 9.24sec
++3 att vs +1 arm/+3 sh:	7 shots | 9.24sec
 ---
 +3 att vs +2 arm/+0 sh:	7 shots | 9.24sec
 +3 att vs +2 arm/+1 sh:	7 shots | 9.24sec
-+3 att vs +2 arm/+2 sh:	8 shots | 10.56sec
-+3 att vs +2 arm/+3 sh:	8 shots | 10.56sec
++3 att vs +2 arm/+2 sh:	7 shots | 9.24sec
++3 att vs +2 arm/+3 sh:	7 shots | 9.24sec
 ---
 +3 att vs +3 arm/+0 sh:	7 shots | 9.24sec
-+3 att vs +3 arm/+1 sh:	8 shots | 10.56sec
-+3 att vs +3 arm/+2 sh:	8 shots | 10.56sec
++3 att vs +3 arm/+1 sh:	7 shots | 9.24sec
++3 att vs +3 arm/+2 sh:	7 shots | 9.24sec
 +3 att vs +3 arm/+3 sh:	8 shots | 10.56sec
 ---
 ---

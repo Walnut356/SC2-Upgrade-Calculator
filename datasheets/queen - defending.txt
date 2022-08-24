@@ -1,4 +1,4 @@
-stalker attacking queen
+zealot attacking queen
 ---
 +0 att vs +0 arm:     	14 shots | 12.04sec
 +0 att vs +1 arm:     	16 shots | 13.76sec

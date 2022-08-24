@@ -1,4 +1,4 @@
-ultralisk attacking stalker
+ultralisk attacking zealot
 ---
 +0 att vs +0 arm/+0 sh:	5 shots | 3.05sec
 +0 att vs +0 arm/+1 sh:	5 shots | 3.05sec
@@ -13,12 +13,12 @@ ultralisk attacking stalker
 +0 att vs +2 arm/+0 sh:	5 shots | 3.05sec
 +0 att vs +2 arm/+1 sh:	5 shots | 3.05sec
 +0 att vs +2 arm/+2 sh:	5 shots | 3.05sec
-+0 att vs +2 arm/+3 sh:	6 shots | 3.66sec
++0 att vs +2 arm/+3 sh:	5 shots | 3.05sec
 ---
 +0 att vs +3 arm/+0 sh:	5 shots | 3.05sec
 +0 att vs +3 arm/+1 sh:	5 shots | 3.05sec
-+0 att vs +3 arm/+2 sh:	6 shots | 3.66sec
-+0 att vs +3 arm/+3 sh:	6 shots | 3.66sec
++0 att vs +3 arm/+2 sh:	5 shots | 3.05sec
++0 att vs +3 arm/+3 sh:	5 shots | 3.05sec
 ---
 ---
 +1 att vs +0 arm/+0 sh:	5 shots | 3.05sec
@@ -43,23 +43,23 @@ ultralisk attacking stalker
 ---
 ---
 +2 att vs +0 arm/+0 sh:	4 shots | 2.44sec
-+2 att vs +0 arm/+1 sh:	5 shots | 3.05sec
-+2 att vs +0 arm/+2 sh:	5 shots | 3.05sec
-+2 att vs +0 arm/+3 sh:	5 shots | 3.05sec
++2 att vs +0 arm/+1 sh:	4 shots | 2.44sec
++2 att vs +0 arm/+2 sh:	4 shots | 2.44sec
++2 att vs +0 arm/+3 sh:	4 shots | 2.44sec
 ---
-+2 att vs +1 arm/+0 sh:	5 shots | 3.05sec
-+2 att vs +1 arm/+1 sh:	5 shots | 3.05sec
-+2 att vs +1 arm/+2 sh:	5 shots | 3.05sec
-+2 att vs +1 arm/+3 sh:	5 shots | 3.05sec
++2 att vs +1 arm/+0 sh:	4 shots | 2.44sec
++2 att vs +1 arm/+1 sh:	4 shots | 2.44sec
++2 att vs +1 arm/+2 sh:	4 shots | 2.44sec
++2 att vs +1 arm/+3 sh:	4 shots | 2.44sec
 ---
-+2 att vs +2 arm/+0 sh:	5 shots | 3.05sec
-+2 att vs +2 arm/+1 sh:	5 shots | 3.05sec
-+2 att vs +2 arm/+2 sh:	5 shots | 3.05sec
-+2 att vs +2 arm/+3 sh:	5 shots | 3.05sec
++2 att vs +2 arm/+0 sh:	4 shots | 2.44sec
++2 att vs +2 arm/+1 sh:	4 shots | 2.44sec
++2 att vs +2 arm/+2 sh:	4 shots | 2.44sec
++2 att vs +2 arm/+3 sh:	4 shots | 2.44sec
 ---
-+2 att vs +3 arm/+0 sh:	5 shots | 3.05sec
-+2 att vs +3 arm/+1 sh:	5 shots | 3.05sec
-+2 att vs +3 arm/+2 sh:	5 shots | 3.05sec
++2 att vs +3 arm/+0 sh:	4 shots | 2.44sec
++2 att vs +3 arm/+1 sh:	4 shots | 2.44sec
++2 att vs +3 arm/+2 sh:	4 shots | 2.44sec
 +2 att vs +3 arm/+3 sh:	5 shots | 3.05sec
 ---
 ---

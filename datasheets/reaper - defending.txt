@@ -1,4 +1,4 @@
-stalker attacking reaper
+zealot attacking reaper
 ---
 +0 att vs +0 arm:     	4 shots | 3.44sec
 +0 att vs +1 arm:     	5 shots | 4.3sec

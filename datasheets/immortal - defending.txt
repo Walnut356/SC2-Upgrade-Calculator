@@ -1,4 +1,4 @@
-stalker attacking immortal
+zealot attacking immortal
 ---
 +0 att vs +0 arm/+0 sh:	21 shots | 18.06sec
 +0 att vs +0 arm/+1 sh:	22 shots | 18.92sec

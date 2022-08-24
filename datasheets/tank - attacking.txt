@@ -1,79 +1,79 @@
-tank attacking stalker
+tank attacking zealot
 ---
-+0 att vs +0 arm/+0 sh:	12 shots | 8.88sec
-+0 att vs +0 arm/+1 sh:	12 shots | 8.88sec
-+0 att vs +0 arm/+2 sh:	13 shots | 9.62sec
-+0 att vs +0 arm/+3 sh:	13 shots | 9.62sec
++0 att vs +0 arm/+0 sh:	11 shots | 8.14sec
++0 att vs +0 arm/+1 sh:	11 shots | 8.14sec
++0 att vs +0 arm/+2 sh:	12 shots | 8.88sec
++0 att vs +0 arm/+3 sh:	12 shots | 8.88sec
 ---
 +0 att vs +1 arm/+0 sh:	12 shots | 8.88sec
 +0 att vs +1 arm/+1 sh:	12 shots | 8.88sec
-+0 att vs +1 arm/+2 sh:	13 shots | 9.62sec
++0 att vs +1 arm/+2 sh:	12 shots | 8.88sec
 +0 att vs +1 arm/+3 sh:	13 shots | 9.62sec
 ---
 +0 att vs +2 arm/+0 sh:	12 shots | 8.88sec
-+0 att vs +2 arm/+1 sh:	13 shots | 9.62sec
++0 att vs +2 arm/+1 sh:	12 shots | 8.88sec
 +0 att vs +2 arm/+2 sh:	13 shots | 9.62sec
-+0 att vs +2 arm/+3 sh:	14 shots | 10.36sec
++0 att vs +2 arm/+3 sh:	13 shots | 9.62sec
 ---
 +0 att vs +3 arm/+0 sh:	13 shots | 9.62sec
-+0 att vs +3 arm/+1 sh:	14 shots | 10.36sec
++0 att vs +3 arm/+1 sh:	13 shots | 9.62sec
 +0 att vs +3 arm/+2 sh:	14 shots | 10.36sec
-+0 att vs +3 arm/+3 sh:	15 shots | 11.1sec
++0 att vs +3 arm/+3 sh:	14 shots | 10.36sec
 ---
 ---
 +1 att vs +0 arm/+0 sh:	10 shots | 7.4sec
-+1 att vs +0 arm/+1 sh:	11 shots | 8.14sec
-+1 att vs +0 arm/+2 sh:	11 shots | 8.14sec
-+1 att vs +0 arm/+3 sh:	11 shots | 8.14sec
++1 att vs +0 arm/+1 sh:	10 shots | 7.4sec
++1 att vs +0 arm/+2 sh:	10 shots | 7.4sec
++1 att vs +0 arm/+3 sh:	10 shots | 7.4sec
 ---
-+1 att vs +1 arm/+0 sh:	11 shots | 8.14sec
-+1 att vs +1 arm/+1 sh:	11 shots | 8.14sec
++1 att vs +1 arm/+0 sh:	10 shots | 7.4sec
++1 att vs +1 arm/+1 sh:	10 shots | 7.4sec
 +1 att vs +1 arm/+2 sh:	11 shots | 8.14sec
-+1 att vs +1 arm/+3 sh:	12 shots | 8.88sec
++1 att vs +1 arm/+3 sh:	11 shots | 8.14sec
 ---
 +1 att vs +2 arm/+0 sh:	11 shots | 8.14sec
 +1 att vs +2 arm/+1 sh:	11 shots | 8.14sec
-+1 att vs +2 arm/+2 sh:	12 shots | 8.88sec
-+1 att vs +2 arm/+3 sh:	12 shots | 8.88sec
++1 att vs +2 arm/+2 sh:	11 shots | 8.14sec
++1 att vs +2 arm/+3 sh:	11 shots | 8.14sec
 ---
 +1 att vs +3 arm/+0 sh:	11 shots | 8.14sec
-+1 att vs +3 arm/+1 sh:	12 shots | 8.88sec
++1 att vs +3 arm/+1 sh:	11 shots | 8.14sec
 +1 att vs +3 arm/+2 sh:	12 shots | 8.88sec
 +1 att vs +3 arm/+3 sh:	12 shots | 8.88sec
 ---
 ---
 +2 att vs +0 arm/+0 sh:	9 shots | 6.66sec
 +2 att vs +0 arm/+1 sh:	9 shots | 6.66sec
-+2 att vs +0 arm/+2 sh:	10 shots | 7.4sec
-+2 att vs +0 arm/+3 sh:	10 shots | 7.4sec
++2 att vs +0 arm/+2 sh:	9 shots | 6.66sec
++2 att vs +0 arm/+3 sh:	9 shots | 6.66sec
 ---
 +2 att vs +1 arm/+0 sh:	9 shots | 6.66sec
-+2 att vs +1 arm/+1 sh:	10 shots | 7.4sec
-+2 att vs +1 arm/+2 sh:	10 shots | 7.4sec
++2 att vs +1 arm/+1 sh:	9 shots | 6.66sec
++2 att vs +1 arm/+2 sh:	9 shots | 6.66sec
 +2 att vs +1 arm/+3 sh:	10 shots | 7.4sec
 ---
-+2 att vs +2 arm/+0 sh:	10 shots | 7.4sec
++2 att vs +2 arm/+0 sh:	9 shots | 6.66sec
 +2 att vs +2 arm/+1 sh:	10 shots | 7.4sec
 +2 att vs +2 arm/+2 sh:	10 shots | 7.4sec
-+2 att vs +2 arm/+3 sh:	11 shots | 8.14sec
++2 att vs +2 arm/+3 sh:	10 shots | 7.4sec
 ---
 +2 att vs +3 arm/+0 sh:	10 shots | 7.4sec
 +2 att vs +3 arm/+1 sh:	10 shots | 7.4sec
-+2 att vs +3 arm/+2 sh:	11 shots | 8.14sec
-+2 att vs +3 arm/+3 sh:	11 shots | 8.14sec
++2 att vs +3 arm/+2 sh:	10 shots | 7.4sec
++2 att vs +3 arm/+3 sh:	10 shots | 7.4sec
 ---
 ---
 +3 att vs +0 arm/+0 sh:	8 shots | 5.92sec
-+3 att vs +0 arm/+1 sh:	9 shots | 6.66sec
-+3 att vs +0 arm/+2 sh:	9 shots | 6.66sec
-+3 att vs +0 arm/+3 sh:	9 shots | 6.66sec
++3 att vs +0 arm/+1 sh:	8 shots | 5.92sec
++3 att vs +0 arm/+2 sh:	8 shots | 5.92sec
++3 att vs +0 arm/+3 sh:	8 shots | 5.92sec
 ---
-+3 att vs +1 arm/+0 sh:	9 shots | 6.66sec
-+3 att vs +1 arm/+1 sh:	9 shots | 6.66sec
-+3 att vs +1 arm/+2 sh:	9 shots | 6.66sec
++3 att vs +1 arm/+0 sh:	8 shots | 5.92sec
++3 att vs +1 arm/+1 sh:	8 shots | 5.92sec
++3 att vs +1 arm/+2 sh:	8 shots | 5.92sec
 +3 att vs +1 arm/+3 sh:	9 shots | 6.66sec
 ---
-+3 att vs +2 arm/+0 sh:	9 shots | 6.66sec
++3 att vs +2 arm/+0 sh:	8 shots | 5.92sec
 +3 att vs +2 arm/+1 sh:	9 shots | 6.66sec
 +3 att vs +2 arm/+2 sh:	9 shots | 6.66sec
 +3 att vs +2 arm/+3 sh:	9 shots | 6.66sec
@@ -81,7 +81,7 @@ tank attacking stalker
 +3 att vs +3 arm/+0 sh:	9 shots | 6.66sec
 +3 att vs +3 arm/+1 sh:	9 shots | 6.66sec
 +3 att vs +3 arm/+2 sh:	9 shots | 6.66sec
-+3 att vs +3 arm/+3 sh:	10 shots | 7.4sec
++3 att vs +3 arm/+3 sh:	9 shots | 6.66sec
 ---
 ---
 tank attacking stalker

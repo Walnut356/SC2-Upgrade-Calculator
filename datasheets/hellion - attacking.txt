@@ -1,37 +1,37 @@
-hellion attacking stalker
+hellion attacking zealot
 ---
 +0 att vs +0 arm/+0 sh:	9 shots | 16.11sec
 +0 att vs +0 arm/+1 sh:	9 shots | 16.11sec
-+0 att vs +0 arm/+2 sh:	10 shots | 17.9sec
-+0 att vs +0 arm/+3 sh:	10 shots | 17.9sec
++0 att vs +0 arm/+2 sh:	9 shots | 16.11sec
++0 att vs +0 arm/+3 sh:	9 shots | 16.11sec
 ---
 +0 att vs +1 arm/+0 sh:	9 shots | 16.11sec
-+0 att vs +1 arm/+1 sh:	10 shots | 17.9sec
-+0 att vs +1 arm/+2 sh:	10 shots | 17.9sec
++0 att vs +1 arm/+1 sh:	9 shots | 16.11sec
++0 att vs +1 arm/+2 sh:	9 shots | 16.11sec
 +0 att vs +1 arm/+3 sh:	10 shots | 17.9sec
 ---
-+0 att vs +2 arm/+0 sh:	10 shots | 17.9sec
++0 att vs +2 arm/+0 sh:	9 shots | 16.11sec
 +0 att vs +2 arm/+1 sh:	10 shots | 17.9sec
 +0 att vs +2 arm/+2 sh:	10 shots | 17.9sec
-+0 att vs +2 arm/+3 sh:	11 shots | 19.69sec
++0 att vs +2 arm/+3 sh:	10 shots | 17.9sec
 ---
 +0 att vs +3 arm/+0 sh:	10 shots | 17.9sec
 +0 att vs +3 arm/+1 sh:	10 shots | 17.9sec
-+0 att vs +3 arm/+2 sh:	11 shots | 19.69sec
-+0 att vs +3 arm/+3 sh:	11 shots | 19.69sec
++0 att vs +3 arm/+2 sh:	10 shots | 17.9sec
++0 att vs +3 arm/+3 sh:	10 shots | 17.9sec
 ---
 ---
 +1 att vs +0 arm/+0 sh:	8 shots | 14.32sec
-+1 att vs +0 arm/+1 sh:	9 shots | 16.11sec
-+1 att vs +0 arm/+2 sh:	9 shots | 16.11sec
-+1 att vs +0 arm/+3 sh:	9 shots | 16.11sec
++1 att vs +0 arm/+1 sh:	8 shots | 14.32sec
++1 att vs +0 arm/+2 sh:	8 shots | 14.32sec
++1 att vs +0 arm/+3 sh:	8 shots | 14.32sec
 ---
-+1 att vs +1 arm/+0 sh:	9 shots | 16.11sec
-+1 att vs +1 arm/+1 sh:	9 shots | 16.11sec
-+1 att vs +1 arm/+2 sh:	9 shots | 16.11sec
++1 att vs +1 arm/+0 sh:	8 shots | 14.32sec
++1 att vs +1 arm/+1 sh:	8 shots | 14.32sec
++1 att vs +1 arm/+2 sh:	8 shots | 14.32sec
 +1 att vs +1 arm/+3 sh:	9 shots | 16.11sec
 ---
-+1 att vs +2 arm/+0 sh:	9 shots | 16.11sec
++1 att vs +2 arm/+0 sh:	8 shots | 14.32sec
 +1 att vs +2 arm/+1 sh:	9 shots | 16.11sec
 +1 att vs +2 arm/+2 sh:	9 shots | 16.11sec
 +1 att vs +2 arm/+3 sh:	9 shots | 16.11sec
@@ -39,15 +39,15 @@ hellion attacking stalker
 +1 att vs +3 arm/+0 sh:	9 shots | 16.11sec
 +1 att vs +3 arm/+1 sh:	9 shots | 16.11sec
 +1 att vs +3 arm/+2 sh:	9 shots | 16.11sec
-+1 att vs +3 arm/+3 sh:	10 shots | 17.9sec
++1 att vs +3 arm/+3 sh:	9 shots | 16.11sec
 ---
 ---
-+2 att vs +0 arm/+0 sh:	8 shots | 14.32sec
-+2 att vs +0 arm/+1 sh:	8 shots | 14.32sec
++2 att vs +0 arm/+0 sh:	7 shots | 12.53sec
++2 att vs +0 arm/+1 sh:	7 shots | 12.53sec
 +2 att vs +0 arm/+2 sh:	8 shots | 14.32sec
 +2 att vs +0 arm/+3 sh:	8 shots | 14.32sec
 ---
-+2 att vs +1 arm/+0 sh:	8 shots | 14.32sec
++2 att vs +1 arm/+0 sh:	7 shots | 12.53sec
 +2 att vs +1 arm/+1 sh:	8 shots | 14.32sec
 +2 att vs +1 arm/+2 sh:	8 shots | 14.32sec
 +2 att vs +1 arm/+3 sh:	8 shots | 14.32sec
@@ -55,32 +55,32 @@ hellion attacking stalker
 +2 att vs +2 arm/+0 sh:	8 shots | 14.32sec
 +2 att vs +2 arm/+1 sh:	8 shots | 14.32sec
 +2 att vs +2 arm/+2 sh:	8 shots | 14.32sec
-+2 att vs +2 arm/+3 sh:	9 shots | 16.11sec
++2 att vs +2 arm/+3 sh:	8 shots | 14.32sec
 ---
 +2 att vs +3 arm/+0 sh:	8 shots | 14.32sec
 +2 att vs +3 arm/+1 sh:	8 shots | 14.32sec
-+2 att vs +3 arm/+2 sh:	9 shots | 16.11sec
-+2 att vs +3 arm/+3 sh:	9 shots | 16.11sec
++2 att vs +3 arm/+2 sh:	8 shots | 14.32sec
++2 att vs +3 arm/+3 sh:	8 shots | 14.32sec
 ---
 ---
 +3 att vs +0 arm/+0 sh:	7 shots | 12.53sec
 +3 att vs +0 arm/+1 sh:	7 shots | 12.53sec
 +3 att vs +0 arm/+2 sh:	7 shots | 12.53sec
-+3 att vs +0 arm/+3 sh:	8 shots | 14.32sec
++3 att vs +0 arm/+3 sh:	7 shots | 12.53sec
 ---
 +3 att vs +1 arm/+0 sh:	7 shots | 12.53sec
 +3 att vs +1 arm/+1 sh:	7 shots | 12.53sec
-+3 att vs +1 arm/+2 sh:	8 shots | 14.32sec
-+3 att vs +1 arm/+3 sh:	8 shots | 14.32sec
++3 att vs +1 arm/+2 sh:	7 shots | 12.53sec
++3 att vs +1 arm/+3 sh:	7 shots | 12.53sec
 ---
 +3 att vs +2 arm/+0 sh:	7 shots | 12.53sec
 +3 att vs +2 arm/+1 sh:	7 shots | 12.53sec
-+3 att vs +2 arm/+2 sh:	8 shots | 14.32sec
-+3 att vs +2 arm/+3 sh:	8 shots | 14.32sec
++3 att vs +2 arm/+2 sh:	7 shots | 12.53sec
++3 att vs +2 arm/+3 sh:	7 shots | 12.53sec
 ---
 +3 att vs +3 arm/+0 sh:	7 shots | 12.53sec
-+3 att vs +3 arm/+1 sh:	8 shots | 14.32sec
-+3 att vs +3 arm/+2 sh:	8 shots | 14.32sec
++3 att vs +3 arm/+1 sh:	7 shots | 12.53sec
++3 att vs +3 arm/+2 sh:	7 shots | 12.53sec
 +3 att vs +3 arm/+3 sh:	8 shots | 14.32sec
 ---
 ---

@@ -1,8 +1,8 @@
 from math import ceil
 
 #protoss units, numbers imply glaives upgrade researched
-zealot = {"name" : "stalker", "faction" : "protoss",
-"health" : 80, "shields" : 80, "armor" : 1, "armorup" : 1, "shieldarmor" : 0, "shieldup" : 1,
+zealot = {"name" : "zealot", "faction" : "protoss",
+"health" : 100, "shields" : 50, "armor" : 1, "armorup" : 1, "shieldarmor" : 0, "shieldup" : 1,
 "attack" : 8, "attackspeed" : .86, "attackmult" : 2, "weaponsup" : 1, 
 "bonusvs" : "", "bonusdmg" : 0, "bonusup" : 0, 
 "tags" : ["light", "biological"]}

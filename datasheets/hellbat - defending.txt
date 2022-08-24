@@ -1,4 +1,4 @@
-stalker attacking hellbat
+zealot attacking hellbat
 ---
 +0 att vs +0 arm:     	9 shots | 7.74sec
 +0 att vs +1 arm:     	10 shots | 8.6sec
