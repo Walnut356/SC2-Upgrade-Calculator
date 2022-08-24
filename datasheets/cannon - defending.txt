@@ -1,0 +1,2150 @@
+stalker attacking cannon
+---
++0 att vs +0 arm/+0 sh:	21 shots | 18.06sec
++0 att vs +0 arm/+1 sh:	22 shots | 18.92sec
++0 att vs +0 arm/+2 sh:	24 shots | 20.64sec
++0 att vs +0 arm/+3 sh:	26 shots | 22.36sec
+---
++0 att vs +1 arm/+0 sh:	21 shots | 18.06sec
++0 att vs +1 arm/+1 sh:	22 shots | 18.92sec
++0 att vs +1 arm/+2 sh:	24 shots | 20.64sec
++0 att vs +1 arm/+3 sh:	26 shots | 22.36sec
+---
++0 att vs +2 arm/+0 sh:	21 shots | 18.06sec
++0 att vs +2 arm/+1 sh:	22 shots | 18.92sec
++0 att vs +2 arm/+2 sh:	24 shots | 20.64sec
++0 att vs +2 arm/+3 sh:	26 shots | 22.36sec
+---
++0 att vs +3 arm/+0 sh:	21 shots | 18.06sec
++0 att vs +3 arm/+1 sh:	22 shots | 18.92sec
++0 att vs +3 arm/+2 sh:	24 shots | 20.64sec
++0 att vs +3 arm/+3 sh:	26 shots | 22.36sec
+---
+---
++1 att vs +0 arm/+0 sh:	18 shots | 15.48sec
++1 att vs +0 arm/+1 sh:	19 shots | 16.34sec
++1 att vs +0 arm/+2 sh:	21 shots | 18.06sec
++1 att vs +0 arm/+3 sh:	22 shots | 18.92sec
+---
++1 att vs +1 arm/+0 sh:	18 shots | 15.48sec
++1 att vs +1 arm/+1 sh:	19 shots | 16.34sec
++1 att vs +1 arm/+2 sh:	21 shots | 18.06sec
++1 att vs +1 arm/+3 sh:	22 shots | 18.92sec
+---
++1 att vs +2 arm/+0 sh:	18 shots | 15.48sec
++1 att vs +2 arm/+1 sh:	19 shots | 16.34sec
++1 att vs +2 arm/+2 sh:	21 shots | 18.06sec
++1 att vs +2 arm/+3 sh:	22 shots | 18.92sec
+---
++1 att vs +3 arm/+0 sh:	18 shots | 15.48sec
++1 att vs +3 arm/+1 sh:	19 shots | 16.34sec
++1 att vs +3 arm/+2 sh:	21 shots | 18.06sec
++1 att vs +3 arm/+3 sh:	22 shots | 18.92sec
+---
+---
++2 att vs +0 arm/+0 sh:	16 shots | 13.76sec
++2 att vs +0 arm/+1 sh:	17 shots | 14.62sec
++2 att vs +0 arm/+2 sh:	18 shots | 15.48sec
++2 att vs +0 arm/+3 sh:	20 shots | 17.2sec
+---
++2 att vs +1 arm/+0 sh:	16 shots | 13.76sec
++2 att vs +1 arm/+1 sh:	17 shots | 14.62sec
++2 att vs +1 arm/+2 sh:	18 shots | 15.48sec
++2 att vs +1 arm/+3 sh:	20 shots | 17.2sec
+---
++2 att vs +2 arm/+0 sh:	16 shots | 13.76sec
++2 att vs +2 arm/+1 sh:	17 shots | 14.62sec
++2 att vs +2 arm/+2 sh:	18 shots | 15.48sec
++2 att vs +2 arm/+3 sh:	20 shots | 17.2sec
+---
++2 att vs +3 arm/+0 sh:	16 shots | 13.76sec
++2 att vs +3 arm/+1 sh:	17 shots | 14.62sec
++2 att vs +3 arm/+2 sh:	18 shots | 15.48sec
++2 att vs +3 arm/+3 sh:	20 shots | 17.2sec
+---
+---
++3 att vs +0 arm/+0 sh:	15 shots | 12.9sec
++3 att vs +0 arm/+1 sh:	16 shots | 13.76sec
++3 att vs +0 arm/+2 sh:	16 shots | 13.76sec
++3 att vs +0 arm/+3 sh:	17 shots | 14.62sec
+---
++3 att vs +1 arm/+0 sh:	15 shots | 12.9sec
++3 att vs +1 arm/+1 sh:	16 shots | 13.76sec
++3 att vs +1 arm/+2 sh:	16 shots | 13.76sec
++3 att vs +1 arm/+3 sh:	17 shots | 14.62sec
+---
++3 att vs +2 arm/+0 sh:	15 shots | 12.9sec
++3 att vs +2 arm/+1 sh:	16 shots | 13.76sec
++3 att vs +2 arm/+2 sh:	16 shots | 13.76sec
++3 att vs +2 arm/+3 sh:	17 shots | 14.62sec
+---
++3 att vs +3 arm/+0 sh:	15 shots | 12.9sec
++3 att vs +3 arm/+1 sh:	16 shots | 13.76sec
++3 att vs +3 arm/+2 sh:	16 shots | 13.76sec
++3 att vs +3 arm/+3 sh:	17 shots | 14.62sec
+---
+---
+stalker attacking cannon
+---
++0 att vs +0 arm/+0 sh:	18 shots | 24.12sec
++0 att vs +0 arm/+1 sh:	18 shots | 24.12sec
++0 att vs +0 arm/+2 sh:	19 shots | 25.46sec
++0 att vs +0 arm/+3 sh:	19 shots | 25.46sec
+---
++0 att vs +1 arm/+0 sh:	18 shots | 24.12sec
++0 att vs +1 arm/+1 sh:	18 shots | 24.12sec
++0 att vs +1 arm/+2 sh:	19 shots | 25.46sec
++0 att vs +1 arm/+3 sh:	19 shots | 25.46sec
+---
++0 att vs +2 arm/+0 sh:	18 shots | 24.12sec
++0 att vs +2 arm/+1 sh:	18 shots | 24.12sec
++0 att vs +2 arm/+2 sh:	19 shots | 25.46sec
++0 att vs +2 arm/+3 sh:	19 shots | 25.46sec
+---
++0 att vs +3 arm/+0 sh:	18 shots | 24.12sec
++0 att vs +3 arm/+1 sh:	18 shots | 24.12sec
++0 att vs +3 arm/+2 sh:	19 shots | 25.46sec
++0 att vs +3 arm/+3 sh:	19 shots | 25.46sec
+---
+---
++1 att vs +0 arm/+0 sh:	16 shots | 21.44sec
++1 att vs +0 arm/+1 sh:	16 shots | 21.44sec
++1 att vs +0 arm/+2 sh:	17 shots | 22.78sec
++1 att vs +0 arm/+3 sh:	17 shots | 22.78sec
+---
++1 att vs +1 arm/+0 sh:	16 shots | 21.44sec
++1 att vs +1 arm/+1 sh:	16 shots | 21.44sec
++1 att vs +1 arm/+2 sh:	17 shots | 22.78sec
++1 att vs +1 arm/+3 sh:	17 shots | 22.78sec
+---
++1 att vs +2 arm/+0 sh:	16 shots | 21.44sec
++1 att vs +2 arm/+1 sh:	16 shots | 21.44sec
++1 att vs +2 arm/+2 sh:	17 shots | 22.78sec
++1 att vs +2 arm/+3 sh:	17 shots | 22.78sec
+---
++1 att vs +3 arm/+0 sh:	16 shots | 21.44sec
++1 att vs +3 arm/+1 sh:	16 shots | 21.44sec
++1 att vs +3 arm/+2 sh:	17 shots | 22.78sec
++1 att vs +3 arm/+3 sh:	17 shots | 22.78sec
+---
+---
++2 att vs +0 arm/+0 sh:	14 shots | 18.76sec
++2 att vs +0 arm/+1 sh:	15 shots | 20.1sec
++2 att vs +0 arm/+2 sh:	15 shots | 20.1sec
++2 att vs +0 arm/+3 sh:	16 shots | 21.44sec
+---
++2 att vs +1 arm/+0 sh:	14 shots | 18.76sec
++2 att vs +1 arm/+1 sh:	15 shots | 20.1sec
++2 att vs +1 arm/+2 sh:	15 shots | 20.1sec
++2 att vs +1 arm/+3 sh:	16 shots | 21.44sec
+---
++2 att vs +2 arm/+0 sh:	14 shots | 18.76sec
++2 att vs +2 arm/+1 sh:	15 shots | 20.1sec
++2 att vs +2 arm/+2 sh:	15 shots | 20.1sec
++2 att vs +2 arm/+3 sh:	16 shots | 21.44sec
+---
++2 att vs +3 arm/+0 sh:	14 shots | 18.76sec
++2 att vs +3 arm/+1 sh:	15 shots | 20.1sec
++2 att vs +3 arm/+2 sh:	15 shots | 20.1sec
++2 att vs +3 arm/+3 sh:	16 shots | 21.44sec
+---
+---
++3 att vs +0 arm/+0 sh:	13 shots | 17.42sec
++3 att vs +0 arm/+1 sh:	14 shots | 18.76sec
++3 att vs +0 arm/+2 sh:	14 shots | 18.76sec
++3 att vs +0 arm/+3 sh:	14 shots | 18.76sec
+---
++3 att vs +1 arm/+0 sh:	13 shots | 17.42sec
++3 att vs +1 arm/+1 sh:	14 shots | 18.76sec
++3 att vs +1 arm/+2 sh:	14 shots | 18.76sec
++3 att vs +1 arm/+3 sh:	14 shots | 18.76sec
+---
++3 att vs +2 arm/+0 sh:	13 shots | 17.42sec
++3 att vs +2 arm/+1 sh:	14 shots | 18.76sec
++3 att vs +2 arm/+2 sh:	14 shots | 18.76sec
++3 att vs +2 arm/+3 sh:	14 shots | 18.76sec
+---
++3 att vs +3 arm/+0 sh:	13 shots | 17.42sec
++3 att vs +3 arm/+1 sh:	14 shots | 18.76sec
++3 att vs +3 arm/+2 sh:	14 shots | 18.76sec
++3 att vs +3 arm/+3 sh:	14 shots | 18.76sec
+---
+---
+adept attacking cannon
+---
++0 att vs +0 arm/+0 sh:	32 shots | 35.52sec
++0 att vs +0 arm/+1 sh:	34 shots | 37.74sec
++0 att vs +0 arm/+2 sh:	36 shots | 39.96sec
++0 att vs +0 arm/+3 sh:	39 shots | 43.29sec
+---
++0 att vs +1 arm/+0 sh:	32 shots | 35.52sec
++0 att vs +1 arm/+1 sh:	34 shots | 37.74sec
++0 att vs +1 arm/+2 sh:	36 shots | 39.96sec
++0 att vs +1 arm/+3 sh:	39 shots | 43.29sec
+---
++0 att vs +2 arm/+0 sh:	32 shots | 35.52sec
++0 att vs +2 arm/+1 sh:	34 shots | 37.74sec
++0 att vs +2 arm/+2 sh:	36 shots | 39.96sec
++0 att vs +2 arm/+3 sh:	39 shots | 43.29sec
+---
++0 att vs +3 arm/+0 sh:	32 shots | 35.52sec
++0 att vs +3 arm/+1 sh:	34 shots | 37.74sec
++0 att vs +3 arm/+2 sh:	36 shots | 39.96sec
++0 att vs +3 arm/+3 sh:	39 shots | 43.29sec
+---
+---
++1 att vs +0 arm/+0 sh:	29 shots | 32.19sec
++1 att vs +0 arm/+1 sh:	31 shots | 34.41sec
++1 att vs +0 arm/+2 sh:	32 shots | 35.52sec
++1 att vs +0 arm/+3 sh:	34 shots | 37.74sec
+---
++1 att vs +1 arm/+0 sh:	29 shots | 32.19sec
++1 att vs +1 arm/+1 sh:	31 shots | 34.41sec
++1 att vs +1 arm/+2 sh:	32 shots | 35.52sec
++1 att vs +1 arm/+3 sh:	34 shots | 37.74sec
+---
++1 att vs +2 arm/+0 sh:	29 shots | 32.19sec
++1 att vs +2 arm/+1 sh:	31 shots | 34.41sec
++1 att vs +2 arm/+2 sh:	32 shots | 35.52sec
++1 att vs +2 arm/+3 sh:	34 shots | 37.74sec
+---
++1 att vs +3 arm/+0 sh:	29 shots | 32.19sec
++1 att vs +3 arm/+1 sh:	31 shots | 34.41sec
++1 att vs +3 arm/+2 sh:	32 shots | 35.52sec
++1 att vs +3 arm/+3 sh:	34 shots | 37.74sec
+---
+---
++2 att vs +0 arm/+0 sh:	27 shots | 29.97sec
++2 att vs +0 arm/+1 sh:	28 shots | 31.08sec
++2 att vs +0 arm/+2 sh:	29 shots | 32.19sec
++2 att vs +0 arm/+3 sh:	31 shots | 34.41sec
+---
++2 att vs +1 arm/+0 sh:	27 shots | 29.97sec
++2 att vs +1 arm/+1 sh:	28 shots | 31.08sec
++2 att vs +1 arm/+2 sh:	29 shots | 32.19sec
++2 att vs +1 arm/+3 sh:	31 shots | 34.41sec
+---
++2 att vs +2 arm/+0 sh:	27 shots | 29.97sec
++2 att vs +2 arm/+1 sh:	28 shots | 31.08sec
++2 att vs +2 arm/+2 sh:	29 shots | 32.19sec
++2 att vs +2 arm/+3 sh:	31 shots | 34.41sec
+---
++2 att vs +3 arm/+0 sh:	27 shots | 29.97sec
++2 att vs +3 arm/+1 sh:	28 shots | 31.08sec
++2 att vs +3 arm/+2 sh:	29 shots | 32.19sec
++2 att vs +3 arm/+3 sh:	31 shots | 34.41sec
+---
+---
++3 att vs +0 arm/+0 sh:	25 shots | 27.75sec
++3 att vs +0 arm/+1 sh:	26 shots | 28.86sec
++3 att vs +0 arm/+2 sh:	27 shots | 29.97sec
++3 att vs +0 arm/+3 sh:	28 shots | 31.08sec
+---
++3 att vs +1 arm/+0 sh:	25 shots | 27.75sec
++3 att vs +1 arm/+1 sh:	26 shots | 28.86sec
++3 att vs +1 arm/+2 sh:	27 shots | 29.97sec
++3 att vs +1 arm/+3 sh:	28 shots | 31.08sec
+---
++3 att vs +2 arm/+0 sh:	25 shots | 27.75sec
++3 att vs +2 arm/+1 sh:	26 shots | 28.86sec
++3 att vs +2 arm/+2 sh:	27 shots | 29.97sec
++3 att vs +2 arm/+3 sh:	28 shots | 31.08sec
+---
++3 att vs +3 arm/+0 sh:	25 shots | 27.75sec
++3 att vs +3 arm/+1 sh:	26 shots | 28.86sec
++3 att vs +3 arm/+2 sh:	27 shots | 29.97sec
++3 att vs +3 arm/+3 sh:	28 shots | 31.08sec
+---
+---
+archon attacking cannon
+---
++0 att vs +0 arm/+0 sh:	13 shots | 16.25sec
++0 att vs +0 arm/+1 sh:	13 shots | 16.25sec
++0 att vs +0 arm/+2 sh:	13 shots | 16.25sec
++0 att vs +0 arm/+3 sh:	14 shots | 17.5sec
+---
++0 att vs +1 arm/+0 sh:	13 shots | 16.25sec
++0 att vs +1 arm/+1 sh:	13 shots | 16.25sec
++0 att vs +1 arm/+2 sh:	13 shots | 16.25sec
++0 att vs +1 arm/+3 sh:	14 shots | 17.5sec
+---
++0 att vs +2 arm/+0 sh:	13 shots | 16.25sec
++0 att vs +2 arm/+1 sh:	13 shots | 16.25sec
++0 att vs +2 arm/+2 sh:	13 shots | 16.25sec
++0 att vs +2 arm/+3 sh:	14 shots | 17.5sec
+---
++0 att vs +3 arm/+0 sh:	13 shots | 16.25sec
++0 att vs +3 arm/+1 sh:	13 shots | 16.25sec
++0 att vs +3 arm/+2 sh:	13 shots | 16.25sec
++0 att vs +3 arm/+3 sh:	14 shots | 17.5sec
+---
+---
++1 att vs +0 arm/+0 sh:	11 shots | 13.75sec
++1 att vs +0 arm/+1 sh:	12 shots | 15.0sec
++1 att vs +0 arm/+2 sh:	12 shots | 15.0sec
++1 att vs +0 arm/+3 sh:	12 shots | 15.0sec
+---
++1 att vs +1 arm/+0 sh:	11 shots | 13.75sec
++1 att vs +1 arm/+1 sh:	12 shots | 15.0sec
++1 att vs +1 arm/+2 sh:	12 shots | 15.0sec
++1 att vs +1 arm/+3 sh:	12 shots | 15.0sec
+---
++1 att vs +2 arm/+0 sh:	11 shots | 13.75sec
++1 att vs +2 arm/+1 sh:	12 shots | 15.0sec
++1 att vs +2 arm/+2 sh:	12 shots | 15.0sec
++1 att vs +2 arm/+3 sh:	12 shots | 15.0sec
+---
++1 att vs +3 arm/+0 sh:	11 shots | 13.75sec
++1 att vs +3 arm/+1 sh:	12 shots | 15.0sec
++1 att vs +3 arm/+2 sh:	12 shots | 15.0sec
++1 att vs +3 arm/+3 sh:	12 shots | 15.0sec
+---
+---
++2 att vs +0 arm/+0 sh:	10 shots | 12.5sec
++2 att vs +0 arm/+1 sh:	11 shots | 13.75sec
++2 att vs +0 arm/+2 sh:	11 shots | 13.75sec
++2 att vs +0 arm/+3 sh:	11 shots | 13.75sec
+---
++2 att vs +1 arm/+0 sh:	10 shots | 12.5sec
++2 att vs +1 arm/+1 sh:	11 shots | 13.75sec
++2 att vs +1 arm/+2 sh:	11 shots | 13.75sec
++2 att vs +1 arm/+3 sh:	11 shots | 13.75sec
+---
++2 att vs +2 arm/+0 sh:	10 shots | 12.5sec
++2 att vs +2 arm/+1 sh:	11 shots | 13.75sec
++2 att vs +2 arm/+2 sh:	11 shots | 13.75sec
++2 att vs +2 arm/+3 sh:	11 shots | 13.75sec
+---
++2 att vs +3 arm/+0 sh:	10 shots | 12.5sec
++2 att vs +3 arm/+1 sh:	11 shots | 13.75sec
++2 att vs +3 arm/+2 sh:	11 shots | 13.75sec
++2 att vs +3 arm/+3 sh:	11 shots | 13.75sec
+---
+---
++3 att vs +0 arm/+0 sh:	9 shots | 11.25sec
++3 att vs +0 arm/+1 sh:	10 shots | 12.5sec
++3 att vs +0 arm/+2 sh:	10 shots | 12.5sec
++3 att vs +0 arm/+3 sh:	10 shots | 12.5sec
+---
++3 att vs +1 arm/+0 sh:	9 shots | 11.25sec
++3 att vs +1 arm/+1 sh:	10 shots | 12.5sec
++3 att vs +1 arm/+2 sh:	10 shots | 12.5sec
++3 att vs +1 arm/+3 sh:	10 shots | 12.5sec
+---
++3 att vs +2 arm/+0 sh:	9 shots | 11.25sec
++3 att vs +2 arm/+1 sh:	10 shots | 12.5sec
++3 att vs +2 arm/+2 sh:	10 shots | 12.5sec
++3 att vs +2 arm/+3 sh:	10 shots | 12.5sec
+---
++3 att vs +3 arm/+0 sh:	9 shots | 11.25sec
++3 att vs +3 arm/+1 sh:	10 shots | 12.5sec
++3 att vs +3 arm/+2 sh:	10 shots | 12.5sec
++3 att vs +3 arm/+3 sh:	10 shots | 12.5sec
+---
+---
+immortal attacking cannon
+---
++0 att vs +0 arm/+0 sh:	7 shots | 7.28sec
++0 att vs +0 arm/+1 sh:	7 shots | 7.28sec
++0 att vs +0 arm/+2 sh:	7 shots | 7.28sec
++0 att vs +0 arm/+3 sh:	7 shots | 7.28sec
+---
++0 att vs +1 arm/+0 sh:	7 shots | 7.28sec
++0 att vs +1 arm/+1 sh:	7 shots | 7.28sec
++0 att vs +1 arm/+2 sh:	7 shots | 7.28sec
++0 att vs +1 arm/+3 sh:	7 shots | 7.28sec
+---
++0 att vs +2 arm/+0 sh:	7 shots | 7.28sec
++0 att vs +2 arm/+1 sh:	7 shots | 7.28sec
++0 att vs +2 arm/+2 sh:	7 shots | 7.28sec
++0 att vs +2 arm/+3 sh:	7 shots | 7.28sec
+---
++0 att vs +3 arm/+0 sh:	7 shots | 7.28sec
++0 att vs +3 arm/+1 sh:	7 shots | 7.28sec
++0 att vs +3 arm/+2 sh:	7 shots | 7.28sec
++0 att vs +3 arm/+3 sh:	7 shots | 7.28sec
+---
+---
++1 att vs +0 arm/+0 sh:	6 shots | 6.24sec
++1 att vs +0 arm/+1 sh:	6 shots | 6.24sec
++1 att vs +0 arm/+2 sh:	6 shots | 6.24sec
++1 att vs +0 arm/+3 sh:	6 shots | 6.24sec
+---
++1 att vs +1 arm/+0 sh:	6 shots | 6.24sec
++1 att vs +1 arm/+1 sh:	6 shots | 6.24sec
++1 att vs +1 arm/+2 sh:	6 shots | 6.24sec
++1 att vs +1 arm/+3 sh:	6 shots | 6.24sec
+---
++1 att vs +2 arm/+0 sh:	6 shots | 6.24sec
++1 att vs +2 arm/+1 sh:	6 shots | 6.24sec
++1 att vs +2 arm/+2 sh:	6 shots | 6.24sec
++1 att vs +2 arm/+3 sh:	6 shots | 6.24sec
+---
++1 att vs +3 arm/+0 sh:	6 shots | 6.24sec
++1 att vs +3 arm/+1 sh:	6 shots | 6.24sec
++1 att vs +3 arm/+2 sh:	6 shots | 6.24sec
++1 att vs +3 arm/+3 sh:	6 shots | 6.24sec
+---
+---
++2 att vs +0 arm/+0 sh:	6 shots | 6.24sec
++2 att vs +0 arm/+1 sh:	6 shots | 6.24sec
++2 att vs +0 arm/+2 sh:	6 shots | 6.24sec
++2 att vs +0 arm/+3 sh:	6 shots | 6.24sec
+---
++2 att vs +1 arm/+0 sh:	6 shots | 6.24sec
++2 att vs +1 arm/+1 sh:	6 shots | 6.24sec
++2 att vs +1 arm/+2 sh:	6 shots | 6.24sec
++2 att vs +1 arm/+3 sh:	6 shots | 6.24sec
+---
++2 att vs +2 arm/+0 sh:	6 shots | 6.24sec
++2 att vs +2 arm/+1 sh:	6 shots | 6.24sec
++2 att vs +2 arm/+2 sh:	6 shots | 6.24sec
++2 att vs +2 arm/+3 sh:	6 shots | 6.24sec
+---
++2 att vs +3 arm/+0 sh:	6 shots | 6.24sec
++2 att vs +3 arm/+1 sh:	6 shots | 6.24sec
++2 att vs +3 arm/+2 sh:	6 shots | 6.24sec
++2 att vs +3 arm/+3 sh:	6 shots | 6.24sec
+---
+---
++3 att vs +0 arm/+0 sh:	5 shots | 5.2sec
++3 att vs +0 arm/+1 sh:	5 shots | 5.2sec
++3 att vs +0 arm/+2 sh:	5 shots | 5.2sec
++3 att vs +0 arm/+3 sh:	5 shots | 5.2sec
+---
++3 att vs +1 arm/+0 sh:	5 shots | 5.2sec
++3 att vs +1 arm/+1 sh:	5 shots | 5.2sec
++3 att vs +1 arm/+2 sh:	5 shots | 5.2sec
++3 att vs +1 arm/+3 sh:	5 shots | 5.2sec
+---
++3 att vs +2 arm/+0 sh:	5 shots | 5.2sec
++3 att vs +2 arm/+1 sh:	5 shots | 5.2sec
++3 att vs +2 arm/+2 sh:	5 shots | 5.2sec
++3 att vs +2 arm/+3 sh:	5 shots | 5.2sec
+---
++3 att vs +3 arm/+0 sh:	5 shots | 5.2sec
++3 att vs +3 arm/+1 sh:	5 shots | 5.2sec
++3 att vs +3 arm/+2 sh:	5 shots | 5.2sec
++3 att vs +3 arm/+3 sh:	5 shots | 5.2sec
+---
+---
+colossus attacking cannon
+---
++0 att vs +0 arm/+0 sh:	16 shots | 17.12sec
++0 att vs +0 arm/+1 sh:	17 shots | 18.19sec
++0 att vs +0 arm/+2 sh:	18 shots | 19.26sec
++0 att vs +0 arm/+3 sh:	20 shots | 21.4sec
+---
++0 att vs +1 arm/+0 sh:	16 shots | 17.12sec
++0 att vs +1 arm/+1 sh:	17 shots | 18.19sec
++0 att vs +1 arm/+2 sh:	18 shots | 19.26sec
++0 att vs +1 arm/+3 sh:	20 shots | 21.4sec
+---
++0 att vs +2 arm/+0 sh:	16 shots | 17.12sec
++0 att vs +2 arm/+1 sh:	17 shots | 18.19sec
++0 att vs +2 arm/+2 sh:	18 shots | 19.26sec
++0 att vs +2 arm/+3 sh:	20 shots | 21.4sec
+---
++0 att vs +3 arm/+0 sh:	16 shots | 17.12sec
++0 att vs +3 arm/+1 sh:	17 shots | 18.19sec
++0 att vs +3 arm/+2 sh:	18 shots | 19.26sec
++0 att vs +3 arm/+3 sh:	20 shots | 21.4sec
+---
+---
++1 att vs +0 arm/+0 sh:	15 shots | 16.05sec
++1 att vs +0 arm/+1 sh:	16 shots | 17.12sec
++1 att vs +0 arm/+2 sh:	16 shots | 17.12sec
++1 att vs +0 arm/+3 sh:	17 shots | 18.19sec
+---
++1 att vs +1 arm/+0 sh:	15 shots | 16.05sec
++1 att vs +1 arm/+1 sh:	16 shots | 17.12sec
++1 att vs +1 arm/+2 sh:	16 shots | 17.12sec
++1 att vs +1 arm/+3 sh:	17 shots | 18.19sec
+---
++1 att vs +2 arm/+0 sh:	15 shots | 16.05sec
++1 att vs +2 arm/+1 sh:	16 shots | 17.12sec
++1 att vs +2 arm/+2 sh:	16 shots | 17.12sec
++1 att vs +2 arm/+3 sh:	17 shots | 18.19sec
+---
++1 att vs +3 arm/+0 sh:	15 shots | 16.05sec
++1 att vs +3 arm/+1 sh:	16 shots | 17.12sec
++1 att vs +3 arm/+2 sh:	16 shots | 17.12sec
++1 att vs +3 arm/+3 sh:	17 shots | 18.19sec
+---
+---
++2 att vs +0 arm/+0 sh:	14 shots | 14.98sec
++2 att vs +0 arm/+1 sh:	14 shots | 14.98sec
++2 att vs +0 arm/+2 sh:	15 shots | 16.05sec
++2 att vs +0 arm/+3 sh:	16 shots | 17.12sec
+---
++2 att vs +1 arm/+0 sh:	14 shots | 14.98sec
++2 att vs +1 arm/+1 sh:	14 shots | 14.98sec
++2 att vs +1 arm/+2 sh:	15 shots | 16.05sec
++2 att vs +1 arm/+3 sh:	16 shots | 17.12sec
+---
++2 att vs +2 arm/+0 sh:	14 shots | 14.98sec
++2 att vs +2 arm/+1 sh:	14 shots | 14.98sec
++2 att vs +2 arm/+2 sh:	15 shots | 16.05sec
++2 att vs +2 arm/+3 sh:	16 shots | 17.12sec
+---
++2 att vs +3 arm/+0 sh:	14 shots | 14.98sec
++2 att vs +3 arm/+1 sh:	14 shots | 14.98sec
++2 att vs +3 arm/+2 sh:	15 shots | 16.05sec
++2 att vs +3 arm/+3 sh:	16 shots | 17.12sec
+---
+---
++3 att vs +0 arm/+0 sh:	13 shots | 13.91sec
++3 att vs +0 arm/+1 sh:	13 shots | 13.91sec
++3 att vs +0 arm/+2 sh:	14 shots | 14.98sec
++3 att vs +0 arm/+3 sh:	14 shots | 14.98sec
+---
++3 att vs +1 arm/+0 sh:	13 shots | 13.91sec
++3 att vs +1 arm/+1 sh:	13 shots | 13.91sec
++3 att vs +1 arm/+2 sh:	14 shots | 14.98sec
++3 att vs +1 arm/+3 sh:	14 shots | 14.98sec
+---
++3 att vs +2 arm/+0 sh:	13 shots | 13.91sec
++3 att vs +2 arm/+1 sh:	13 shots | 13.91sec
++3 att vs +2 arm/+2 sh:	14 shots | 14.98sec
++3 att vs +2 arm/+3 sh:	14 shots | 14.98sec
+---
++3 att vs +3 arm/+0 sh:	13 shots | 13.91sec
++3 att vs +3 arm/+1 sh:	13 shots | 13.91sec
++3 att vs +3 arm/+2 sh:	14 shots | 14.98sec
++3 att vs +3 arm/+3 sh:	14 shots | 14.98sec
+---
+---
+cannon attacking cannon
+---
++0 att vs +0 arm/+0 sh:	16 shots | 14.24sec
++0 att vs +0 arm/+1 sh:	16 shots | 14.24sec
++0 att vs +0 arm/+2 sh:	17 shots | 15.13sec
++0 att vs +0 arm/+3 sh:	17 shots | 15.13sec
+---
++0 att vs +1 arm/+0 sh:	16 shots | 14.24sec
++0 att vs +1 arm/+1 sh:	16 shots | 14.24sec
++0 att vs +1 arm/+2 sh:	17 shots | 15.13sec
++0 att vs +1 arm/+3 sh:	17 shots | 15.13sec
+---
++0 att vs +2 arm/+0 sh:	16 shots | 14.24sec
++0 att vs +2 arm/+1 sh:	16 shots | 14.24sec
++0 att vs +2 arm/+2 sh:	17 shots | 15.13sec
++0 att vs +2 arm/+3 sh:	17 shots | 15.13sec
+---
++0 att vs +3 arm/+0 sh:	16 shots | 14.24sec
++0 att vs +3 arm/+1 sh:	16 shots | 14.24sec
++0 att vs +3 arm/+2 sh:	17 shots | 15.13sec
++0 att vs +3 arm/+3 sh:	17 shots | 15.13sec
+---
+---
++1 att vs +0 arm/+0 sh:	16 shots | 14.24sec
++1 att vs +0 arm/+1 sh:	16 shots | 14.24sec
++1 att vs +0 arm/+2 sh:	17 shots | 15.13sec
++1 att vs +0 arm/+3 sh:	17 shots | 15.13sec
+---
++1 att vs +1 arm/+0 sh:	16 shots | 14.24sec
++1 att vs +1 arm/+1 sh:	16 shots | 14.24sec
++1 att vs +1 arm/+2 sh:	17 shots | 15.13sec
++1 att vs +1 arm/+3 sh:	17 shots | 15.13sec
+---
++1 att vs +2 arm/+0 sh:	16 shots | 14.24sec
++1 att vs +2 arm/+1 sh:	16 shots | 14.24sec
++1 att vs +2 arm/+2 sh:	17 shots | 15.13sec
++1 att vs +2 arm/+3 sh:	17 shots | 15.13sec
+---
++1 att vs +3 arm/+0 sh:	16 shots | 14.24sec
++1 att vs +3 arm/+1 sh:	16 shots | 14.24sec
++1 att vs +3 arm/+2 sh:	17 shots | 15.13sec
++1 att vs +3 arm/+3 sh:	17 shots | 15.13sec
+---
+---
++2 att vs +0 arm/+0 sh:	16 shots | 14.24sec
++2 att vs +0 arm/+1 sh:	16 shots | 14.24sec
++2 att vs +0 arm/+2 sh:	17 shots | 15.13sec
++2 att vs +0 arm/+3 sh:	17 shots | 15.13sec
+---
++2 att vs +1 arm/+0 sh:	16 shots | 14.24sec
++2 att vs +1 arm/+1 sh:	16 shots | 14.24sec
++2 att vs +1 arm/+2 sh:	17 shots | 15.13sec
++2 att vs +1 arm/+3 sh:	17 shots | 15.13sec
+---
++2 att vs +2 arm/+0 sh:	16 shots | 14.24sec
++2 att vs +2 arm/+1 sh:	16 shots | 14.24sec
++2 att vs +2 arm/+2 sh:	17 shots | 15.13sec
++2 att vs +2 arm/+3 sh:	17 shots | 15.13sec
+---
++2 att vs +3 arm/+0 sh:	16 shots | 14.24sec
++2 att vs +3 arm/+1 sh:	16 shots | 14.24sec
++2 att vs +3 arm/+2 sh:	17 shots | 15.13sec
++2 att vs +3 arm/+3 sh:	17 shots | 15.13sec
+---
+---
++3 att vs +0 arm/+0 sh:	16 shots | 14.24sec
++3 att vs +0 arm/+1 sh:	16 shots | 14.24sec
++3 att vs +0 arm/+2 sh:	17 shots | 15.13sec
++3 att vs +0 arm/+3 sh:	17 shots | 15.13sec
+---
++3 att vs +1 arm/+0 sh:	16 shots | 14.24sec
++3 att vs +1 arm/+1 sh:	16 shots | 14.24sec
++3 att vs +1 arm/+2 sh:	17 shots | 15.13sec
++3 att vs +1 arm/+3 sh:	17 shots | 15.13sec
+---
++3 att vs +2 arm/+0 sh:	16 shots | 14.24sec
++3 att vs +2 arm/+1 sh:	16 shots | 14.24sec
++3 att vs +2 arm/+2 sh:	17 shots | 15.13sec
++3 att vs +2 arm/+3 sh:	17 shots | 15.13sec
+---
++3 att vs +3 arm/+0 sh:	16 shots | 14.24sec
++3 att vs +3 arm/+1 sh:	16 shots | 14.24sec
++3 att vs +3 arm/+2 sh:	17 shots | 15.13sec
++3 att vs +3 arm/+3 sh:	17 shots | 15.13sec
+---
+---
+marine attacking cannon
+---
++0 att vs +0 arm/+0 sh:	56 shots | 22.792sec
++0 att vs +0 arm/+1 sh:	61 shots | 24.827sec
++0 att vs +0 arm/+2 sh:	68 shots | 27.676sec
++0 att vs +0 arm/+3 sh:	81 shots | 32.967sec
+---
++0 att vs +1 arm/+0 sh:	56 shots | 22.792sec
++0 att vs +1 arm/+1 sh:	61 shots | 24.827sec
++0 att vs +1 arm/+2 sh:	68 shots | 27.676sec
++0 att vs +1 arm/+3 sh:	81 shots | 32.967sec
+---
++0 att vs +2 arm/+0 sh:	56 shots | 22.792sec
++0 att vs +2 arm/+1 sh:	61 shots | 24.827sec
++0 att vs +2 arm/+2 sh:	68 shots | 27.676sec
++0 att vs +2 arm/+3 sh:	81 shots | 32.967sec
+---
++0 att vs +3 arm/+0 sh:	56 shots | 22.792sec
++0 att vs +3 arm/+1 sh:	61 shots | 24.827sec
++0 att vs +3 arm/+2 sh:	68 shots | 27.676sec
++0 att vs +3 arm/+3 sh:	81 shots | 32.967sec
+---
+---
++1 att vs +0 arm/+0 sh:	47 shots | 19.129sec
++1 att vs +0 arm/+1 sh:	51 shots | 20.757sec
++1 att vs +0 arm/+2 sh:	56 shots | 22.792sec
++1 att vs +0 arm/+3 sh:	63 shots | 25.641sec
+---
++1 att vs +1 arm/+0 sh:	47 shots | 19.129sec
++1 att vs +1 arm/+1 sh:	51 shots | 20.757sec
++1 att vs +1 arm/+2 sh:	56 shots | 22.792sec
++1 att vs +1 arm/+3 sh:	63 shots | 25.641sec
+---
++1 att vs +2 arm/+0 sh:	47 shots | 19.129sec
++1 att vs +2 arm/+1 sh:	51 shots | 20.757sec
++1 att vs +2 arm/+2 sh:	56 shots | 22.792sec
++1 att vs +2 arm/+3 sh:	63 shots | 25.641sec
+---
++1 att vs +3 arm/+0 sh:	47 shots | 19.129sec
++1 att vs +3 arm/+1 sh:	51 shots | 20.757sec
++1 att vs +3 arm/+2 sh:	56 shots | 22.792sec
++1 att vs +3 arm/+3 sh:	63 shots | 25.641sec
+---
+---
++2 att vs +0 arm/+0 sh:	41 shots | 16.687sec
++2 att vs +0 arm/+1 sh:	43 shots | 17.501sec
++2 att vs +0 arm/+2 sh:	47 shots | 19.129sec
++2 att vs +0 arm/+3 sh:	52 shots | 21.164sec
+---
++2 att vs +1 arm/+0 sh:	41 shots | 16.687sec
++2 att vs +1 arm/+1 sh:	43 shots | 17.501sec
++2 att vs +1 arm/+2 sh:	47 shots | 19.129sec
++2 att vs +1 arm/+3 sh:	52 shots | 21.164sec
+---
++2 att vs +2 arm/+0 sh:	41 shots | 16.687sec
++2 att vs +2 arm/+1 sh:	43 shots | 17.501sec
++2 att vs +2 arm/+2 sh:	47 shots | 19.129sec
++2 att vs +2 arm/+3 sh:	52 shots | 21.164sec
+---
++2 att vs +3 arm/+0 sh:	41 shots | 16.687sec
++2 att vs +3 arm/+1 sh:	43 shots | 17.501sec
++2 att vs +3 arm/+2 sh:	47 shots | 19.129sec
++2 att vs +3 arm/+3 sh:	52 shots | 21.164sec
+---
+---
++3 att vs +0 arm/+0 sh:	36 shots | 14.652sec
++3 att vs +0 arm/+1 sh:	38 shots | 15.466sec
++3 att vs +0 arm/+2 sh:	41 shots | 16.687sec
++3 att vs +0 arm/+3 sh:	44 shots | 17.908sec
+---
++3 att vs +1 arm/+0 sh:	36 shots | 14.652sec
++3 att vs +1 arm/+1 sh:	38 shots | 15.466sec
++3 att vs +1 arm/+2 sh:	41 shots | 16.687sec
++3 att vs +1 arm/+3 sh:	44 shots | 17.908sec
+---
++3 att vs +2 arm/+0 sh:	36 shots | 14.652sec
++3 att vs +2 arm/+1 sh:	38 shots | 15.466sec
++3 att vs +2 arm/+2 sh:	41 shots | 16.687sec
++3 att vs +2 arm/+3 sh:	44 shots | 17.908sec
+---
++3 att vs +3 arm/+0 sh:	36 shots | 14.652sec
++3 att vs +3 arm/+1 sh:	38 shots | 15.466sec
++3 att vs +3 arm/+2 sh:	41 shots | 16.687sec
++3 att vs +3 arm/+3 sh:	44 shots | 17.908sec
+---
+---
+marauder attacking cannon
+---
++0 att vs +0 arm/+0 sh:	16 shots | 11.36sec
++0 att vs +0 arm/+1 sh:	16 shots | 11.36sec
++0 att vs +0 arm/+2 sh:	17 shots | 12.07sec
++0 att vs +0 arm/+3 sh:	17 shots | 12.07sec
+---
++0 att vs +1 arm/+0 sh:	16 shots | 11.36sec
++0 att vs +1 arm/+1 sh:	16 shots | 11.36sec
++0 att vs +1 arm/+2 sh:	17 shots | 12.07sec
++0 att vs +1 arm/+3 sh:	17 shots | 12.07sec
+---
++0 att vs +2 arm/+0 sh:	16 shots | 11.36sec
++0 att vs +2 arm/+1 sh:	16 shots | 11.36sec
++0 att vs +2 arm/+2 sh:	17 shots | 12.07sec
++0 att vs +2 arm/+3 sh:	17 shots | 12.07sec
+---
++0 att vs +3 arm/+0 sh:	16 shots | 11.36sec
++0 att vs +3 arm/+1 sh:	16 shots | 11.36sec
++0 att vs +3 arm/+2 sh:	17 shots | 12.07sec
++0 att vs +3 arm/+3 sh:	17 shots | 12.07sec
+---
+---
++1 att vs +0 arm/+0 sh:	14 shots | 9.94sec
++1 att vs +0 arm/+1 sh:	15 shots | 10.65sec
++1 att vs +0 arm/+2 sh:	15 shots | 10.65sec
++1 att vs +0 arm/+3 sh:	16 shots | 11.36sec
+---
++1 att vs +1 arm/+0 sh:	14 shots | 9.94sec
++1 att vs +1 arm/+1 sh:	15 shots | 10.65sec
++1 att vs +1 arm/+2 sh:	15 shots | 10.65sec
++1 att vs +1 arm/+3 sh:	16 shots | 11.36sec
+---
++1 att vs +2 arm/+0 sh:	14 shots | 9.94sec
++1 att vs +2 arm/+1 sh:	15 shots | 10.65sec
++1 att vs +2 arm/+2 sh:	15 shots | 10.65sec
++1 att vs +2 arm/+3 sh:	16 shots | 11.36sec
+---
++1 att vs +3 arm/+0 sh:	14 shots | 9.94sec
++1 att vs +3 arm/+1 sh:	15 shots | 10.65sec
++1 att vs +3 arm/+2 sh:	15 shots | 10.65sec
++1 att vs +3 arm/+3 sh:	16 shots | 11.36sec
+---
+---
++2 att vs +0 arm/+0 sh:	13 shots | 9.23sec
++2 att vs +0 arm/+1 sh:	14 shots | 9.94sec
++2 att vs +0 arm/+2 sh:	14 shots | 9.94sec
++2 att vs +0 arm/+3 sh:	14 shots | 9.94sec
+---
++2 att vs +1 arm/+0 sh:	13 shots | 9.23sec
++2 att vs +1 arm/+1 sh:	14 shots | 9.94sec
++2 att vs +1 arm/+2 sh:	14 shots | 9.94sec
++2 att vs +1 arm/+3 sh:	14 shots | 9.94sec
+---
++2 att vs +2 arm/+0 sh:	13 shots | 9.23sec
++2 att vs +2 arm/+1 sh:	14 shots | 9.94sec
++2 att vs +2 arm/+2 sh:	14 shots | 9.94sec
++2 att vs +2 arm/+3 sh:	14 shots | 9.94sec
+---
++2 att vs +3 arm/+0 sh:	13 shots | 9.23sec
++2 att vs +3 arm/+1 sh:	14 shots | 9.94sec
++2 att vs +3 arm/+2 sh:	14 shots | 9.94sec
++2 att vs +3 arm/+3 sh:	14 shots | 9.94sec
+---
+---
++3 att vs +0 arm/+0 sh:	12 shots | 8.52sec
++3 att vs +0 arm/+1 sh:	13 shots | 9.23sec
++3 att vs +0 arm/+2 sh:	13 shots | 9.23sec
++3 att vs +0 arm/+3 sh:	13 shots | 9.23sec
+---
++3 att vs +1 arm/+0 sh:	12 shots | 8.52sec
++3 att vs +1 arm/+1 sh:	13 shots | 9.23sec
++3 att vs +1 arm/+2 sh:	13 shots | 9.23sec
++3 att vs +1 arm/+3 sh:	13 shots | 9.23sec
+---
++3 att vs +2 arm/+0 sh:	12 shots | 8.52sec
++3 att vs +2 arm/+1 sh:	13 shots | 9.23sec
++3 att vs +2 arm/+2 sh:	13 shots | 9.23sec
++3 att vs +2 arm/+3 sh:	13 shots | 9.23sec
+---
++3 att vs +3 arm/+0 sh:	12 shots | 8.52sec
++3 att vs +3 arm/+1 sh:	13 shots | 9.23sec
++3 att vs +3 arm/+2 sh:	13 shots | 9.23sec
++3 att vs +3 arm/+3 sh:	13 shots | 9.23sec
+---
+---
+reaper attacking cannon
+---
++0 att vs +0 arm/+0 sh:	44 shots | 34.76sec
++0 att vs +0 arm/+1 sh:	51 shots | 40.29sec
++0 att vs +0 arm/+2 sh:	63 shots | 49.77sec
++0 att vs +0 arm/+3 sh:	101 shots | 79.79sec
+---
++0 att vs +1 arm/+0 sh:	44 shots | 34.76sec
++0 att vs +1 arm/+1 sh:	51 shots | 40.29sec
++0 att vs +1 arm/+2 sh:	63 shots | 49.77sec
++0 att vs +1 arm/+3 sh:	101 shots | 79.79sec
+---
++0 att vs +2 arm/+0 sh:	44 shots | 34.76sec
++0 att vs +2 arm/+1 sh:	51 shots | 40.29sec
++0 att vs +2 arm/+2 sh:	63 shots | 49.77sec
++0 att vs +2 arm/+3 sh:	101 shots | 79.79sec
+---
++0 att vs +3 arm/+0 sh:	44 shots | 34.76sec
++0 att vs +3 arm/+1 sh:	51 shots | 40.29sec
++0 att vs +3 arm/+2 sh:	63 shots | 49.77sec
++0 att vs +3 arm/+3 sh:	101 shots | 79.79sec
+---
+---
++1 att vs +0 arm/+0 sh:	34 shots | 26.86sec
++1 att vs +0 arm/+1 sh:	38 shots | 30.02sec
++1 att vs +0 arm/+2 sh:	44 shots | 34.76sec
++1 att vs +0 arm/+3 sh:	57 shots | 45.03sec
+---
++1 att vs +1 arm/+0 sh:	34 shots | 26.86sec
++1 att vs +1 arm/+1 sh:	38 shots | 30.02sec
++1 att vs +1 arm/+2 sh:	44 shots | 34.76sec
++1 att vs +1 arm/+3 sh:	57 shots | 45.03sec
+---
++1 att vs +2 arm/+0 sh:	34 shots | 26.86sec
++1 att vs +2 arm/+1 sh:	38 shots | 30.02sec
++1 att vs +2 arm/+2 sh:	44 shots | 34.76sec
++1 att vs +2 arm/+3 sh:	57 shots | 45.03sec
+---
++1 att vs +3 arm/+0 sh:	34 shots | 26.86sec
++1 att vs +3 arm/+1 sh:	38 shots | 30.02sec
++1 att vs +3 arm/+2 sh:	44 shots | 34.76sec
++1 att vs +3 arm/+3 sh:	57 shots | 45.03sec
+---
+---
++2 att vs +0 arm/+0 sh:	28 shots | 22.12sec
++2 att vs +0 arm/+1 sh:	31 shots | 24.49sec
++2 att vs +0 arm/+2 sh:	34 shots | 26.86sec
++2 att vs +0 arm/+3 sh:	41 shots | 32.39sec
+---
++2 att vs +1 arm/+0 sh:	28 shots | 22.12sec
++2 att vs +1 arm/+1 sh:	31 shots | 24.49sec
++2 att vs +1 arm/+2 sh:	34 shots | 26.86sec
++2 att vs +1 arm/+3 sh:	41 shots | 32.39sec
+---
++2 att vs +2 arm/+0 sh:	28 shots | 22.12sec
++2 att vs +2 arm/+1 sh:	31 shots | 24.49sec
++2 att vs +2 arm/+2 sh:	34 shots | 26.86sec
++2 att vs +2 arm/+3 sh:	41 shots | 32.39sec
+---
++2 att vs +3 arm/+0 sh:	28 shots | 22.12sec
++2 att vs +3 arm/+1 sh:	31 shots | 24.49sec
++2 att vs +3 arm/+2 sh:	34 shots | 26.86sec
++2 att vs +3 arm/+3 sh:	41 shots | 32.39sec
+---
+---
++3 att vs +0 arm/+0 sh:	24 shots | 18.96sec
++3 att vs +0 arm/+1 sh:	26 shots | 20.54sec
++3 att vs +0 arm/+2 sh:	28 shots | 22.12sec
++3 att vs +0 arm/+3 sh:	32 shots | 25.28sec
+---
++3 att vs +1 arm/+0 sh:	24 shots | 18.96sec
++3 att vs +1 arm/+1 sh:	26 shots | 20.54sec
++3 att vs +1 arm/+2 sh:	28 shots | 22.12sec
++3 att vs +1 arm/+3 sh:	32 shots | 25.28sec
+---
++3 att vs +2 arm/+0 sh:	24 shots | 18.96sec
++3 att vs +2 arm/+1 sh:	26 shots | 20.54sec
++3 att vs +2 arm/+2 sh:	28 shots | 22.12sec
++3 att vs +2 arm/+3 sh:	32 shots | 25.28sec
+---
++3 att vs +3 arm/+0 sh:	24 shots | 18.96sec
++3 att vs +3 arm/+1 sh:	26 shots | 20.54sec
++3 att vs +3 arm/+2 sh:	28 shots | 22.12sec
++3 att vs +3 arm/+3 sh:	32 shots | 25.28sec
+---
+---
+ghost attacking cannon
+---
++0 att vs +0 arm/+0 sh:	32 shots | 34.24sec
++0 att vs +0 arm/+1 sh:	34 shots | 36.38sec
++0 att vs +0 arm/+2 sh:	36 shots | 38.52sec
++0 att vs +0 arm/+3 sh:	39 shots | 41.73sec
+---
++0 att vs +1 arm/+0 sh:	32 shots | 34.24sec
++0 att vs +1 arm/+1 sh:	34 shots | 36.38sec
++0 att vs +1 arm/+2 sh:	36 shots | 38.52sec
++0 att vs +1 arm/+3 sh:	39 shots | 41.73sec
+---
++0 att vs +2 arm/+0 sh:	32 shots | 34.24sec
++0 att vs +2 arm/+1 sh:	34 shots | 36.38sec
++0 att vs +2 arm/+2 sh:	36 shots | 38.52sec
++0 att vs +2 arm/+3 sh:	39 shots | 41.73sec
+---
++0 att vs +3 arm/+0 sh:	32 shots | 34.24sec
++0 att vs +3 arm/+1 sh:	34 shots | 36.38sec
++0 att vs +3 arm/+2 sh:	36 shots | 38.52sec
++0 att vs +3 arm/+3 sh:	39 shots | 41.73sec
+---
+---
++1 att vs +0 arm/+0 sh:	29 shots | 31.03sec
++1 att vs +0 arm/+1 sh:	31 shots | 33.17sec
++1 att vs +0 arm/+2 sh:	32 shots | 34.24sec
++1 att vs +0 arm/+3 sh:	34 shots | 36.38sec
+---
++1 att vs +1 arm/+0 sh:	29 shots | 31.03sec
++1 att vs +1 arm/+1 sh:	31 shots | 33.17sec
++1 att vs +1 arm/+2 sh:	32 shots | 34.24sec
++1 att vs +1 arm/+3 sh:	34 shots | 36.38sec
+---
++1 att vs +2 arm/+0 sh:	29 shots | 31.03sec
++1 att vs +2 arm/+1 sh:	31 shots | 33.17sec
++1 att vs +2 arm/+2 sh:	32 shots | 34.24sec
++1 att vs +2 arm/+3 sh:	34 shots | 36.38sec
+---
++1 att vs +3 arm/+0 sh:	29 shots | 31.03sec
++1 att vs +3 arm/+1 sh:	31 shots | 33.17sec
++1 att vs +3 arm/+2 sh:	32 shots | 34.24sec
++1 att vs +3 arm/+3 sh:	34 shots | 36.38sec
+---
+---
++2 att vs +0 arm/+0 sh:	27 shots | 28.89sec
++2 att vs +0 arm/+1 sh:	28 shots | 29.96sec
++2 att vs +0 arm/+2 sh:	29 shots | 31.03sec
++2 att vs +0 arm/+3 sh:	31 shots | 33.17sec
+---
++2 att vs +1 arm/+0 sh:	27 shots | 28.89sec
++2 att vs +1 arm/+1 sh:	28 shots | 29.96sec
++2 att vs +1 arm/+2 sh:	29 shots | 31.03sec
++2 att vs +1 arm/+3 sh:	31 shots | 33.17sec
+---
++2 att vs +2 arm/+0 sh:	27 shots | 28.89sec
++2 att vs +2 arm/+1 sh:	28 shots | 29.96sec
++2 att vs +2 arm/+2 sh:	29 shots | 31.03sec
++2 att vs +2 arm/+3 sh:	31 shots | 33.17sec
+---
++2 att vs +3 arm/+0 sh:	27 shots | 28.89sec
++2 att vs +3 arm/+1 sh:	28 shots | 29.96sec
++2 att vs +3 arm/+2 sh:	29 shots | 31.03sec
++2 att vs +3 arm/+3 sh:	31 shots | 33.17sec
+---
+---
++3 att vs +0 arm/+0 sh:	25 shots | 26.75sec
++3 att vs +0 arm/+1 sh:	26 shots | 27.82sec
++3 att vs +0 arm/+2 sh:	27 shots | 28.89sec
++3 att vs +0 arm/+3 sh:	28 shots | 29.96sec
+---
++3 att vs +1 arm/+0 sh:	25 shots | 26.75sec
++3 att vs +1 arm/+1 sh:	26 shots | 27.82sec
++3 att vs +1 arm/+2 sh:	27 shots | 28.89sec
++3 att vs +1 arm/+3 sh:	28 shots | 29.96sec
+---
++3 att vs +2 arm/+0 sh:	25 shots | 26.75sec
++3 att vs +2 arm/+1 sh:	26 shots | 27.82sec
++3 att vs +2 arm/+2 sh:	27 shots | 28.89sec
++3 att vs +2 arm/+3 sh:	28 shots | 29.96sec
+---
++3 att vs +3 arm/+0 sh:	25 shots | 26.75sec
++3 att vs +3 arm/+1 sh:	26 shots | 27.82sec
++3 att vs +3 arm/+2 sh:	27 shots | 28.89sec
++3 att vs +3 arm/+3 sh:	28 shots | 29.96sec
+---
+---
+hellion attacking cannon
+---
++0 att vs +0 arm/+0 sh:	41 shots | 73.39sec
++0 att vs +0 arm/+1 sh:	43 shots | 76.97sec
++0 att vs +0 arm/+2 sh:	47 shots | 84.13sec
++0 att vs +0 arm/+3 sh:	52 shots | 93.08sec
+---
++0 att vs +1 arm/+0 sh:	41 shots | 73.39sec
++0 att vs +1 arm/+1 sh:	43 shots | 76.97sec
++0 att vs +1 arm/+2 sh:	47 shots | 84.13sec
++0 att vs +1 arm/+3 sh:	52 shots | 93.08sec
+---
++0 att vs +2 arm/+0 sh:	41 shots | 73.39sec
++0 att vs +2 arm/+1 sh:	43 shots | 76.97sec
++0 att vs +2 arm/+2 sh:	47 shots | 84.13sec
++0 att vs +2 arm/+3 sh:	52 shots | 93.08sec
+---
++0 att vs +3 arm/+0 sh:	41 shots | 73.39sec
++0 att vs +3 arm/+1 sh:	43 shots | 76.97sec
++0 att vs +3 arm/+2 sh:	47 shots | 84.13sec
++0 att vs +3 arm/+3 sh:	52 shots | 93.08sec
+---
+---
++1 att vs +0 arm/+0 sh:	36 shots | 64.44sec
++1 att vs +0 arm/+1 sh:	38 shots | 68.02sec
++1 att vs +0 arm/+2 sh:	41 shots | 73.39sec
++1 att vs +0 arm/+3 sh:	44 shots | 78.76sec
+---
++1 att vs +1 arm/+0 sh:	36 shots | 64.44sec
++1 att vs +1 arm/+1 sh:	38 shots | 68.02sec
++1 att vs +1 arm/+2 sh:	41 shots | 73.39sec
++1 att vs +1 arm/+3 sh:	44 shots | 78.76sec
+---
++1 att vs +2 arm/+0 sh:	36 shots | 64.44sec
++1 att vs +2 arm/+1 sh:	38 shots | 68.02sec
++1 att vs +2 arm/+2 sh:	41 shots | 73.39sec
++1 att vs +2 arm/+3 sh:	44 shots | 78.76sec
+---
++1 att vs +3 arm/+0 sh:	36 shots | 64.44sec
++1 att vs +3 arm/+1 sh:	38 shots | 68.02sec
++1 att vs +3 arm/+2 sh:	41 shots | 73.39sec
++1 att vs +3 arm/+3 sh:	44 shots | 78.76sec
+---
+---
++2 att vs +0 arm/+0 sh:	32 shots | 57.28sec
++2 att vs +0 arm/+1 sh:	34 shots | 60.86sec
++2 att vs +0 arm/+2 sh:	36 shots | 64.44sec
++2 att vs +0 arm/+3 sh:	39 shots | 69.81sec
+---
++2 att vs +1 arm/+0 sh:	32 shots | 57.28sec
++2 att vs +1 arm/+1 sh:	34 shots | 60.86sec
++2 att vs +1 arm/+2 sh:	36 shots | 64.44sec
++2 att vs +1 arm/+3 sh:	39 shots | 69.81sec
+---
++2 att vs +2 arm/+0 sh:	32 shots | 57.28sec
++2 att vs +2 arm/+1 sh:	34 shots | 60.86sec
++2 att vs +2 arm/+2 sh:	36 shots | 64.44sec
++2 att vs +2 arm/+3 sh:	39 shots | 69.81sec
+---
++2 att vs +3 arm/+0 sh:	32 shots | 57.28sec
++2 att vs +3 arm/+1 sh:	34 shots | 60.86sec
++2 att vs +3 arm/+2 sh:	36 shots | 64.44sec
++2 att vs +3 arm/+3 sh:	39 shots | 69.81sec
+---
+---
++3 att vs +0 arm/+0 sh:	29 shots | 51.91sec
++3 att vs +0 arm/+1 sh:	31 shots | 55.49sec
++3 att vs +0 arm/+2 sh:	32 shots | 57.28sec
++3 att vs +0 arm/+3 sh:	34 shots | 60.86sec
+---
++3 att vs +1 arm/+0 sh:	29 shots | 51.91sec
++3 att vs +1 arm/+1 sh:	31 shots | 55.49sec
++3 att vs +1 arm/+2 sh:	32 shots | 57.28sec
++3 att vs +1 arm/+3 sh:	34 shots | 60.86sec
+---
++3 att vs +2 arm/+0 sh:	29 shots | 51.91sec
++3 att vs +2 arm/+1 sh:	31 shots | 55.49sec
++3 att vs +2 arm/+2 sh:	32 shots | 57.28sec
++3 att vs +2 arm/+3 sh:	34 shots | 60.86sec
+---
++3 att vs +3 arm/+0 sh:	29 shots | 51.91sec
++3 att vs +3 arm/+1 sh:	31 shots | 55.49sec
++3 att vs +3 arm/+2 sh:	32 shots | 57.28sec
++3 att vs +3 arm/+3 sh:	34 shots | 60.86sec
+---
+---
+hellbat attacking cannon
+---
++0 att vs +0 arm/+0 sh:	18 shots | 25.74sec
++0 att vs +0 arm/+1 sh:	18 shots | 25.74sec
++0 att vs +0 arm/+2 sh:	19 shots | 27.17sec
++0 att vs +0 arm/+3 sh:	19 shots | 27.17sec
+---
++0 att vs +1 arm/+0 sh:	18 shots | 25.74sec
++0 att vs +1 arm/+1 sh:	18 shots | 25.74sec
++0 att vs +1 arm/+2 sh:	19 shots | 27.17sec
++0 att vs +1 arm/+3 sh:	19 shots | 27.17sec
+---
++0 att vs +2 arm/+0 sh:	18 shots | 25.74sec
++0 att vs +2 arm/+1 sh:	18 shots | 25.74sec
++0 att vs +2 arm/+2 sh:	19 shots | 27.17sec
++0 att vs +2 arm/+3 sh:	19 shots | 27.17sec
+---
++0 att vs +3 arm/+0 sh:	18 shots | 25.74sec
++0 att vs +3 arm/+1 sh:	18 shots | 25.74sec
++0 att vs +3 arm/+2 sh:	19 shots | 27.17sec
++0 att vs +3 arm/+3 sh:	19 shots | 27.17sec
+---
+---
++1 att vs +0 arm/+0 sh:	16 shots | 22.88sec
++1 att vs +0 arm/+1 sh:	16 shots | 22.88sec
++1 att vs +0 arm/+2 sh:	17 shots | 24.31sec
++1 att vs +0 arm/+3 sh:	17 shots | 24.31sec
+---
++1 att vs +1 arm/+0 sh:	16 shots | 22.88sec
++1 att vs +1 arm/+1 sh:	16 shots | 22.88sec
++1 att vs +1 arm/+2 sh:	17 shots | 24.31sec
++1 att vs +1 arm/+3 sh:	17 shots | 24.31sec
+---
++1 att vs +2 arm/+0 sh:	16 shots | 22.88sec
++1 att vs +2 arm/+1 sh:	16 shots | 22.88sec
++1 att vs +2 arm/+2 sh:	17 shots | 24.31sec
++1 att vs +2 arm/+3 sh:	17 shots | 24.31sec
+---
++1 att vs +3 arm/+0 sh:	16 shots | 22.88sec
++1 att vs +3 arm/+1 sh:	16 shots | 22.88sec
++1 att vs +3 arm/+2 sh:	17 shots | 24.31sec
++1 att vs +3 arm/+3 sh:	17 shots | 24.31sec
+---
+---
++2 att vs +0 arm/+0 sh:	14 shots | 20.02sec
++2 att vs +0 arm/+1 sh:	15 shots | 21.45sec
++2 att vs +0 arm/+2 sh:	15 shots | 21.45sec
++2 att vs +0 arm/+3 sh:	16 shots | 22.88sec
+---
++2 att vs +1 arm/+0 sh:	14 shots | 20.02sec
++2 att vs +1 arm/+1 sh:	15 shots | 21.45sec
++2 att vs +1 arm/+2 sh:	15 shots | 21.45sec
++2 att vs +1 arm/+3 sh:	16 shots | 22.88sec
+---
++2 att vs +2 arm/+0 sh:	14 shots | 20.02sec
++2 att vs +2 arm/+1 sh:	15 shots | 21.45sec
++2 att vs +2 arm/+2 sh:	15 shots | 21.45sec
++2 att vs +2 arm/+3 sh:	16 shots | 22.88sec
+---
++2 att vs +3 arm/+0 sh:	14 shots | 20.02sec
++2 att vs +3 arm/+1 sh:	15 shots | 21.45sec
++2 att vs +3 arm/+2 sh:	15 shots | 21.45sec
++2 att vs +3 arm/+3 sh:	16 shots | 22.88sec
+---
+---
++3 att vs +0 arm/+0 sh:	13 shots | 18.59sec
++3 att vs +0 arm/+1 sh:	14 shots | 20.02sec
++3 att vs +0 arm/+2 sh:	14 shots | 20.02sec
++3 att vs +0 arm/+3 sh:	14 shots | 20.02sec
+---
++3 att vs +1 arm/+0 sh:	13 shots | 18.59sec
++3 att vs +1 arm/+1 sh:	14 shots | 20.02sec
++3 att vs +1 arm/+2 sh:	14 shots | 20.02sec
++3 att vs +1 arm/+3 sh:	14 shots | 20.02sec
+---
++3 att vs +2 arm/+0 sh:	13 shots | 18.59sec
++3 att vs +2 arm/+1 sh:	14 shots | 20.02sec
++3 att vs +2 arm/+2 sh:	14 shots | 20.02sec
++3 att vs +2 arm/+3 sh:	14 shots | 20.02sec
+---
++3 att vs +3 arm/+0 sh:	13 shots | 18.59sec
++3 att vs +3 arm/+1 sh:	14 shots | 20.02sec
++3 att vs +3 arm/+2 sh:	14 shots | 20.02sec
++3 att vs +3 arm/+3 sh:	14 shots | 20.02sec
+---
+---
+siegedtank attacking cannon
+---
++0 att vs +0 arm/+0 sh:	5 shots | 10.7sec
++0 att vs +0 arm/+1 sh:	5 shots | 10.7sec
++0 att vs +0 arm/+2 sh:	5 shots | 10.7sec
++0 att vs +0 arm/+3 sh:	5 shots | 10.7sec
+---
++0 att vs +1 arm/+0 sh:	5 shots | 10.7sec
++0 att vs +1 arm/+1 sh:	5 shots | 10.7sec
++0 att vs +1 arm/+2 sh:	5 shots | 10.7sec
++0 att vs +1 arm/+3 sh:	5 shots | 10.7sec
+---
++0 att vs +2 arm/+0 sh:	5 shots | 10.7sec
++0 att vs +2 arm/+1 sh:	5 shots | 10.7sec
++0 att vs +2 arm/+2 sh:	5 shots | 10.7sec
++0 att vs +2 arm/+3 sh:	5 shots | 10.7sec
+---
++0 att vs +3 arm/+0 sh:	5 shots | 10.7sec
++0 att vs +3 arm/+1 sh:	5 shots | 10.7sec
++0 att vs +3 arm/+2 sh:	5 shots | 10.7sec
++0 att vs +3 arm/+3 sh:	5 shots | 10.7sec
+---
+---
++1 att vs +0 arm/+0 sh:	5 shots | 10.7sec
++1 att vs +0 arm/+1 sh:	5 shots | 10.7sec
++1 att vs +0 arm/+2 sh:	5 shots | 10.7sec
++1 att vs +0 arm/+3 sh:	5 shots | 10.7sec
+---
++1 att vs +1 arm/+0 sh:	5 shots | 10.7sec
++1 att vs +1 arm/+1 sh:	5 shots | 10.7sec
++1 att vs +1 arm/+2 sh:	5 shots | 10.7sec
++1 att vs +1 arm/+3 sh:	5 shots | 10.7sec
+---
++1 att vs +2 arm/+0 sh:	5 shots | 10.7sec
++1 att vs +2 arm/+1 sh:	5 shots | 10.7sec
++1 att vs +2 arm/+2 sh:	5 shots | 10.7sec
++1 att vs +2 arm/+3 sh:	5 shots | 10.7sec
+---
++1 att vs +3 arm/+0 sh:	5 shots | 10.7sec
++1 att vs +3 arm/+1 sh:	5 shots | 10.7sec
++1 att vs +3 arm/+2 sh:	5 shots | 10.7sec
++1 att vs +3 arm/+3 sh:	5 shots | 10.7sec
+---
+---
++2 att vs +0 arm/+0 sh:	4 shots | 8.56sec
++2 att vs +0 arm/+1 sh:	4 shots | 8.56sec
++2 att vs +0 arm/+2 sh:	4 shots | 8.56sec
++2 att vs +0 arm/+3 sh:	4 shots | 8.56sec
+---
++2 att vs +1 arm/+0 sh:	4 shots | 8.56sec
++2 att vs +1 arm/+1 sh:	4 shots | 8.56sec
++2 att vs +1 arm/+2 sh:	4 shots | 8.56sec
++2 att vs +1 arm/+3 sh:	4 shots | 8.56sec
+---
++2 att vs +2 arm/+0 sh:	4 shots | 8.56sec
++2 att vs +2 arm/+1 sh:	4 shots | 8.56sec
++2 att vs +2 arm/+2 sh:	4 shots | 8.56sec
++2 att vs +2 arm/+3 sh:	4 shots | 8.56sec
+---
++2 att vs +3 arm/+0 sh:	4 shots | 8.56sec
++2 att vs +3 arm/+1 sh:	4 shots | 8.56sec
++2 att vs +3 arm/+2 sh:	4 shots | 8.56sec
++2 att vs +3 arm/+3 sh:	4 shots | 8.56sec
+---
+---
++3 att vs +0 arm/+0 sh:	4 shots | 8.56sec
++3 att vs +0 arm/+1 sh:	4 shots | 8.56sec
++3 att vs +0 arm/+2 sh:	4 shots | 8.56sec
++3 att vs +0 arm/+3 sh:	4 shots | 8.56sec
+---
++3 att vs +1 arm/+0 sh:	4 shots | 8.56sec
++3 att vs +1 arm/+1 sh:	4 shots | 8.56sec
++3 att vs +1 arm/+2 sh:	4 shots | 8.56sec
++3 att vs +1 arm/+3 sh:	4 shots | 8.56sec
+---
++3 att vs +2 arm/+0 sh:	4 shots | 8.56sec
++3 att vs +2 arm/+1 sh:	4 shots | 8.56sec
++3 att vs +2 arm/+2 sh:	4 shots | 8.56sec
++3 att vs +2 arm/+3 sh:	4 shots | 8.56sec
+---
++3 att vs +3 arm/+0 sh:	4 shots | 8.56sec
++3 att vs +3 arm/+1 sh:	4 shots | 8.56sec
++3 att vs +3 arm/+2 sh:	4 shots | 8.56sec
++3 att vs +3 arm/+3 sh:	4 shots | 8.56sec
+---
+---
+tank attacking cannon
+---
++0 att vs +0 arm/+0 sh:	13 shots | 9.62sec
++0 att vs +0 arm/+1 sh:	13 shots | 9.62sec
++0 att vs +0 arm/+2 sh:	13 shots | 9.62sec
++0 att vs +0 arm/+3 sh:	14 shots | 10.36sec
+---
++0 att vs +1 arm/+0 sh:	13 shots | 9.62sec
++0 att vs +1 arm/+1 sh:	13 shots | 9.62sec
++0 att vs +1 arm/+2 sh:	13 shots | 9.62sec
++0 att vs +1 arm/+3 sh:	14 shots | 10.36sec
+---
++0 att vs +2 arm/+0 sh:	13 shots | 9.62sec
++0 att vs +2 arm/+1 sh:	13 shots | 9.62sec
++0 att vs +2 arm/+2 sh:	13 shots | 9.62sec
++0 att vs +2 arm/+3 sh:	14 shots | 10.36sec
+---
++0 att vs +3 arm/+0 sh:	13 shots | 9.62sec
++0 att vs +3 arm/+1 sh:	13 shots | 9.62sec
++0 att vs +3 arm/+2 sh:	13 shots | 9.62sec
++0 att vs +3 arm/+3 sh:	14 shots | 10.36sec
+---
+---
++1 att vs +0 arm/+0 sh:	11 shots | 8.14sec
++1 att vs +0 arm/+1 sh:	12 shots | 8.88sec
++1 att vs +0 arm/+2 sh:	12 shots | 8.88sec
++1 att vs +0 arm/+3 sh:	12 shots | 8.88sec
+---
++1 att vs +1 arm/+0 sh:	11 shots | 8.14sec
++1 att vs +1 arm/+1 sh:	12 shots | 8.88sec
++1 att vs +1 arm/+2 sh:	12 shots | 8.88sec
++1 att vs +1 arm/+3 sh:	12 shots | 8.88sec
+---
++1 att vs +2 arm/+0 sh:	11 shots | 8.14sec
++1 att vs +2 arm/+1 sh:	12 shots | 8.88sec
++1 att vs +2 arm/+2 sh:	12 shots | 8.88sec
++1 att vs +2 arm/+3 sh:	12 shots | 8.88sec
+---
++1 att vs +3 arm/+0 sh:	11 shots | 8.14sec
++1 att vs +3 arm/+1 sh:	12 shots | 8.88sec
++1 att vs +3 arm/+2 sh:	12 shots | 8.88sec
++1 att vs +3 arm/+3 sh:	12 shots | 8.88sec
+---
+---
++2 att vs +0 arm/+0 sh:	10 shots | 7.4sec
++2 att vs +0 arm/+1 sh:	11 shots | 8.14sec
++2 att vs +0 arm/+2 sh:	11 shots | 8.14sec
++2 att vs +0 arm/+3 sh:	11 shots | 8.14sec
+---
++2 att vs +1 arm/+0 sh:	10 shots | 7.4sec
++2 att vs +1 arm/+1 sh:	11 shots | 8.14sec
++2 att vs +1 arm/+2 sh:	11 shots | 8.14sec
++2 att vs +1 arm/+3 sh:	11 shots | 8.14sec
+---
++2 att vs +2 arm/+0 sh:	10 shots | 7.4sec
++2 att vs +2 arm/+1 sh:	11 shots | 8.14sec
++2 att vs +2 arm/+2 sh:	11 shots | 8.14sec
++2 att vs +2 arm/+3 sh:	11 shots | 8.14sec
+---
++2 att vs +3 arm/+0 sh:	10 shots | 7.4sec
++2 att vs +3 arm/+1 sh:	11 shots | 8.14sec
++2 att vs +3 arm/+2 sh:	11 shots | 8.14sec
++2 att vs +3 arm/+3 sh:	11 shots | 8.14sec
+---
+---
++3 att vs +0 arm/+0 sh:	9 shots | 6.66sec
++3 att vs +0 arm/+1 sh:	10 shots | 7.4sec
++3 att vs +0 arm/+2 sh:	10 shots | 7.4sec
++3 att vs +0 arm/+3 sh:	10 shots | 7.4sec
+---
++3 att vs +1 arm/+0 sh:	9 shots | 6.66sec
++3 att vs +1 arm/+1 sh:	10 shots | 7.4sec
++3 att vs +1 arm/+2 sh:	10 shots | 7.4sec
++3 att vs +1 arm/+3 sh:	10 shots | 7.4sec
+---
++3 att vs +2 arm/+0 sh:	9 shots | 6.66sec
++3 att vs +2 arm/+1 sh:	10 shots | 7.4sec
++3 att vs +2 arm/+2 sh:	10 shots | 7.4sec
++3 att vs +2 arm/+3 sh:	10 shots | 7.4sec
+---
++3 att vs +3 arm/+0 sh:	9 shots | 6.66sec
++3 att vs +3 arm/+1 sh:	10 shots | 7.4sec
++3 att vs +3 arm/+2 sh:	10 shots | 7.4sec
++3 att vs +3 arm/+3 sh:	10 shots | 7.4sec
+---
+---
+thor attacking cannon
+---
++0 att vs +0 arm/+0 sh:	6 shots | 5.46sec
++0 att vs +0 arm/+1 sh:	6 shots | 5.46sec
++0 att vs +0 arm/+2 sh:	6 shots | 5.46sec
++0 att vs +0 arm/+3 sh:	6 shots | 5.46sec
+---
++0 att vs +1 arm/+0 sh:	6 shots | 5.46sec
++0 att vs +1 arm/+1 sh:	6 shots | 5.46sec
++0 att vs +1 arm/+2 sh:	6 shots | 5.46sec
++0 att vs +1 arm/+3 sh:	6 shots | 5.46sec
+---
++0 att vs +2 arm/+0 sh:	6 shots | 5.46sec
++0 att vs +2 arm/+1 sh:	6 shots | 5.46sec
++0 att vs +2 arm/+2 sh:	6 shots | 5.46sec
++0 att vs +2 arm/+3 sh:	6 shots | 5.46sec
+---
++0 att vs +3 arm/+0 sh:	6 shots | 5.46sec
++0 att vs +3 arm/+1 sh:	6 shots | 5.46sec
++0 att vs +3 arm/+2 sh:	6 shots | 5.46sec
++0 att vs +3 arm/+3 sh:	6 shots | 5.46sec
+---
+---
++1 att vs +0 arm/+0 sh:	5 shots | 4.55sec
++1 att vs +0 arm/+1 sh:	5 shots | 4.55sec
++1 att vs +0 arm/+2 sh:	5 shots | 4.55sec
++1 att vs +0 arm/+3 sh:	5 shots | 4.55sec
+---
++1 att vs +1 arm/+0 sh:	5 shots | 4.55sec
++1 att vs +1 arm/+1 sh:	5 shots | 4.55sec
++1 att vs +1 arm/+2 sh:	5 shots | 4.55sec
++1 att vs +1 arm/+3 sh:	5 shots | 4.55sec
+---
++1 att vs +2 arm/+0 sh:	5 shots | 4.55sec
++1 att vs +2 arm/+1 sh:	5 shots | 4.55sec
++1 att vs +2 arm/+2 sh:	5 shots | 4.55sec
++1 att vs +2 arm/+3 sh:	5 shots | 4.55sec
+---
++1 att vs +3 arm/+0 sh:	5 shots | 4.55sec
++1 att vs +3 arm/+1 sh:	5 shots | 4.55sec
++1 att vs +3 arm/+2 sh:	5 shots | 4.55sec
++1 att vs +3 arm/+3 sh:	5 shots | 4.55sec
+---
+---
++2 att vs +0 arm/+0 sh:	5 shots | 4.55sec
++2 att vs +0 arm/+1 sh:	5 shots | 4.55sec
++2 att vs +0 arm/+2 sh:	5 shots | 4.55sec
++2 att vs +0 arm/+3 sh:	5 shots | 4.55sec
+---
++2 att vs +1 arm/+0 sh:	5 shots | 4.55sec
++2 att vs +1 arm/+1 sh:	5 shots | 4.55sec
++2 att vs +1 arm/+2 sh:	5 shots | 4.55sec
++2 att vs +1 arm/+3 sh:	5 shots | 4.55sec
+---
++2 att vs +2 arm/+0 sh:	5 shots | 4.55sec
++2 att vs +2 arm/+1 sh:	5 shots | 4.55sec
++2 att vs +2 arm/+2 sh:	5 shots | 4.55sec
++2 att vs +2 arm/+3 sh:	5 shots | 4.55sec
+---
++2 att vs +3 arm/+0 sh:	5 shots | 4.55sec
++2 att vs +3 arm/+1 sh:	5 shots | 4.55sec
++2 att vs +3 arm/+2 sh:	5 shots | 4.55sec
++2 att vs +3 arm/+3 sh:	5 shots | 4.55sec
+---
+---
++3 att vs +0 arm/+0 sh:	4 shots | 3.64sec
++3 att vs +0 arm/+1 sh:	4 shots | 3.64sec
++3 att vs +0 arm/+2 sh:	5 shots | 4.55sec
++3 att vs +0 arm/+3 sh:	5 shots | 4.55sec
+---
++3 att vs +1 arm/+0 sh:	4 shots | 3.64sec
++3 att vs +1 arm/+1 sh:	4 shots | 3.64sec
++3 att vs +1 arm/+2 sh:	5 shots | 4.55sec
++3 att vs +1 arm/+3 sh:	5 shots | 4.55sec
+---
++3 att vs +2 arm/+0 sh:	4 shots | 3.64sec
++3 att vs +2 arm/+1 sh:	4 shots | 3.64sec
++3 att vs +2 arm/+2 sh:	5 shots | 4.55sec
++3 att vs +2 arm/+3 sh:	5 shots | 4.55sec
+---
++3 att vs +3 arm/+0 sh:	4 shots | 3.64sec
++3 att vs +3 arm/+1 sh:	4 shots | 3.64sec
++3 att vs +3 arm/+2 sh:	5 shots | 4.55sec
++3 att vs +3 arm/+3 sh:	5 shots | 4.55sec
+---
+---
+zergling attacking cannon
+---
++0 att vs +0 arm/+0 sh:	68 shots | 33.796sec
++0 att vs +0 arm/+1 sh:	76 shots | 37.772sec
++0 att vs +0 arm/+2 sh:	88 shots | 43.736sec
++0 att vs +0 arm/+3 sh:	113 shots | 56.161sec
+---
++0 att vs +1 arm/+0 sh:	68 shots | 33.796sec
++0 att vs +1 arm/+1 sh:	76 shots | 37.772sec
++0 att vs +1 arm/+2 sh:	88 shots | 43.736sec
++0 att vs +1 arm/+3 sh:	113 shots | 56.161sec
+---
++0 att vs +2 arm/+0 sh:	68 shots | 33.796sec
++0 att vs +2 arm/+1 sh:	76 shots | 37.772sec
++0 att vs +2 arm/+2 sh:	88 shots | 43.736sec
++0 att vs +2 arm/+3 sh:	113 shots | 56.161sec
+---
++0 att vs +3 arm/+0 sh:	68 shots | 33.796sec
++0 att vs +3 arm/+1 sh:	76 shots | 37.772sec
++0 att vs +3 arm/+2 sh:	88 shots | 43.736sec
++0 att vs +3 arm/+3 sh:	113 shots | 56.161sec
+---
+---
++1 att vs +0 arm/+0 sh:	56 shots | 27.832sec
++1 att vs +0 arm/+1 sh:	61 shots | 30.317sec
++1 att vs +0 arm/+2 sh:	68 shots | 33.796sec
++1 att vs +0 arm/+3 sh:	81 shots | 40.257sec
+---
++1 att vs +1 arm/+0 sh:	56 shots | 27.832sec
++1 att vs +1 arm/+1 sh:	61 shots | 30.317sec
++1 att vs +1 arm/+2 sh:	68 shots | 33.796sec
++1 att vs +1 arm/+3 sh:	81 shots | 40.257sec
+---
++1 att vs +2 arm/+0 sh:	56 shots | 27.832sec
++1 att vs +2 arm/+1 sh:	61 shots | 30.317sec
++1 att vs +2 arm/+2 sh:	68 shots | 33.796sec
++1 att vs +2 arm/+3 sh:	81 shots | 40.257sec
+---
++1 att vs +3 arm/+0 sh:	56 shots | 27.832sec
++1 att vs +3 arm/+1 sh:	61 shots | 30.317sec
++1 att vs +3 arm/+2 sh:	68 shots | 33.796sec
++1 att vs +3 arm/+3 sh:	81 shots | 40.257sec
+---
+---
++2 att vs +0 arm/+0 sh:	47 shots | 23.359sec
++2 att vs +0 arm/+1 sh:	51 shots | 25.347sec
++2 att vs +0 arm/+2 sh:	56 shots | 27.832sec
++2 att vs +0 arm/+3 sh:	63 shots | 31.311sec
+---
++2 att vs +1 arm/+0 sh:	47 shots | 23.359sec
++2 att vs +1 arm/+1 sh:	51 shots | 25.347sec
++2 att vs +1 arm/+2 sh:	56 shots | 27.832sec
++2 att vs +1 arm/+3 sh:	63 shots | 31.311sec
+---
++2 att vs +2 arm/+0 sh:	47 shots | 23.359sec
++2 att vs +2 arm/+1 sh:	51 shots | 25.347sec
++2 att vs +2 arm/+2 sh:	56 shots | 27.832sec
++2 att vs +2 arm/+3 sh:	63 shots | 31.311sec
+---
++2 att vs +3 arm/+0 sh:	47 shots | 23.359sec
++2 att vs +3 arm/+1 sh:	51 shots | 25.347sec
++2 att vs +3 arm/+2 sh:	56 shots | 27.832sec
++2 att vs +3 arm/+3 sh:	63 shots | 31.311sec
+---
+---
++3 att vs +0 arm/+0 sh:	41 shots | 20.377sec
++3 att vs +0 arm/+1 sh:	43 shots | 21.371sec
++3 att vs +0 arm/+2 sh:	47 shots | 23.359sec
++3 att vs +0 arm/+3 sh:	52 shots | 25.844sec
+---
++3 att vs +1 arm/+0 sh:	41 shots | 20.377sec
++3 att vs +1 arm/+1 sh:	43 shots | 21.371sec
++3 att vs +1 arm/+2 sh:	47 shots | 23.359sec
++3 att vs +1 arm/+3 sh:	52 shots | 25.844sec
+---
++3 att vs +2 arm/+0 sh:	41 shots | 20.377sec
++3 att vs +2 arm/+1 sh:	43 shots | 21.371sec
++3 att vs +2 arm/+2 sh:	47 shots | 23.359sec
++3 att vs +2 arm/+3 sh:	52 shots | 25.844sec
+---
++3 att vs +3 arm/+0 sh:	41 shots | 20.377sec
++3 att vs +3 arm/+1 sh:	43 shots | 21.371sec
++3 att vs +3 arm/+2 sh:	47 shots | 23.359sec
++3 att vs +3 arm/+3 sh:	52 shots | 25.844sec
+---
+---
+baneling attacking cannon
+---
++0 att vs +0 arm/+0 sh:	20 shots | 0.2sec
++0 att vs +0 arm/+1 sh:	21 shots | 0.21sec
++0 att vs +0 arm/+2 sh:	21 shots | 0.21sec
++0 att vs +0 arm/+3 sh:	22 shots | 0.22sec
+---
++0 att vs +1 arm/+0 sh:	20 shots | 0.2sec
++0 att vs +1 arm/+1 sh:	21 shots | 0.21sec
++0 att vs +1 arm/+2 sh:	21 shots | 0.21sec
++0 att vs +1 arm/+3 sh:	22 shots | 0.22sec
+---
++0 att vs +2 arm/+0 sh:	20 shots | 0.2sec
++0 att vs +2 arm/+1 sh:	21 shots | 0.21sec
++0 att vs +2 arm/+2 sh:	21 shots | 0.21sec
++0 att vs +2 arm/+3 sh:	22 shots | 0.22sec
+---
++0 att vs +3 arm/+0 sh:	20 shots | 0.2sec
++0 att vs +3 arm/+1 sh:	21 shots | 0.21sec
++0 att vs +3 arm/+2 sh:	21 shots | 0.21sec
++0 att vs +3 arm/+3 sh:	22 shots | 0.22sec
+---
+---
++1 att vs +0 arm/+0 sh:	18 shots | 0.18sec
++1 att vs +0 arm/+1 sh:	18 shots | 0.18sec
++1 att vs +0 arm/+2 sh:	19 shots | 0.19sec
++1 att vs +0 arm/+3 sh:	19 shots | 0.19sec
+---
++1 att vs +1 arm/+0 sh:	18 shots | 0.18sec
++1 att vs +1 arm/+1 sh:	18 shots | 0.18sec
++1 att vs +1 arm/+2 sh:	19 shots | 0.19sec
++1 att vs +1 arm/+3 sh:	19 shots | 0.19sec
+---
++1 att vs +2 arm/+0 sh:	18 shots | 0.18sec
++1 att vs +2 arm/+1 sh:	18 shots | 0.18sec
++1 att vs +2 arm/+2 sh:	19 shots | 0.19sec
++1 att vs +2 arm/+3 sh:	19 shots | 0.19sec
+---
++1 att vs +3 arm/+0 sh:	18 shots | 0.18sec
++1 att vs +3 arm/+1 sh:	18 shots | 0.18sec
++1 att vs +3 arm/+2 sh:	19 shots | 0.19sec
++1 att vs +3 arm/+3 sh:	19 shots | 0.19sec
+---
+---
++2 att vs +0 arm/+0 sh:	16 shots | 0.16sec
++2 att vs +0 arm/+1 sh:	16 shots | 0.16sec
++2 att vs +0 arm/+2 sh:	17 shots | 0.17sec
++2 att vs +0 arm/+3 sh:	17 shots | 0.17sec
+---
++2 att vs +1 arm/+0 sh:	16 shots | 0.16sec
++2 att vs +1 arm/+1 sh:	16 shots | 0.16sec
++2 att vs +1 arm/+2 sh:	17 shots | 0.17sec
++2 att vs +1 arm/+3 sh:	17 shots | 0.17sec
+---
++2 att vs +2 arm/+0 sh:	16 shots | 0.16sec
++2 att vs +2 arm/+1 sh:	16 shots | 0.16sec
++2 att vs +2 arm/+2 sh:	17 shots | 0.17sec
++2 att vs +2 arm/+3 sh:	17 shots | 0.17sec
+---
++2 att vs +3 arm/+0 sh:	16 shots | 0.16sec
++2 att vs +3 arm/+1 sh:	16 shots | 0.16sec
++2 att vs +3 arm/+2 sh:	17 shots | 0.17sec
++2 att vs +3 arm/+3 sh:	17 shots | 0.17sec
+---
+---
++3 att vs +0 arm/+0 sh:	14 shots | 0.14sec
++3 att vs +0 arm/+1 sh:	15 shots | 0.15sec
++3 att vs +0 arm/+2 sh:	15 shots | 0.15sec
++3 att vs +0 arm/+3 sh:	16 shots | 0.16sec
+---
++3 att vs +1 arm/+0 sh:	14 shots | 0.14sec
++3 att vs +1 arm/+1 sh:	15 shots | 0.15sec
++3 att vs +1 arm/+2 sh:	15 shots | 0.15sec
++3 att vs +1 arm/+3 sh:	16 shots | 0.16sec
+---
++3 att vs +2 arm/+0 sh:	14 shots | 0.14sec
++3 att vs +2 arm/+1 sh:	15 shots | 0.15sec
++3 att vs +2 arm/+2 sh:	15 shots | 0.15sec
++3 att vs +2 arm/+3 sh:	16 shots | 0.16sec
+---
++3 att vs +3 arm/+0 sh:	14 shots | 0.14sec
++3 att vs +3 arm/+1 sh:	15 shots | 0.15sec
++3 att vs +3 arm/+2 sh:	15 shots | 0.15sec
++3 att vs +3 arm/+3 sh:	16 shots | 0.16sec
+---
+---
+roach attacking cannon
+---
++0 att vs +0 arm/+0 sh:	20 shots | 28.6sec
++0 att vs +0 arm/+1 sh:	21 shots | 30.03sec
++0 att vs +0 arm/+2 sh:	21 shots | 30.03sec
++0 att vs +0 arm/+3 sh:	22 shots | 31.46sec
+---
++0 att vs +1 arm/+0 sh:	20 shots | 28.6sec
++0 att vs +1 arm/+1 sh:	21 shots | 30.03sec
++0 att vs +1 arm/+2 sh:	21 shots | 30.03sec
++0 att vs +1 arm/+3 sh:	22 shots | 31.46sec
+---
++0 att vs +2 arm/+0 sh:	20 shots | 28.6sec
++0 att vs +2 arm/+1 sh:	21 shots | 30.03sec
++0 att vs +2 arm/+2 sh:	21 shots | 30.03sec
++0 att vs +2 arm/+3 sh:	22 shots | 31.46sec
+---
++0 att vs +3 arm/+0 sh:	20 shots | 28.6sec
++0 att vs +3 arm/+1 sh:	21 shots | 30.03sec
++0 att vs +3 arm/+2 sh:	21 shots | 30.03sec
++0 att vs +3 arm/+3 sh:	22 shots | 31.46sec
+---
+---
++1 att vs +0 arm/+0 sh:	18 shots | 25.74sec
++1 att vs +0 arm/+1 sh:	18 shots | 25.74sec
++1 att vs +0 arm/+2 sh:	19 shots | 27.17sec
++1 att vs +0 arm/+3 sh:	19 shots | 27.17sec
+---
++1 att vs +1 arm/+0 sh:	18 shots | 25.74sec
++1 att vs +1 arm/+1 sh:	18 shots | 25.74sec
++1 att vs +1 arm/+2 sh:	19 shots | 27.17sec
++1 att vs +1 arm/+3 sh:	19 shots | 27.17sec
+---
++1 att vs +2 arm/+0 sh:	18 shots | 25.74sec
++1 att vs +2 arm/+1 sh:	18 shots | 25.74sec
++1 att vs +2 arm/+2 sh:	19 shots | 27.17sec
++1 att vs +2 arm/+3 sh:	19 shots | 27.17sec
+---
++1 att vs +3 arm/+0 sh:	18 shots | 25.74sec
++1 att vs +3 arm/+1 sh:	18 shots | 25.74sec
++1 att vs +3 arm/+2 sh:	19 shots | 27.17sec
++1 att vs +3 arm/+3 sh:	19 shots | 27.17sec
+---
+---
++2 att vs +0 arm/+0 sh:	16 shots | 22.88sec
++2 att vs +0 arm/+1 sh:	16 shots | 22.88sec
++2 att vs +0 arm/+2 sh:	17 shots | 24.31sec
++2 att vs +0 arm/+3 sh:	17 shots | 24.31sec
+---
++2 att vs +1 arm/+0 sh:	16 shots | 22.88sec
++2 att vs +1 arm/+1 sh:	16 shots | 22.88sec
++2 att vs +1 arm/+2 sh:	17 shots | 24.31sec
++2 att vs +1 arm/+3 sh:	17 shots | 24.31sec
+---
++2 att vs +2 arm/+0 sh:	16 shots | 22.88sec
++2 att vs +2 arm/+1 sh:	16 shots | 22.88sec
++2 att vs +2 arm/+2 sh:	17 shots | 24.31sec
++2 att vs +2 arm/+3 sh:	17 shots | 24.31sec
+---
++2 att vs +3 arm/+0 sh:	16 shots | 22.88sec
++2 att vs +3 arm/+1 sh:	16 shots | 22.88sec
++2 att vs +3 arm/+2 sh:	17 shots | 24.31sec
++2 att vs +3 arm/+3 sh:	17 shots | 24.31sec
+---
+---
++3 att vs +0 arm/+0 sh:	14 shots | 20.02sec
++3 att vs +0 arm/+1 sh:	15 shots | 21.45sec
++3 att vs +0 arm/+2 sh:	15 shots | 21.45sec
++3 att vs +0 arm/+3 sh:	16 shots | 22.88sec
+---
++3 att vs +1 arm/+0 sh:	14 shots | 20.02sec
++3 att vs +1 arm/+1 sh:	15 shots | 21.45sec
++3 att vs +1 arm/+2 sh:	15 shots | 21.45sec
++3 att vs +1 arm/+3 sh:	16 shots | 22.88sec
+---
++3 att vs +2 arm/+0 sh:	14 shots | 20.02sec
++3 att vs +2 arm/+1 sh:	15 shots | 21.45sec
++3 att vs +2 arm/+2 sh:	15 shots | 21.45sec
++3 att vs +2 arm/+3 sh:	16 shots | 22.88sec
+---
++3 att vs +3 arm/+0 sh:	14 shots | 20.02sec
++3 att vs +3 arm/+1 sh:	15 shots | 21.45sec
++3 att vs +3 arm/+2 sh:	15 shots | 21.45sec
++3 att vs +3 arm/+3 sh:	16 shots | 22.88sec
+---
+---
+ravager attacking cannon
+---
++0 att vs +0 arm/+0 sh:	20 shots | 22.8sec
++0 att vs +0 arm/+1 sh:	21 shots | 23.94sec
++0 att vs +0 arm/+2 sh:	21 shots | 23.94sec
++0 att vs +0 arm/+3 sh:	22 shots | 25.08sec
+---
++0 att vs +1 arm/+0 sh:	20 shots | 22.8sec
++0 att vs +1 arm/+1 sh:	21 shots | 23.94sec
++0 att vs +1 arm/+2 sh:	21 shots | 23.94sec
++0 att vs +1 arm/+3 sh:	22 shots | 25.08sec
+---
++0 att vs +2 arm/+0 sh:	20 shots | 22.8sec
++0 att vs +2 arm/+1 sh:	21 shots | 23.94sec
++0 att vs +2 arm/+2 sh:	21 shots | 23.94sec
++0 att vs +2 arm/+3 sh:	22 shots | 25.08sec
+---
++0 att vs +3 arm/+0 sh:	20 shots | 22.8sec
++0 att vs +3 arm/+1 sh:	21 shots | 23.94sec
++0 att vs +3 arm/+2 sh:	21 shots | 23.94sec
++0 att vs +3 arm/+3 sh:	22 shots | 25.08sec
+---
+---
++1 att vs +0 arm/+0 sh:	18 shots | 20.52sec
++1 att vs +0 arm/+1 sh:	18 shots | 20.52sec
++1 att vs +0 arm/+2 sh:	19 shots | 21.66sec
++1 att vs +0 arm/+3 sh:	19 shots | 21.66sec
+---
++1 att vs +1 arm/+0 sh:	18 shots | 20.52sec
++1 att vs +1 arm/+1 sh:	18 shots | 20.52sec
++1 att vs +1 arm/+2 sh:	19 shots | 21.66sec
++1 att vs +1 arm/+3 sh:	19 shots | 21.66sec
+---
++1 att vs +2 arm/+0 sh:	18 shots | 20.52sec
++1 att vs +2 arm/+1 sh:	18 shots | 20.52sec
++1 att vs +2 arm/+2 sh:	19 shots | 21.66sec
++1 att vs +2 arm/+3 sh:	19 shots | 21.66sec
+---
++1 att vs +3 arm/+0 sh:	18 shots | 20.52sec
++1 att vs +3 arm/+1 sh:	18 shots | 20.52sec
++1 att vs +3 arm/+2 sh:	19 shots | 21.66sec
++1 att vs +3 arm/+3 sh:	19 shots | 21.66sec
+---
+---
++2 att vs +0 arm/+0 sh:	16 shots | 18.24sec
++2 att vs +0 arm/+1 sh:	16 shots | 18.24sec
++2 att vs +0 arm/+2 sh:	17 shots | 19.38sec
++2 att vs +0 arm/+3 sh:	17 shots | 19.38sec
+---
++2 att vs +1 arm/+0 sh:	16 shots | 18.24sec
++2 att vs +1 arm/+1 sh:	16 shots | 18.24sec
++2 att vs +1 arm/+2 sh:	17 shots | 19.38sec
++2 att vs +1 arm/+3 sh:	17 shots | 19.38sec
+---
++2 att vs +2 arm/+0 sh:	16 shots | 18.24sec
++2 att vs +2 arm/+1 sh:	16 shots | 18.24sec
++2 att vs +2 arm/+2 sh:	17 shots | 19.38sec
++2 att vs +2 arm/+3 sh:	17 shots | 19.38sec
+---
++2 att vs +3 arm/+0 sh:	16 shots | 18.24sec
++2 att vs +3 arm/+1 sh:	16 shots | 18.24sec
++2 att vs +3 arm/+2 sh:	17 shots | 19.38sec
++2 att vs +3 arm/+3 sh:	17 shots | 19.38sec
+---
+---
++3 att vs +0 arm/+0 sh:	14 shots | 15.96sec
++3 att vs +0 arm/+1 sh:	15 shots | 17.1sec
++3 att vs +0 arm/+2 sh:	15 shots | 17.1sec
++3 att vs +0 arm/+3 sh:	16 shots | 18.24sec
+---
++3 att vs +1 arm/+0 sh:	14 shots | 15.96sec
++3 att vs +1 arm/+1 sh:	15 shots | 17.1sec
++3 att vs +1 arm/+2 sh:	15 shots | 17.1sec
++3 att vs +1 arm/+3 sh:	16 shots | 18.24sec
+---
++3 att vs +2 arm/+0 sh:	14 shots | 15.96sec
++3 att vs +2 arm/+1 sh:	15 shots | 17.1sec
++3 att vs +2 arm/+2 sh:	15 shots | 17.1sec
++3 att vs +2 arm/+3 sh:	16 shots | 18.24sec
+---
++3 att vs +3 arm/+0 sh:	14 shots | 15.96sec
++3 att vs +3 arm/+1 sh:	15 shots | 17.1sec
++3 att vs +3 arm/+2 sh:	15 shots | 17.1sec
++3 att vs +3 arm/+3 sh:	16 shots | 18.24sec
+---
+---
+queen attacking cannon
+---
++0 att vs +0 arm/+0 sh:	44 shots | 31.24sec
++0 att vs +0 arm/+1 sh:	51 shots | 36.21sec
++0 att vs +0 arm/+2 sh:	63 shots | 44.73sec
++0 att vs +0 arm/+3 sh:	101 shots | 71.71sec
+---
++0 att vs +1 arm/+0 sh:	44 shots | 31.24sec
++0 att vs +1 arm/+1 sh:	51 shots | 36.21sec
++0 att vs +1 arm/+2 sh:	63 shots | 44.73sec
++0 att vs +1 arm/+3 sh:	101 shots | 71.71sec
+---
++0 att vs +2 arm/+0 sh:	44 shots | 31.24sec
++0 att vs +2 arm/+1 sh:	51 shots | 36.21sec
++0 att vs +2 arm/+2 sh:	63 shots | 44.73sec
++0 att vs +2 arm/+3 sh:	101 shots | 71.71sec
+---
++0 att vs +3 arm/+0 sh:	44 shots | 31.24sec
++0 att vs +3 arm/+1 sh:	51 shots | 36.21sec
++0 att vs +3 arm/+2 sh:	63 shots | 44.73sec
++0 att vs +3 arm/+3 sh:	101 shots | 71.71sec
+---
+---
++1 att vs +0 arm/+0 sh:	34 shots | 24.14sec
++1 att vs +0 arm/+1 sh:	38 shots | 26.98sec
++1 att vs +0 arm/+2 sh:	44 shots | 31.24sec
++1 att vs +0 arm/+3 sh:	57 shots | 40.47sec
+---
++1 att vs +1 arm/+0 sh:	34 shots | 24.14sec
++1 att vs +1 arm/+1 sh:	38 shots | 26.98sec
++1 att vs +1 arm/+2 sh:	44 shots | 31.24sec
++1 att vs +1 arm/+3 sh:	57 shots | 40.47sec
+---
++1 att vs +2 arm/+0 sh:	34 shots | 24.14sec
++1 att vs +2 arm/+1 sh:	38 shots | 26.98sec
++1 att vs +2 arm/+2 sh:	44 shots | 31.24sec
++1 att vs +2 arm/+3 sh:	57 shots | 40.47sec
+---
++1 att vs +3 arm/+0 sh:	34 shots | 24.14sec
++1 att vs +3 arm/+1 sh:	38 shots | 26.98sec
++1 att vs +3 arm/+2 sh:	44 shots | 31.24sec
++1 att vs +3 arm/+3 sh:	57 shots | 40.47sec
+---
+---
++2 att vs +0 arm/+0 sh:	28 shots | 19.88sec
++2 att vs +0 arm/+1 sh:	31 shots | 22.01sec
++2 att vs +0 arm/+2 sh:	34 shots | 24.14sec
++2 att vs +0 arm/+3 sh:	41 shots | 29.11sec
+---
++2 att vs +1 arm/+0 sh:	28 shots | 19.88sec
++2 att vs +1 arm/+1 sh:	31 shots | 22.01sec
++2 att vs +1 arm/+2 sh:	34 shots | 24.14sec
++2 att vs +1 arm/+3 sh:	41 shots | 29.11sec
+---
++2 att vs +2 arm/+0 sh:	28 shots | 19.88sec
++2 att vs +2 arm/+1 sh:	31 shots | 22.01sec
++2 att vs +2 arm/+2 sh:	34 shots | 24.14sec
++2 att vs +2 arm/+3 sh:	41 shots | 29.11sec
+---
++2 att vs +3 arm/+0 sh:	28 shots | 19.88sec
++2 att vs +3 arm/+1 sh:	31 shots | 22.01sec
++2 att vs +3 arm/+2 sh:	34 shots | 24.14sec
++2 att vs +3 arm/+3 sh:	41 shots | 29.11sec
+---
+---
++3 att vs +0 arm/+0 sh:	24 shots | 17.04sec
++3 att vs +0 arm/+1 sh:	26 shots | 18.46sec
++3 att vs +0 arm/+2 sh:	28 shots | 19.88sec
++3 att vs +0 arm/+3 sh:	32 shots | 22.72sec
+---
++3 att vs +1 arm/+0 sh:	24 shots | 17.04sec
++3 att vs +1 arm/+1 sh:	26 shots | 18.46sec
++3 att vs +1 arm/+2 sh:	28 shots | 19.88sec
++3 att vs +1 arm/+3 sh:	32 shots | 22.72sec
+---
++3 att vs +2 arm/+0 sh:	24 shots | 17.04sec
++3 att vs +2 arm/+1 sh:	26 shots | 18.46sec
++3 att vs +2 arm/+2 sh:	28 shots | 19.88sec
++3 att vs +2 arm/+3 sh:	32 shots | 22.72sec
+---
++3 att vs +3 arm/+0 sh:	24 shots | 17.04sec
++3 att vs +3 arm/+1 sh:	26 shots | 18.46sec
++3 att vs +3 arm/+2 sh:	28 shots | 19.88sec
++3 att vs +3 arm/+3 sh:	32 shots | 22.72sec
+---
+---
+hydralisk attacking cannon
+---
++0 att vs +0 arm/+0 sh:	27 shots | 15.93sec
++0 att vs +0 arm/+1 sh:	28 shots | 16.52sec
++0 att vs +0 arm/+2 sh:	29 shots | 17.11sec
++0 att vs +0 arm/+3 sh:	31 shots | 18.29sec
+---
++0 att vs +1 arm/+0 sh:	27 shots | 15.93sec
++0 att vs +1 arm/+1 sh:	28 shots | 16.52sec
++0 att vs +1 arm/+2 sh:	29 shots | 17.11sec
++0 att vs +1 arm/+3 sh:	31 shots | 18.29sec
+---
++0 att vs +2 arm/+0 sh:	27 shots | 15.93sec
++0 att vs +2 arm/+1 sh:	28 shots | 16.52sec
++0 att vs +2 arm/+2 sh:	29 shots | 17.11sec
++0 att vs +2 arm/+3 sh:	31 shots | 18.29sec
+---
++0 att vs +3 arm/+0 sh:	27 shots | 15.93sec
++0 att vs +3 arm/+1 sh:	28 shots | 16.52sec
++0 att vs +3 arm/+2 sh:	29 shots | 17.11sec
++0 att vs +3 arm/+3 sh:	31 shots | 18.29sec
+---
+---
++1 att vs +0 arm/+0 sh:	25 shots | 14.75sec
++1 att vs +0 arm/+1 sh:	26 shots | 15.34sec
++1 att vs +0 arm/+2 sh:	27 shots | 15.93sec
++1 att vs +0 arm/+3 sh:	28 shots | 16.52sec
+---
++1 att vs +1 arm/+0 sh:	25 shots | 14.75sec
++1 att vs +1 arm/+1 sh:	26 shots | 15.34sec
++1 att vs +1 arm/+2 sh:	27 shots | 15.93sec
++1 att vs +1 arm/+3 sh:	28 shots | 16.52sec
+---
++1 att vs +2 arm/+0 sh:	25 shots | 14.75sec
++1 att vs +2 arm/+1 sh:	26 shots | 15.34sec
++1 att vs +2 arm/+2 sh:	27 shots | 15.93sec
++1 att vs +2 arm/+3 sh:	28 shots | 16.52sec
+---
++1 att vs +3 arm/+0 sh:	25 shots | 14.75sec
++1 att vs +3 arm/+1 sh:	26 shots | 15.34sec
++1 att vs +3 arm/+2 sh:	27 shots | 15.93sec
++1 att vs +3 arm/+3 sh:	28 shots | 16.52sec
+---
+---
++2 att vs +0 arm/+0 sh:	23 shots | 13.57sec
++2 att vs +0 arm/+1 sh:	24 shots | 14.16sec
++2 att vs +0 arm/+2 sh:	25 shots | 14.75sec
++2 att vs +0 arm/+3 sh:	26 shots | 15.34sec
+---
++2 att vs +1 arm/+0 sh:	23 shots | 13.57sec
++2 att vs +1 arm/+1 sh:	24 shots | 14.16sec
++2 att vs +1 arm/+2 sh:	25 shots | 14.75sec
++2 att vs +1 arm/+3 sh:	26 shots | 15.34sec
+---
++2 att vs +2 arm/+0 sh:	23 shots | 13.57sec
++2 att vs +2 arm/+1 sh:	24 shots | 14.16sec
++2 att vs +2 arm/+2 sh:	25 shots | 14.75sec
++2 att vs +2 arm/+3 sh:	26 shots | 15.34sec
+---
++2 att vs +3 arm/+0 sh:	23 shots | 13.57sec
++2 att vs +3 arm/+1 sh:	24 shots | 14.16sec
++2 att vs +3 arm/+2 sh:	25 shots | 14.75sec
++2 att vs +3 arm/+3 sh:	26 shots | 15.34sec
+---
+---
++3 att vs +0 arm/+0 sh:	21 shots | 12.39sec
++3 att vs +0 arm/+1 sh:	22 shots | 12.98sec
++3 att vs +0 arm/+2 sh:	23 shots | 13.57sec
++3 att vs +0 arm/+3 sh:	24 shots | 14.16sec
+---
++3 att vs +1 arm/+0 sh:	21 shots | 12.39sec
++3 att vs +1 arm/+1 sh:	22 shots | 12.98sec
++3 att vs +1 arm/+2 sh:	23 shots | 13.57sec
++3 att vs +1 arm/+3 sh:	24 shots | 14.16sec
+---
++3 att vs +2 arm/+0 sh:	21 shots | 12.39sec
++3 att vs +2 arm/+1 sh:	22 shots | 12.98sec
++3 att vs +2 arm/+2 sh:	23 shots | 13.57sec
++3 att vs +2 arm/+3 sh:	24 shots | 14.16sec
+---
++3 att vs +3 arm/+0 sh:	21 shots | 12.39sec
++3 att vs +3 arm/+1 sh:	22 shots | 12.98sec
++3 att vs +3 arm/+2 sh:	23 shots | 13.57sec
++3 att vs +3 arm/+3 sh:	24 shots | 14.16sec
+---
+---
+lurker attacking cannon
+---
++0 att vs +0 arm/+0 sh:	11 shots | 15.73sec
++0 att vs +0 arm/+1 sh:	11 shots | 15.73sec
++0 att vs +0 arm/+2 sh:	11 shots | 15.73sec
++0 att vs +0 arm/+3 sh:	11 shots | 15.73sec
+---
++0 att vs +1 arm/+0 sh:	11 shots | 15.73sec
++0 att vs +1 arm/+1 sh:	11 shots | 15.73sec
++0 att vs +1 arm/+2 sh:	11 shots | 15.73sec
++0 att vs +1 arm/+3 sh:	11 shots | 15.73sec
+---
++0 att vs +2 arm/+0 sh:	11 shots | 15.73sec
++0 att vs +2 arm/+1 sh:	11 shots | 15.73sec
++0 att vs +2 arm/+2 sh:	11 shots | 15.73sec
++0 att vs +2 arm/+3 sh:	11 shots | 15.73sec
+---
++0 att vs +3 arm/+0 sh:	11 shots | 15.73sec
++0 att vs +3 arm/+1 sh:	11 shots | 15.73sec
++0 att vs +3 arm/+2 sh:	11 shots | 15.73sec
++0 att vs +3 arm/+3 sh:	11 shots | 15.73sec
+---
+---
++1 att vs +0 arm/+0 sh:	10 shots | 14.3sec
++1 att vs +0 arm/+1 sh:	10 shots | 14.3sec
++1 att vs +0 arm/+2 sh:	10 shots | 14.3sec
++1 att vs +0 arm/+3 sh:	10 shots | 14.3sec
+---
++1 att vs +1 arm/+0 sh:	10 shots | 14.3sec
++1 att vs +1 arm/+1 sh:	10 shots | 14.3sec
++1 att vs +1 arm/+2 sh:	10 shots | 14.3sec
++1 att vs +1 arm/+3 sh:	10 shots | 14.3sec
+---
++1 att vs +2 arm/+0 sh:	10 shots | 14.3sec
++1 att vs +2 arm/+1 sh:	10 shots | 14.3sec
++1 att vs +2 arm/+2 sh:	10 shots | 14.3sec
++1 att vs +2 arm/+3 sh:	10 shots | 14.3sec
+---
++1 att vs +3 arm/+0 sh:	10 shots | 14.3sec
++1 att vs +3 arm/+1 sh:	10 shots | 14.3sec
++1 att vs +3 arm/+2 sh:	10 shots | 14.3sec
++1 att vs +3 arm/+3 sh:	10 shots | 14.3sec
+---
+---
++2 att vs +0 arm/+0 sh:	9 shots | 12.87sec
++2 att vs +0 arm/+1 sh:	9 shots | 12.87sec
++2 att vs +0 arm/+2 sh:	9 shots | 12.87sec
++2 att vs +0 arm/+3 sh:	9 shots | 12.87sec
+---
++2 att vs +1 arm/+0 sh:	9 shots | 12.87sec
++2 att vs +1 arm/+1 sh:	9 shots | 12.87sec
++2 att vs +1 arm/+2 sh:	9 shots | 12.87sec
++2 att vs +1 arm/+3 sh:	9 shots | 12.87sec
+---
++2 att vs +2 arm/+0 sh:	9 shots | 12.87sec
++2 att vs +2 arm/+1 sh:	9 shots | 12.87sec
++2 att vs +2 arm/+2 sh:	9 shots | 12.87sec
++2 att vs +2 arm/+3 sh:	9 shots | 12.87sec
+---
++2 att vs +3 arm/+0 sh:	9 shots | 12.87sec
++2 att vs +3 arm/+1 sh:	9 shots | 12.87sec
++2 att vs +3 arm/+2 sh:	9 shots | 12.87sec
++2 att vs +3 arm/+3 sh:	9 shots | 12.87sec
+---
+---
++3 att vs +0 arm/+0 sh:	8 shots | 11.44sec
++3 att vs +0 arm/+1 sh:	8 shots | 11.44sec
++3 att vs +0 arm/+2 sh:	9 shots | 12.87sec
++3 att vs +0 arm/+3 sh:	9 shots | 12.87sec
+---
++3 att vs +1 arm/+0 sh:	8 shots | 11.44sec
++3 att vs +1 arm/+1 sh:	8 shots | 11.44sec
++3 att vs +1 arm/+2 sh:	9 shots | 12.87sec
++3 att vs +1 arm/+3 sh:	9 shots | 12.87sec
+---
++3 att vs +2 arm/+0 sh:	8 shots | 11.44sec
++3 att vs +2 arm/+1 sh:	8 shots | 11.44sec
++3 att vs +2 arm/+2 sh:	9 shots | 12.87sec
++3 att vs +2 arm/+3 sh:	9 shots | 12.87sec
+---
++3 att vs +3 arm/+0 sh:	8 shots | 11.44sec
++3 att vs +3 arm/+1 sh:	8 shots | 11.44sec
++3 att vs +3 arm/+2 sh:	9 shots | 12.87sec
++3 att vs +3 arm/+3 sh:	9 shots | 12.87sec
+---
+---
+ultralisk attacking cannon
+---
++0 att vs +0 arm/+0 sh:	9 shots | 5.49sec
++0 att vs +0 arm/+1 sh:	9 shots | 5.49sec
++0 att vs +0 arm/+2 sh:	9 shots | 5.49sec
++0 att vs +0 arm/+3 sh:	10 shots | 6.1sec
+---
++0 att vs +1 arm/+0 sh:	9 shots | 5.49sec
++0 att vs +1 arm/+1 sh:	9 shots | 5.49sec
++0 att vs +1 arm/+2 sh:	9 shots | 5.49sec
++0 att vs +1 arm/+3 sh:	10 shots | 6.1sec
+---
++0 att vs +2 arm/+0 sh:	9 shots | 5.49sec
++0 att vs +2 arm/+1 sh:	9 shots | 5.49sec
++0 att vs +2 arm/+2 sh:	9 shots | 5.49sec
++0 att vs +2 arm/+3 sh:	10 shots | 6.1sec
+---
++0 att vs +3 arm/+0 sh:	9 shots | 5.49sec
++0 att vs +3 arm/+1 sh:	9 shots | 5.49sec
++0 att vs +3 arm/+2 sh:	9 shots | 5.49sec
++0 att vs +3 arm/+3 sh:	10 shots | 6.1sec
+---
+---
++1 att vs +0 arm/+0 sh:	9 shots | 5.49sec
++1 att vs +0 arm/+1 sh:	9 shots | 5.49sec
++1 att vs +0 arm/+2 sh:	9 shots | 5.49sec
++1 att vs +0 arm/+3 sh:	9 shots | 5.49sec
+---
++1 att vs +1 arm/+0 sh:	9 shots | 5.49sec
++1 att vs +1 arm/+1 sh:	9 shots | 5.49sec
++1 att vs +1 arm/+2 sh:	9 shots | 5.49sec
++1 att vs +1 arm/+3 sh:	9 shots | 5.49sec
+---
++1 att vs +2 arm/+0 sh:	9 shots | 5.49sec
++1 att vs +2 arm/+1 sh:	9 shots | 5.49sec
++1 att vs +2 arm/+2 sh:	9 shots | 5.49sec
++1 att vs +2 arm/+3 sh:	9 shots | 5.49sec
+---
++1 att vs +3 arm/+0 sh:	9 shots | 5.49sec
++1 att vs +3 arm/+1 sh:	9 shots | 5.49sec
++1 att vs +3 arm/+2 sh:	9 shots | 5.49sec
++1 att vs +3 arm/+3 sh:	9 shots | 5.49sec
+---
+---
++2 att vs +0 arm/+0 sh:	8 shots | 4.88sec
++2 att vs +0 arm/+1 sh:	8 shots | 4.88sec
++2 att vs +0 arm/+2 sh:	8 shots | 4.88sec
++2 att vs +0 arm/+3 sh:	8 shots | 4.88sec
+---
++2 att vs +1 arm/+0 sh:	8 shots | 4.88sec
++2 att vs +1 arm/+1 sh:	8 shots | 4.88sec
++2 att vs +1 arm/+2 sh:	8 shots | 4.88sec
++2 att vs +1 arm/+3 sh:	8 shots | 4.88sec
+---
++2 att vs +2 arm/+0 sh:	8 shots | 4.88sec
++2 att vs +2 arm/+1 sh:	8 shots | 4.88sec
++2 att vs +2 arm/+2 sh:	8 shots | 4.88sec
++2 att vs +2 arm/+3 sh:	8 shots | 4.88sec
+---
++2 att vs +3 arm/+0 sh:	8 shots | 4.88sec
++2 att vs +3 arm/+1 sh:	8 shots | 4.88sec
++2 att vs +3 arm/+2 sh:	8 shots | 4.88sec
++2 att vs +3 arm/+3 sh:	8 shots | 4.88sec
+---
+---
++3 att vs +0 arm/+0 sh:	7 shots | 4.27sec
++3 att vs +0 arm/+1 sh:	7 shots | 4.27sec
++3 att vs +0 arm/+2 sh:	8 shots | 4.88sec
++3 att vs +0 arm/+3 sh:	8 shots | 4.88sec
+---
++3 att vs +1 arm/+0 sh:	7 shots | 4.27sec
++3 att vs +1 arm/+1 sh:	7 shots | 4.27sec
++3 att vs +1 arm/+2 sh:	8 shots | 4.88sec
++3 att vs +1 arm/+3 sh:	8 shots | 4.88sec
+---
++3 att vs +2 arm/+0 sh:	7 shots | 4.27sec
++3 att vs +2 arm/+1 sh:	7 shots | 4.27sec
++3 att vs +2 arm/+2 sh:	8 shots | 4.88sec
++3 att vs +2 arm/+3 sh:	8 shots | 4.88sec
+---
++3 att vs +3 arm/+0 sh:	7 shots | 4.27sec
++3 att vs +3 arm/+1 sh:	7 shots | 4.27sec
++3 att vs +3 arm/+2 sh:	8 shots | 4.88sec
++3 att vs +3 arm/+3 sh:	8 shots | 4.88sec
+---
+---
+spinecrawler attacking cannon
+---
++0 att vs +0 arm/+0 sh:	11 shots | 14.52sec
++0 att vs +0 arm/+1 sh:	11 shots | 14.52sec
++0 att vs +0 arm/+2 sh:	11 shots | 14.52sec
++0 att vs +0 arm/+3 sh:	11 shots | 14.52sec
+---
++0 att vs +1 arm/+0 sh:	11 shots | 14.52sec
++0 att vs +1 arm/+1 sh:	11 shots | 14.52sec
++0 att vs +1 arm/+2 sh:	11 shots | 14.52sec
++0 att vs +1 arm/+3 sh:	11 shots | 14.52sec
+---
++0 att vs +2 arm/+0 sh:	11 shots | 14.52sec
++0 att vs +2 arm/+1 sh:	11 shots | 14.52sec
++0 att vs +2 arm/+2 sh:	11 shots | 14.52sec
++0 att vs +2 arm/+3 sh:	11 shots | 14.52sec
+---
++0 att vs +3 arm/+0 sh:	11 shots | 14.52sec
++0 att vs +3 arm/+1 sh:	11 shots | 14.52sec
++0 att vs +3 arm/+2 sh:	11 shots | 14.52sec
++0 att vs +3 arm/+3 sh:	11 shots | 14.52sec
+---
+---
++1 att vs +0 arm/+0 sh:	11 shots | 14.52sec
++1 att vs +0 arm/+1 sh:	11 shots | 14.52sec
++1 att vs +0 arm/+2 sh:	11 shots | 14.52sec
++1 att vs +0 arm/+3 sh:	11 shots | 14.52sec
+---
++1 att vs +1 arm/+0 sh:	11 shots | 14.52sec
++1 att vs +1 arm/+1 sh:	11 shots | 14.52sec
++1 att vs +1 arm/+2 sh:	11 shots | 14.52sec
++1 att vs +1 arm/+3 sh:	11 shots | 14.52sec
+---
++1 att vs +2 arm/+0 sh:	11 shots | 14.52sec
++1 att vs +2 arm/+1 sh:	11 shots | 14.52sec
++1 att vs +2 arm/+2 sh:	11 shots | 14.52sec
++1 att vs +2 arm/+3 sh:	11 shots | 14.52sec
+---
++1 att vs +3 arm/+0 sh:	11 shots | 14.52sec
++1 att vs +3 arm/+1 sh:	11 shots | 14.52sec
++1 att vs +3 arm/+2 sh:	11 shots | 14.52sec
++1 att vs +3 arm/+3 sh:	11 shots | 14.52sec
+---
+---
++2 att vs +0 arm/+0 sh:	11 shots | 14.52sec
++2 att vs +0 arm/+1 sh:	11 shots | 14.52sec
++2 att vs +0 arm/+2 sh:	11 shots | 14.52sec
++2 att vs +0 arm/+3 sh:	11 shots | 14.52sec
+---
++2 att vs +1 arm/+0 sh:	11 shots | 14.52sec
++2 att vs +1 arm/+1 sh:	11 shots | 14.52sec
++2 att vs +1 arm/+2 sh:	11 shots | 14.52sec
++2 att vs +1 arm/+3 sh:	11 shots | 14.52sec
+---
++2 att vs +2 arm/+0 sh:	11 shots | 14.52sec
++2 att vs +2 arm/+1 sh:	11 shots | 14.52sec
++2 att vs +2 arm/+2 sh:	11 shots | 14.52sec
++2 att vs +2 arm/+3 sh:	11 shots | 14.52sec
+---
++2 att vs +3 arm/+0 sh:	11 shots | 14.52sec
++2 att vs +3 arm/+1 sh:	11 shots | 14.52sec
++2 att vs +3 arm/+2 sh:	11 shots | 14.52sec
++2 att vs +3 arm/+3 sh:	11 shots | 14.52sec
+---
+---
++3 att vs +0 arm/+0 sh:	11 shots | 14.52sec
++3 att vs +0 arm/+1 sh:	11 shots | 14.52sec
++3 att vs +0 arm/+2 sh:	11 shots | 14.52sec
++3 att vs +0 arm/+3 sh:	11 shots | 14.52sec
+---
++3 att vs +1 arm/+0 sh:	11 shots | 14.52sec
++3 att vs +1 arm/+1 sh:	11 shots | 14.52sec
++3 att vs +1 arm/+2 sh:	11 shots | 14.52sec
++3 att vs +1 arm/+3 sh:	11 shots | 14.52sec
+---
++3 att vs +2 arm/+0 sh:	11 shots | 14.52sec
++3 att vs +2 arm/+1 sh:	11 shots | 14.52sec
++3 att vs +2 arm/+2 sh:	11 shots | 14.52sec
++3 att vs +2 arm/+3 sh:	11 shots | 14.52sec
+---
++3 att vs +3 arm/+0 sh:	11 shots | 14.52sec
++3 att vs +3 arm/+1 sh:	11 shots | 14.52sec
++3 att vs +3 arm/+2 sh:	11 shots | 14.52sec
++3 att vs +3 arm/+3 sh:	11 shots | 14.52sec
+---
+---

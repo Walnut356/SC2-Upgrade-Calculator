@@ -1,0 +1,575 @@
+stalker attacking zergling
+---
++0 att vs +0 arm:     	3 shots | 2.58sec
++0 att vs +1 arm:     	3 shots | 2.58sec
++0 att vs +2 arm:     	4 shots | 3.44sec
++0 att vs +3 arm:     	4 shots | 3.44sec
+---
++1 att vs +0 arm:     	3 shots | 2.58sec
++1 att vs +1 arm:     	3 shots | 2.58sec
++1 att vs +2 arm:     	3 shots | 2.58sec
++1 att vs +3 arm:     	4 shots | 3.44sec
+---
++2 att vs +0 arm:     	2 shots | 1.72sec
++2 att vs +1 arm:     	3 shots | 2.58sec
++2 att vs +2 arm:     	3 shots | 2.58sec
++2 att vs +3 arm:     	3 shots | 2.58sec
+---
++3 att vs +0 arm:     	2 shots | 1.72sec
++3 att vs +1 arm:     	2 shots | 1.72sec
++3 att vs +2 arm:     	3 shots | 2.58sec
++3 att vs +3 arm:     	3 shots | 2.58sec
+---
+---
+stalker attacking zergling
+---
++0 att vs +0 arm:     	3 shots | 4.02sec
++0 att vs +1 arm:     	4 shots | 5.36sec
++0 att vs +2 arm:     	4 shots | 5.36sec
++0 att vs +3 arm:     	4 shots | 5.36sec
+---
++1 att vs +0 arm:     	3 shots | 4.02sec
++1 att vs +1 arm:     	3 shots | 4.02sec
++1 att vs +2 arm:     	4 shots | 5.36sec
++1 att vs +3 arm:     	4 shots | 5.36sec
+---
++2 att vs +0 arm:     	3 shots | 4.02sec
++2 att vs +1 arm:     	3 shots | 4.02sec
++2 att vs +2 arm:     	3 shots | 4.02sec
++2 att vs +3 arm:     	4 shots | 5.36sec
+---
++3 att vs +0 arm:     	3 shots | 4.02sec
++3 att vs +1 arm:     	3 shots | 4.02sec
++3 att vs +2 arm:     	3 shots | 4.02sec
++3 att vs +3 arm:     	3 shots | 4.02sec
+---
+---
+adept attacking zergling
+---
++0 att vs +0 arm:     	2 shots | 2.22sec
++0 att vs +1 arm:     	2 shots | 2.22sec
++0 att vs +2 arm:     	2 shots | 2.22sec
++0 att vs +3 arm:     	2 shots | 2.22sec
+---
++1 att vs +0 arm:     	2 shots | 2.22sec
++1 att vs +1 arm:     	2 shots | 2.22sec
++1 att vs +2 arm:     	2 shots | 2.22sec
++1 att vs +3 arm:     	2 shots | 2.22sec
+---
++2 att vs +0 arm:     	2 shots | 2.22sec
++2 att vs +1 arm:     	2 shots | 2.22sec
++2 att vs +2 arm:     	2 shots | 2.22sec
++2 att vs +3 arm:     	2 shots | 2.22sec
+---
++3 att vs +0 arm:     	2 shots | 2.22sec
++3 att vs +1 arm:     	2 shots | 2.22sec
++3 att vs +2 arm:     	2 shots | 2.22sec
++3 att vs +3 arm:     	2 shots | 2.22sec
+---
+---
+archon attacking zergling
+---
++0 att vs +0 arm:     	2 shots | 2.5sec
++0 att vs +1 arm:     	2 shots | 2.5sec
++0 att vs +2 arm:     	2 shots | 2.5sec
++0 att vs +3 arm:     	2 shots | 2.5sec
+---
++1 att vs +0 arm:     	1 shots | 1.25sec
++1 att vs +1 arm:     	1 shots | 1.25sec
++1 att vs +2 arm:     	1 shots | 1.25sec
++1 att vs +3 arm:     	1 shots | 1.25sec
+---
++2 att vs +0 arm:     	1 shots | 1.25sec
++2 att vs +1 arm:     	1 shots | 1.25sec
++2 att vs +2 arm:     	1 shots | 1.25sec
++2 att vs +3 arm:     	1 shots | 1.25sec
+---
++3 att vs +0 arm:     	1 shots | 1.25sec
++3 att vs +1 arm:     	1 shots | 1.25sec
++3 att vs +2 arm:     	1 shots | 1.25sec
++3 att vs +3 arm:     	1 shots | 1.25sec
+---
+---
+immortal attacking zergling
+---
++0 att vs +0 arm:     	2 shots | 2.08sec
++0 att vs +1 arm:     	2 shots | 2.08sec
++0 att vs +2 arm:     	2 shots | 2.08sec
++0 att vs +3 arm:     	3 shots | 3.12sec
+---
++1 att vs +0 arm:     	2 shots | 2.08sec
++1 att vs +1 arm:     	2 shots | 2.08sec
++1 att vs +2 arm:     	2 shots | 2.08sec
++1 att vs +3 arm:     	2 shots | 2.08sec
+---
++2 att vs +0 arm:     	2 shots | 2.08sec
++2 att vs +1 arm:     	2 shots | 2.08sec
++2 att vs +2 arm:     	2 shots | 2.08sec
++2 att vs +3 arm:     	2 shots | 2.08sec
+---
++3 att vs +0 arm:     	2 shots | 2.08sec
++3 att vs +1 arm:     	2 shots | 2.08sec
++3 att vs +2 arm:     	2 shots | 2.08sec
++3 att vs +3 arm:     	2 shots | 2.08sec
+---
+---
+colossus attacking zergling
+---
++0 att vs +0 arm:     	2 shots | 2.14sec
++0 att vs +1 arm:     	2 shots | 2.14sec
++0 att vs +2 arm:     	2 shots | 2.14sec
++0 att vs +3 arm:     	2 shots | 2.14sec
+---
++1 att vs +0 arm:     	2 shots | 2.14sec
++1 att vs +1 arm:     	2 shots | 2.14sec
++1 att vs +2 arm:     	2 shots | 2.14sec
++1 att vs +3 arm:     	2 shots | 2.14sec
+---
++2 att vs +0 arm:     	1 shots | 1.07sec
++2 att vs +1 arm:     	1 shots | 1.07sec
++2 att vs +2 arm:     	2 shots | 2.14sec
++2 att vs +3 arm:     	2 shots | 2.14sec
+---
++3 att vs +0 arm:     	1 shots | 1.07sec
++3 att vs +1 arm:     	1 shots | 1.07sec
++3 att vs +2 arm:     	1 shots | 1.07sec
++3 att vs +3 arm:     	1 shots | 1.07sec
+---
+---
+cannon attacking zergling
+---
++0 att vs +0 arm:     	2 shots | 1.78sec
++0 att vs +1 arm:     	2 shots | 1.78sec
++0 att vs +2 arm:     	2 shots | 1.78sec
++0 att vs +3 arm:     	3 shots | 2.67sec
+---
++1 att vs +0 arm:     	2 shots | 1.78sec
++1 att vs +1 arm:     	2 shots | 1.78sec
++1 att vs +2 arm:     	2 shots | 1.78sec
++1 att vs +3 arm:     	3 shots | 2.67sec
+---
++2 att vs +0 arm:     	2 shots | 1.78sec
++2 att vs +1 arm:     	2 shots | 1.78sec
++2 att vs +2 arm:     	2 shots | 1.78sec
++2 att vs +3 arm:     	3 shots | 2.67sec
+---
++3 att vs +0 arm:     	2 shots | 1.78sec
++3 att vs +1 arm:     	2 shots | 1.78sec
++3 att vs +2 arm:     	2 shots | 1.78sec
++3 att vs +3 arm:     	3 shots | 2.67sec
+---
+---
+marine attacking zergling
+---
++0 att vs +0 arm:     	6 shots | 2.442sec
++0 att vs +1 arm:     	8 shots | 3.256sec
++0 att vs +2 arm:     	10 shots | 4.07sec
++0 att vs +3 arm:     	13 shots | 5.291sec
+---
++1 att vs +0 arm:     	6 shots | 2.442sec
++1 att vs +1 arm:     	6 shots | 2.442sec
++1 att vs +2 arm:     	8 shots | 3.256sec
++1 att vs +3 arm:     	10 shots | 4.07sec
+---
++2 att vs +0 arm:     	5 shots | 2.035sec
++2 att vs +1 arm:     	6 shots | 2.442sec
++2 att vs +2 arm:     	6 shots | 2.442sec
++2 att vs +3 arm:     	8 shots | 3.256sec
+---
++3 att vs +0 arm:     	4 shots | 1.628sec
++3 att vs +1 arm:     	5 shots | 2.035sec
++3 att vs +2 arm:     	6 shots | 2.442sec
++3 att vs +3 arm:     	6 shots | 2.442sec
+---
+---
+marauder attacking zergling
+---
++0 att vs +0 arm:     	4 shots | 2.84sec
++0 att vs +1 arm:     	5 shots | 3.55sec
++0 att vs +2 arm:     	5 shots | 3.55sec
++0 att vs +3 arm:     	6 shots | 4.26sec
+---
++1 att vs +0 arm:     	4 shots | 2.84sec
++1 att vs +1 arm:     	4 shots | 2.84sec
++1 att vs +2 arm:     	5 shots | 3.55sec
++1 att vs +3 arm:     	5 shots | 3.55sec
+---
++2 att vs +0 arm:     	3 shots | 2.13sec
++2 att vs +1 arm:     	4 shots | 2.84sec
++2 att vs +2 arm:     	4 shots | 2.84sec
++2 att vs +3 arm:     	5 shots | 3.55sec
+---
++3 att vs +0 arm:     	3 shots | 2.13sec
++3 att vs +1 arm:     	3 shots | 2.13sec
++3 att vs +2 arm:     	4 shots | 2.84sec
++3 att vs +3 arm:     	4 shots | 2.84sec
+---
+---
+reaper attacking zergling
+---
++0 att vs +0 arm:     	5 shots | 3.95sec
++0 att vs +1 arm:     	7 shots | 5.53sec
++0 att vs +2 arm:     	11 shots | 8.69sec
++0 att vs +3 arm:     	26 shots | 20.54sec
+---
++1 att vs +0 arm:     	4 shots | 3.16sec
++1 att vs +1 arm:     	5 shots | 3.95sec
++1 att vs +2 arm:     	7 shots | 5.53sec
++1 att vs +3 arm:     	11 shots | 8.69sec
+---
++2 att vs +0 arm:     	4 shots | 3.16sec
++2 att vs +1 arm:     	4 shots | 3.16sec
++2 att vs +2 arm:     	5 shots | 3.95sec
++2 att vs +3 arm:     	7 shots | 5.53sec
+---
++3 att vs +0 arm:     	3 shots | 2.37sec
++3 att vs +1 arm:     	4 shots | 3.16sec
++3 att vs +2 arm:     	4 shots | 3.16sec
++3 att vs +3 arm:     	5 shots | 3.95sec
+---
+---
+ghost attacking zergling
+---
++0 att vs +0 arm:     	2 shots | 2.14sec
++0 att vs +1 arm:     	2 shots | 2.14sec
++0 att vs +2 arm:     	2 shots | 2.14sec
++0 att vs +3 arm:     	3 shots | 3.21sec
+---
++1 att vs +0 arm:     	2 shots | 2.14sec
++1 att vs +1 arm:     	2 shots | 2.14sec
++1 att vs +2 arm:     	2 shots | 2.14sec
++1 att vs +3 arm:     	2 shots | 2.14sec
+---
++2 att vs +0 arm:     	2 shots | 2.14sec
++2 att vs +1 arm:     	2 shots | 2.14sec
++2 att vs +2 arm:     	2 shots | 2.14sec
++2 att vs +3 arm:     	2 shots | 2.14sec
+---
++3 att vs +0 arm:     	2 shots | 2.14sec
++3 att vs +1 arm:     	2 shots | 2.14sec
++3 att vs +2 arm:     	2 shots | 2.14sec
++3 att vs +3 arm:     	2 shots | 2.14sec
+---
+---
+hellion attacking zergling
+---
++0 att vs +0 arm:     	2 shots | 3.58sec
++0 att vs +1 arm:     	3 shots | 5.37sec
++0 att vs +2 arm:     	3 shots | 5.37sec
++0 att vs +3 arm:     	3 shots | 5.37sec
+---
++1 att vs +0 arm:     	2 shots | 3.58sec
++1 att vs +1 arm:     	2 shots | 3.58sec
++1 att vs +2 arm:     	2 shots | 3.58sec
++1 att vs +3 arm:     	3 shots | 5.37sec
+---
++2 att vs +0 arm:     	2 shots | 3.58sec
++2 att vs +1 arm:     	2 shots | 3.58sec
++2 att vs +2 arm:     	2 shots | 3.58sec
++2 att vs +3 arm:     	2 shots | 3.58sec
+---
++3 att vs +0 arm:     	2 shots | 3.58sec
++3 att vs +1 arm:     	2 shots | 3.58sec
++3 att vs +2 arm:     	2 shots | 3.58sec
++3 att vs +3 arm:     	2 shots | 3.58sec
+---
+---
+hellbat attacking zergling
+---
++0 att vs +0 arm:     	2 shots | 2.86sec
++0 att vs +1 arm:     	2 shots | 2.86sec
++0 att vs +2 arm:     	2 shots | 2.86sec
++0 att vs +3 arm:     	2 shots | 2.86sec
+---
++1 att vs +0 arm:     	2 shots | 2.86sec
++1 att vs +1 arm:     	2 shots | 2.86sec
++1 att vs +2 arm:     	2 shots | 2.86sec
++1 att vs +3 arm:     	2 shots | 2.86sec
+---
++2 att vs +0 arm:     	1 shots | 1.43sec
++2 att vs +1 arm:     	2 shots | 2.86sec
++2 att vs +2 arm:     	2 shots | 2.86sec
++2 att vs +3 arm:     	2 shots | 2.86sec
+---
++3 att vs +0 arm:     	1 shots | 1.43sec
++3 att vs +1 arm:     	1 shots | 1.43sec
++3 att vs +2 arm:     	1 shots | 1.43sec
++3 att vs +3 arm:     	1 shots | 1.43sec
+---
+---
+siegedtank attacking zergling
+---
++0 att vs +0 arm:     	1 shots | 2.14sec
++0 att vs +1 arm:     	1 shots | 2.14sec
++0 att vs +2 arm:     	1 shots | 2.14sec
++0 att vs +3 arm:     	1 shots | 2.14sec
+---
++1 att vs +0 arm:     	1 shots | 2.14sec
++1 att vs +1 arm:     	1 shots | 2.14sec
++1 att vs +2 arm:     	1 shots | 2.14sec
++1 att vs +3 arm:     	1 shots | 2.14sec
+---
++2 att vs +0 arm:     	1 shots | 2.14sec
++2 att vs +1 arm:     	1 shots | 2.14sec
++2 att vs +2 arm:     	1 shots | 2.14sec
++2 att vs +3 arm:     	1 shots | 2.14sec
+---
++3 att vs +0 arm:     	1 shots | 2.14sec
++3 att vs +1 arm:     	1 shots | 2.14sec
++3 att vs +2 arm:     	1 shots | 2.14sec
++3 att vs +3 arm:     	1 shots | 2.14sec
+---
+---
+tank attacking zergling
+---
++0 att vs +0 arm:     	3 shots | 2.22sec
++0 att vs +1 arm:     	3 shots | 2.22sec
++0 att vs +2 arm:     	3 shots | 2.22sec
++0 att vs +3 arm:     	3 shots | 2.22sec
+---
++1 att vs +0 arm:     	3 shots | 2.22sec
++1 att vs +1 arm:     	3 shots | 2.22sec
++1 att vs +2 arm:     	3 shots | 2.22sec
++1 att vs +3 arm:     	3 shots | 2.22sec
+---
++2 att vs +0 arm:     	2 shots | 1.48sec
++2 att vs +1 arm:     	2 shots | 1.48sec
++2 att vs +2 arm:     	3 shots | 2.22sec
++2 att vs +3 arm:     	3 shots | 2.22sec
+---
++3 att vs +0 arm:     	2 shots | 1.48sec
++3 att vs +1 arm:     	2 shots | 1.48sec
++3 att vs +2 arm:     	2 shots | 1.48sec
++3 att vs +3 arm:     	2 shots | 1.48sec
+---
+---
+thor attacking zergling
+---
++0 att vs +0 arm:     	1 shots | 0.91sec
++0 att vs +1 arm:     	1 shots | 0.91sec
++0 att vs +2 arm:     	1 shots | 0.91sec
++0 att vs +3 arm:     	1 shots | 0.91sec
+---
++1 att vs +0 arm:     	1 shots | 0.91sec
++1 att vs +1 arm:     	1 shots | 0.91sec
++1 att vs +2 arm:     	1 shots | 0.91sec
++1 att vs +3 arm:     	1 shots | 0.91sec
+---
++2 att vs +0 arm:     	1 shots | 0.91sec
++2 att vs +1 arm:     	1 shots | 0.91sec
++2 att vs +2 arm:     	1 shots | 0.91sec
++2 att vs +3 arm:     	1 shots | 0.91sec
+---
++3 att vs +0 arm:     	1 shots | 0.91sec
++3 att vs +1 arm:     	1 shots | 0.91sec
++3 att vs +2 arm:     	1 shots | 0.91sec
++3 att vs +3 arm:     	1 shots | 0.91sec
+---
+---
+zergling attacking zergling
+---
++0 att vs +0 arm:     	8 shots | 3.976sec
++0 att vs +1 arm:     	10 shots | 4.97sec
++0 att vs +2 arm:     	13 shots | 6.461sec
++0 att vs +3 arm:     	20 shots | 9.94sec
+---
++1 att vs +0 arm:     	7 shots | 3.479sec
++1 att vs +1 arm:     	8 shots | 3.976sec
++1 att vs +2 arm:     	10 shots | 4.97sec
++1 att vs +3 arm:     	13 shots | 6.461sec
+---
++2 att vs +0 arm:     	6 shots | 2.982sec
++2 att vs +1 arm:     	7 shots | 3.479sec
++2 att vs +2 arm:     	8 shots | 3.976sec
++2 att vs +3 arm:     	10 shots | 4.97sec
+---
++3 att vs +0 arm:     	5 shots | 2.485sec
++3 att vs +1 arm:     	6 shots | 2.982sec
++3 att vs +2 arm:     	7 shots | 3.479sec
++3 att vs +3 arm:     	8 shots | 3.976sec
+---
+---
+baneling attacking zergling
+---
++0 att vs +0 arm:     	2 shots | 0.02sec
++0 att vs +1 arm:     	2 shots | 0.02sec
++0 att vs +2 arm:     	2 shots | 0.02sec
++0 att vs +3 arm:     	2 shots | 0.02sec
+---
++1 att vs +0 arm:     	1 shots | 0.01sec
++1 att vs +1 arm:     	1 shots | 0.01sec
++1 att vs +2 arm:     	1 shots | 0.01sec
++1 att vs +3 arm:     	1 shots | 0.01sec
+---
++2 att vs +0 arm:     	1 shots | 0.01sec
++2 att vs +1 arm:     	1 shots | 0.01sec
++2 att vs +2 arm:     	1 shots | 0.01sec
++2 att vs +3 arm:     	1 shots | 0.01sec
+---
++3 att vs +0 arm:     	1 shots | 0.01sec
++3 att vs +1 arm:     	1 shots | 0.01sec
++3 att vs +2 arm:     	1 shots | 0.01sec
++3 att vs +3 arm:     	1 shots | 0.01sec
+---
+---
+roach attacking zergling
+---
++0 att vs +0 arm:     	3 shots | 4.29sec
++0 att vs +1 arm:     	3 shots | 4.29sec
++0 att vs +2 arm:     	3 shots | 4.29sec
++0 att vs +3 arm:     	3 shots | 4.29sec
+---
++1 att vs +0 arm:     	3 shots | 4.29sec
++1 att vs +1 arm:     	3 shots | 4.29sec
++1 att vs +2 arm:     	3 shots | 4.29sec
++1 att vs +3 arm:     	3 shots | 4.29sec
+---
++2 att vs +0 arm:     	2 shots | 2.86sec
++2 att vs +1 arm:     	2 shots | 2.86sec
++2 att vs +2 arm:     	3 shots | 4.29sec
++2 att vs +3 arm:     	3 shots | 4.29sec
+---
++3 att vs +0 arm:     	2 shots | 2.86sec
++3 att vs +1 arm:     	2 shots | 2.86sec
++3 att vs +2 arm:     	2 shots | 2.86sec
++3 att vs +3 arm:     	2 shots | 2.86sec
+---
+---
+ravager attacking zergling
+---
++0 att vs +0 arm:     	3 shots | 3.42sec
++0 att vs +1 arm:     	3 shots | 3.42sec
++0 att vs +2 arm:     	3 shots | 3.42sec
++0 att vs +3 arm:     	3 shots | 3.42sec
+---
++1 att vs +0 arm:     	2 shots | 2.28sec
++1 att vs +1 arm:     	3 shots | 3.42sec
++1 att vs +2 arm:     	3 shots | 3.42sec
++1 att vs +3 arm:     	3 shots | 3.42sec
+---
++2 att vs +0 arm:     	2 shots | 2.28sec
++2 att vs +1 arm:     	2 shots | 2.28sec
++2 att vs +2 arm:     	2 shots | 2.28sec
++2 att vs +3 arm:     	3 shots | 3.42sec
+---
++3 att vs +0 arm:     	2 shots | 2.28sec
++3 att vs +1 arm:     	2 shots | 2.28sec
++3 att vs +2 arm:     	2 shots | 2.28sec
++3 att vs +3 arm:     	2 shots | 2.28sec
+---
+---
+queen attacking zergling
+---
++0 att vs +0 arm:     	5 shots | 3.55sec
++0 att vs +1 arm:     	7 shots | 4.97sec
++0 att vs +2 arm:     	11 shots | 7.81sec
++0 att vs +3 arm:     	24 shots | 17.04sec
+---
++1 att vs +0 arm:     	4 shots | 2.84sec
++1 att vs +1 arm:     	5 shots | 3.55sec
++1 att vs +2 arm:     	7 shots | 4.97sec
++1 att vs +3 arm:     	11 shots | 7.81sec
+---
++2 att vs +0 arm:     	4 shots | 2.84sec
++2 att vs +1 arm:     	4 shots | 2.84sec
++2 att vs +2 arm:     	5 shots | 3.55sec
++2 att vs +3 arm:     	7 shots | 4.97sec
+---
++3 att vs +0 arm:     	3 shots | 2.13sec
++3 att vs +1 arm:     	4 shots | 2.84sec
++3 att vs +2 arm:     	4 shots | 2.84sec
++3 att vs +3 arm:     	5 shots | 3.55sec
+---
+---
+hydralisk attacking zergling
+---
++0 att vs +0 arm:     	3 shots | 1.77sec
++0 att vs +1 arm:     	4 shots | 2.36sec
++0 att vs +2 arm:     	4 shots | 2.36sec
++0 att vs +3 arm:     	4 shots | 2.36sec
+---
++1 att vs +0 arm:     	3 shots | 1.77sec
++1 att vs +1 arm:     	3 shots | 1.77sec
++1 att vs +2 arm:     	4 shots | 2.36sec
++1 att vs +3 arm:     	4 shots | 2.36sec
+---
++2 att vs +0 arm:     	3 shots | 1.77sec
++2 att vs +1 arm:     	3 shots | 1.77sec
++2 att vs +2 arm:     	3 shots | 1.77sec
++2 att vs +3 arm:     	4 shots | 2.36sec
+---
++3 att vs +0 arm:     	3 shots | 1.77sec
++3 att vs +1 arm:     	3 shots | 1.77sec
++3 att vs +2 arm:     	3 shots | 1.77sec
++3 att vs +3 arm:     	3 shots | 1.77sec
+---
+---
+lurker attacking zergling
+---
++0 att vs +0 arm:     	2 shots | 2.86sec
++0 att vs +1 arm:     	2 shots | 2.86sec
++0 att vs +2 arm:     	3 shots | 4.29sec
++0 att vs +3 arm:     	3 shots | 4.29sec
+---
++1 att vs +0 arm:     	2 shots | 2.86sec
++1 att vs +1 arm:     	2 shots | 2.86sec
++1 att vs +2 arm:     	2 shots | 2.86sec
++1 att vs +3 arm:     	2 shots | 2.86sec
+---
++2 att vs +0 arm:     	2 shots | 2.86sec
++2 att vs +1 arm:     	2 shots | 2.86sec
++2 att vs +2 arm:     	2 shots | 2.86sec
++2 att vs +3 arm:     	2 shots | 2.86sec
+---
++3 att vs +0 arm:     	2 shots | 2.86sec
++3 att vs +1 arm:     	2 shots | 2.86sec
++3 att vs +2 arm:     	2 shots | 2.86sec
++3 att vs +3 arm:     	2 shots | 2.86sec
+---
+---
+ultralisk attacking zergling
+---
++0 att vs +0 arm:     	2 shots | 1.22sec
++0 att vs +1 arm:     	2 shots | 1.22sec
++0 att vs +2 arm:     	2 shots | 1.22sec
++0 att vs +3 arm:     	2 shots | 1.22sec
+---
++1 att vs +0 arm:     	1 shots | 0.61sec
++1 att vs +1 arm:     	1 shots | 0.61sec
++1 att vs +2 arm:     	1 shots | 0.61sec
++1 att vs +3 arm:     	2 shots | 1.22sec
+---
++2 att vs +0 arm:     	1 shots | 0.61sec
++2 att vs +1 arm:     	1 shots | 0.61sec
++2 att vs +2 arm:     	1 shots | 0.61sec
++2 att vs +3 arm:     	1 shots | 0.61sec
+---
++3 att vs +0 arm:     	1 shots | 0.61sec
++3 att vs +1 arm:     	1 shots | 0.61sec
++3 att vs +2 arm:     	1 shots | 0.61sec
++3 att vs +3 arm:     	1 shots | 0.61sec
+---
+---
+spinecrawler attacking zergling
+---
++0 att vs +0 arm:     	2 shots | 2.64sec
++0 att vs +1 arm:     	2 shots | 2.64sec
++0 att vs +2 arm:     	2 shots | 2.64sec
++0 att vs +3 arm:     	2 shots | 2.64sec
+---
++1 att vs +0 arm:     	2 shots | 2.64sec
++1 att vs +1 arm:     	2 shots | 2.64sec
++1 att vs +2 arm:     	2 shots | 2.64sec
++1 att vs +3 arm:     	2 shots | 2.64sec
+---
++2 att vs +0 arm:     	2 shots | 2.64sec
++2 att vs +1 arm:     	2 shots | 2.64sec
++2 att vs +2 arm:     	2 shots | 2.64sec
++2 att vs +3 arm:     	2 shots | 2.64sec
+---
++3 att vs +0 arm:     	2 shots | 2.64sec
++3 att vs +1 arm:     	2 shots | 2.64sec
++3 att vs +2 arm:     	2 shots | 2.64sec
++3 att vs +3 arm:     	2 shots | 2.64sec
+---
+---

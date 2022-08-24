@@ -1,0 +1,2032 @@
+stalker attacking stalker
+---
++0 att vs +0 arm/+0 sh:	11 shots | 9.46sec
++0 att vs +0 arm/+1 sh:	12 shots | 10.32sec
++0 att vs +0 arm/+2 sh:	13 shots | 11.18sec
++0 att vs +0 arm/+3 sh:	14 shots | 12.04sec
+---
++0 att vs +1 arm/+0 sh:	12 shots | 10.32sec
++0 att vs +1 arm/+1 sh:	13 shots | 11.18sec
++0 att vs +1 arm/+2 sh:	14 shots | 12.04sec
++0 att vs +1 arm/+3 sh:	15 shots | 12.9sec
+---
++0 att vs +2 arm/+0 sh:	14 shots | 12.04sec
++0 att vs +2 arm/+1 sh:	14 shots | 12.04sec
++0 att vs +2 arm/+2 sh:	15 shots | 12.9sec
++0 att vs +2 arm/+3 sh:	17 shots | 14.62sec
+---
++0 att vs +3 arm/+0 sh:	16 shots | 13.76sec
++0 att vs +3 arm/+1 sh:	16 shots | 13.76sec
++0 att vs +3 arm/+2 sh:	17 shots | 14.62sec
++0 att vs +3 arm/+3 sh:	19 shots | 16.34sec
+---
+---
++1 att vs +0 arm/+0 sh:	10 shots | 8.6sec
++1 att vs +0 arm/+1 sh:	11 shots | 9.46sec
++1 att vs +0 arm/+2 sh:	11 shots | 9.46sec
++1 att vs +0 arm/+3 sh:	12 shots | 10.32sec
+---
++1 att vs +1 arm/+0 sh:	11 shots | 9.46sec
++1 att vs +1 arm/+1 sh:	11 shots | 9.46sec
++1 att vs +1 arm/+2 sh:	12 shots | 10.32sec
++1 att vs +1 arm/+3 sh:	13 shots | 11.18sec
+---
++1 att vs +2 arm/+0 sh:	12 shots | 10.32sec
++1 att vs +2 arm/+1 sh:	12 shots | 10.32sec
++1 att vs +2 arm/+2 sh:	13 shots | 11.18sec
++1 att vs +2 arm/+3 sh:	14 shots | 12.04sec
+---
++1 att vs +3 arm/+0 sh:	13 shots | 11.18sec
++1 att vs +3 arm/+1 sh:	14 shots | 12.04sec
++1 att vs +3 arm/+2 sh:	14 shots | 12.04sec
++1 att vs +3 arm/+3 sh:	15 shots | 12.9sec
+---
+---
++2 att vs +0 arm/+0 sh:	9 shots | 7.74sec
++2 att vs +0 arm/+1 sh:	9 shots | 7.74sec
++2 att vs +0 arm/+2 sh:	10 shots | 8.6sec
++2 att vs +0 arm/+3 sh:	11 shots | 9.46sec
+---
++2 att vs +1 arm/+0 sh:	10 shots | 8.6sec
++2 att vs +1 arm/+1 sh:	10 shots | 8.6sec
++2 att vs +1 arm/+2 sh:	11 shots | 9.46sec
++2 att vs +1 arm/+3 sh:	11 shots | 9.46sec
+---
++2 att vs +2 arm/+0 sh:	10 shots | 8.6sec
++2 att vs +2 arm/+1 sh:	11 shots | 9.46sec
++2 att vs +2 arm/+2 sh:	11 shots | 9.46sec
++2 att vs +2 arm/+3 sh:	12 shots | 10.32sec
+---
++2 att vs +3 arm/+0 sh:	11 shots | 9.46sec
++2 att vs +3 arm/+1 sh:	12 shots | 10.32sec
++2 att vs +3 arm/+2 sh:	12 shots | 10.32sec
++2 att vs +3 arm/+3 sh:	13 shots | 11.18sec
+---
+---
++3 att vs +0 arm/+0 sh:	8 shots | 6.88sec
++3 att vs +0 arm/+1 sh:	9 shots | 7.74sec
++3 att vs +0 arm/+2 sh:	9 shots | 7.74sec
++3 att vs +0 arm/+3 sh:	10 shots | 8.6sec
+---
++3 att vs +1 arm/+0 sh:	9 shots | 7.74sec
++3 att vs +1 arm/+1 sh:	9 shots | 7.74sec
++3 att vs +1 arm/+2 sh:	9 shots | 7.74sec
++3 att vs +1 arm/+3 sh:	10 shots | 8.6sec
+---
++3 att vs +2 arm/+0 sh:	9 shots | 7.74sec
++3 att vs +2 arm/+1 sh:	10 shots | 8.6sec
++3 att vs +2 arm/+2 sh:	10 shots | 8.6sec
++3 att vs +2 arm/+3 sh:	11 shots | 9.46sec
+---
++3 att vs +3 arm/+0 sh:	10 shots | 8.6sec
++3 att vs +3 arm/+1 sh:	10 shots | 8.6sec
++3 att vs +3 arm/+2 sh:	11 shots | 9.46sec
++3 att vs +3 arm/+3 sh:	11 shots | 9.46sec
+---
+---
+stalker attacking stalker
+---
++0 att vs +0 arm/+0 sh:	11 shots | 9.46sec
++0 att vs +0 arm/+1 sh:	12 shots | 10.32sec
++0 att vs +0 arm/+2 sh:	13 shots | 11.18sec
++0 att vs +0 arm/+3 sh:	14 shots | 12.04sec
+---
++0 att vs +1 arm/+0 sh:	12 shots | 10.32sec
++0 att vs +1 arm/+1 sh:	13 shots | 11.18sec
++0 att vs +1 arm/+2 sh:	14 shots | 12.04sec
++0 att vs +1 arm/+3 sh:	15 shots | 12.9sec
+---
++0 att vs +2 arm/+0 sh:	14 shots | 12.04sec
++0 att vs +2 arm/+1 sh:	14 shots | 12.04sec
++0 att vs +2 arm/+2 sh:	15 shots | 12.9sec
++0 att vs +2 arm/+3 sh:	17 shots | 14.62sec
+---
++0 att vs +3 arm/+0 sh:	16 shots | 13.76sec
++0 att vs +3 arm/+1 sh:	16 shots | 13.76sec
++0 att vs +3 arm/+2 sh:	17 shots | 14.62sec
++0 att vs +3 arm/+3 sh:	19 shots | 16.34sec
+---
+---
++1 att vs +0 arm/+0 sh:	10 shots | 8.6sec
++1 att vs +0 arm/+1 sh:	11 shots | 9.46sec
++1 att vs +0 arm/+2 sh:	11 shots | 9.46sec
++1 att vs +0 arm/+3 sh:	12 shots | 10.32sec
+---
++1 att vs +1 arm/+0 sh:	11 shots | 9.46sec
++1 att vs +1 arm/+1 sh:	11 shots | 9.46sec
++1 att vs +1 arm/+2 sh:	12 shots | 10.32sec
++1 att vs +1 arm/+3 sh:	13 shots | 11.18sec
+---
++1 att vs +2 arm/+0 sh:	12 shots | 10.32sec
++1 att vs +2 arm/+1 sh:	12 shots | 10.32sec
++1 att vs +2 arm/+2 sh:	13 shots | 11.18sec
++1 att vs +2 arm/+3 sh:	14 shots | 12.04sec
+---
++1 att vs +3 arm/+0 sh:	13 shots | 11.18sec
++1 att vs +3 arm/+1 sh:	14 shots | 12.04sec
++1 att vs +3 arm/+2 sh:	14 shots | 12.04sec
++1 att vs +3 arm/+3 sh:	15 shots | 12.9sec
+---
+---
++2 att vs +0 arm/+0 sh:	9 shots | 7.74sec
++2 att vs +0 arm/+1 sh:	9 shots | 7.74sec
++2 att vs +0 arm/+2 sh:	10 shots | 8.6sec
++2 att vs +0 arm/+3 sh:	11 shots | 9.46sec
+---
++2 att vs +1 arm/+0 sh:	10 shots | 8.6sec
++2 att vs +1 arm/+1 sh:	10 shots | 8.6sec
++2 att vs +1 arm/+2 sh:	11 shots | 9.46sec
++2 att vs +1 arm/+3 sh:	11 shots | 9.46sec
+---
++2 att vs +2 arm/+0 sh:	10 shots | 8.6sec
++2 att vs +2 arm/+1 sh:	11 shots | 9.46sec
++2 att vs +2 arm/+2 sh:	11 shots | 9.46sec
++2 att vs +2 arm/+3 sh:	12 shots | 10.32sec
+---
++2 att vs +3 arm/+0 sh:	11 shots | 9.46sec
++2 att vs +3 arm/+1 sh:	12 shots | 10.32sec
++2 att vs +3 arm/+2 sh:	12 shots | 10.32sec
++2 att vs +3 arm/+3 sh:	13 shots | 11.18sec
+---
+---
++3 att vs +0 arm/+0 sh:	8 shots | 6.88sec
++3 att vs +0 arm/+1 sh:	9 shots | 7.74sec
++3 att vs +0 arm/+2 sh:	9 shots | 7.74sec
++3 att vs +0 arm/+3 sh:	10 shots | 8.6sec
+---
++3 att vs +1 arm/+0 sh:	9 shots | 7.74sec
++3 att vs +1 arm/+1 sh:	9 shots | 7.74sec
++3 att vs +1 arm/+2 sh:	9 shots | 7.74sec
++3 att vs +1 arm/+3 sh:	10 shots | 8.6sec
+---
++3 att vs +2 arm/+0 sh:	9 shots | 7.74sec
++3 att vs +2 arm/+1 sh:	10 shots | 8.6sec
++3 att vs +2 arm/+2 sh:	10 shots | 8.6sec
++3 att vs +2 arm/+3 sh:	11 shots | 9.46sec
+---
++3 att vs +3 arm/+0 sh:	10 shots | 8.6sec
++3 att vs +3 arm/+1 sh:	10 shots | 8.6sec
++3 att vs +3 arm/+2 sh:	11 shots | 9.46sec
++3 att vs +3 arm/+3 sh:	11 shots | 9.46sec
+---
+---
+stalker attacking adept
+---
++0 att vs +0 arm/+0 sh:	10 shots | 8.6sec
++0 att vs +0 arm/+1 sh:	11 shots | 9.46sec
++0 att vs +0 arm/+2 sh:	11 shots | 9.46sec
++0 att vs +0 arm/+3 sh:	13 shots | 11.18sec
+---
++0 att vs +1 arm/+0 sh:	11 shots | 9.46sec
++0 att vs +1 arm/+1 sh:	11 shots | 9.46sec
++0 att vs +1 arm/+2 sh:	12 shots | 10.32sec
++0 att vs +1 arm/+3 sh:	13 shots | 11.18sec
+---
++0 att vs +2 arm/+0 sh:	12 shots | 10.32sec
++0 att vs +2 arm/+1 sh:	13 shots | 11.18sec
++0 att vs +2 arm/+2 sh:	13 shots | 11.18sec
++0 att vs +2 arm/+3 sh:	15 shots | 12.9sec
+---
++0 att vs +3 arm/+0 sh:	14 shots | 12.04sec
++0 att vs +3 arm/+1 sh:	14 shots | 12.04sec
++0 att vs +3 arm/+2 sh:	15 shots | 12.9sec
++0 att vs +3 arm/+3 sh:	16 shots | 13.76sec
+---
+---
++1 att vs +0 arm/+0 sh:	9 shots | 7.74sec
++1 att vs +0 arm/+1 sh:	9 shots | 7.74sec
++1 att vs +0 arm/+2 sh:	10 shots | 8.6sec
++1 att vs +0 arm/+3 sh:	11 shots | 9.46sec
+---
++1 att vs +1 arm/+0 sh:	9 shots | 7.74sec
++1 att vs +1 arm/+1 sh:	10 shots | 8.6sec
++1 att vs +1 arm/+2 sh:	11 shots | 9.46sec
++1 att vs +1 arm/+3 sh:	11 shots | 9.46sec
+---
++1 att vs +2 arm/+0 sh:	10 shots | 8.6sec
++1 att vs +2 arm/+1 sh:	11 shots | 9.46sec
++1 att vs +2 arm/+2 sh:	11 shots | 9.46sec
++1 att vs +2 arm/+3 sh:	12 shots | 10.32sec
+---
++1 att vs +3 arm/+0 sh:	11 shots | 9.46sec
++1 att vs +3 arm/+1 sh:	12 shots | 10.32sec
++1 att vs +3 arm/+2 sh:	13 shots | 11.18sec
++1 att vs +3 arm/+3 sh:	13 shots | 11.18sec
+---
+---
++2 att vs +0 arm/+0 sh:	8 shots | 6.88sec
++2 att vs +0 arm/+1 sh:	8 shots | 6.88sec
++2 att vs +0 arm/+2 sh:	9 shots | 7.74sec
++2 att vs +0 arm/+3 sh:	9 shots | 7.74sec
+---
++2 att vs +1 arm/+0 sh:	8 shots | 6.88sec
++2 att vs +1 arm/+1 sh:	9 shots | 7.74sec
++2 att vs +1 arm/+2 sh:	9 shots | 7.74sec
++2 att vs +1 arm/+3 sh:	10 shots | 8.6sec
+---
++2 att vs +2 arm/+0 sh:	9 shots | 7.74sec
++2 att vs +2 arm/+1 sh:	9 shots | 7.74sec
++2 att vs +2 arm/+2 sh:	10 shots | 8.6sec
++2 att vs +2 arm/+3 sh:	11 shots | 9.46sec
+---
++2 att vs +3 arm/+0 sh:	10 shots | 8.6sec
++2 att vs +3 arm/+1 sh:	10 shots | 8.6sec
++2 att vs +3 arm/+2 sh:	11 shots | 9.46sec
++2 att vs +3 arm/+3 sh:	11 shots | 9.46sec
+---
+---
++3 att vs +0 arm/+0 sh:	7 shots | 6.02sec
++3 att vs +0 arm/+1 sh:	8 shots | 6.88sec
++3 att vs +0 arm/+2 sh:	8 shots | 6.88sec
++3 att vs +0 arm/+3 sh:	8 shots | 6.88sec
+---
++3 att vs +1 arm/+0 sh:	8 shots | 6.88sec
++3 att vs +1 arm/+1 sh:	8 shots | 6.88sec
++3 att vs +1 arm/+2 sh:	8 shots | 6.88sec
++3 att vs +1 arm/+3 sh:	9 shots | 7.74sec
+---
++3 att vs +2 arm/+0 sh:	8 shots | 6.88sec
++3 att vs +2 arm/+1 sh:	8 shots | 6.88sec
++3 att vs +2 arm/+2 sh:	9 shots | 7.74sec
++3 att vs +2 arm/+3 sh:	9 shots | 7.74sec
+---
++3 att vs +3 arm/+0 sh:	9 shots | 7.74sec
++3 att vs +3 arm/+1 sh:	9 shots | 7.74sec
++3 att vs +3 arm/+2 sh:	9 shots | 7.74sec
++3 att vs +3 arm/+3 sh:	10 shots | 8.6sec
+---
+---
+stalker attacking archon
+---
++0 att vs +0 arm/+0 sh:	23 shots | 19.78sec
++0 att vs +0 arm/+1 sh:	26 shots | 22.36sec
++0 att vs +0 arm/+2 sh:	30 shots | 25.8sec
++0 att vs +0 arm/+3 sh:	36 shots | 30.96sec
+---
++0 att vs +1 arm/+0 sh:	23 shots | 19.78sec
++0 att vs +1 arm/+1 sh:	26 shots | 22.36sec
++0 att vs +1 arm/+2 sh:	30 shots | 25.8sec
++0 att vs +1 arm/+3 sh:	36 shots | 30.96sec
+---
++0 att vs +2 arm/+0 sh:	23 shots | 19.78sec
++0 att vs +2 arm/+1 sh:	26 shots | 22.36sec
++0 att vs +2 arm/+2 sh:	31 shots | 26.66sec
++0 att vs +2 arm/+3 sh:	36 shots | 30.96sec
+---
++0 att vs +3 arm/+0 sh:	23 shots | 19.78sec
++0 att vs +3 arm/+1 sh:	27 shots | 23.22sec
++0 att vs +3 arm/+2 sh:	31 shots | 26.66sec
++0 att vs +3 arm/+3 sh:	37 shots | 31.82sec
+---
+---
++1 att vs +0 arm/+0 sh:	21 shots | 18.06sec
++1 att vs +0 arm/+1 sh:	23 shots | 19.78sec
++1 att vs +0 arm/+2 sh:	26 shots | 22.36sec
++1 att vs +0 arm/+3 sh:	30 shots | 25.8sec
+---
++1 att vs +1 arm/+0 sh:	21 shots | 18.06sec
++1 att vs +1 arm/+1 sh:	23 shots | 19.78sec
++1 att vs +1 arm/+2 sh:	26 shots | 22.36sec
++1 att vs +1 arm/+3 sh:	30 shots | 25.8sec
+---
++1 att vs +2 arm/+0 sh:	21 shots | 18.06sec
++1 att vs +2 arm/+1 sh:	23 shots | 19.78sec
++1 att vs +2 arm/+2 sh:	26 shots | 22.36sec
++1 att vs +2 arm/+3 sh:	30 shots | 25.8sec
+---
++1 att vs +3 arm/+0 sh:	21 shots | 18.06sec
++1 att vs +3 arm/+1 sh:	23 shots | 19.78sec
++1 att vs +3 arm/+2 sh:	26 shots | 22.36sec
++1 att vs +3 arm/+3 sh:	31 shots | 26.66sec
+---
+---
++2 att vs +0 arm/+0 sh:	19 shots | 16.34sec
++2 att vs +0 arm/+1 sh:	20 shots | 17.2sec
++2 att vs +0 arm/+2 sh:	23 shots | 19.78sec
++2 att vs +0 arm/+3 sh:	26 shots | 22.36sec
+---
++2 att vs +1 arm/+0 sh:	19 shots | 16.34sec
++2 att vs +1 arm/+1 sh:	21 shots | 18.06sec
++2 att vs +1 arm/+2 sh:	23 shots | 19.78sec
++2 att vs +1 arm/+3 sh:	26 shots | 22.36sec
+---
++2 att vs +2 arm/+0 sh:	19 shots | 16.34sec
++2 att vs +2 arm/+1 sh:	21 shots | 18.06sec
++2 att vs +2 arm/+2 sh:	23 shots | 19.78sec
++2 att vs +2 arm/+3 sh:	26 shots | 22.36sec
+---
++2 att vs +3 arm/+0 sh:	19 shots | 16.34sec
++2 att vs +3 arm/+1 sh:	21 shots | 18.06sec
++2 att vs +3 arm/+2 sh:	23 shots | 19.78sec
++2 att vs +3 arm/+3 sh:	26 shots | 22.36sec
+---
+---
++3 att vs +0 arm/+0 sh:	17 shots | 14.62sec
++3 att vs +0 arm/+1 sh:	18 shots | 15.48sec
++3 att vs +0 arm/+2 sh:	20 shots | 17.2sec
++3 att vs +0 arm/+3 sh:	23 shots | 19.78sec
+---
++3 att vs +1 arm/+0 sh:	17 shots | 14.62sec
++3 att vs +1 arm/+1 sh:	19 shots | 16.34sec
++3 att vs +1 arm/+2 sh:	20 shots | 17.2sec
++3 att vs +1 arm/+3 sh:	23 shots | 19.78sec
+---
++3 att vs +2 arm/+0 sh:	17 shots | 14.62sec
++3 att vs +2 arm/+1 sh:	19 shots | 16.34sec
++3 att vs +2 arm/+2 sh:	21 shots | 18.06sec
++3 att vs +2 arm/+3 sh:	23 shots | 19.78sec
+---
++3 att vs +3 arm/+0 sh:	17 shots | 14.62sec
++3 att vs +3 arm/+1 sh:	19 shots | 16.34sec
++3 att vs +3 arm/+2 sh:	21 shots | 18.06sec
++3 att vs +3 arm/+3 sh:	23 shots | 19.78sec
+---
+---
+stalker attacking immortal
+---
++0 att vs +0 arm/+0 sh:	21 shots | 18.06sec
++0 att vs +0 arm/+1 sh:	22 shots | 18.92sec
++0 att vs +0 arm/+2 sh:	23 shots | 19.78sec
++0 att vs +0 arm/+3 sh:	25 shots | 21.5sec
+---
++0 att vs +1 arm/+0 sh:	23 shots | 19.78sec
++0 att vs +1 arm/+1 sh:	24 shots | 20.64sec
++0 att vs +1 arm/+2 sh:	26 shots | 22.36sec
++0 att vs +1 arm/+3 sh:	27 shots | 23.22sec
+---
++0 att vs +2 arm/+0 sh:	27 shots | 23.22sec
++0 att vs +2 arm/+1 sh:	28 shots | 24.08sec
++0 att vs +2 arm/+2 sh:	29 shots | 24.94sec
++0 att vs +2 arm/+3 sh:	31 shots | 26.66sec
+---
++0 att vs +3 arm/+0 sh:	32 shots | 27.52sec
++0 att vs +3 arm/+1 sh:	33 shots | 28.38sec
++0 att vs +3 arm/+2 sh:	34 shots | 29.24sec
++0 att vs +3 arm/+3 sh:	36 shots | 30.96sec
+---
+---
++1 att vs +0 arm/+0 sh:	19 shots | 16.34sec
++1 att vs +0 arm/+1 sh:	19 shots | 16.34sec
++1 att vs +0 arm/+2 sh:	20 shots | 17.2sec
++1 att vs +0 arm/+3 sh:	21 shots | 18.06sec
+---
++1 att vs +1 arm/+0 sh:	20 shots | 17.2sec
++1 att vs +1 arm/+1 sh:	21 shots | 18.06sec
++1 att vs +1 arm/+2 sh:	22 shots | 18.92sec
++1 att vs +1 arm/+3 sh:	23 shots | 19.78sec
+---
++1 att vs +2 arm/+0 sh:	23 shots | 19.78sec
++1 att vs +2 arm/+1 sh:	23 shots | 19.78sec
++1 att vs +2 arm/+2 sh:	24 shots | 20.64sec
++1 att vs +2 arm/+3 sh:	26 shots | 22.36sec
+---
++1 att vs +3 arm/+0 sh:	26 shots | 22.36sec
++1 att vs +3 arm/+1 sh:	27 shots | 23.22sec
++1 att vs +3 arm/+2 sh:	28 shots | 24.08sec
++1 att vs +3 arm/+3 sh:	29 shots | 24.94sec
+---
+---
++2 att vs +0 arm/+0 sh:	17 shots | 14.62sec
++2 att vs +0 arm/+1 sh:	17 shots | 14.62sec
++2 att vs +0 arm/+2 sh:	18 shots | 15.48sec
++2 att vs +0 arm/+3 sh:	19 shots | 16.34sec
+---
++2 att vs +1 arm/+0 sh:	18 shots | 15.48sec
++2 att vs +1 arm/+1 sh:	19 shots | 16.34sec
++2 att vs +1 arm/+2 sh:	19 shots | 16.34sec
++2 att vs +1 arm/+3 sh:	20 shots | 17.2sec
+---
++2 att vs +2 arm/+0 sh:	20 shots | 17.2sec
++2 att vs +2 arm/+1 sh:	20 shots | 17.2sec
++2 att vs +2 arm/+2 sh:	21 shots | 18.06sec
++2 att vs +2 arm/+3 sh:	22 shots | 18.92sec
+---
++2 att vs +3 arm/+0 sh:	22 shots | 18.92sec
++2 att vs +3 arm/+1 sh:	23 shots | 19.78sec
++2 att vs +3 arm/+2 sh:	23 shots | 19.78sec
++2 att vs +3 arm/+3 sh:	24 shots | 20.64sec
+---
+---
++3 att vs +0 arm/+0 sh:	15 shots | 12.9sec
++3 att vs +0 arm/+1 sh:	16 shots | 13.76sec
++3 att vs +0 arm/+2 sh:	16 shots | 13.76sec
++3 att vs +0 arm/+3 sh:	17 shots | 14.62sec
+---
++3 att vs +1 arm/+0 sh:	16 shots | 13.76sec
++3 att vs +1 arm/+1 sh:	17 shots | 14.62sec
++3 att vs +1 arm/+2 sh:	17 shots | 14.62sec
++3 att vs +1 arm/+3 sh:	18 shots | 15.48sec
+---
++3 att vs +2 arm/+0 sh:	17 shots | 14.62sec
++3 att vs +2 arm/+1 sh:	18 shots | 15.48sec
++3 att vs +2 arm/+2 sh:	19 shots | 16.34sec
++3 att vs +2 arm/+3 sh:	19 shots | 16.34sec
+---
++3 att vs +3 arm/+0 sh:	19 shots | 16.34sec
++3 att vs +3 arm/+1 sh:	20 shots | 17.2sec
++3 att vs +3 arm/+2 sh:	20 shots | 17.2sec
++3 att vs +3 arm/+3 sh:	21 shots | 18.06sec
+---
+---
+stalker attacking colossus
+---
++0 att vs +0 arm/+0 sh:	24 shots | 20.64sec
++0 att vs +0 arm/+1 sh:	26 shots | 22.36sec
++0 att vs +0 arm/+2 sh:	27 shots | 23.22sec
++0 att vs +0 arm/+3 sh:	30 shots | 25.8sec
+---
++0 att vs +1 arm/+0 sh:	27 shots | 23.22sec
++0 att vs +1 arm/+1 sh:	28 shots | 24.08sec
++0 att vs +1 arm/+2 sh:	30 shots | 25.8sec
++0 att vs +1 arm/+3 sh:	32 shots | 27.52sec
+---
++0 att vs +2 arm/+0 sh:	30 shots | 25.8sec
++0 att vs +2 arm/+1 sh:	31 shots | 26.66sec
++0 att vs +2 arm/+2 sh:	33 shots | 28.38sec
++0 att vs +2 arm/+3 sh:	36 shots | 30.96sec
+---
++0 att vs +3 arm/+0 sh:	35 shots | 30.1sec
++0 att vs +3 arm/+1 sh:	36 shots | 30.96sec
++0 att vs +3 arm/+2 sh:	38 shots | 32.68sec
++0 att vs +3 arm/+3 sh:	41 shots | 35.26sec
+---
+---
++1 att vs +0 arm/+0 sh:	21 shots | 18.06sec
++1 att vs +0 arm/+1 sh:	22 shots | 18.92sec
++1 att vs +0 arm/+2 sh:	24 shots | 20.64sec
++1 att vs +0 arm/+3 sh:	26 shots | 22.36sec
+---
++1 att vs +1 arm/+0 sh:	23 shots | 19.78sec
++1 att vs +1 arm/+1 sh:	24 shots | 20.64sec
++1 att vs +1 arm/+2 sh:	26 shots | 22.36sec
++1 att vs +1 arm/+3 sh:	27 shots | 23.22sec
+---
++1 att vs +2 arm/+0 sh:	26 shots | 22.36sec
++1 att vs +2 arm/+1 sh:	27 shots | 23.22sec
++1 att vs +2 arm/+2 sh:	28 shots | 24.08sec
++1 att vs +2 arm/+3 sh:	30 shots | 25.8sec
+---
++1 att vs +3 arm/+0 sh:	29 shots | 24.94sec
++1 att vs +3 arm/+1 sh:	30 shots | 25.8sec
++1 att vs +3 arm/+2 sh:	31 shots | 26.66sec
++1 att vs +3 arm/+3 sh:	33 shots | 28.38sec
+---
+---
++2 att vs +0 arm/+0 sh:	19 shots | 16.34sec
++2 att vs +0 arm/+1 sh:	20 shots | 17.2sec
++2 att vs +0 arm/+2 sh:	21 shots | 18.06sec
++2 att vs +0 arm/+3 sh:	22 shots | 18.92sec
+---
++2 att vs +1 arm/+0 sh:	21 shots | 18.06sec
++2 att vs +1 arm/+1 sh:	21 shots | 18.06sec
++2 att vs +1 arm/+2 sh:	22 shots | 18.92sec
++2 att vs +1 arm/+3 sh:	24 shots | 20.64sec
+---
++2 att vs +2 arm/+0 sh:	22 shots | 18.92sec
++2 att vs +2 arm/+1 sh:	23 shots | 19.78sec
++2 att vs +2 arm/+2 sh:	24 shots | 20.64sec
++2 att vs +2 arm/+3 sh:	26 shots | 22.36sec
+---
++2 att vs +3 arm/+0 sh:	25 shots | 21.5sec
++2 att vs +3 arm/+1 sh:	26 shots | 22.36sec
++2 att vs +3 arm/+2 sh:	27 shots | 23.22sec
++2 att vs +3 arm/+3 sh:	28 shots | 24.08sec
+---
+---
++3 att vs +0 arm/+0 sh:	17 shots | 14.62sec
++3 att vs +0 arm/+1 sh:	18 shots | 15.48sec
++3 att vs +0 arm/+2 sh:	19 shots | 16.34sec
++3 att vs +0 arm/+3 sh:	20 shots | 17.2sec
+---
++3 att vs +1 arm/+0 sh:	18 shots | 15.48sec
++3 att vs +1 arm/+1 sh:	19 shots | 16.34sec
++3 att vs +1 arm/+2 sh:	20 shots | 17.2sec
++3 att vs +1 arm/+3 sh:	21 shots | 18.06sec
+---
++3 att vs +2 arm/+0 sh:	20 shots | 17.2sec
++3 att vs +2 arm/+1 sh:	21 shots | 18.06sec
++3 att vs +2 arm/+2 sh:	21 shots | 18.06sec
++3 att vs +2 arm/+3 sh:	22 shots | 18.92sec
+---
++3 att vs +3 arm/+0 sh:	22 shots | 18.92sec
++3 att vs +3 arm/+1 sh:	22 shots | 18.92sec
++3 att vs +3 arm/+2 sh:	23 shots | 19.78sec
++3 att vs +3 arm/+3 sh:	24 shots | 20.64sec
+---
+---
+stalker attacking cannon
+---
++0 att vs +0 arm/+0 sh:	21 shots | 18.06sec
++0 att vs +0 arm/+1 sh:	22 shots | 18.92sec
++0 att vs +0 arm/+2 sh:	24 shots | 20.64sec
++0 att vs +0 arm/+3 sh:	26 shots | 22.36sec
+---
++0 att vs +1 arm/+0 sh:	21 shots | 18.06sec
++0 att vs +1 arm/+1 sh:	22 shots | 18.92sec
++0 att vs +1 arm/+2 sh:	24 shots | 20.64sec
++0 att vs +1 arm/+3 sh:	26 shots | 22.36sec
+---
++0 att vs +2 arm/+0 sh:	21 shots | 18.06sec
++0 att vs +2 arm/+1 sh:	22 shots | 18.92sec
++0 att vs +2 arm/+2 sh:	24 shots | 20.64sec
++0 att vs +2 arm/+3 sh:	26 shots | 22.36sec
+---
++0 att vs +3 arm/+0 sh:	21 shots | 18.06sec
++0 att vs +3 arm/+1 sh:	22 shots | 18.92sec
++0 att vs +3 arm/+2 sh:	24 shots | 20.64sec
++0 att vs +3 arm/+3 sh:	26 shots | 22.36sec
+---
+---
++1 att vs +0 arm/+0 sh:	18 shots | 15.48sec
++1 att vs +0 arm/+1 sh:	19 shots | 16.34sec
++1 att vs +0 arm/+2 sh:	21 shots | 18.06sec
++1 att vs +0 arm/+3 sh:	22 shots | 18.92sec
+---
++1 att vs +1 arm/+0 sh:	18 shots | 15.48sec
++1 att vs +1 arm/+1 sh:	19 shots | 16.34sec
++1 att vs +1 arm/+2 sh:	21 shots | 18.06sec
++1 att vs +1 arm/+3 sh:	22 shots | 18.92sec
+---
++1 att vs +2 arm/+0 sh:	18 shots | 15.48sec
++1 att vs +2 arm/+1 sh:	19 shots | 16.34sec
++1 att vs +2 arm/+2 sh:	21 shots | 18.06sec
++1 att vs +2 arm/+3 sh:	22 shots | 18.92sec
+---
++1 att vs +3 arm/+0 sh:	18 shots | 15.48sec
++1 att vs +3 arm/+1 sh:	19 shots | 16.34sec
++1 att vs +3 arm/+2 sh:	21 shots | 18.06sec
++1 att vs +3 arm/+3 sh:	22 shots | 18.92sec
+---
+---
++2 att vs +0 arm/+0 sh:	16 shots | 13.76sec
++2 att vs +0 arm/+1 sh:	17 shots | 14.62sec
++2 att vs +0 arm/+2 sh:	18 shots | 15.48sec
++2 att vs +0 arm/+3 sh:	20 shots | 17.2sec
+---
++2 att vs +1 arm/+0 sh:	16 shots | 13.76sec
++2 att vs +1 arm/+1 sh:	17 shots | 14.62sec
++2 att vs +1 arm/+2 sh:	18 shots | 15.48sec
++2 att vs +1 arm/+3 sh:	20 shots | 17.2sec
+---
++2 att vs +2 arm/+0 sh:	16 shots | 13.76sec
++2 att vs +2 arm/+1 sh:	17 shots | 14.62sec
++2 att vs +2 arm/+2 sh:	18 shots | 15.48sec
++2 att vs +2 arm/+3 sh:	20 shots | 17.2sec
+---
++2 att vs +3 arm/+0 sh:	16 shots | 13.76sec
++2 att vs +3 arm/+1 sh:	17 shots | 14.62sec
++2 att vs +3 arm/+2 sh:	18 shots | 15.48sec
++2 att vs +3 arm/+3 sh:	20 shots | 17.2sec
+---
+---
++3 att vs +0 arm/+0 sh:	15 shots | 12.9sec
++3 att vs +0 arm/+1 sh:	16 shots | 13.76sec
++3 att vs +0 arm/+2 sh:	16 shots | 13.76sec
++3 att vs +0 arm/+3 sh:	17 shots | 14.62sec
+---
++3 att vs +1 arm/+0 sh:	15 shots | 12.9sec
++3 att vs +1 arm/+1 sh:	16 shots | 13.76sec
++3 att vs +1 arm/+2 sh:	16 shots | 13.76sec
++3 att vs +1 arm/+3 sh:	17 shots | 14.62sec
+---
++3 att vs +2 arm/+0 sh:	15 shots | 12.9sec
++3 att vs +2 arm/+1 sh:	16 shots | 13.76sec
++3 att vs +2 arm/+2 sh:	16 shots | 13.76sec
++3 att vs +2 arm/+3 sh:	17 shots | 14.62sec
+---
++3 att vs +3 arm/+0 sh:	15 shots | 12.9sec
++3 att vs +3 arm/+1 sh:	16 shots | 13.76sec
++3 att vs +3 arm/+2 sh:	16 shots | 13.76sec
++3 att vs +3 arm/+3 sh:	17 shots | 14.62sec
+---
+---
+stalker attacking marine
+---
++0 att vs +0 arm:     	4 shots | 3.44sec
++0 att vs +1 arm:     	4 shots | 3.44sec
++0 att vs +2 arm:     	5 shots | 4.3sec
++0 att vs +3 arm:     	6 shots | 5.16sec
+---
++1 att vs +0 arm:     	4 shots | 3.44sec
++1 att vs +1 arm:     	4 shots | 3.44sec
++1 att vs +2 arm:     	4 shots | 3.44sec
++1 att vs +3 arm:     	5 shots | 4.3sec
+---
++2 att vs +0 arm:     	3 shots | 2.58sec
++2 att vs +1 arm:     	4 shots | 3.44sec
++2 att vs +2 arm:     	4 shots | 3.44sec
++2 att vs +3 arm:     	4 shots | 3.44sec
+---
++3 att vs +0 arm:     	3 shots | 2.58sec
++3 att vs +1 arm:     	3 shots | 2.58sec
++3 att vs +2 arm:     	4 shots | 3.44sec
++3 att vs +3 arm:     	4 shots | 3.44sec
+---
+---
+stalker attacking marauder
+---
++0 att vs +0 arm:     	9 shots | 7.74sec
++0 att vs +1 arm:     	11 shots | 9.46sec
++0 att vs +2 arm:     	13 shots | 11.18sec
++0 att vs +3 arm:     	16 shots | 13.76sec
+---
++1 att vs +0 arm:     	8 shots | 6.88sec
++1 att vs +1 arm:     	9 shots | 7.74sec
++1 att vs +2 arm:     	11 shots | 9.46sec
++1 att vs +3 arm:     	13 shots | 11.18sec
+---
++2 att vs +0 arm:     	7 shots | 6.02sec
++2 att vs +1 arm:     	8 shots | 6.88sec
++2 att vs +2 arm:     	9 shots | 7.74sec
++2 att vs +3 arm:     	11 shots | 9.46sec
+---
++3 att vs +0 arm:     	7 shots | 6.02sec
++3 att vs +1 arm:     	7 shots | 6.02sec
++3 att vs +2 arm:     	8 shots | 6.88sec
++3 att vs +3 arm:     	9 shots | 7.74sec
+---
+---
+stalker attacking reaper
+---
++0 att vs +0 arm:     	4 shots | 3.44sec
++0 att vs +1 arm:     	5 shots | 4.3sec
++0 att vs +2 arm:     	5 shots | 4.3sec
++0 att vs +3 arm:     	6 shots | 5.16sec
+---
++1 att vs +0 arm:     	4 shots | 3.44sec
++1 att vs +1 arm:     	4 shots | 3.44sec
++1 att vs +2 arm:     	5 shots | 4.3sec
++1 att vs +3 arm:     	5 shots | 4.3sec
+---
++2 att vs +0 arm:     	3 shots | 2.58sec
++2 att vs +1 arm:     	4 shots | 3.44sec
++2 att vs +2 arm:     	4 shots | 3.44sec
++2 att vs +3 arm:     	5 shots | 4.3sec
+---
++3 att vs +0 arm:     	3 shots | 2.58sec
++3 att vs +1 arm:     	3 shots | 2.58sec
++3 att vs +2 arm:     	4 shots | 3.44sec
++3 att vs +3 arm:     	4 shots | 3.44sec
+---
+---
+stalker attacking ghost
+---
++0 att vs +0 arm:     	7 shots | 6.02sec
++0 att vs +1 arm:     	8 shots | 6.88sec
++0 att vs +2 arm:     	9 shots | 7.74sec
++0 att vs +3 arm:     	10 shots | 8.6sec
+---
++1 att vs +0 arm:     	6 shots | 5.16sec
++1 att vs +1 arm:     	7 shots | 6.02sec
++1 att vs +2 arm:     	8 shots | 6.88sec
++1 att vs +3 arm:     	9 shots | 7.74sec
+---
++2 att vs +0 arm:     	5 shots | 4.3sec
++2 att vs +1 arm:     	6 shots | 5.16sec
++2 att vs +2 arm:     	7 shots | 6.02sec
++2 att vs +3 arm:     	8 shots | 6.88sec
+---
++3 att vs +0 arm:     	5 shots | 4.3sec
++3 att vs +1 arm:     	5 shots | 4.3sec
++3 att vs +2 arm:     	6 shots | 5.16sec
++3 att vs +3 arm:     	7 shots | 6.02sec
+---
+---
+stalker attacking hellion
+---
++0 att vs +0 arm:     	6 shots | 5.16sec
++0 att vs +1 arm:     	7 shots | 6.02sec
++0 att vs +2 arm:     	8 shots | 6.88sec
++0 att vs +3 arm:     	9 shots | 7.74sec
+---
++1 att vs +0 arm:     	5 shots | 4.3sec
++1 att vs +1 arm:     	6 shots | 5.16sec
++1 att vs +2 arm:     	7 shots | 6.02sec
++1 att vs +3 arm:     	8 shots | 6.88sec
+---
++2 att vs +0 arm:     	5 shots | 4.3sec
++2 att vs +1 arm:     	5 shots | 4.3sec
++2 att vs +2 arm:     	6 shots | 5.16sec
++2 att vs +3 arm:     	7 shots | 6.02sec
+---
++3 att vs +0 arm:     	5 shots | 4.3sec
++3 att vs +1 arm:     	5 shots | 4.3sec
++3 att vs +2 arm:     	5 shots | 4.3sec
++3 att vs +3 arm:     	6 shots | 5.16sec
+---
+---
+stalker attacking hellbat
+---
++0 att vs +0 arm:     	9 shots | 7.74sec
++0 att vs +1 arm:     	10 shots | 8.6sec
++0 att vs +2 arm:     	12 shots | 10.32sec
++0 att vs +3 arm:     	14 shots | 12.04sec
+---
++1 att vs +0 arm:     	8 shots | 6.88sec
++1 att vs +1 arm:     	9 shots | 7.74sec
++1 att vs +2 arm:     	10 shots | 8.6sec
++1 att vs +3 arm:     	12 shots | 10.32sec
+---
++2 att vs +0 arm:     	7 shots | 6.02sec
++2 att vs +1 arm:     	8 shots | 6.88sec
++2 att vs +2 arm:     	9 shots | 7.74sec
++2 att vs +3 arm:     	10 shots | 8.6sec
+---
++3 att vs +0 arm:     	7 shots | 6.02sec
++3 att vs +1 arm:     	7 shots | 6.02sec
++3 att vs +2 arm:     	8 shots | 6.88sec
++3 att vs +3 arm:     	9 shots | 7.74sec
+---
+---
+stalker attacking siegedtank
+---
++0 att vs +0 arm:     	13 shots | 11.18sec
++0 att vs +1 arm:     	15 shots | 12.9sec
++0 att vs +2 arm:     	18 shots | 15.48sec
++0 att vs +3 arm:     	22 shots | 18.92sec
+---
++1 att vs +0 arm:     	11 shots | 9.46sec
++1 att vs +1 arm:     	13 shots | 11.18sec
++1 att vs +2 arm:     	15 shots | 12.9sec
++1 att vs +3 arm:     	18 shots | 15.48sec
+---
++2 att vs +0 arm:     	10 shots | 8.6sec
++2 att vs +1 arm:     	11 shots | 9.46sec
++2 att vs +2 arm:     	13 shots | 11.18sec
++2 att vs +3 arm:     	15 shots | 12.9sec
+---
++3 att vs +0 arm:     	9 shots | 7.74sec
++3 att vs +1 arm:     	10 shots | 8.6sec
++3 att vs +2 arm:     	11 shots | 9.46sec
++3 att vs +3 arm:     	13 shots | 11.18sec
+---
+---
+stalker attacking tank
+---
++0 att vs +0 arm:     	13 shots | 11.18sec
++0 att vs +1 arm:     	15 shots | 12.9sec
++0 att vs +2 arm:     	18 shots | 15.48sec
++0 att vs +3 arm:     	22 shots | 18.92sec
+---
++1 att vs +0 arm:     	11 shots | 9.46sec
++1 att vs +1 arm:     	13 shots | 11.18sec
++1 att vs +2 arm:     	15 shots | 12.9sec
++1 att vs +3 arm:     	18 shots | 15.48sec
+---
++2 att vs +0 arm:     	10 shots | 8.6sec
++2 att vs +1 arm:     	11 shots | 9.46sec
++2 att vs +2 arm:     	13 shots | 11.18sec
++2 att vs +3 arm:     	15 shots | 12.9sec
+---
++3 att vs +0 arm:     	9 shots | 7.74sec
++3 att vs +1 arm:     	10 shots | 8.6sec
++3 att vs +2 arm:     	11 shots | 9.46sec
++3 att vs +3 arm:     	13 shots | 11.18sec
+---
+---
+stalker attacking thor
+---
++0 att vs +0 arm:     	29 shots | 24.94sec
++0 att vs +1 arm:     	34 shots | 29.24sec
++0 att vs +2 arm:     	40 shots | 34.4sec
++0 att vs +3 arm:     	50 shots | 43.0sec
+---
++1 att vs +0 arm:     	25 shots | 21.5sec
++1 att vs +1 arm:     	29 shots | 24.94sec
++1 att vs +2 arm:     	34 shots | 29.24sec
++1 att vs +3 arm:     	40 shots | 34.4sec
+---
++2 att vs +0 arm:     	23 shots | 19.78sec
++2 att vs +1 arm:     	25 shots | 21.5sec
++2 att vs +2 arm:     	29 shots | 24.94sec
++2 att vs +3 arm:     	34 shots | 29.24sec
+---
++3 att vs +0 arm:     	20 shots | 17.2sec
++3 att vs +1 arm:     	23 shots | 19.78sec
++3 att vs +2 arm:     	25 shots | 21.5sec
++3 att vs +3 arm:     	29 shots | 24.94sec
+---
+---
+stalker attacking zergling
+---
++0 att vs +0 arm:     	3 shots | 2.58sec
++0 att vs +1 arm:     	3 shots | 2.58sec
++0 att vs +2 arm:     	4 shots | 3.44sec
++0 att vs +3 arm:     	4 shots | 3.44sec
+---
++1 att vs +0 arm:     	3 shots | 2.58sec
++1 att vs +1 arm:     	3 shots | 2.58sec
++1 att vs +2 arm:     	3 shots | 2.58sec
++1 att vs +3 arm:     	4 shots | 3.44sec
+---
++2 att vs +0 arm:     	2 shots | 1.72sec
++2 att vs +1 arm:     	3 shots | 2.58sec
++2 att vs +2 arm:     	3 shots | 2.58sec
++2 att vs +3 arm:     	3 shots | 2.58sec
+---
++3 att vs +0 arm:     	2 shots | 1.72sec
++3 att vs +1 arm:     	2 shots | 1.72sec
++3 att vs +2 arm:     	3 shots | 2.58sec
++3 att vs +3 arm:     	3 shots | 2.58sec
+---
+---
+stalker attacking baneling
+---
++0 att vs +0 arm:     	3 shots | 2.58sec
++0 att vs +1 arm:     	3 shots | 2.58sec
++0 att vs +2 arm:     	4 shots | 3.44sec
++0 att vs +3 arm:     	4 shots | 3.44sec
+---
++1 att vs +0 arm:     	3 shots | 2.58sec
++1 att vs +1 arm:     	3 shots | 2.58sec
++1 att vs +2 arm:     	3 shots | 2.58sec
++1 att vs +3 arm:     	4 shots | 3.44sec
+---
++2 att vs +0 arm:     	2 shots | 1.72sec
++2 att vs +1 arm:     	3 shots | 2.58sec
++2 att vs +2 arm:     	3 shots | 2.58sec
++2 att vs +3 arm:     	3 shots | 2.58sec
+---
++3 att vs +0 arm:     	2 shots | 1.72sec
++3 att vs +1 arm:     	2 shots | 1.72sec
++3 att vs +2 arm:     	3 shots | 2.58sec
++3 att vs +3 arm:     	3 shots | 2.58sec
+---
+---
+stalker attacking roach
+---
++0 att vs +0 arm:     	11 shots | 9.46sec
++0 att vs +1 arm:     	13 shots | 11.18sec
++0 att vs +2 arm:     	16 shots | 13.76sec
++0 att vs +3 arm:     	20 shots | 17.2sec
+---
++1 att vs +0 arm:     	10 shots | 8.6sec
++1 att vs +1 arm:     	11 shots | 9.46sec
++1 att vs +2 arm:     	13 shots | 11.18sec
++1 att vs +3 arm:     	16 shots | 13.76sec
+---
++2 att vs +0 arm:     	9 shots | 7.74sec
++2 att vs +1 arm:     	10 shots | 8.6sec
++2 att vs +2 arm:     	11 shots | 9.46sec
++2 att vs +3 arm:     	13 shots | 11.18sec
+---
++3 att vs +0 arm:     	8 shots | 6.88sec
++3 att vs +1 arm:     	9 shots | 7.74sec
++3 att vs +2 arm:     	10 shots | 8.6sec
++3 att vs +3 arm:     	11 shots | 9.46sec
+---
+---
+stalker attacking ravager
+---
++0 att vs +0 arm:     	9 shots | 7.74sec
++0 att vs +1 arm:     	11 shots | 9.46sec
++0 att vs +2 arm:     	13 shots | 11.18sec
++0 att vs +3 arm:     	17 shots | 14.62sec
+---
++1 att vs +0 arm:     	8 shots | 6.88sec
++1 att vs +1 arm:     	9 shots | 7.74sec
++1 att vs +2 arm:     	11 shots | 9.46sec
++1 att vs +3 arm:     	13 shots | 11.18sec
+---
++2 att vs +0 arm:     	7 shots | 6.02sec
++2 att vs +1 arm:     	8 shots | 6.88sec
++2 att vs +2 arm:     	9 shots | 7.74sec
++2 att vs +3 arm:     	11 shots | 9.46sec
+---
++3 att vs +0 arm:     	7 shots | 6.02sec
++3 att vs +1 arm:     	7 shots | 6.02sec
++3 att vs +2 arm:     	8 shots | 6.88sec
++3 att vs +3 arm:     	9 shots | 7.74sec
+---
+---
+stalker attacking queen
+---
++0 att vs +0 arm:     	14 shots | 12.04sec
++0 att vs +1 arm:     	16 shots | 13.76sec
++0 att vs +2 arm:     	19 shots | 16.34sec
++0 att vs +3 arm:     	24 shots | 20.64sec
+---
++1 att vs +0 arm:     	12 shots | 10.32sec
++1 att vs +1 arm:     	14 shots | 12.04sec
++1 att vs +2 arm:     	16 shots | 13.76sec
++1 att vs +3 arm:     	19 shots | 16.34sec
+---
++2 att vs +0 arm:     	11 shots | 9.46sec
++2 att vs +1 arm:     	12 shots | 10.32sec
++2 att vs +2 arm:     	14 shots | 12.04sec
++2 att vs +3 arm:     	16 shots | 13.76sec
+---
++3 att vs +0 arm:     	10 shots | 8.6sec
++3 att vs +1 arm:     	11 shots | 9.46sec
++3 att vs +2 arm:     	12 shots | 10.32sec
++3 att vs +3 arm:     	14 shots | 12.04sec
+---
+---
+stalker attacking hydralisk
+---
++0 att vs +0 arm:     	6 shots | 5.16sec
++0 att vs +1 arm:     	7 shots | 6.02sec
++0 att vs +2 arm:     	8 shots | 6.88sec
++0 att vs +3 arm:     	10 shots | 8.6sec
+---
++1 att vs +0 arm:     	6 shots | 5.16sec
++1 att vs +1 arm:     	6 shots | 5.16sec
++1 att vs +2 arm:     	7 shots | 6.02sec
++1 att vs +3 arm:     	8 shots | 6.88sec
+---
++2 att vs +0 arm:     	5 shots | 4.3sec
++2 att vs +1 arm:     	6 shots | 5.16sec
++2 att vs +2 arm:     	6 shots | 5.16sec
++2 att vs +3 arm:     	7 shots | 6.02sec
+---
++3 att vs +0 arm:     	5 shots | 4.3sec
++3 att vs +1 arm:     	5 shots | 4.3sec
++3 att vs +2 arm:     	6 shots | 5.16sec
++3 att vs +3 arm:     	6 shots | 5.16sec
+---
+---
+stalker attacking lurker
+---
++0 att vs +0 arm:     	15 shots | 12.9sec
++0 att vs +1 arm:     	18 shots | 15.48sec
++0 att vs +2 arm:     	22 shots | 18.92sec
++0 att vs +3 arm:     	28 shots | 24.08sec
+---
++1 att vs +0 arm:     	14 shots | 12.04sec
++1 att vs +1 arm:     	15 shots | 12.9sec
++1 att vs +2 arm:     	18 shots | 15.48sec
++1 att vs +3 arm:     	22 shots | 18.92sec
+---
++2 att vs +0 arm:     	12 shots | 10.32sec
++2 att vs +1 arm:     	14 shots | 12.04sec
++2 att vs +2 arm:     	15 shots | 12.9sec
++2 att vs +3 arm:     	18 shots | 15.48sec
+---
++3 att vs +0 arm:     	11 shots | 9.46sec
++3 att vs +1 arm:     	12 shots | 10.32sec
++3 att vs +2 arm:     	14 shots | 12.04sec
++3 att vs +3 arm:     	15 shots | 12.9sec
+---
+---
+stalker attacking ultralisk
+---
++0 att vs +0 arm:     	69 shots | 59.34sec
++0 att vs +1 arm:     	94 shots | 80.84sec
++0 att vs +2 arm:     	150 shots | 129.0sec
++0 att vs +3 arm:     	372 shots | 319.92sec
+---
++1 att vs +0 arm:     	54 shots | 46.44sec
++1 att vs +1 arm:     	69 shots | 59.34sec
++1 att vs +2 arm:     	94 shots | 80.84sec
++1 att vs +3 arm:     	150 shots | 129.0sec
+---
++2 att vs +0 arm:     	45 shots | 38.7sec
++2 att vs +1 arm:     	54 shots | 46.44sec
++2 att vs +2 arm:     	69 shots | 59.34sec
++2 att vs +3 arm:     	94 shots | 80.84sec
+---
++3 att vs +0 arm:     	38 shots | 32.68sec
++3 att vs +1 arm:     	45 shots | 38.7sec
++3 att vs +2 arm:     	54 shots | 46.44sec
++3 att vs +3 arm:     	69 shots | 59.34sec
+---
+---
+stalker attacking spinecrawler
+---
++0 att vs +0 arm:     	27 shots | 23.22sec
++0 att vs +1 arm:     	27 shots | 23.22sec
++0 att vs +2 arm:     	27 shots | 23.22sec
++0 att vs +3 arm:     	27 shots | 23.22sec
+---
++1 att vs +0 arm:     	23 shots | 19.78sec
++1 att vs +1 arm:     	23 shots | 19.78sec
++1 att vs +2 arm:     	23 shots | 19.78sec
++1 att vs +3 arm:     	23 shots | 19.78sec
+---
++2 att vs +0 arm:     	20 shots | 17.2sec
++2 att vs +1 arm:     	20 shots | 17.2sec
++2 att vs +2 arm:     	20 shots | 17.2sec
++2 att vs +3 arm:     	20 shots | 17.2sec
+---
++3 att vs +0 arm:     	18 shots | 15.48sec
++3 att vs +1 arm:     	18 shots | 15.48sec
++3 att vs +2 arm:     	18 shots | 15.48sec
++3 att vs +3 arm:     	18 shots | 15.48sec
+---
+---
+stalker attacking stalker
+---
++0 att vs +0 arm/+0 sh:	13 shots | 17.42sec
++0 att vs +0 arm/+1 sh:	14 shots | 18.76sec
++0 att vs +0 arm/+2 sh:	15 shots | 20.1sec
++0 att vs +0 arm/+3 sh:	15 shots | 20.1sec
+---
++0 att vs +1 arm/+0 sh:	14 shots | 18.76sec
++0 att vs +1 arm/+1 sh:	15 shots | 20.1sec
++0 att vs +1 arm/+2 sh:	15 shots | 20.1sec
++0 att vs +1 arm/+3 sh:	16 shots | 21.44sec
+---
++0 att vs +2 arm/+0 sh:	15 shots | 20.1sec
++0 att vs +2 arm/+1 sh:	15 shots | 20.1sec
++0 att vs +2 arm/+2 sh:	16 shots | 21.44sec
++0 att vs +2 arm/+3 sh:	17 shots | 22.78sec
+---
++0 att vs +3 arm/+0 sh:	15 shots | 20.1sec
++0 att vs +3 arm/+1 sh:	16 shots | 21.44sec
++0 att vs +3 arm/+2 sh:	17 shots | 22.78sec
++0 att vs +3 arm/+3 sh:	18 shots | 24.12sec
+---
+---
++1 att vs +0 arm/+0 sh:	12 shots | 16.08sec
++1 att vs +0 arm/+1 sh:	13 shots | 17.42sec
++1 att vs +0 arm/+2 sh:	13 shots | 17.42sec
++1 att vs +0 arm/+3 sh:	14 shots | 18.76sec
+---
++1 att vs +1 arm/+0 sh:	13 shots | 17.42sec
++1 att vs +1 arm/+1 sh:	13 shots | 17.42sec
++1 att vs +1 arm/+2 sh:	14 shots | 18.76sec
++1 att vs +1 arm/+3 sh:	15 shots | 20.1sec
+---
++1 att vs +2 arm/+0 sh:	14 shots | 18.76sec
++1 att vs +2 arm/+1 sh:	14 shots | 18.76sec
++1 att vs +2 arm/+2 sh:	15 shots | 20.1sec
++1 att vs +2 arm/+3 sh:	15 shots | 20.1sec
+---
++1 att vs +3 arm/+0 sh:	14 shots | 18.76sec
++1 att vs +3 arm/+1 sh:	15 shots | 20.1sec
++1 att vs +3 arm/+2 sh:	15 shots | 20.1sec
++1 att vs +3 arm/+3 sh:	16 shots | 21.44sec
+---
+---
++2 att vs +0 arm/+0 sh:	12 shots | 16.08sec
++2 att vs +0 arm/+1 sh:	12 shots | 16.08sec
++2 att vs +0 arm/+2 sh:	13 shots | 17.42sec
++2 att vs +0 arm/+3 sh:	13 shots | 17.42sec
+---
++2 att vs +1 arm/+0 sh:	12 shots | 16.08sec
++2 att vs +1 arm/+1 sh:	12 shots | 16.08sec
++2 att vs +1 arm/+2 sh:	13 shots | 17.42sec
++2 att vs +1 arm/+3 sh:	13 shots | 17.42sec
+---
++2 att vs +2 arm/+0 sh:	12 shots | 16.08sec
++2 att vs +2 arm/+1 sh:	13 shots | 17.42sec
++2 att vs +2 arm/+2 sh:	13 shots | 17.42sec
++2 att vs +2 arm/+3 sh:	14 shots | 18.76sec
+---
++2 att vs +3 arm/+0 sh:	13 shots | 17.42sec
++2 att vs +3 arm/+1 sh:	14 shots | 18.76sec
++2 att vs +3 arm/+2 sh:	14 shots | 18.76sec
++2 att vs +3 arm/+3 sh:	15 shots | 20.1sec
+---
+---
++3 att vs +0 arm/+0 sh:	11 shots | 14.74sec
++3 att vs +0 arm/+1 sh:	11 shots | 14.74sec
++3 att vs +0 arm/+2 sh:	12 shots | 16.08sec
++3 att vs +0 arm/+3 sh:	12 shots | 16.08sec
+---
++3 att vs +1 arm/+0 sh:	11 shots | 14.74sec
++3 att vs +1 arm/+1 sh:	12 shots | 16.08sec
++3 att vs +1 arm/+2 sh:	12 shots | 16.08sec
++3 att vs +1 arm/+3 sh:	13 shots | 17.42sec
+---
++3 att vs +2 arm/+0 sh:	12 shots | 16.08sec
++3 att vs +2 arm/+1 sh:	12 shots | 16.08sec
++3 att vs +2 arm/+2 sh:	12 shots | 16.08sec
++3 att vs +2 arm/+3 sh:	13 shots | 17.42sec
+---
++3 att vs +3 arm/+0 sh:	12 shots | 16.08sec
++3 att vs +3 arm/+1 sh:	12 shots | 16.08sec
++3 att vs +3 arm/+2 sh:	13 shots | 17.42sec
++3 att vs +3 arm/+3 sh:	13 shots | 17.42sec
+---
+---
+stalker attacking stalker
+---
++0 att vs +0 arm/+0 sh:	10 shots | 13.4sec
++0 att vs +0 arm/+1 sh:	10 shots | 13.4sec
++0 att vs +0 arm/+2 sh:	10 shots | 13.4sec
++0 att vs +0 arm/+3 sh:	11 shots | 14.74sec
+---
++0 att vs +1 arm/+0 sh:	10 shots | 13.4sec
++0 att vs +1 arm/+1 sh:	10 shots | 13.4sec
++0 att vs +1 arm/+2 sh:	11 shots | 14.74sec
++0 att vs +1 arm/+3 sh:	11 shots | 14.74sec
+---
++0 att vs +2 arm/+0 sh:	10 shots | 13.4sec
++0 att vs +2 arm/+1 sh:	11 shots | 14.74sec
++0 att vs +2 arm/+2 sh:	11 shots | 14.74sec
++0 att vs +2 arm/+3 sh:	11 shots | 14.74sec
+---
++0 att vs +3 arm/+0 sh:	11 shots | 14.74sec
++0 att vs +3 arm/+1 sh:	11 shots | 14.74sec
++0 att vs +3 arm/+2 sh:	11 shots | 14.74sec
++0 att vs +3 arm/+3 sh:	12 shots | 16.08sec
+---
+---
++1 att vs +0 arm/+0 sh:	9 shots | 12.06sec
++1 att vs +0 arm/+1 sh:	9 shots | 12.06sec
++1 att vs +0 arm/+2 sh:	9 shots | 12.06sec
++1 att vs +0 arm/+3 sh:	10 shots | 13.4sec
+---
++1 att vs +1 arm/+0 sh:	9 shots | 12.06sec
++1 att vs +1 arm/+1 sh:	9 shots | 12.06sec
++1 att vs +1 arm/+2 sh:	9 shots | 12.06sec
++1 att vs +1 arm/+3 sh:	10 shots | 13.4sec
+---
++1 att vs +2 arm/+0 sh:	9 shots | 12.06sec
++1 att vs +2 arm/+1 sh:	9 shots | 12.06sec
++1 att vs +2 arm/+2 sh:	10 shots | 13.4sec
++1 att vs +2 arm/+3 sh:	10 shots | 13.4sec
+---
++1 att vs +3 arm/+0 sh:	10 shots | 13.4sec
++1 att vs +3 arm/+1 sh:	10 shots | 13.4sec
++1 att vs +3 arm/+2 sh:	10 shots | 13.4sec
++1 att vs +3 arm/+3 sh:	10 shots | 13.4sec
+---
+---
++2 att vs +0 arm/+0 sh:	8 shots | 10.72sec
++2 att vs +0 arm/+1 sh:	8 shots | 10.72sec
++2 att vs +0 arm/+2 sh:	8 shots | 10.72sec
++2 att vs +0 arm/+3 sh:	9 shots | 12.06sec
+---
++2 att vs +1 arm/+0 sh:	8 shots | 10.72sec
++2 att vs +1 arm/+1 sh:	8 shots | 10.72sec
++2 att vs +1 arm/+2 sh:	9 shots | 12.06sec
++2 att vs +1 arm/+3 sh:	9 shots | 12.06sec
+---
++2 att vs +2 arm/+0 sh:	8 shots | 10.72sec
++2 att vs +2 arm/+1 sh:	9 shots | 12.06sec
++2 att vs +2 arm/+2 sh:	9 shots | 12.06sec
++2 att vs +2 arm/+3 sh:	9 shots | 12.06sec
+---
++2 att vs +3 arm/+0 sh:	9 shots | 12.06sec
++2 att vs +3 arm/+1 sh:	9 shots | 12.06sec
++2 att vs +3 arm/+2 sh:	9 shots | 12.06sec
++2 att vs +3 arm/+3 sh:	9 shots | 12.06sec
+---
+---
++3 att vs +0 arm/+0 sh:	7 shots | 9.38sec
++3 att vs +0 arm/+1 sh:	8 shots | 10.72sec
++3 att vs +0 arm/+2 sh:	8 shots | 10.72sec
++3 att vs +0 arm/+3 sh:	8 shots | 10.72sec
+---
++3 att vs +1 arm/+0 sh:	7 shots | 9.38sec
++3 att vs +1 arm/+1 sh:	8 shots | 10.72sec
++3 att vs +1 arm/+2 sh:	8 shots | 10.72sec
++3 att vs +1 arm/+3 sh:	8 shots | 10.72sec
+---
++3 att vs +2 arm/+0 sh:	8 shots | 10.72sec
++3 att vs +2 arm/+1 sh:	8 shots | 10.72sec
++3 att vs +2 arm/+2 sh:	8 shots | 10.72sec
++3 att vs +2 arm/+3 sh:	8 shots | 10.72sec
+---
++3 att vs +3 arm/+0 sh:	8 shots | 10.72sec
++3 att vs +3 arm/+1 sh:	8 shots | 10.72sec
++3 att vs +3 arm/+2 sh:	8 shots | 10.72sec
++3 att vs +3 arm/+3 sh:	8 shots | 10.72sec
+---
+---
+stalker attacking adept
+---
++0 att vs +0 arm/+0 sh:	12 shots | 16.08sec
++0 att vs +0 arm/+1 sh:	12 shots | 16.08sec
++0 att vs +0 arm/+2 sh:	13 shots | 17.42sec
++0 att vs +0 arm/+3 sh:	13 shots | 17.42sec
+---
++0 att vs +1 arm/+0 sh:	12 shots | 16.08sec
++0 att vs +1 arm/+1 sh:	13 shots | 17.42sec
++0 att vs +1 arm/+2 sh:	13 shots | 17.42sec
++0 att vs +1 arm/+3 sh:	14 shots | 18.76sec
+---
++0 att vs +2 arm/+0 sh:	13 shots | 17.42sec
++0 att vs +2 arm/+1 sh:	13 shots | 17.42sec
++0 att vs +2 arm/+2 sh:	14 shots | 18.76sec
++0 att vs +2 arm/+3 sh:	15 shots | 20.1sec
+---
++0 att vs +3 arm/+0 sh:	14 shots | 18.76sec
++0 att vs +3 arm/+1 sh:	14 shots | 18.76sec
++0 att vs +3 arm/+2 sh:	15 shots | 20.1sec
++0 att vs +3 arm/+3 sh:	15 shots | 20.1sec
+---
+---
++1 att vs +0 arm/+0 sh:	11 shots | 14.74sec
++1 att vs +0 arm/+1 sh:	11 shots | 14.74sec
++1 att vs +0 arm/+2 sh:	12 shots | 16.08sec
++1 att vs +0 arm/+3 sh:	12 shots | 16.08sec
+---
++1 att vs +1 arm/+0 sh:	11 shots | 14.74sec
++1 att vs +1 arm/+1 sh:	12 shots | 16.08sec
++1 att vs +1 arm/+2 sh:	12 shots | 16.08sec
++1 att vs +1 arm/+3 sh:	13 shots | 17.42sec
+---
++1 att vs +2 arm/+0 sh:	12 shots | 16.08sec
++1 att vs +2 arm/+1 sh:	12 shots | 16.08sec
++1 att vs +2 arm/+2 sh:	13 shots | 17.42sec
++1 att vs +2 arm/+3 sh:	13 shots | 17.42sec
+---
++1 att vs +3 arm/+0 sh:	13 shots | 17.42sec
++1 att vs +3 arm/+1 sh:	13 shots | 17.42sec
++1 att vs +3 arm/+2 sh:	13 shots | 17.42sec
++1 att vs +3 arm/+3 sh:	14 shots | 18.76sec
+---
+---
++2 att vs +0 arm/+0 sh:	10 shots | 13.4sec
++2 att vs +0 arm/+1 sh:	11 shots | 14.74sec
++2 att vs +0 arm/+2 sh:	11 shots | 14.74sec
++2 att vs +0 arm/+3 sh:	11 shots | 14.74sec
+---
++2 att vs +1 arm/+0 sh:	11 shots | 14.74sec
++2 att vs +1 arm/+1 sh:	11 shots | 14.74sec
++2 att vs +1 arm/+2 sh:	11 shots | 14.74sec
++2 att vs +1 arm/+3 sh:	12 shots | 16.08sec
+---
++2 att vs +2 arm/+0 sh:	11 shots | 14.74sec
++2 att vs +2 arm/+1 sh:	11 shots | 14.74sec
++2 att vs +2 arm/+2 sh:	12 shots | 16.08sec
++2 att vs +2 arm/+3 sh:	12 shots | 16.08sec
+---
++2 att vs +3 arm/+0 sh:	12 shots | 16.08sec
++2 att vs +3 arm/+1 sh:	12 shots | 16.08sec
++2 att vs +3 arm/+2 sh:	12 shots | 16.08sec
++2 att vs +3 arm/+3 sh:	13 shots | 17.42sec
+---
+---
++3 att vs +0 arm/+0 sh:	10 shots | 13.4sec
++3 att vs +0 arm/+1 sh:	10 shots | 13.4sec
++3 att vs +0 arm/+2 sh:	10 shots | 13.4sec
++3 att vs +0 arm/+3 sh:	11 shots | 14.74sec
+---
++3 att vs +1 arm/+0 sh:	10 shots | 13.4sec
++3 att vs +1 arm/+1 sh:	10 shots | 13.4sec
++3 att vs +1 arm/+2 sh:	11 shots | 14.74sec
++3 att vs +1 arm/+3 sh:	11 shots | 14.74sec
+---
++3 att vs +2 arm/+0 sh:	10 shots | 13.4sec
++3 att vs +2 arm/+1 sh:	11 shots | 14.74sec
++3 att vs +2 arm/+2 sh:	11 shots | 14.74sec
++3 att vs +2 arm/+3 sh:	11 shots | 14.74sec
+---
++3 att vs +3 arm/+0 sh:	11 shots | 14.74sec
++3 att vs +3 arm/+1 sh:	11 shots | 14.74sec
++3 att vs +3 arm/+2 sh:	11 shots | 14.74sec
++3 att vs +3 arm/+3 sh:	12 shots | 16.08sec
+---
+---
+stalker attacking archon
+---
++0 att vs +0 arm/+0 sh:	28 shots | 37.52sec
++0 att vs +0 arm/+1 sh:	31 shots | 41.54sec
++0 att vs +0 arm/+2 sh:	33 shots | 44.22sec
++0 att vs +0 arm/+3 sh:	36 shots | 48.24sec
+---
++0 att vs +1 arm/+0 sh:	28 shots | 37.52sec
++0 att vs +1 arm/+1 sh:	31 shots | 41.54sec
++0 att vs +1 arm/+2 sh:	33 shots | 44.22sec
++0 att vs +1 arm/+3 sh:	36 shots | 48.24sec
+---
++0 att vs +2 arm/+0 sh:	28 shots | 37.52sec
++0 att vs +2 arm/+1 sh:	31 shots | 41.54sec
++0 att vs +2 arm/+2 sh:	33 shots | 44.22sec
++0 att vs +2 arm/+3 sh:	36 shots | 48.24sec
+---
++0 att vs +3 arm/+0 sh:	28 shots | 37.52sec
++0 att vs +3 arm/+1 sh:	31 shots | 41.54sec
++0 att vs +3 arm/+2 sh:	33 shots | 44.22sec
++0 att vs +3 arm/+3 sh:	37 shots | 49.58sec
+---
+---
++1 att vs +0 arm/+0 sh:	26 shots | 34.84sec
++1 att vs +0 arm/+1 sh:	28 shots | 37.52sec
++1 att vs +0 arm/+2 sh:	31 shots | 41.54sec
++1 att vs +0 arm/+3 sh:	33 shots | 44.22sec
+---
++1 att vs +1 arm/+0 sh:	26 shots | 34.84sec
++1 att vs +1 arm/+1 sh:	28 shots | 37.52sec
++1 att vs +1 arm/+2 sh:	31 shots | 41.54sec
++1 att vs +1 arm/+3 sh:	33 shots | 44.22sec
+---
++1 att vs +2 arm/+0 sh:	26 shots | 34.84sec
++1 att vs +2 arm/+1 sh:	28 shots | 37.52sec
++1 att vs +2 arm/+2 sh:	31 shots | 41.54sec
++1 att vs +2 arm/+3 sh:	33 shots | 44.22sec
+---
++1 att vs +3 arm/+0 sh:	26 shots | 34.84sec
++1 att vs +3 arm/+1 sh:	28 shots | 37.52sec
++1 att vs +3 arm/+2 sh:	31 shots | 41.54sec
++1 att vs +3 arm/+3 sh:	33 shots | 44.22sec
+---
+---
++2 att vs +0 arm/+0 sh:	25 shots | 33.5sec
++2 att vs +0 arm/+1 sh:	26 shots | 34.84sec
++2 att vs +0 arm/+2 sh:	28 shots | 37.52sec
++2 att vs +0 arm/+3 sh:	31 shots | 41.54sec
+---
++2 att vs +1 arm/+0 sh:	25 shots | 33.5sec
++2 att vs +1 arm/+1 sh:	26 shots | 34.84sec
++2 att vs +1 arm/+2 sh:	28 shots | 37.52sec
++2 att vs +1 arm/+3 sh:	31 shots | 41.54sec
+---
++2 att vs +2 arm/+0 sh:	25 shots | 33.5sec
++2 att vs +2 arm/+1 sh:	26 shots | 34.84sec
++2 att vs +2 arm/+2 sh:	28 shots | 37.52sec
++2 att vs +2 arm/+3 sh:	31 shots | 41.54sec
+---
++2 att vs +3 arm/+0 sh:	25 shots | 33.5sec
++2 att vs +3 arm/+1 sh:	26 shots | 34.84sec
++2 att vs +3 arm/+2 sh:	28 shots | 37.52sec
++2 att vs +3 arm/+3 sh:	31 shots | 41.54sec
+---
+---
++3 att vs +0 arm/+0 sh:	23 shots | 30.82sec
++3 att vs +0 arm/+1 sh:	25 shots | 33.5sec
++3 att vs +0 arm/+2 sh:	26 shots | 34.84sec
++3 att vs +0 arm/+3 sh:	28 shots | 37.52sec
+---
++3 att vs +1 arm/+0 sh:	23 shots | 30.82sec
++3 att vs +1 arm/+1 sh:	25 shots | 33.5sec
++3 att vs +1 arm/+2 sh:	26 shots | 34.84sec
++3 att vs +1 arm/+3 sh:	28 shots | 37.52sec
+---
++3 att vs +2 arm/+0 sh:	23 shots | 30.82sec
++3 att vs +2 arm/+1 sh:	25 shots | 33.5sec
++3 att vs +2 arm/+2 sh:	26 shots | 34.84sec
++3 att vs +2 arm/+3 sh:	28 shots | 37.52sec
+---
++3 att vs +3 arm/+0 sh:	23 shots | 30.82sec
++3 att vs +3 arm/+1 sh:	25 shots | 33.5sec
++3 att vs +3 arm/+2 sh:	26 shots | 34.84sec
++3 att vs +3 arm/+3 sh:	28 shots | 37.52sec
+---
+---
+stalker attacking immortal
+---
++0 att vs +0 arm/+0 sh:	18 shots | 24.12sec
++0 att vs +0 arm/+1 sh:	18 shots | 24.12sec
++0 att vs +0 arm/+2 sh:	19 shots | 25.46sec
++0 att vs +0 arm/+3 sh:	19 shots | 25.46sec
+---
++0 att vs +1 arm/+0 sh:	19 shots | 25.46sec
++0 att vs +1 arm/+1 sh:	19 shots | 25.46sec
++0 att vs +1 arm/+2 sh:	19 shots | 25.46sec
++0 att vs +1 arm/+3 sh:	20 shots | 26.8sec
+---
++0 att vs +2 arm/+0 sh:	19 shots | 25.46sec
++0 att vs +2 arm/+1 sh:	20 shots | 26.8sec
++0 att vs +2 arm/+2 sh:	20 shots | 26.8sec
++0 att vs +2 arm/+3 sh:	21 shots | 28.14sec
+---
++0 att vs +3 arm/+0 sh:	20 shots | 26.8sec
++0 att vs +3 arm/+1 sh:	21 shots | 28.14sec
++0 att vs +3 arm/+2 sh:	21 shots | 28.14sec
++0 att vs +3 arm/+3 sh:	22 shots | 29.48sec
+---
+---
++1 att vs +0 arm/+0 sh:	16 shots | 21.44sec
++1 att vs +0 arm/+1 sh:	16 shots | 21.44sec
++1 att vs +0 arm/+2 sh:	17 shots | 22.78sec
++1 att vs +0 arm/+3 sh:	17 shots | 22.78sec
+---
++1 att vs +1 arm/+0 sh:	17 shots | 22.78sec
++1 att vs +1 arm/+1 sh:	17 shots | 22.78sec
++1 att vs +1 arm/+2 sh:	17 shots | 22.78sec
++1 att vs +1 arm/+3 sh:	18 shots | 24.12sec
+---
++1 att vs +2 arm/+0 sh:	17 shots | 22.78sec
++1 att vs +2 arm/+1 sh:	18 shots | 24.12sec
++1 att vs +2 arm/+2 sh:	18 shots | 24.12sec
++1 att vs +2 arm/+3 sh:	18 shots | 24.12sec
+---
++1 att vs +3 arm/+0 sh:	18 shots | 24.12sec
++1 att vs +3 arm/+1 sh:	18 shots | 24.12sec
++1 att vs +3 arm/+2 sh:	19 shots | 25.46sec
++1 att vs +3 arm/+3 sh:	19 shots | 25.46sec
+---
+---
++2 att vs +0 arm/+0 sh:	15 shots | 20.1sec
++2 att vs +0 arm/+1 sh:	15 shots | 20.1sec
++2 att vs +0 arm/+2 sh:	15 shots | 20.1sec
++2 att vs +0 arm/+3 sh:	15 shots | 20.1sec
+---
++2 att vs +1 arm/+0 sh:	15 shots | 20.1sec
++2 att vs +1 arm/+1 sh:	15 shots | 20.1sec
++2 att vs +1 arm/+2 sh:	16 shots | 21.44sec
++2 att vs +1 arm/+3 sh:	16 shots | 21.44sec
+---
++2 att vs +2 arm/+0 sh:	16 shots | 21.44sec
++2 att vs +2 arm/+1 sh:	16 shots | 21.44sec
++2 att vs +2 arm/+2 sh:	16 shots | 21.44sec
++2 att vs +2 arm/+3 sh:	16 shots | 21.44sec
+---
++2 att vs +3 arm/+0 sh:	16 shots | 21.44sec
++2 att vs +3 arm/+1 sh:	16 shots | 21.44sec
++2 att vs +3 arm/+2 sh:	17 shots | 22.78sec
++2 att vs +3 arm/+3 sh:	17 shots | 22.78sec
+---
+---
++3 att vs +0 arm/+0 sh:	13 shots | 17.42sec
++3 att vs +0 arm/+1 sh:	14 shots | 18.76sec
++3 att vs +0 arm/+2 sh:	14 shots | 18.76sec
++3 att vs +0 arm/+3 sh:	14 shots | 18.76sec
+---
++3 att vs +1 arm/+0 sh:	14 shots | 18.76sec
++3 att vs +1 arm/+1 sh:	14 shots | 18.76sec
++3 att vs +1 arm/+2 sh:	14 shots | 18.76sec
++3 att vs +1 arm/+3 sh:	14 shots | 18.76sec
+---
++3 att vs +2 arm/+0 sh:	14 shots | 18.76sec
++3 att vs +2 arm/+1 sh:	14 shots | 18.76sec
++3 att vs +2 arm/+2 sh:	15 shots | 20.1sec
++3 att vs +2 arm/+3 sh:	15 shots | 20.1sec
+---
++3 att vs +3 arm/+0 sh:	15 shots | 20.1sec
++3 att vs +3 arm/+1 sh:	15 shots | 20.1sec
++3 att vs +3 arm/+2 sh:	15 shots | 20.1sec
++3 att vs +3 arm/+3 sh:	15 shots | 20.1sec
+---
+---
+stalker attacking colossus
+---
++0 att vs +0 arm/+0 sh:	21 shots | 28.14sec
++0 att vs +0 arm/+1 sh:	21 shots | 28.14sec
++0 att vs +0 arm/+2 sh:	22 shots | 29.48sec
++0 att vs +0 arm/+3 sh:	22 shots | 29.48sec
+---
++0 att vs +1 arm/+0 sh:	21 shots | 28.14sec
++0 att vs +1 arm/+1 sh:	22 shots | 29.48sec
++0 att vs +1 arm/+2 sh:	22 shots | 29.48sec
++0 att vs +1 arm/+3 sh:	23 shots | 30.82sec
+---
++0 att vs +2 arm/+0 sh:	22 shots | 29.48sec
++0 att vs +2 arm/+1 sh:	23 shots | 30.82sec
++0 att vs +2 arm/+2 sh:	23 shots | 30.82sec
++0 att vs +2 arm/+3 sh:	24 shots | 32.16sec
+---
++0 att vs +3 arm/+0 sh:	23 shots | 30.82sec
++0 att vs +3 arm/+1 sh:	24 shots | 32.16sec
++0 att vs +3 arm/+2 sh:	24 shots | 32.16sec
++0 att vs +3 arm/+3 sh:	25 shots | 33.5sec
+---
+---
++1 att vs +0 arm/+0 sh:	19 shots | 25.46sec
++1 att vs +0 arm/+1 sh:	19 shots | 25.46sec
++1 att vs +0 arm/+2 sh:	19 shots | 25.46sec
++1 att vs +0 arm/+3 sh:	20 shots | 26.8sec
+---
++1 att vs +1 arm/+0 sh:	19 shots | 25.46sec
++1 att vs +1 arm/+1 sh:	20 shots | 26.8sec
++1 att vs +1 arm/+2 sh:	20 shots | 26.8sec
++1 att vs +1 arm/+3 sh:	21 shots | 28.14sec
+---
++1 att vs +2 arm/+0 sh:	20 shots | 26.8sec
++1 att vs +2 arm/+1 sh:	20 shots | 26.8sec
++1 att vs +2 arm/+2 sh:	21 shots | 28.14sec
++1 att vs +2 arm/+3 sh:	21 shots | 28.14sec
+---
++1 att vs +3 arm/+0 sh:	20 shots | 26.8sec
++1 att vs +3 arm/+1 sh:	21 shots | 28.14sec
++1 att vs +3 arm/+2 sh:	21 shots | 28.14sec
++1 att vs +3 arm/+3 sh:	22 shots | 29.48sec
+---
+---
++2 att vs +0 arm/+0 sh:	17 shots | 22.78sec
++2 att vs +0 arm/+1 sh:	17 shots | 22.78sec
++2 att vs +0 arm/+2 sh:	18 shots | 24.12sec
++2 att vs +0 arm/+3 sh:	18 shots | 24.12sec
+---
++2 att vs +1 arm/+0 sh:	17 shots | 22.78sec
++2 att vs +1 arm/+1 sh:	18 shots | 24.12sec
++2 att vs +1 arm/+2 sh:	18 shots | 24.12sec
++2 att vs +1 arm/+3 sh:	18 shots | 24.12sec
+---
++2 att vs +2 arm/+0 sh:	18 shots | 24.12sec
++2 att vs +2 arm/+1 sh:	18 shots | 24.12sec
++2 att vs +2 arm/+2 sh:	19 shots | 25.46sec
++2 att vs +2 arm/+3 sh:	19 shots | 25.46sec
+---
++2 att vs +3 arm/+0 sh:	18 shots | 24.12sec
++2 att vs +3 arm/+1 sh:	19 shots | 25.46sec
++2 att vs +3 arm/+2 sh:	19 shots | 25.46sec
++2 att vs +3 arm/+3 sh:	20 shots | 26.8sec
+---
+---
++3 att vs +0 arm/+0 sh:	15 shots | 20.1sec
++3 att vs +0 arm/+1 sh:	16 shots | 21.44sec
++3 att vs +0 arm/+2 sh:	16 shots | 21.44sec
++3 att vs +0 arm/+3 sh:	16 shots | 21.44sec
+---
++3 att vs +1 arm/+0 sh:	16 shots | 21.44sec
++3 att vs +1 arm/+1 sh:	16 shots | 21.44sec
++3 att vs +1 arm/+2 sh:	16 shots | 21.44sec
++3 att vs +1 arm/+3 sh:	17 shots | 22.78sec
+---
++3 att vs +2 arm/+0 sh:	16 shots | 21.44sec
++3 att vs +2 arm/+1 sh:	17 shots | 22.78sec
++3 att vs +2 arm/+2 sh:	17 shots | 22.78sec
++3 att vs +2 arm/+3 sh:	17 shots | 22.78sec
+---
++3 att vs +3 arm/+0 sh:	17 shots | 22.78sec
++3 att vs +3 arm/+1 sh:	17 shots | 22.78sec
++3 att vs +3 arm/+2 sh:	17 shots | 22.78sec
++3 att vs +3 arm/+3 sh:	18 shots | 24.12sec
+---
+---
+stalker attacking cannon
+---
++0 att vs +0 arm/+0 sh:	18 shots | 24.12sec
++0 att vs +0 arm/+1 sh:	18 shots | 24.12sec
++0 att vs +0 arm/+2 sh:	19 shots | 25.46sec
++0 att vs +0 arm/+3 sh:	19 shots | 25.46sec
+---
++0 att vs +1 arm/+0 sh:	18 shots | 24.12sec
++0 att vs +1 arm/+1 sh:	18 shots | 24.12sec
++0 att vs +1 arm/+2 sh:	19 shots | 25.46sec
++0 att vs +1 arm/+3 sh:	19 shots | 25.46sec
+---
++0 att vs +2 arm/+0 sh:	18 shots | 24.12sec
++0 att vs +2 arm/+1 sh:	18 shots | 24.12sec
++0 att vs +2 arm/+2 sh:	19 shots | 25.46sec
++0 att vs +2 arm/+3 sh:	19 shots | 25.46sec
+---
++0 att vs +3 arm/+0 sh:	18 shots | 24.12sec
++0 att vs +3 arm/+1 sh:	18 shots | 24.12sec
++0 att vs +3 arm/+2 sh:	19 shots | 25.46sec
++0 att vs +3 arm/+3 sh:	19 shots | 25.46sec
+---
+---
++1 att vs +0 arm/+0 sh:	16 shots | 21.44sec
++1 att vs +0 arm/+1 sh:	16 shots | 21.44sec
++1 att vs +0 arm/+2 sh:	17 shots | 22.78sec
++1 att vs +0 arm/+3 sh:	17 shots | 22.78sec
+---
++1 att vs +1 arm/+0 sh:	16 shots | 21.44sec
++1 att vs +1 arm/+1 sh:	16 shots | 21.44sec
++1 att vs +1 arm/+2 sh:	17 shots | 22.78sec
++1 att vs +1 arm/+3 sh:	17 shots | 22.78sec
+---
++1 att vs +2 arm/+0 sh:	16 shots | 21.44sec
++1 att vs +2 arm/+1 sh:	16 shots | 21.44sec
++1 att vs +2 arm/+2 sh:	17 shots | 22.78sec
++1 att vs +2 arm/+3 sh:	17 shots | 22.78sec
+---
++1 att vs +3 arm/+0 sh:	16 shots | 21.44sec
++1 att vs +3 arm/+1 sh:	16 shots | 21.44sec
++1 att vs +3 arm/+2 sh:	17 shots | 22.78sec
++1 att vs +3 arm/+3 sh:	17 shots | 22.78sec
+---
+---
++2 att vs +0 arm/+0 sh:	14 shots | 18.76sec
++2 att vs +0 arm/+1 sh:	15 shots | 20.1sec
++2 att vs +0 arm/+2 sh:	15 shots | 20.1sec
++2 att vs +0 arm/+3 sh:	16 shots | 21.44sec
+---
++2 att vs +1 arm/+0 sh:	14 shots | 18.76sec
++2 att vs +1 arm/+1 sh:	15 shots | 20.1sec
++2 att vs +1 arm/+2 sh:	15 shots | 20.1sec
++2 att vs +1 arm/+3 sh:	16 shots | 21.44sec
+---
++2 att vs +2 arm/+0 sh:	14 shots | 18.76sec
++2 att vs +2 arm/+1 sh:	15 shots | 20.1sec
++2 att vs +2 arm/+2 sh:	15 shots | 20.1sec
++2 att vs +2 arm/+3 sh:	16 shots | 21.44sec
+---
++2 att vs +3 arm/+0 sh:	14 shots | 18.76sec
++2 att vs +3 arm/+1 sh:	15 shots | 20.1sec
++2 att vs +3 arm/+2 sh:	15 shots | 20.1sec
++2 att vs +3 arm/+3 sh:	16 shots | 21.44sec
+---
+---
++3 att vs +0 arm/+0 sh:	13 shots | 17.42sec
++3 att vs +0 arm/+1 sh:	14 shots | 18.76sec
++3 att vs +0 arm/+2 sh:	14 shots | 18.76sec
++3 att vs +0 arm/+3 sh:	14 shots | 18.76sec
+---
++3 att vs +1 arm/+0 sh:	13 shots | 17.42sec
++3 att vs +1 arm/+1 sh:	14 shots | 18.76sec
++3 att vs +1 arm/+2 sh:	14 shots | 18.76sec
++3 att vs +1 arm/+3 sh:	14 shots | 18.76sec
+---
++3 att vs +2 arm/+0 sh:	13 shots | 17.42sec
++3 att vs +2 arm/+1 sh:	14 shots | 18.76sec
++3 att vs +2 arm/+2 sh:	14 shots | 18.76sec
++3 att vs +2 arm/+3 sh:	14 shots | 18.76sec
+---
++3 att vs +3 arm/+0 sh:	13 shots | 17.42sec
++3 att vs +3 arm/+1 sh:	14 shots | 18.76sec
++3 att vs +3 arm/+2 sh:	14 shots | 18.76sec
++3 att vs +3 arm/+3 sh:	14 shots | 18.76sec
+---
+---
+stalker attacking marine
+---
++0 att vs +0 arm:     	5 shots | 6.7sec
++0 att vs +1 arm:     	5 shots | 6.7sec
++0 att vs +2 arm:     	5 shots | 6.7sec
++0 att vs +3 arm:     	6 shots | 8.04sec
+---
++1 att vs +0 arm:     	4 shots | 5.36sec
++1 att vs +1 arm:     	5 shots | 6.7sec
++1 att vs +2 arm:     	5 shots | 6.7sec
++1 att vs +3 arm:     	5 shots | 6.7sec
+---
++2 att vs +0 arm:     	4 shots | 5.36sec
++2 att vs +1 arm:     	4 shots | 5.36sec
++2 att vs +2 arm:     	5 shots | 6.7sec
++2 att vs +3 arm:     	5 shots | 6.7sec
+---
++3 att vs +0 arm:     	4 shots | 5.36sec
++3 att vs +1 arm:     	4 shots | 5.36sec
++3 att vs +2 arm:     	4 shots | 5.36sec
++3 att vs +3 arm:     	5 shots | 6.7sec
+---
+---
+stalker attacking marauder
+---
++0 att vs +0 arm:     	8 shots | 10.72sec
++0 att vs +1 arm:     	8 shots | 10.72sec
++0 att vs +2 arm:     	9 shots | 12.06sec
++0 att vs +3 arm:     	9 shots | 12.06sec
+---
++1 att vs +0 arm:     	7 shots | 9.38sec
++1 att vs +1 arm:     	7 shots | 9.38sec
++1 att vs +2 arm:     	8 shots | 10.72sec
++1 att vs +3 arm:     	8 shots | 10.72sec
+---
++2 att vs +0 arm:     	6 shots | 8.04sec
++2 att vs +1 arm:     	7 shots | 9.38sec
++2 att vs +2 arm:     	7 shots | 9.38sec
++2 att vs +3 arm:     	7 shots | 9.38sec
+---
++3 att vs +0 arm:     	6 shots | 8.04sec
++3 att vs +1 arm:     	6 shots | 8.04sec
++3 att vs +2 arm:     	6 shots | 8.04sec
++3 att vs +3 arm:     	7 shots | 9.38sec
+---
+---
+stalker attacking reaper
+---
++0 att vs +0 arm:     	5 shots | 6.7sec
++0 att vs +1 arm:     	5 shots | 6.7sec
++0 att vs +2 arm:     	6 shots | 8.04sec
++0 att vs +3 arm:     	6 shots | 8.04sec
+---
++1 att vs +0 arm:     	5 shots | 6.7sec
++1 att vs +1 arm:     	5 shots | 6.7sec
++1 att vs +2 arm:     	5 shots | 6.7sec
++1 att vs +3 arm:     	6 shots | 8.04sec
+---
++2 att vs +0 arm:     	4 shots | 5.36sec
++2 att vs +1 arm:     	5 shots | 6.7sec
++2 att vs +2 arm:     	5 shots | 6.7sec
++2 att vs +3 arm:     	5 shots | 6.7sec
+---
++3 att vs +0 arm:     	4 shots | 5.36sec
++3 att vs +1 arm:     	4 shots | 5.36sec
++3 att vs +2 arm:     	5 shots | 6.7sec
++3 att vs +3 arm:     	5 shots | 6.7sec
+---
+---
+stalker attacking ghost
+---
++0 att vs +0 arm:     	8 shots | 10.72sec
++0 att vs +1 arm:     	9 shots | 12.06sec
++0 att vs +2 arm:     	10 shots | 13.4sec
++0 att vs +3 arm:     	10 shots | 13.4sec
+---
++1 att vs +0 arm:     	8 shots | 10.72sec
++1 att vs +1 arm:     	8 shots | 10.72sec
++1 att vs +2 arm:     	9 shots | 12.06sec
++1 att vs +3 arm:     	10 shots | 13.4sec
+---
++2 att vs +0 arm:     	7 shots | 9.38sec
++2 att vs +1 arm:     	8 shots | 10.72sec
++2 att vs +2 arm:     	8 shots | 10.72sec
++2 att vs +3 arm:     	9 shots | 12.06sec
+---
++3 att vs +0 arm:     	7 shots | 9.38sec
++3 att vs +1 arm:     	7 shots | 9.38sec
++3 att vs +2 arm:     	8 shots | 10.72sec
++3 att vs +3 arm:     	8 shots | 10.72sec
+---
+---
+stalker attacking hellion
+---
++0 att vs +0 arm:     	7 shots | 9.38sec
++0 att vs +1 arm:     	8 shots | 10.72sec
++0 att vs +2 arm:     	9 shots | 12.06sec
++0 att vs +3 arm:     	9 shots | 12.06sec
+---
++1 att vs +0 arm:     	7 shots | 9.38sec
++1 att vs +1 arm:     	7 shots | 9.38sec
++1 att vs +2 arm:     	8 shots | 10.72sec
++1 att vs +3 arm:     	9 shots | 12.06sec
+---
++2 att vs +0 arm:     	6 shots | 8.04sec
++2 att vs +1 arm:     	7 shots | 9.38sec
++2 att vs +2 arm:     	7 shots | 9.38sec
++2 att vs +3 arm:     	8 shots | 10.72sec
+---
++3 att vs +0 arm:     	6 shots | 8.04sec
++3 att vs +1 arm:     	6 shots | 8.04sec
++3 att vs +2 arm:     	7 shots | 9.38sec
++3 att vs +3 arm:     	7 shots | 9.38sec
+---
+---
+stalker attacking hellbat
+---
++0 att vs +0 arm:     	11 shots | 14.74sec
++0 att vs +1 arm:     	12 shots | 16.08sec
++0 att vs +2 arm:     	13 shots | 17.42sec
++0 att vs +3 arm:     	14 shots | 18.76sec
+---
++1 att vs +0 arm:     	10 shots | 13.4sec
++1 att vs +1 arm:     	11 shots | 14.74sec
++1 att vs +2 arm:     	12 shots | 16.08sec
++1 att vs +3 arm:     	13 shots | 17.42sec
+---
++2 att vs +0 arm:     	9 shots | 12.06sec
++2 att vs +1 arm:     	10 shots | 13.4sec
++2 att vs +2 arm:     	11 shots | 14.74sec
++2 att vs +3 arm:     	12 shots | 16.08sec
+---
++3 att vs +0 arm:     	9 shots | 12.06sec
++3 att vs +1 arm:     	9 shots | 12.06sec
++3 att vs +2 arm:     	10 shots | 13.4sec
++3 att vs +3 arm:     	11 shots | 14.74sec
+---
+---
+stalker attacking siegedtank
+---
++0 att vs +0 arm:     	11 shots | 14.74sec
++0 att vs +1 arm:     	11 shots | 14.74sec
++0 att vs +2 arm:     	12 shots | 16.08sec
++0 att vs +3 arm:     	13 shots | 17.42sec
+---
++1 att vs +0 arm:     	10 shots | 13.4sec
++1 att vs +1 arm:     	10 shots | 13.4sec
++1 att vs +2 arm:     	11 shots | 14.74sec
++1 att vs +3 arm:     	11 shots | 14.74sec
+---
++2 att vs +0 arm:     	9 shots | 12.06sec
++2 att vs +1 arm:     	9 shots | 12.06sec
++2 att vs +2 arm:     	10 shots | 13.4sec
++2 att vs +3 arm:     	10 shots | 13.4sec
+---
++3 att vs +0 arm:     	8 shots | 10.72sec
++3 att vs +1 arm:     	8 shots | 10.72sec
++3 att vs +2 arm:     	9 shots | 12.06sec
++3 att vs +3 arm:     	9 shots | 12.06sec
+---
+---
+stalker attacking tank
+---
++0 att vs +0 arm:     	11 shots | 14.74sec
++0 att vs +1 arm:     	11 shots | 14.74sec
++0 att vs +2 arm:     	12 shots | 16.08sec
++0 att vs +3 arm:     	13 shots | 17.42sec
+---
++1 att vs +0 arm:     	10 shots | 13.4sec
++1 att vs +1 arm:     	10 shots | 13.4sec
++1 att vs +2 arm:     	11 shots | 14.74sec
++1 att vs +3 arm:     	11 shots | 14.74sec
+---
++2 att vs +0 arm:     	9 shots | 12.06sec
++2 att vs +1 arm:     	9 shots | 12.06sec
++2 att vs +2 arm:     	10 shots | 13.4sec
++2 att vs +3 arm:     	10 shots | 13.4sec
+---
++3 att vs +0 arm:     	8 shots | 10.72sec
++3 att vs +1 arm:     	8 shots | 10.72sec
++3 att vs +2 arm:     	9 shots | 12.06sec
++3 att vs +3 arm:     	9 shots | 12.06sec
+---
+---
+stalker attacking thor
+---
++0 att vs +0 arm:     	24 shots | 32.16sec
++0 att vs +1 arm:     	25 shots | 33.5sec
++0 att vs +2 arm:     	27 shots | 36.18sec
++0 att vs +3 arm:     	29 shots | 38.86sec
+---
++1 att vs +0 arm:     	22 shots | 29.48sec
++1 att vs +1 arm:     	23 shots | 30.82sec
++1 att vs +2 arm:     	24 shots | 32.16sec
++1 att vs +3 arm:     	25 shots | 33.5sec
+---
++2 att vs +0 arm:     	20 shots | 26.8sec
++2 att vs +1 arm:     	20 shots | 26.8sec
++2 att vs +2 arm:     	22 shots | 29.48sec
++2 att vs +3 arm:     	23 shots | 30.82sec
+---
++3 att vs +0 arm:     	18 shots | 24.12sec
++3 att vs +1 arm:     	19 shots | 25.46sec
++3 att vs +2 arm:     	20 shots | 26.8sec
++3 att vs +3 arm:     	20 shots | 26.8sec
+---
+---
+stalker attacking zergling
+---
++0 att vs +0 arm:     	3 shots | 4.02sec
++0 att vs +1 arm:     	4 shots | 5.36sec
++0 att vs +2 arm:     	4 shots | 5.36sec
++0 att vs +3 arm:     	4 shots | 5.36sec
+---
++1 att vs +0 arm:     	3 shots | 4.02sec
++1 att vs +1 arm:     	3 shots | 4.02sec
++1 att vs +2 arm:     	4 shots | 5.36sec
++1 att vs +3 arm:     	4 shots | 5.36sec
+---
++2 att vs +0 arm:     	3 shots | 4.02sec
++2 att vs +1 arm:     	3 shots | 4.02sec
++2 att vs +2 arm:     	3 shots | 4.02sec
++2 att vs +3 arm:     	4 shots | 5.36sec
+---
++3 att vs +0 arm:     	3 shots | 4.02sec
++3 att vs +1 arm:     	3 shots | 4.02sec
++3 att vs +2 arm:     	3 shots | 4.02sec
++3 att vs +3 arm:     	3 shots | 4.02sec
+---
+---
+stalker attacking baneling
+---
++0 att vs +0 arm:     	3 shots | 4.02sec
++0 att vs +1 arm:     	4 shots | 5.36sec
++0 att vs +2 arm:     	4 shots | 5.36sec
++0 att vs +3 arm:     	4 shots | 5.36sec
+---
++1 att vs +0 arm:     	3 shots | 4.02sec
++1 att vs +1 arm:     	3 shots | 4.02sec
++1 att vs +2 arm:     	4 shots | 5.36sec
++1 att vs +3 arm:     	4 shots | 5.36sec
+---
++2 att vs +0 arm:     	3 shots | 4.02sec
++2 att vs +1 arm:     	3 shots | 4.02sec
++2 att vs +2 arm:     	3 shots | 4.02sec
++2 att vs +3 arm:     	4 shots | 5.36sec
+---
++3 att vs +0 arm:     	3 shots | 4.02sec
++3 att vs +1 arm:     	3 shots | 4.02sec
++3 att vs +2 arm:     	3 shots | 4.02sec
++3 att vs +3 arm:     	3 shots | 4.02sec
+---
+---
+stalker attacking roach
+---
++0 att vs +0 arm:     	9 shots | 12.06sec
++0 att vs +1 arm:     	10 shots | 13.4sec
++0 att vs +2 arm:     	11 shots | 14.74sec
++0 att vs +3 arm:     	11 shots | 14.74sec
+---
++1 att vs +0 arm:     	8 shots | 10.72sec
++1 att vs +1 arm:     	9 shots | 12.06sec
++1 att vs +2 arm:     	9 shots | 12.06sec
++1 att vs +3 arm:     	10 shots | 13.4sec
+---
++2 att vs +0 arm:     	8 shots | 10.72sec
++2 att vs +1 arm:     	8 shots | 10.72sec
++2 att vs +2 arm:     	8 shots | 10.72sec
++2 att vs +3 arm:     	9 shots | 12.06sec
+---
++3 att vs +0 arm:     	7 shots | 9.38sec
++3 att vs +1 arm:     	7 shots | 9.38sec
++3 att vs +2 arm:     	8 shots | 10.72sec
++3 att vs +3 arm:     	8 shots | 10.72sec
+---
+---
+stalker attacking ravager
+---
++0 att vs +0 arm:     	11 shots | 14.74sec
++0 att vs +1 arm:     	12 shots | 16.08sec
++0 att vs +2 arm:     	13 shots | 17.42sec
++0 att vs +3 arm:     	15 shots | 20.1sec
+---
++1 att vs +0 arm:     	10 shots | 13.4sec
++1 att vs +1 arm:     	11 shots | 14.74sec
++1 att vs +2 arm:     	12 shots | 16.08sec
++1 att vs +3 arm:     	13 shots | 17.42sec
+---
++2 att vs +0 arm:     	9 shots | 12.06sec
++2 att vs +1 arm:     	10 shots | 13.4sec
++2 att vs +2 arm:     	11 shots | 14.74sec
++2 att vs +3 arm:     	12 shots | 16.08sec
+---
++3 att vs +0 arm:     	9 shots | 12.06sec
++3 att vs +1 arm:     	9 shots | 12.06sec
++3 att vs +2 arm:     	10 shots | 13.4sec
++3 att vs +3 arm:     	11 shots | 14.74sec
+---
+---
+stalker attacking queen
+---
++0 att vs +0 arm:     	16 shots | 21.44sec
++0 att vs +1 arm:     	17 shots | 22.78sec
++0 att vs +2 arm:     	19 shots | 25.46sec
++0 att vs +3 arm:     	21 shots | 28.14sec
+---
++1 att vs +0 arm:     	15 shots | 20.1sec
++1 att vs +1 arm:     	16 shots | 21.44sec
++1 att vs +2 arm:     	17 shots | 22.78sec
++1 att vs +3 arm:     	19 shots | 25.46sec
+---
++2 att vs +0 arm:     	13 shots | 17.42sec
++2 att vs +1 arm:     	15 shots | 20.1sec
++2 att vs +2 arm:     	16 shots | 21.44sec
++2 att vs +3 arm:     	17 shots | 22.78sec
+---
++3 att vs +0 arm:     	13 shots | 17.42sec
++3 att vs +1 arm:     	13 shots | 17.42sec
++3 att vs +2 arm:     	15 shots | 20.1sec
++3 att vs +3 arm:     	16 shots | 21.44sec
+---
+---
+stalker attacking hydralisk
+---
++0 att vs +0 arm:     	8 shots | 10.72sec
++0 att vs +1 arm:     	8 shots | 10.72sec
++0 att vs +2 arm:     	9 shots | 12.06sec
++0 att vs +3 arm:     	10 shots | 13.4sec
+---
++1 att vs +0 arm:     	7 shots | 9.38sec
++1 att vs +1 arm:     	8 shots | 10.72sec
++1 att vs +2 arm:     	8 shots | 10.72sec
++1 att vs +3 arm:     	9 shots | 12.06sec
+---
++2 att vs +0 arm:     	7 shots | 9.38sec
++2 att vs +1 arm:     	7 shots | 9.38sec
++2 att vs +2 arm:     	8 shots | 10.72sec
++2 att vs +3 arm:     	8 shots | 10.72sec
+---
++3 att vs +0 arm:     	6 shots | 8.04sec
++3 att vs +1 arm:     	7 shots | 9.38sec
++3 att vs +2 arm:     	7 shots | 9.38sec
++3 att vs +3 arm:     	8 shots | 10.72sec
+---
+---
+stalker attacking lurker
+---
++0 att vs +0 arm:     	13 shots | 17.42sec
++0 att vs +1 arm:     	13 shots | 17.42sec
++0 att vs +2 arm:     	14 shots | 18.76sec
++0 att vs +3 arm:     	15 shots | 20.1sec
+---
++1 att vs +0 arm:     	11 shots | 14.74sec
++1 att vs +1 arm:     	12 shots | 16.08sec
++1 att vs +2 arm:     	13 shots | 17.42sec
++1 att vs +3 arm:     	13 shots | 17.42sec
+---
++2 att vs +0 arm:     	10 shots | 13.4sec
++2 att vs +1 arm:     	11 shots | 14.74sec
++2 att vs +2 arm:     	11 shots | 14.74sec
++2 att vs +3 arm:     	12 shots | 16.08sec
+---
++3 att vs +0 arm:     	9 shots | 12.06sec
++3 att vs +1 arm:     	10 shots | 13.4sec
++3 att vs +2 arm:     	10 shots | 13.4sec
++3 att vs +3 arm:     	11 shots | 14.74sec
+---
+---
+stalker attacking ultralisk
+---
++0 att vs +0 arm:     	38 shots | 50.92sec
++0 att vs +1 arm:     	41 shots | 54.94sec
++0 att vs +2 arm:     	44 shots | 58.96sec
++0 att vs +3 arm:     	48 shots | 64.32sec
+---
++1 att vs +0 arm:     	33 shots | 44.22sec
++1 att vs +1 arm:     	35 shots | 46.9sec
++1 att vs +2 arm:     	38 shots | 50.92sec
++1 att vs +3 arm:     	41 shots | 54.94sec
+---
++2 att vs +0 arm:     	29 shots | 38.86sec
++2 att vs +1 arm:     	31 shots | 41.54sec
++2 att vs +2 arm:     	33 shots | 44.22sec
++2 att vs +3 arm:     	35 shots | 46.9sec
+---
++3 att vs +0 arm:     	26 shots | 34.84sec
++3 att vs +1 arm:     	28 shots | 37.52sec
++3 att vs +2 arm:     	29 shots | 38.86sec
++3 att vs +3 arm:     	31 shots | 41.54sec
+---
+---
+stalker attacking spinecrawler
+---
++0 att vs +0 arm:     	29 shots | 38.86sec
++0 att vs +1 arm:     	29 shots | 38.86sec
++0 att vs +2 arm:     	29 shots | 38.86sec
++0 att vs +3 arm:     	29 shots | 38.86sec
+---
++1 att vs +0 arm:     	27 shots | 36.18sec
++1 att vs +1 arm:     	27 shots | 36.18sec
++1 att vs +2 arm:     	27 shots | 36.18sec
++1 att vs +3 arm:     	27 shots | 36.18sec
+---
++2 att vs +0 arm:     	25 shots | 33.5sec
++2 att vs +1 arm:     	25 shots | 33.5sec
++2 att vs +2 arm:     	25 shots | 33.5sec
++2 att vs +3 arm:     	25 shots | 33.5sec
+---
++3 att vs +0 arm:     	23 shots | 30.82sec
++3 att vs +1 arm:     	23 shots | 30.82sec
++3 att vs +2 arm:     	23 shots | 30.82sec
++3 att vs +3 arm:     	23 shots | 30.82sec
+---
+---

@@ -1,0 +1,575 @@
+stalker attacking ultralisk
+---
++0 att vs +0 arm:     	69 shots | 59.34sec
++0 att vs +1 arm:     	94 shots | 80.84sec
++0 att vs +2 arm:     	150 shots | 129.0sec
++0 att vs +3 arm:     	372 shots | 319.92sec
+---
++1 att vs +0 arm:     	54 shots | 46.44sec
++1 att vs +1 arm:     	69 shots | 59.34sec
++1 att vs +2 arm:     	94 shots | 80.84sec
++1 att vs +3 arm:     	150 shots | 129.0sec
+---
++2 att vs +0 arm:     	45 shots | 38.7sec
++2 att vs +1 arm:     	54 shots | 46.44sec
++2 att vs +2 arm:     	69 shots | 59.34sec
++2 att vs +3 arm:     	94 shots | 80.84sec
+---
++3 att vs +0 arm:     	38 shots | 32.68sec
++3 att vs +1 arm:     	45 shots | 38.7sec
++3 att vs +2 arm:     	54 shots | 46.44sec
++3 att vs +3 arm:     	69 shots | 59.34sec
+---
+---
+stalker attacking ultralisk
+---
++0 att vs +0 arm:     	38 shots | 50.92sec
++0 att vs +1 arm:     	41 shots | 54.94sec
++0 att vs +2 arm:     	44 shots | 58.96sec
++0 att vs +3 arm:     	48 shots | 64.32sec
+---
++1 att vs +0 arm:     	33 shots | 44.22sec
++1 att vs +1 arm:     	35 shots | 46.9sec
++1 att vs +2 arm:     	38 shots | 50.92sec
++1 att vs +3 arm:     	41 shots | 54.94sec
+---
++2 att vs +0 arm:     	29 shots | 38.86sec
++2 att vs +1 arm:     	31 shots | 41.54sec
++2 att vs +2 arm:     	33 shots | 44.22sec
++2 att vs +3 arm:     	35 shots | 46.9sec
+---
++3 att vs +0 arm:     	26 shots | 34.84sec
++3 att vs +1 arm:     	28 shots | 37.52sec
++3 att vs +2 arm:     	29 shots | 38.86sec
++3 att vs +3 arm:     	31 shots | 41.54sec
+---
+---
+adept attacking ultralisk
+---
++0 att vs +0 arm:     	90 shots | 99.9sec
++0 att vs +1 arm:     	110 shots | 122.1sec
++0 att vs +2 arm:     	140 shots | 155.4sec
++0 att vs +3 arm:     	194 shots | 215.34sec
+---
++1 att vs +0 arm:     	77 shots | 85.47sec
++1 att vs +1 arm:     	90 shots | 99.9sec
++1 att vs +2 arm:     	110 shots | 122.1sec
++1 att vs +3 arm:     	140 shots | 155.4sec
+---
++2 att vs +0 arm:     	66 shots | 73.26sec
++2 att vs +1 arm:     	77 shots | 85.47sec
++2 att vs +2 arm:     	90 shots | 99.9sec
++2 att vs +3 arm:     	110 shots | 122.1sec
+---
++3 att vs +0 arm:     	59 shots | 65.49sec
++3 att vs +1 arm:     	66 shots | 73.26sec
++3 att vs +2 arm:     	77 shots | 85.47sec
++3 att vs +3 arm:     	90 shots | 99.9sec
+---
+---
+archon attacking ultralisk
+---
++0 att vs +0 arm:     	17 shots | 21.25sec
++0 att vs +1 arm:     	17 shots | 21.25sec
++0 att vs +2 arm:     	18 shots | 22.5sec
++0 att vs +3 arm:     	19 shots | 23.75sec
+---
++1 att vs +0 arm:     	15 shots | 18.75sec
++1 att vs +1 arm:     	15 shots | 18.75sec
++1 att vs +2 arm:     	16 shots | 20.0sec
++1 att vs +3 arm:     	16 shots | 20.0sec
+---
++2 att vs +0 arm:     	13 shots | 16.25sec
++2 att vs +1 arm:     	14 shots | 17.5sec
++2 att vs +2 arm:     	14 shots | 17.5sec
++2 att vs +3 arm:     	15 shots | 18.75sec
+---
++3 att vs +0 arm:     	12 shots | 15.0sec
++3 att vs +1 arm:     	13 shots | 16.25sec
++3 att vs +2 arm:     	13 shots | 16.25sec
++3 att vs +3 arm:     	13 shots | 16.25sec
+---
+---
+immortal attacking ultralisk
+---
++0 att vs +0 arm:     	11 shots | 11.44sec
++0 att vs +1 arm:     	12 shots | 12.48sec
++0 att vs +2 arm:     	12 shots | 12.48sec
++0 att vs +3 arm:     	12 shots | 12.48sec
+---
++1 att vs +0 arm:     	10 shots | 10.4sec
++1 att vs +1 arm:     	11 shots | 11.44sec
++1 att vs +2 arm:     	11 shots | 11.44sec
++1 att vs +3 arm:     	11 shots | 11.44sec
+---
++2 att vs +0 arm:     	9 shots | 9.36sec
++2 att vs +1 arm:     	10 shots | 10.4sec
++2 att vs +2 arm:     	10 shots | 10.4sec
++2 att vs +3 arm:     	10 shots | 10.4sec
+---
++3 att vs +0 arm:     	9 shots | 9.36sec
++3 att vs +1 arm:     	9 shots | 9.36sec
++3 att vs +2 arm:     	9 shots | 9.36sec
++3 att vs +3 arm:     	9 shots | 9.36sec
+---
+---
+colossus attacking ultralisk
+---
++0 att vs +0 arm:     	45 shots | 48.15sec
++0 att vs +1 arm:     	55 shots | 58.85sec
++0 att vs +2 arm:     	70 shots | 74.9sec
++0 att vs +3 arm:     	97 shots | 103.79sec
+---
++1 att vs +0 arm:     	38 shots | 40.66sec
++1 att vs +1 arm:     	45 shots | 48.15sec
++1 att vs +2 arm:     	55 shots | 58.85sec
++1 att vs +3 arm:     	70 shots | 74.9sec
+---
++2 att vs +0 arm:     	33 shots | 35.31sec
++2 att vs +1 arm:     	38 shots | 40.66sec
++2 att vs +2 arm:     	45 shots | 48.15sec
++2 att vs +3 arm:     	55 shots | 58.85sec
+---
++3 att vs +0 arm:     	30 shots | 32.1sec
++3 att vs +1 arm:     	33 shots | 35.31sec
++3 att vs +2 arm:     	38 shots | 40.66sec
++3 att vs +3 arm:     	45 shots | 48.15sec
+---
+---
+cannon attacking ultralisk
+---
++0 att vs +0 arm:     	32 shots | 28.48sec
++0 att vs +1 arm:     	35 shots | 31.15sec
++0 att vs +2 arm:     	37 shots | 32.93sec
++0 att vs +3 arm:     	40 shots | 35.6sec
+---
++1 att vs +0 arm:     	32 shots | 28.48sec
++1 att vs +1 arm:     	35 shots | 31.15sec
++1 att vs +2 arm:     	37 shots | 32.93sec
++1 att vs +3 arm:     	40 shots | 35.6sec
+---
++2 att vs +0 arm:     	32 shots | 28.48sec
++2 att vs +1 arm:     	35 shots | 31.15sec
++2 att vs +2 arm:     	37 shots | 32.93sec
++2 att vs +3 arm:     	40 shots | 35.6sec
+---
++3 att vs +0 arm:     	32 shots | 28.48sec
++3 att vs +1 arm:     	35 shots | 31.15sec
++3 att vs +2 arm:     	37 shots | 32.93sec
++3 att vs +3 arm:     	40 shots | 35.6sec
+---
+---
+marine attacking ultralisk
+---
++0 att vs +0 arm:     	271 shots | 110.297sec
++0 att vs +1 arm:     	592 shots | 240.944sec
++0 att vs +2 arm:     	1448 shots | 589.336sec
++0 att vs +3 arm:     	1448 shots | 589.336sec
+---
++1 att vs +0 arm:     	176 shots | 71.632sec
++1 att vs +1 arm:     	271 shots | 110.297sec
++1 att vs +2 arm:     	592 shots | 240.944sec
++1 att vs +3 arm:     	1448 shots | 589.336sec
+---
++2 att vs +0 arm:     	131 shots | 53.317sec
++2 att vs +1 arm:     	176 shots | 71.632sec
++2 att vs +2 arm:     	271 shots | 110.297sec
++2 att vs +3 arm:     	592 shots | 240.944sec
+---
++3 att vs +0 arm:     	104 shots | 42.328sec
++3 att vs +1 arm:     	131 shots | 53.317sec
++3 att vs +2 arm:     	176 shots | 71.632sec
++3 att vs +3 arm:     	271 shots | 110.297sec
+---
+---
+marauder attacking ultralisk
+---
++0 att vs +0 arm:     	32 shots | 22.72sec
++0 att vs +1 arm:     	34 shots | 24.14sec
++0 att vs +2 arm:     	37 shots | 26.27sec
++0 att vs +3 arm:     	40 shots | 28.4sec
+---
++1 att vs +0 arm:     	29 shots | 20.59sec
++1 att vs +1 arm:     	30 shots | 21.3sec
++1 att vs +2 arm:     	32 shots | 22.72sec
++1 att vs +3 arm:     	34 shots | 24.14sec
+---
++2 att vs +0 arm:     	26 shots | 18.46sec
++2 att vs +1 arm:     	27 shots | 19.17sec
++2 att vs +2 arm:     	29 shots | 20.59sec
++2 att vs +3 arm:     	30 shots | 21.3sec
+---
++3 att vs +0 arm:     	24 shots | 17.04sec
++3 att vs +1 arm:     	25 shots | 17.75sec
++3 att vs +2 arm:     	26 shots | 18.46sec
++3 att vs +3 arm:     	27 shots | 19.17sec
+---
+---
+reaper attacking ultralisk
+---
++0 att vs +0 arm:     	1252 shots | 989.08sec
++0 att vs +1 arm:     	1252 shots | 989.08sec
++0 att vs +2 arm:     	1252 shots | 989.08sec
++0 att vs +3 arm:     	1252 shots | 989.08sec
+---
++1 att vs +0 arm:     	358 shots | 282.82sec
++1 att vs +1 arm:     	1252 shots | 989.08sec
++1 att vs +2 arm:     	1252 shots | 989.08sec
++1 att vs +3 arm:     	1252 shots | 989.08sec
+---
++2 att vs +0 arm:     	148 shots | 116.92sec
++2 att vs +1 arm:     	358 shots | 282.82sec
++2 att vs +2 arm:     	1252 shots | 989.08sec
++2 att vs +3 arm:     	1252 shots | 989.08sec
+---
++3 att vs +0 arm:     	93 shots | 73.47sec
++3 att vs +1 arm:     	148 shots | 116.92sec
++3 att vs +2 arm:     	358 shots | 282.82sec
++3 att vs +3 arm:     	1252 shots | 989.08sec
+---
+---
+ghost attacking ultralisk
+---
++0 att vs +0 arm:     	90 shots | 96.3sec
++0 att vs +1 arm:     	109 shots | 116.63sec
++0 att vs +2 arm:     	140 shots | 149.8sec
++0 att vs +3 arm:     	193 shots | 206.51sec
+---
++1 att vs +0 arm:     	76 shots | 81.32sec
++1 att vs +1 arm:     	90 shots | 96.3sec
++1 att vs +2 arm:     	109 shots | 116.63sec
++1 att vs +3 arm:     	140 shots | 149.8sec
+---
++2 att vs +0 arm:     	66 shots | 70.62sec
++2 att vs +1 arm:     	76 shots | 81.32sec
++2 att vs +2 arm:     	90 shots | 96.3sec
++2 att vs +3 arm:     	109 shots | 116.63sec
+---
++3 att vs +0 arm:     	59 shots | 63.13sec
++3 att vs +1 arm:     	66 shots | 70.62sec
++3 att vs +2 arm:     	76 shots | 81.32sec
++3 att vs +3 arm:     	90 shots | 96.3sec
+---
+---
+hellion attacking ultralisk
+---
++0 att vs +0 arm:     	151 shots | 270.29sec
++0 att vs +1 arm:     	216 shots | 386.64sec
++0 att vs +2 arm:     	379 shots | 678.41sec
++0 att vs +3 arm:     	1564 shots | 2799.56sec
+---
++1 att vs +0 arm:     	116 shots | 207.64sec
++1 att vs +1 arm:     	151 shots | 270.29sec
++1 att vs +2 arm:     	216 shots | 386.64sec
++1 att vs +3 arm:     	379 shots | 678.41sec
+---
++2 att vs +0 arm:     	94 shots | 168.26sec
++2 att vs +1 arm:     	116 shots | 207.64sec
++2 att vs +2 arm:     	151 shots | 270.29sec
++2 att vs +3 arm:     	216 shots | 386.64sec
+---
++3 att vs +0 arm:     	80 shots | 143.2sec
++3 att vs +1 arm:     	94 shots | 168.26sec
++3 att vs +2 arm:     	116 shots | 207.64sec
++3 att vs +3 arm:     	151 shots | 270.29sec
+---
+---
+hellbat attacking ultralisk
+---
++0 att vs +0 arm:     	38 shots | 54.34sec
++0 att vs +1 arm:     	41 shots | 58.63sec
++0 att vs +2 arm:     	44 shots | 62.92sec
++0 att vs +3 arm:     	48 shots | 68.64sec
+---
++1 att vs +0 arm:     	33 shots | 47.19sec
++1 att vs +1 arm:     	35 shots | 50.05sec
++1 att vs +2 arm:     	38 shots | 54.34sec
++1 att vs +3 arm:     	41 shots | 58.63sec
+---
++2 att vs +0 arm:     	29 shots | 41.47sec
++2 att vs +1 arm:     	31 shots | 44.33sec
++2 att vs +2 arm:     	33 shots | 47.19sec
++2 att vs +3 arm:     	35 shots | 50.05sec
+---
++3 att vs +0 arm:     	26 shots | 37.18sec
++3 att vs +1 arm:     	28 shots | 40.04sec
++3 att vs +2 arm:     	29 shots | 41.47sec
++3 att vs +3 arm:     	31 shots | 44.33sec
+---
+---
+siegedtank attacking ultralisk
+---
++0 att vs +0 arm:     	8 shots | 17.12sec
++0 att vs +1 arm:     	8 shots | 17.12sec
++0 att vs +2 arm:     	8 shots | 17.12sec
++0 att vs +3 arm:     	9 shots | 19.26sec
+---
++1 att vs +0 arm:     	8 shots | 17.12sec
++1 att vs +1 arm:     	8 shots | 17.12sec
++1 att vs +2 arm:     	8 shots | 17.12sec
++1 att vs +3 arm:     	8 shots | 17.12sec
+---
++2 att vs +0 arm:     	7 shots | 14.98sec
++2 att vs +1 arm:     	7 shots | 14.98sec
++2 att vs +2 arm:     	7 shots | 14.98sec
++2 att vs +3 arm:     	7 shots | 14.98sec
+---
++3 att vs +0 arm:     	7 shots | 14.98sec
++3 att vs +1 arm:     	7 shots | 14.98sec
++3 att vs +2 arm:     	7 shots | 14.98sec
++3 att vs +3 arm:     	7 shots | 14.98sec
+---
+---
+tank attacking ultralisk
+---
++0 att vs +0 arm:     	25 shots | 18.5sec
++0 att vs +1 arm:     	26 shots | 19.24sec
++0 att vs +2 arm:     	27 shots | 19.98sec
++0 att vs +3 arm:     	29 shots | 21.46sec
+---
++1 att vs +0 arm:     	22 shots | 16.28sec
++1 att vs +1 arm:     	23 shots | 17.02sec
++1 att vs +2 arm:     	24 shots | 17.76sec
++1 att vs +3 arm:     	25 shots | 18.5sec
+---
++2 att vs +0 arm:     	19 shots | 14.06sec
++2 att vs +1 arm:     	20 shots | 14.8sec
++2 att vs +2 arm:     	21 shots | 15.54sec
++2 att vs +3 arm:     	22 shots | 16.28sec
+---
++3 att vs +0 arm:     	17 shots | 12.58sec
++3 att vs +1 arm:     	18 shots | 13.32sec
++3 att vs +2 arm:     	19 shots | 14.06sec
++3 att vs +3 arm:     	19 shots | 14.06sec
+---
+---
+thor attacking ultralisk
+---
++0 att vs +0 arm:     	10 shots | 9.1sec
++0 att vs +1 arm:     	11 shots | 10.01sec
++0 att vs +2 arm:     	11 shots | 10.01sec
++0 att vs +3 arm:     	12 shots | 10.92sec
+---
++1 att vs +0 arm:     	9 shots | 8.19sec
++1 att vs +1 arm:     	10 shots | 9.1sec
++1 att vs +2 arm:     	10 shots | 9.1sec
++1 att vs +3 arm:     	10 shots | 9.1sec
+---
++2 att vs +0 arm:     	8 shots | 7.28sec
++2 att vs +1 arm:     	9 shots | 8.19sec
++2 att vs +2 arm:     	9 shots | 8.19sec
++2 att vs +3 arm:     	9 shots | 8.19sec
+---
++3 att vs +0 arm:     	8 shots | 7.28sec
++3 att vs +1 arm:     	8 shots | 7.28sec
++3 att vs +2 arm:     	8 shots | 7.28sec
++3 att vs +3 arm:     	8 shots | 7.28sec
+---
+---
+zergling attacking ultralisk
+---
++0 att vs +0 arm:     	617 shots | 306.649sec
++0 att vs +1 arm:     	1607 shots | 798.679sec
++0 att vs +2 arm:     	1607 shots | 798.679sec
++0 att vs +3 arm:     	1607 shots | 798.679sec
+---
++1 att vs +0 arm:     	277 shots | 137.669sec
++1 att vs +1 arm:     	617 shots | 306.649sec
++1 att vs +2 arm:     	1607 shots | 798.679sec
++1 att vs +3 arm:     	1607 shots | 798.679sec
+---
++2 att vs +0 arm:     	178 shots | 88.466sec
++2 att vs +1 arm:     	277 shots | 137.669sec
++2 att vs +2 arm:     	617 shots | 306.649sec
++2 att vs +3 arm:     	1607 shots | 798.679sec
+---
++3 att vs +0 arm:     	132 shots | 65.604sec
++3 att vs +1 arm:     	178 shots | 88.466sec
++3 att vs +2 arm:     	277 shots | 137.669sec
++3 att vs +3 arm:     	617 shots | 306.649sec
+---
+---
+baneling attacking ultralisk
+---
++0 att vs +0 arm:     	42 shots | 0.42sec
++0 att vs +1 arm:     	46 shots | 0.46sec
++0 att vs +2 arm:     	51 shots | 0.51sec
++0 att vs +3 arm:     	56 shots | 0.56sec
+---
++1 att vs +0 arm:     	36 shots | 0.36sec
++1 att vs +1 arm:     	39 shots | 0.39sec
++1 att vs +2 arm:     	42 shots | 0.42sec
++1 att vs +3 arm:     	46 shots | 0.46sec
+---
++2 att vs +0 arm:     	32 shots | 0.32sec
++2 att vs +1 arm:     	34 shots | 0.34sec
++2 att vs +2 arm:     	36 shots | 0.36sec
++2 att vs +3 arm:     	39 shots | 0.39sec
+---
++3 att vs +0 arm:     	28 shots | 0.28sec
++3 att vs +1 arm:     	30 shots | 0.3sec
++3 att vs +2 arm:     	32 shots | 0.32sec
++3 att vs +3 arm:     	34 shots | 0.34sec
+---
+---
+roach attacking ultralisk
+---
++0 att vs +0 arm:     	44 shots | 62.92sec
++0 att vs +1 arm:     	48 shots | 68.64sec
++0 att vs +2 arm:     	53 shots | 75.79sec
++0 att vs +3 arm:     	60 shots | 85.8sec
+---
++1 att vs +0 arm:     	38 shots | 54.34sec
++1 att vs +1 arm:     	41 shots | 58.63sec
++1 att vs +2 arm:     	44 shots | 62.92sec
++1 att vs +3 arm:     	48 shots | 68.64sec
+---
++2 att vs +0 arm:     	33 shots | 47.19sec
++2 att vs +1 arm:     	35 shots | 50.05sec
++2 att vs +2 arm:     	38 shots | 54.34sec
++2 att vs +3 arm:     	41 shots | 58.63sec
+---
++3 att vs +0 arm:     	29 shots | 41.47sec
++3 att vs +1 arm:     	31 shots | 44.33sec
++3 att vs +2 arm:     	33 shots | 47.19sec
++3 att vs +3 arm:     	35 shots | 50.05sec
+---
+---
+ravager attacking ultralisk
+---
++0 att vs +0 arm:     	44 shots | 50.16sec
++0 att vs +1 arm:     	48 shots | 54.72sec
++0 att vs +2 arm:     	53 shots | 60.42sec
++0 att vs +3 arm:     	59 shots | 67.26sec
+---
++1 att vs +0 arm:     	37 shots | 42.18sec
++1 att vs +1 arm:     	40 shots | 45.6sec
++1 att vs +2 arm:     	44 shots | 50.16sec
++1 att vs +3 arm:     	48 shots | 54.72sec
+---
++2 att vs +0 arm:     	33 shots | 37.62sec
++2 att vs +1 arm:     	35 shots | 39.9sec
++2 att vs +2 arm:     	37 shots | 42.18sec
++2 att vs +3 arm:     	40 shots | 45.6sec
+---
++3 att vs +0 arm:     	29 shots | 33.06sec
++3 att vs +1 arm:     	31 shots | 35.34sec
++3 att vs +2 arm:     	33 shots | 37.62sec
++3 att vs +3 arm:     	35 shots | 39.9sec
+---
+---
+queen attacking ultralisk
+---
++0 att vs +0 arm:     	1087 shots | 771.77sec
++0 att vs +1 arm:     	1087 shots | 771.77sec
++0 att vs +2 arm:     	1087 shots | 771.77sec
++0 att vs +3 arm:     	1087 shots | 771.77sec
+---
++1 att vs +0 arm:     	343 shots | 243.53sec
++1 att vs +1 arm:     	1087 shots | 771.77sec
++1 att vs +2 arm:     	1087 shots | 771.77sec
++1 att vs +3 arm:     	1087 shots | 771.77sec
+---
++2 att vs +0 arm:     	145 shots | 102.95sec
++2 att vs +1 arm:     	343 shots | 243.53sec
++2 att vs +2 arm:     	1087 shots | 771.77sec
++2 att vs +3 arm:     	1087 shots | 771.77sec
+---
++3 att vs +0 arm:     	92 shots | 65.32sec
++3 att vs +1 arm:     	145 shots | 102.95sec
++3 att vs +2 arm:     	343 shots | 243.53sec
++3 att vs +3 arm:     	1087 shots | 771.77sec
+---
+---
+hydralisk attacking ultralisk
+---
++0 att vs +0 arm:     	65 shots | 38.35sec
++0 att vs +1 arm:     	74 shots | 43.66sec
++0 att vs +2 arm:     	87 shots | 51.33sec
++0 att vs +3 arm:     	105 shots | 61.95sec
+---
++1 att vs +0 arm:     	57 shots | 33.63sec
++1 att vs +1 arm:     	65 shots | 38.35sec
++1 att vs +2 arm:     	74 shots | 43.66sec
++1 att vs +3 arm:     	87 shots | 51.33sec
+---
++2 att vs +0 arm:     	52 shots | 30.68sec
++2 att vs +1 arm:     	57 shots | 33.63sec
++2 att vs +2 arm:     	65 shots | 38.35sec
++2 att vs +3 arm:     	74 shots | 43.66sec
+---
++3 att vs +0 arm:     	47 shots | 27.73sec
++3 att vs +1 arm:     	52 shots | 30.68sec
++3 att vs +2 arm:     	57 shots | 33.63sec
++3 att vs +3 arm:     	65 shots | 38.35sec
+---
+---
+lurker attacking ultralisk
+---
++0 att vs +0 arm:     	20 shots | 28.6sec
++0 att vs +1 arm:     	21 shots | 30.03sec
++0 att vs +2 arm:     	22 shots | 31.46sec
++0 att vs +3 arm:     	23 shots | 32.89sec
+---
++1 att vs +0 arm:     	18 shots | 25.74sec
++1 att vs +1 arm:     	19 shots | 27.17sec
++1 att vs +2 arm:     	19 shots | 27.17sec
++1 att vs +3 arm:     	20 shots | 28.6sec
+---
++2 att vs +0 arm:     	16 shots | 22.88sec
++2 att vs +1 arm:     	17 shots | 24.31sec
++2 att vs +2 arm:     	17 shots | 24.31sec
++2 att vs +3 arm:     	18 shots | 25.74sec
+---
++3 att vs +0 arm:     	15 shots | 21.45sec
++3 att vs +1 arm:     	15 shots | 21.45sec
++3 att vs +2 arm:     	16 shots | 22.88sec
++3 att vs +3 arm:     	16 shots | 22.88sec
+---
+---
+ultralisk attacking ultralisk
+---
++0 att vs +0 arm:     	17 shots | 10.37sec
++0 att vs +1 arm:     	17 shots | 10.37sec
++0 att vs +2 arm:     	18 shots | 10.98sec
++0 att vs +3 arm:     	19 shots | 11.59sec
+---
++1 att vs +0 arm:     	15 shots | 9.15sec
++1 att vs +1 arm:     	16 shots | 9.76sec
++1 att vs +2 arm:     	16 shots | 9.76sec
++1 att vs +3 arm:     	17 shots | 10.37sec
+---
++2 att vs +0 arm:     	14 shots | 8.54sec
++2 att vs +1 arm:     	14 shots | 8.54sec
++2 att vs +2 arm:     	15 shots | 9.15sec
++2 att vs +3 arm:     	15 shots | 9.15sec
+---
++3 att vs +0 arm:     	13 shots | 7.93sec
++3 att vs +1 arm:     	13 shots | 7.93sec
++3 att vs +2 arm:     	14 shots | 8.54sec
++3 att vs +3 arm:     	14 shots | 8.54sec
+---
+---
+spinecrawler attacking ultralisk
+---
++0 att vs +0 arm:     	20 shots | 26.4sec
++0 att vs +1 arm:     	21 shots | 27.72sec
++0 att vs +2 arm:     	22 shots | 29.04sec
++0 att vs +3 arm:     	23 shots | 30.36sec
+---
++1 att vs +0 arm:     	20 shots | 26.4sec
++1 att vs +1 arm:     	21 shots | 27.72sec
++1 att vs +2 arm:     	22 shots | 29.04sec
++1 att vs +3 arm:     	23 shots | 30.36sec
+---
++2 att vs +0 arm:     	20 shots | 26.4sec
++2 att vs +1 arm:     	21 shots | 27.72sec
++2 att vs +2 arm:     	22 shots | 29.04sec
++2 att vs +3 arm:     	23 shots | 30.36sec
+---
++3 att vs +0 arm:     	20 shots | 26.4sec
++3 att vs +1 arm:     	21 shots | 27.72sec
++3 att vs +2 arm:     	22 shots | 29.04sec
++3 att vs +3 arm:     	23 shots | 30.36sec
+---
+---

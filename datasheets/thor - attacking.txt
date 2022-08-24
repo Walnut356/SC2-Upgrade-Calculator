@@ -1,0 +1,1016 @@
+thor attacking stalker
+---
++0 att vs +0 arm/+0 sh:	3 shots | 2.73sec
++0 att vs +0 arm/+1 sh:	3 shots | 2.73sec
++0 att vs +0 arm/+2 sh:	3 shots | 2.73sec
++0 att vs +0 arm/+3 sh:	3 shots | 2.73sec
+---
++0 att vs +1 arm/+0 sh:	3 shots | 2.73sec
++0 att vs +1 arm/+1 sh:	3 shots | 2.73sec
++0 att vs +1 arm/+2 sh:	3 shots | 2.73sec
++0 att vs +1 arm/+3 sh:	3 shots | 2.73sec
+---
++0 att vs +2 arm/+0 sh:	3 shots | 2.73sec
++0 att vs +2 arm/+1 sh:	3 shots | 2.73sec
++0 att vs +2 arm/+2 sh:	3 shots | 2.73sec
++0 att vs +2 arm/+3 sh:	3 shots | 2.73sec
+---
++0 att vs +3 arm/+0 sh:	3 shots | 2.73sec
++0 att vs +3 arm/+1 sh:	3 shots | 2.73sec
++0 att vs +3 arm/+2 sh:	3 shots | 2.73sec
++0 att vs +3 arm/+3 sh:	4 shots | 3.64sec
+---
+---
++1 att vs +0 arm/+0 sh:	3 shots | 2.73sec
++1 att vs +0 arm/+1 sh:	3 shots | 2.73sec
++1 att vs +0 arm/+2 sh:	3 shots | 2.73sec
++1 att vs +0 arm/+3 sh:	3 shots | 2.73sec
+---
++1 att vs +1 arm/+0 sh:	3 shots | 2.73sec
++1 att vs +1 arm/+1 sh:	3 shots | 2.73sec
++1 att vs +1 arm/+2 sh:	3 shots | 2.73sec
++1 att vs +1 arm/+3 sh:	3 shots | 2.73sec
+---
++1 att vs +2 arm/+0 sh:	3 shots | 2.73sec
++1 att vs +2 arm/+1 sh:	3 shots | 2.73sec
++1 att vs +2 arm/+2 sh:	3 shots | 2.73sec
++1 att vs +2 arm/+3 sh:	3 shots | 2.73sec
+---
++1 att vs +3 arm/+0 sh:	3 shots | 2.73sec
++1 att vs +3 arm/+1 sh:	3 shots | 2.73sec
++1 att vs +3 arm/+2 sh:	3 shots | 2.73sec
++1 att vs +3 arm/+3 sh:	3 shots | 2.73sec
+---
+---
++2 att vs +0 arm/+0 sh:	3 shots | 2.73sec
++2 att vs +0 arm/+1 sh:	3 shots | 2.73sec
++2 att vs +0 arm/+2 sh:	3 shots | 2.73sec
++2 att vs +0 arm/+3 sh:	3 shots | 2.73sec
+---
++2 att vs +1 arm/+0 sh:	3 shots | 2.73sec
++2 att vs +1 arm/+1 sh:	3 shots | 2.73sec
++2 att vs +1 arm/+2 sh:	3 shots | 2.73sec
++2 att vs +1 arm/+3 sh:	3 shots | 2.73sec
+---
++2 att vs +2 arm/+0 sh:	3 shots | 2.73sec
++2 att vs +2 arm/+1 sh:	3 shots | 2.73sec
++2 att vs +2 arm/+2 sh:	3 shots | 2.73sec
++2 att vs +2 arm/+3 sh:	3 shots | 2.73sec
+---
++2 att vs +3 arm/+0 sh:	3 shots | 2.73sec
++2 att vs +3 arm/+1 sh:	3 shots | 2.73sec
++2 att vs +3 arm/+2 sh:	3 shots | 2.73sec
++2 att vs +3 arm/+3 sh:	3 shots | 2.73sec
+---
+---
++3 att vs +0 arm/+0 sh:	3 shots | 2.73sec
++3 att vs +0 arm/+1 sh:	3 shots | 2.73sec
++3 att vs +0 arm/+2 sh:	3 shots | 2.73sec
++3 att vs +0 arm/+3 sh:	3 shots | 2.73sec
+---
++3 att vs +1 arm/+0 sh:	3 shots | 2.73sec
++3 att vs +1 arm/+1 sh:	3 shots | 2.73sec
++3 att vs +1 arm/+2 sh:	3 shots | 2.73sec
++3 att vs +1 arm/+3 sh:	3 shots | 2.73sec
+---
++3 att vs +2 arm/+0 sh:	3 shots | 2.73sec
++3 att vs +2 arm/+1 sh:	3 shots | 2.73sec
++3 att vs +2 arm/+2 sh:	3 shots | 2.73sec
++3 att vs +2 arm/+3 sh:	3 shots | 2.73sec
+---
++3 att vs +3 arm/+0 sh:	3 shots | 2.73sec
++3 att vs +3 arm/+1 sh:	3 shots | 2.73sec
++3 att vs +3 arm/+2 sh:	3 shots | 2.73sec
++3 att vs +3 arm/+3 sh:	3 shots | 2.73sec
+---
+---
+thor attacking stalker
+---
++0 att vs +0 arm/+0 sh:	3 shots | 2.73sec
++0 att vs +0 arm/+1 sh:	3 shots | 2.73sec
++0 att vs +0 arm/+2 sh:	3 shots | 2.73sec
++0 att vs +0 arm/+3 sh:	3 shots | 2.73sec
+---
++0 att vs +1 arm/+0 sh:	3 shots | 2.73sec
++0 att vs +1 arm/+1 sh:	3 shots | 2.73sec
++0 att vs +1 arm/+2 sh:	3 shots | 2.73sec
++0 att vs +1 arm/+3 sh:	3 shots | 2.73sec
+---
++0 att vs +2 arm/+0 sh:	3 shots | 2.73sec
++0 att vs +2 arm/+1 sh:	3 shots | 2.73sec
++0 att vs +2 arm/+2 sh:	3 shots | 2.73sec
++0 att vs +2 arm/+3 sh:	3 shots | 2.73sec
+---
++0 att vs +3 arm/+0 sh:	3 shots | 2.73sec
++0 att vs +3 arm/+1 sh:	3 shots | 2.73sec
++0 att vs +3 arm/+2 sh:	3 shots | 2.73sec
++0 att vs +3 arm/+3 sh:	4 shots | 3.64sec
+---
+---
++1 att vs +0 arm/+0 sh:	3 shots | 2.73sec
++1 att vs +0 arm/+1 sh:	3 shots | 2.73sec
++1 att vs +0 arm/+2 sh:	3 shots | 2.73sec
++1 att vs +0 arm/+3 sh:	3 shots | 2.73sec
+---
++1 att vs +1 arm/+0 sh:	3 shots | 2.73sec
++1 att vs +1 arm/+1 sh:	3 shots | 2.73sec
++1 att vs +1 arm/+2 sh:	3 shots | 2.73sec
++1 att vs +1 arm/+3 sh:	3 shots | 2.73sec
+---
++1 att vs +2 arm/+0 sh:	3 shots | 2.73sec
++1 att vs +2 arm/+1 sh:	3 shots | 2.73sec
++1 att vs +2 arm/+2 sh:	3 shots | 2.73sec
++1 att vs +2 arm/+3 sh:	3 shots | 2.73sec
+---
++1 att vs +3 arm/+0 sh:	3 shots | 2.73sec
++1 att vs +3 arm/+1 sh:	3 shots | 2.73sec
++1 att vs +3 arm/+2 sh:	3 shots | 2.73sec
++1 att vs +3 arm/+3 sh:	3 shots | 2.73sec
+---
+---
++2 att vs +0 arm/+0 sh:	3 shots | 2.73sec
++2 att vs +0 arm/+1 sh:	3 shots | 2.73sec
++2 att vs +0 arm/+2 sh:	3 shots | 2.73sec
++2 att vs +0 arm/+3 sh:	3 shots | 2.73sec
+---
++2 att vs +1 arm/+0 sh:	3 shots | 2.73sec
++2 att vs +1 arm/+1 sh:	3 shots | 2.73sec
++2 att vs +1 arm/+2 sh:	3 shots | 2.73sec
++2 att vs +1 arm/+3 sh:	3 shots | 2.73sec
+---
++2 att vs +2 arm/+0 sh:	3 shots | 2.73sec
++2 att vs +2 arm/+1 sh:	3 shots | 2.73sec
++2 att vs +2 arm/+2 sh:	3 shots | 2.73sec
++2 att vs +2 arm/+3 sh:	3 shots | 2.73sec
+---
++2 att vs +3 arm/+0 sh:	3 shots | 2.73sec
++2 att vs +3 arm/+1 sh:	3 shots | 2.73sec
++2 att vs +3 arm/+2 sh:	3 shots | 2.73sec
++2 att vs +3 arm/+3 sh:	3 shots | 2.73sec
+---
+---
++3 att vs +0 arm/+0 sh:	3 shots | 2.73sec
++3 att vs +0 arm/+1 sh:	3 shots | 2.73sec
++3 att vs +0 arm/+2 sh:	3 shots | 2.73sec
++3 att vs +0 arm/+3 sh:	3 shots | 2.73sec
+---
++3 att vs +1 arm/+0 sh:	3 shots | 2.73sec
++3 att vs +1 arm/+1 sh:	3 shots | 2.73sec
++3 att vs +1 arm/+2 sh:	3 shots | 2.73sec
++3 att vs +1 arm/+3 sh:	3 shots | 2.73sec
+---
++3 att vs +2 arm/+0 sh:	3 shots | 2.73sec
++3 att vs +2 arm/+1 sh:	3 shots | 2.73sec
++3 att vs +2 arm/+2 sh:	3 shots | 2.73sec
++3 att vs +2 arm/+3 sh:	3 shots | 2.73sec
+---
++3 att vs +3 arm/+0 sh:	3 shots | 2.73sec
++3 att vs +3 arm/+1 sh:	3 shots | 2.73sec
++3 att vs +3 arm/+2 sh:	3 shots | 2.73sec
++3 att vs +3 arm/+3 sh:	3 shots | 2.73sec
+---
+---
+thor attacking adept
+---
++0 att vs +0 arm/+0 sh:	3 shots | 2.73sec
++0 att vs +0 arm/+1 sh:	3 shots | 2.73sec
++0 att vs +0 arm/+2 sh:	3 shots | 2.73sec
++0 att vs +0 arm/+3 sh:	3 shots | 2.73sec
+---
++0 att vs +1 arm/+0 sh:	3 shots | 2.73sec
++0 att vs +1 arm/+1 sh:	3 shots | 2.73sec
++0 att vs +1 arm/+2 sh:	3 shots | 2.73sec
++0 att vs +1 arm/+3 sh:	3 shots | 2.73sec
+---
++0 att vs +2 arm/+0 sh:	3 shots | 2.73sec
++0 att vs +2 arm/+1 sh:	3 shots | 2.73sec
++0 att vs +2 arm/+2 sh:	3 shots | 2.73sec
++0 att vs +2 arm/+3 sh:	3 shots | 2.73sec
+---
++0 att vs +3 arm/+0 sh:	3 shots | 2.73sec
++0 att vs +3 arm/+1 sh:	3 shots | 2.73sec
++0 att vs +3 arm/+2 sh:	3 shots | 2.73sec
++0 att vs +3 arm/+3 sh:	3 shots | 2.73sec
+---
+---
++1 att vs +0 arm/+0 sh:	3 shots | 2.73sec
++1 att vs +0 arm/+1 sh:	3 shots | 2.73sec
++1 att vs +0 arm/+2 sh:	3 shots | 2.73sec
++1 att vs +0 arm/+3 sh:	3 shots | 2.73sec
+---
++1 att vs +1 arm/+0 sh:	3 shots | 2.73sec
++1 att vs +1 arm/+1 sh:	3 shots | 2.73sec
++1 att vs +1 arm/+2 sh:	3 shots | 2.73sec
++1 att vs +1 arm/+3 sh:	3 shots | 2.73sec
+---
++1 att vs +2 arm/+0 sh:	3 shots | 2.73sec
++1 att vs +2 arm/+1 sh:	3 shots | 2.73sec
++1 att vs +2 arm/+2 sh:	3 shots | 2.73sec
++1 att vs +2 arm/+3 sh:	3 shots | 2.73sec
+---
++1 att vs +3 arm/+0 sh:	3 shots | 2.73sec
++1 att vs +3 arm/+1 sh:	3 shots | 2.73sec
++1 att vs +3 arm/+2 sh:	3 shots | 2.73sec
++1 att vs +3 arm/+3 sh:	3 shots | 2.73sec
+---
+---
++2 att vs +0 arm/+0 sh:	2 shots | 1.82sec
++2 att vs +0 arm/+1 sh:	3 shots | 2.73sec
++2 att vs +0 arm/+2 sh:	3 shots | 2.73sec
++2 att vs +0 arm/+3 sh:	3 shots | 2.73sec
+---
++2 att vs +1 arm/+0 sh:	3 shots | 2.73sec
++2 att vs +1 arm/+1 sh:	3 shots | 2.73sec
++2 att vs +1 arm/+2 sh:	3 shots | 2.73sec
++2 att vs +1 arm/+3 sh:	3 shots | 2.73sec
+---
++2 att vs +2 arm/+0 sh:	3 shots | 2.73sec
++2 att vs +2 arm/+1 sh:	3 shots | 2.73sec
++2 att vs +2 arm/+2 sh:	3 shots | 2.73sec
++2 att vs +2 arm/+3 sh:	3 shots | 2.73sec
+---
++2 att vs +3 arm/+0 sh:	3 shots | 2.73sec
++2 att vs +3 arm/+1 sh:	3 shots | 2.73sec
++2 att vs +3 arm/+2 sh:	3 shots | 2.73sec
++2 att vs +3 arm/+3 sh:	3 shots | 2.73sec
+---
+---
++3 att vs +0 arm/+0 sh:	2 shots | 1.82sec
++3 att vs +0 arm/+1 sh:	2 shots | 1.82sec
++3 att vs +0 arm/+2 sh:	2 shots | 1.82sec
++3 att vs +0 arm/+3 sh:	2 shots | 1.82sec
+---
++3 att vs +1 arm/+0 sh:	2 shots | 1.82sec
++3 att vs +1 arm/+1 sh:	2 shots | 1.82sec
++3 att vs +1 arm/+2 sh:	2 shots | 1.82sec
++3 att vs +1 arm/+3 sh:	2 shots | 1.82sec
+---
++3 att vs +2 arm/+0 sh:	2 shots | 1.82sec
++3 att vs +2 arm/+1 sh:	2 shots | 1.82sec
++3 att vs +2 arm/+2 sh:	2 shots | 1.82sec
++3 att vs +2 arm/+3 sh:	2 shots | 1.82sec
+---
++3 att vs +3 arm/+0 sh:	2 shots | 1.82sec
++3 att vs +3 arm/+1 sh:	2 shots | 1.82sec
++3 att vs +3 arm/+2 sh:	2 shots | 1.82sec
++3 att vs +3 arm/+3 sh:	2 shots | 1.82sec
+---
+---
+thor attacking archon
+---
++0 att vs +0 arm/+0 sh:	7 shots | 6.37sec
++0 att vs +0 arm/+1 sh:	7 shots | 6.37sec
++0 att vs +0 arm/+2 sh:	7 shots | 6.37sec
++0 att vs +0 arm/+3 sh:	7 shots | 6.37sec
+---
++0 att vs +1 arm/+0 sh:	7 shots | 6.37sec
++0 att vs +1 arm/+1 sh:	7 shots | 6.37sec
++0 att vs +1 arm/+2 sh:	7 shots | 6.37sec
++0 att vs +1 arm/+3 sh:	7 shots | 6.37sec
+---
++0 att vs +2 arm/+0 sh:	7 shots | 6.37sec
++0 att vs +2 arm/+1 sh:	7 shots | 6.37sec
++0 att vs +2 arm/+2 sh:	7 shots | 6.37sec
++0 att vs +2 arm/+3 sh:	7 shots | 6.37sec
+---
++0 att vs +3 arm/+0 sh:	7 shots | 6.37sec
++0 att vs +3 arm/+1 sh:	7 shots | 6.37sec
++0 att vs +3 arm/+2 sh:	7 shots | 6.37sec
++0 att vs +3 arm/+3 sh:	7 shots | 6.37sec
+---
+---
++1 att vs +0 arm/+0 sh:	6 shots | 5.46sec
++1 att vs +0 arm/+1 sh:	6 shots | 5.46sec
++1 att vs +0 arm/+2 sh:	6 shots | 5.46sec
++1 att vs +0 arm/+3 sh:	7 shots | 6.37sec
+---
++1 att vs +1 arm/+0 sh:	6 shots | 5.46sec
++1 att vs +1 arm/+1 sh:	6 shots | 5.46sec
++1 att vs +1 arm/+2 sh:	6 shots | 5.46sec
++1 att vs +1 arm/+3 sh:	7 shots | 6.37sec
+---
++1 att vs +2 arm/+0 sh:	6 shots | 5.46sec
++1 att vs +2 arm/+1 sh:	6 shots | 5.46sec
++1 att vs +2 arm/+2 sh:	6 shots | 5.46sec
++1 att vs +2 arm/+3 sh:	7 shots | 6.37sec
+---
++1 att vs +3 arm/+0 sh:	6 shots | 5.46sec
++1 att vs +3 arm/+1 sh:	6 shots | 5.46sec
++1 att vs +3 arm/+2 sh:	6 shots | 5.46sec
++1 att vs +3 arm/+3 sh:	7 shots | 6.37sec
+---
+---
++2 att vs +0 arm/+0 sh:	6 shots | 5.46sec
++2 att vs +0 arm/+1 sh:	6 shots | 5.46sec
++2 att vs +0 arm/+2 sh:	6 shots | 5.46sec
++2 att vs +0 arm/+3 sh:	6 shots | 5.46sec
+---
++2 att vs +1 arm/+0 sh:	6 shots | 5.46sec
++2 att vs +1 arm/+1 sh:	6 shots | 5.46sec
++2 att vs +1 arm/+2 sh:	6 shots | 5.46sec
++2 att vs +1 arm/+3 sh:	6 shots | 5.46sec
+---
++2 att vs +2 arm/+0 sh:	6 shots | 5.46sec
++2 att vs +2 arm/+1 sh:	6 shots | 5.46sec
++2 att vs +2 arm/+2 sh:	6 shots | 5.46sec
++2 att vs +2 arm/+3 sh:	6 shots | 5.46sec
+---
++2 att vs +3 arm/+0 sh:	6 shots | 5.46sec
++2 att vs +3 arm/+1 sh:	6 shots | 5.46sec
++2 att vs +3 arm/+2 sh:	6 shots | 5.46sec
++2 att vs +3 arm/+3 sh:	6 shots | 5.46sec
+---
+---
++3 att vs +0 arm/+0 sh:	5 shots | 4.55sec
++3 att vs +0 arm/+1 sh:	5 shots | 4.55sec
++3 att vs +0 arm/+2 sh:	5 shots | 4.55sec
++3 att vs +0 arm/+3 sh:	6 shots | 5.46sec
+---
++3 att vs +1 arm/+0 sh:	5 shots | 4.55sec
++3 att vs +1 arm/+1 sh:	5 shots | 4.55sec
++3 att vs +1 arm/+2 sh:	5 shots | 4.55sec
++3 att vs +1 arm/+3 sh:	6 shots | 5.46sec
+---
++3 att vs +2 arm/+0 sh:	5 shots | 4.55sec
++3 att vs +2 arm/+1 sh:	5 shots | 4.55sec
++3 att vs +2 arm/+2 sh:	5 shots | 4.55sec
++3 att vs +2 arm/+3 sh:	6 shots | 5.46sec
+---
++3 att vs +3 arm/+0 sh:	5 shots | 4.55sec
++3 att vs +3 arm/+1 sh:	5 shots | 4.55sec
++3 att vs +3 arm/+2 sh:	5 shots | 4.55sec
++3 att vs +3 arm/+3 sh:	6 shots | 5.46sec
+---
+---
+thor attacking immortal
+---
++0 att vs +0 arm/+0 sh:	6 shots | 5.46sec
++0 att vs +0 arm/+1 sh:	6 shots | 5.46sec
++0 att vs +0 arm/+2 sh:	6 shots | 5.46sec
++0 att vs +0 arm/+3 sh:	6 shots | 5.46sec
+---
++0 att vs +1 arm/+0 sh:	6 shots | 5.46sec
++0 att vs +1 arm/+1 sh:	6 shots | 5.46sec
++0 att vs +1 arm/+2 sh:	6 shots | 5.46sec
++0 att vs +1 arm/+3 sh:	6 shots | 5.46sec
+---
++0 att vs +2 arm/+0 sh:	6 shots | 5.46sec
++0 att vs +2 arm/+1 sh:	6 shots | 5.46sec
++0 att vs +2 arm/+2 sh:	6 shots | 5.46sec
++0 att vs +2 arm/+3 sh:	6 shots | 5.46sec
+---
++0 att vs +3 arm/+0 sh:	6 shots | 5.46sec
++0 att vs +3 arm/+1 sh:	6 shots | 5.46sec
++0 att vs +3 arm/+2 sh:	6 shots | 5.46sec
++0 att vs +3 arm/+3 sh:	6 shots | 5.46sec
+---
+---
++1 att vs +0 arm/+0 sh:	5 shots | 4.55sec
++1 att vs +0 arm/+1 sh:	5 shots | 4.55sec
++1 att vs +0 arm/+2 sh:	5 shots | 4.55sec
++1 att vs +0 arm/+3 sh:	5 shots | 4.55sec
+---
++1 att vs +1 arm/+0 sh:	5 shots | 4.55sec
++1 att vs +1 arm/+1 sh:	5 shots | 4.55sec
++1 att vs +1 arm/+2 sh:	5 shots | 4.55sec
++1 att vs +1 arm/+3 sh:	5 shots | 4.55sec
+---
++1 att vs +2 arm/+0 sh:	5 shots | 4.55sec
++1 att vs +2 arm/+1 sh:	5 shots | 4.55sec
++1 att vs +2 arm/+2 sh:	5 shots | 4.55sec
++1 att vs +2 arm/+3 sh:	6 shots | 5.46sec
+---
++1 att vs +3 arm/+0 sh:	5 shots | 4.55sec
++1 att vs +3 arm/+1 sh:	5 shots | 4.55sec
++1 att vs +3 arm/+2 sh:	6 shots | 5.46sec
++1 att vs +3 arm/+3 sh:	6 shots | 5.46sec
+---
+---
++2 att vs +0 arm/+0 sh:	5 shots | 4.55sec
++2 att vs +0 arm/+1 sh:	5 shots | 4.55sec
++2 att vs +0 arm/+2 sh:	5 shots | 4.55sec
++2 att vs +0 arm/+3 sh:	5 shots | 4.55sec
+---
++2 att vs +1 arm/+0 sh:	5 shots | 4.55sec
++2 att vs +1 arm/+1 sh:	5 shots | 4.55sec
++2 att vs +1 arm/+2 sh:	5 shots | 4.55sec
++2 att vs +1 arm/+3 sh:	5 shots | 4.55sec
+---
++2 att vs +2 arm/+0 sh:	5 shots | 4.55sec
++2 att vs +2 arm/+1 sh:	5 shots | 4.55sec
++2 att vs +2 arm/+2 sh:	5 shots | 4.55sec
++2 att vs +2 arm/+3 sh:	5 shots | 4.55sec
+---
++2 att vs +3 arm/+0 sh:	5 shots | 4.55sec
++2 att vs +3 arm/+1 sh:	5 shots | 4.55sec
++2 att vs +3 arm/+2 sh:	5 shots | 4.55sec
++2 att vs +3 arm/+3 sh:	5 shots | 4.55sec
+---
+---
++3 att vs +0 arm/+0 sh:	4 shots | 3.64sec
++3 att vs +0 arm/+1 sh:	4 shots | 3.64sec
++3 att vs +0 arm/+2 sh:	5 shots | 4.55sec
++3 att vs +0 arm/+3 sh:	5 shots | 4.55sec
+---
++3 att vs +1 arm/+0 sh:	4 shots | 3.64sec
++3 att vs +1 arm/+1 sh:	5 shots | 4.55sec
++3 att vs +1 arm/+2 sh:	5 shots | 4.55sec
++3 att vs +1 arm/+3 sh:	5 shots | 4.55sec
+---
++3 att vs +2 arm/+0 sh:	5 shots | 4.55sec
++3 att vs +2 arm/+1 sh:	5 shots | 4.55sec
++3 att vs +2 arm/+2 sh:	5 shots | 4.55sec
++3 att vs +2 arm/+3 sh:	5 shots | 4.55sec
+---
++3 att vs +3 arm/+0 sh:	5 shots | 4.55sec
++3 att vs +3 arm/+1 sh:	5 shots | 4.55sec
++3 att vs +3 arm/+2 sh:	5 shots | 4.55sec
++3 att vs +3 arm/+3 sh:	5 shots | 4.55sec
+---
+---
+thor attacking colossus
+---
++0 att vs +0 arm/+0 sh:	6 shots | 5.46sec
++0 att vs +0 arm/+1 sh:	7 shots | 6.37sec
++0 att vs +0 arm/+2 sh:	7 shots | 6.37sec
++0 att vs +0 arm/+3 sh:	7 shots | 6.37sec
+---
++0 att vs +1 arm/+0 sh:	7 shots | 6.37sec
++0 att vs +1 arm/+1 sh:	7 shots | 6.37sec
++0 att vs +1 arm/+2 sh:	7 shots | 6.37sec
++0 att vs +1 arm/+3 sh:	7 shots | 6.37sec
+---
++0 att vs +2 arm/+0 sh:	7 shots | 6.37sec
++0 att vs +2 arm/+1 sh:	7 shots | 6.37sec
++0 att vs +2 arm/+2 sh:	7 shots | 6.37sec
++0 att vs +2 arm/+3 sh:	7 shots | 6.37sec
+---
++0 att vs +3 arm/+0 sh:	7 shots | 6.37sec
++0 att vs +3 arm/+1 sh:	7 shots | 6.37sec
++0 att vs +3 arm/+2 sh:	7 shots | 6.37sec
++0 att vs +3 arm/+3 sh:	7 shots | 6.37sec
+---
+---
++1 att vs +0 arm/+0 sh:	6 shots | 5.46sec
++1 att vs +0 arm/+1 sh:	6 shots | 5.46sec
++1 att vs +0 arm/+2 sh:	6 shots | 5.46sec
++1 att vs +0 arm/+3 sh:	6 shots | 5.46sec
+---
++1 att vs +1 arm/+0 sh:	6 shots | 5.46sec
++1 att vs +1 arm/+1 sh:	6 shots | 5.46sec
++1 att vs +1 arm/+2 sh:	6 shots | 5.46sec
++1 att vs +1 arm/+3 sh:	6 shots | 5.46sec
+---
++1 att vs +2 arm/+0 sh:	6 shots | 5.46sec
++1 att vs +2 arm/+1 sh:	6 shots | 5.46sec
++1 att vs +2 arm/+2 sh:	6 shots | 5.46sec
++1 att vs +2 arm/+3 sh:	6 shots | 5.46sec
+---
++1 att vs +3 arm/+0 sh:	6 shots | 5.46sec
++1 att vs +3 arm/+1 sh:	6 shots | 5.46sec
++1 att vs +3 arm/+2 sh:	6 shots | 5.46sec
++1 att vs +3 arm/+3 sh:	6 shots | 5.46sec
+---
+---
++2 att vs +0 arm/+0 sh:	5 shots | 4.55sec
++2 att vs +0 arm/+1 sh:	6 shots | 5.46sec
++2 att vs +0 arm/+2 sh:	6 shots | 5.46sec
++2 att vs +0 arm/+3 sh:	6 shots | 5.46sec
+---
++2 att vs +1 arm/+0 sh:	6 shots | 5.46sec
++2 att vs +1 arm/+1 sh:	6 shots | 5.46sec
++2 att vs +1 arm/+2 sh:	6 shots | 5.46sec
++2 att vs +1 arm/+3 sh:	6 shots | 5.46sec
+---
++2 att vs +2 arm/+0 sh:	6 shots | 5.46sec
++2 att vs +2 arm/+1 sh:	6 shots | 5.46sec
++2 att vs +2 arm/+2 sh:	6 shots | 5.46sec
++2 att vs +2 arm/+3 sh:	6 shots | 5.46sec
+---
++2 att vs +3 arm/+0 sh:	6 shots | 5.46sec
++2 att vs +3 arm/+1 sh:	6 shots | 5.46sec
++2 att vs +3 arm/+2 sh:	6 shots | 5.46sec
++2 att vs +3 arm/+3 sh:	6 shots | 5.46sec
+---
+---
++3 att vs +0 arm/+0 sh:	5 shots | 4.55sec
++3 att vs +0 arm/+1 sh:	5 shots | 4.55sec
++3 att vs +0 arm/+2 sh:	5 shots | 4.55sec
++3 att vs +0 arm/+3 sh:	5 shots | 4.55sec
+---
++3 att vs +1 arm/+0 sh:	5 shots | 4.55sec
++3 att vs +1 arm/+1 sh:	5 shots | 4.55sec
++3 att vs +1 arm/+2 sh:	5 shots | 4.55sec
++3 att vs +1 arm/+3 sh:	5 shots | 4.55sec
+---
++3 att vs +2 arm/+0 sh:	5 shots | 4.55sec
++3 att vs +2 arm/+1 sh:	5 shots | 4.55sec
++3 att vs +2 arm/+2 sh:	5 shots | 4.55sec
++3 att vs +2 arm/+3 sh:	5 shots | 4.55sec
+---
++3 att vs +3 arm/+0 sh:	5 shots | 4.55sec
++3 att vs +3 arm/+1 sh:	5 shots | 4.55sec
++3 att vs +3 arm/+2 sh:	5 shots | 4.55sec
++3 att vs +3 arm/+3 sh:	5 shots | 4.55sec
+---
+---
+thor attacking cannon
+---
++0 att vs +0 arm/+0 sh:	6 shots | 5.46sec
++0 att vs +0 arm/+1 sh:	6 shots | 5.46sec
++0 att vs +0 arm/+2 sh:	6 shots | 5.46sec
++0 att vs +0 arm/+3 sh:	6 shots | 5.46sec
+---
++0 att vs +1 arm/+0 sh:	6 shots | 5.46sec
++0 att vs +1 arm/+1 sh:	6 shots | 5.46sec
++0 att vs +1 arm/+2 sh:	6 shots | 5.46sec
++0 att vs +1 arm/+3 sh:	6 shots | 5.46sec
+---
++0 att vs +2 arm/+0 sh:	6 shots | 5.46sec
++0 att vs +2 arm/+1 sh:	6 shots | 5.46sec
++0 att vs +2 arm/+2 sh:	6 shots | 5.46sec
++0 att vs +2 arm/+3 sh:	6 shots | 5.46sec
+---
++0 att vs +3 arm/+0 sh:	6 shots | 5.46sec
++0 att vs +3 arm/+1 sh:	6 shots | 5.46sec
++0 att vs +3 arm/+2 sh:	6 shots | 5.46sec
++0 att vs +3 arm/+3 sh:	6 shots | 5.46sec
+---
+---
++1 att vs +0 arm/+0 sh:	5 shots | 4.55sec
++1 att vs +0 arm/+1 sh:	5 shots | 4.55sec
++1 att vs +0 arm/+2 sh:	5 shots | 4.55sec
++1 att vs +0 arm/+3 sh:	5 shots | 4.55sec
+---
++1 att vs +1 arm/+0 sh:	5 shots | 4.55sec
++1 att vs +1 arm/+1 sh:	5 shots | 4.55sec
++1 att vs +1 arm/+2 sh:	5 shots | 4.55sec
++1 att vs +1 arm/+3 sh:	5 shots | 4.55sec
+---
++1 att vs +2 arm/+0 sh:	5 shots | 4.55sec
++1 att vs +2 arm/+1 sh:	5 shots | 4.55sec
++1 att vs +2 arm/+2 sh:	5 shots | 4.55sec
++1 att vs +2 arm/+3 sh:	5 shots | 4.55sec
+---
++1 att vs +3 arm/+0 sh:	5 shots | 4.55sec
++1 att vs +3 arm/+1 sh:	5 shots | 4.55sec
++1 att vs +3 arm/+2 sh:	5 shots | 4.55sec
++1 att vs +3 arm/+3 sh:	5 shots | 4.55sec
+---
+---
++2 att vs +0 arm/+0 sh:	5 shots | 4.55sec
++2 att vs +0 arm/+1 sh:	5 shots | 4.55sec
++2 att vs +0 arm/+2 sh:	5 shots | 4.55sec
++2 att vs +0 arm/+3 sh:	5 shots | 4.55sec
+---
++2 att vs +1 arm/+0 sh:	5 shots | 4.55sec
++2 att vs +1 arm/+1 sh:	5 shots | 4.55sec
++2 att vs +1 arm/+2 sh:	5 shots | 4.55sec
++2 att vs +1 arm/+3 sh:	5 shots | 4.55sec
+---
++2 att vs +2 arm/+0 sh:	5 shots | 4.55sec
++2 att vs +2 arm/+1 sh:	5 shots | 4.55sec
++2 att vs +2 arm/+2 sh:	5 shots | 4.55sec
++2 att vs +2 arm/+3 sh:	5 shots | 4.55sec
+---
++2 att vs +3 arm/+0 sh:	5 shots | 4.55sec
++2 att vs +3 arm/+1 sh:	5 shots | 4.55sec
++2 att vs +3 arm/+2 sh:	5 shots | 4.55sec
++2 att vs +3 arm/+3 sh:	5 shots | 4.55sec
+---
+---
++3 att vs +0 arm/+0 sh:	4 shots | 3.64sec
++3 att vs +0 arm/+1 sh:	4 shots | 3.64sec
++3 att vs +0 arm/+2 sh:	5 shots | 4.55sec
++3 att vs +0 arm/+3 sh:	5 shots | 4.55sec
+---
++3 att vs +1 arm/+0 sh:	4 shots | 3.64sec
++3 att vs +1 arm/+1 sh:	4 shots | 3.64sec
++3 att vs +1 arm/+2 sh:	5 shots | 4.55sec
++3 att vs +1 arm/+3 sh:	5 shots | 4.55sec
+---
++3 att vs +2 arm/+0 sh:	4 shots | 3.64sec
++3 att vs +2 arm/+1 sh:	4 shots | 3.64sec
++3 att vs +2 arm/+2 sh:	5 shots | 4.55sec
++3 att vs +2 arm/+3 sh:	5 shots | 4.55sec
+---
++3 att vs +3 arm/+0 sh:	4 shots | 3.64sec
++3 att vs +3 arm/+1 sh:	4 shots | 3.64sec
++3 att vs +3 arm/+2 sh:	5 shots | 4.55sec
++3 att vs +3 arm/+3 sh:	5 shots | 4.55sec
+---
+---
+thor attacking marine
+---
++0 att vs +0 arm:     	1 shots | 0.91sec
++0 att vs +1 arm:     	1 shots | 0.91sec
++0 att vs +2 arm:     	1 shots | 0.91sec
++0 att vs +3 arm:     	2 shots | 1.82sec
+---
++1 att vs +0 arm:     	1 shots | 0.91sec
++1 att vs +1 arm:     	1 shots | 0.91sec
++1 att vs +2 arm:     	1 shots | 0.91sec
++1 att vs +3 arm:     	1 shots | 0.91sec
+---
++2 att vs +0 arm:     	1 shots | 0.91sec
++2 att vs +1 arm:     	1 shots | 0.91sec
++2 att vs +2 arm:     	1 shots | 0.91sec
++2 att vs +3 arm:     	1 shots | 0.91sec
+---
++3 att vs +0 arm:     	1 shots | 0.91sec
++3 att vs +1 arm:     	1 shots | 0.91sec
++3 att vs +2 arm:     	1 shots | 0.91sec
++3 att vs +3 arm:     	1 shots | 0.91sec
+---
+---
+thor attacking marauder
+---
++0 att vs +0 arm:     	3 shots | 2.73sec
++0 att vs +1 arm:     	3 shots | 2.73sec
++0 att vs +2 arm:     	3 shots | 2.73sec
++0 att vs +3 arm:     	3 shots | 2.73sec
+---
++1 att vs +0 arm:     	2 shots | 1.82sec
++1 att vs +1 arm:     	3 shots | 2.73sec
++1 att vs +2 arm:     	3 shots | 2.73sec
++1 att vs +3 arm:     	3 shots | 2.73sec
+---
++2 att vs +0 arm:     	2 shots | 1.82sec
++2 att vs +1 arm:     	2 shots | 1.82sec
++2 att vs +2 arm:     	2 shots | 1.82sec
++2 att vs +3 arm:     	2 shots | 1.82sec
+---
++3 att vs +0 arm:     	2 shots | 1.82sec
++3 att vs +1 arm:     	2 shots | 1.82sec
++3 att vs +2 arm:     	2 shots | 1.82sec
++3 att vs +3 arm:     	2 shots | 1.82sec
+---
+---
+thor attacking reaper
+---
++0 att vs +0 arm:     	1 shots | 0.91sec
++0 att vs +1 arm:     	2 shots | 1.82sec
++0 att vs +2 arm:     	2 shots | 1.82sec
++0 att vs +3 arm:     	2 shots | 1.82sec
+---
++1 att vs +0 arm:     	1 shots | 0.91sec
++1 att vs +1 arm:     	1 shots | 0.91sec
++1 att vs +2 arm:     	1 shots | 0.91sec
++1 att vs +3 arm:     	1 shots | 0.91sec
+---
++2 att vs +0 arm:     	1 shots | 0.91sec
++2 att vs +1 arm:     	1 shots | 0.91sec
++2 att vs +2 arm:     	1 shots | 0.91sec
++2 att vs +3 arm:     	1 shots | 0.91sec
+---
++3 att vs +0 arm:     	1 shots | 0.91sec
++3 att vs +1 arm:     	1 shots | 0.91sec
++3 att vs +2 arm:     	1 shots | 0.91sec
++3 att vs +3 arm:     	1 shots | 0.91sec
+---
+---
+thor attacking ghost
+---
++0 att vs +0 arm:     	2 shots | 1.82sec
++0 att vs +1 arm:     	2 shots | 1.82sec
++0 att vs +2 arm:     	2 shots | 1.82sec
++0 att vs +3 arm:     	2 shots | 1.82sec
+---
++1 att vs +0 arm:     	2 shots | 1.82sec
++1 att vs +1 arm:     	2 shots | 1.82sec
++1 att vs +2 arm:     	2 shots | 1.82sec
++1 att vs +3 arm:     	2 shots | 1.82sec
+---
++2 att vs +0 arm:     	2 shots | 1.82sec
++2 att vs +1 arm:     	2 shots | 1.82sec
++2 att vs +2 arm:     	2 shots | 1.82sec
++2 att vs +3 arm:     	2 shots | 1.82sec
+---
++3 att vs +0 arm:     	2 shots | 1.82sec
++3 att vs +1 arm:     	2 shots | 1.82sec
++3 att vs +2 arm:     	2 shots | 1.82sec
++3 att vs +3 arm:     	2 shots | 1.82sec
+---
+---
+thor attacking hellion
+---
++0 att vs +0 arm:     	2 shots | 1.82sec
++0 att vs +1 arm:     	2 shots | 1.82sec
++0 att vs +2 arm:     	2 shots | 1.82sec
++0 att vs +3 arm:     	2 shots | 1.82sec
+---
++1 att vs +0 arm:     	2 shots | 1.82sec
++1 att vs +1 arm:     	2 shots | 1.82sec
++1 att vs +2 arm:     	2 shots | 1.82sec
++1 att vs +3 arm:     	2 shots | 1.82sec
+---
++2 att vs +0 arm:     	2 shots | 1.82sec
++2 att vs +1 arm:     	2 shots | 1.82sec
++2 att vs +2 arm:     	2 shots | 1.82sec
++2 att vs +3 arm:     	2 shots | 1.82sec
+---
++3 att vs +0 arm:     	2 shots | 1.82sec
++3 att vs +1 arm:     	2 shots | 1.82sec
++3 att vs +2 arm:     	2 shots | 1.82sec
++3 att vs +3 arm:     	2 shots | 1.82sec
+---
+---
+thor attacking hellbat
+---
++0 att vs +0 arm:     	3 shots | 2.73sec
++0 att vs +1 arm:     	3 shots | 2.73sec
++0 att vs +2 arm:     	3 shots | 2.73sec
++0 att vs +3 arm:     	3 shots | 2.73sec
+---
++1 att vs +0 arm:     	3 shots | 2.73sec
++1 att vs +1 arm:     	3 shots | 2.73sec
++1 att vs +2 arm:     	3 shots | 2.73sec
++1 att vs +3 arm:     	3 shots | 2.73sec
+---
++2 att vs +0 arm:     	2 shots | 1.82sec
++2 att vs +1 arm:     	2 shots | 1.82sec
++2 att vs +2 arm:     	2 shots | 1.82sec
++2 att vs +3 arm:     	3 shots | 2.73sec
+---
++3 att vs +0 arm:     	2 shots | 1.82sec
++3 att vs +1 arm:     	2 shots | 1.82sec
++3 att vs +2 arm:     	2 shots | 1.82sec
++3 att vs +3 arm:     	2 shots | 1.82sec
+---
+---
+thor attacking siegedtank
+---
++0 att vs +0 arm:     	4 shots | 3.64sec
++0 att vs +1 arm:     	4 shots | 3.64sec
++0 att vs +2 arm:     	4 shots | 3.64sec
++0 att vs +3 arm:     	4 shots | 3.64sec
+---
++1 att vs +0 arm:     	3 shots | 2.73sec
++1 att vs +1 arm:     	3 shots | 2.73sec
++1 att vs +2 arm:     	3 shots | 2.73sec
++1 att vs +3 arm:     	4 shots | 3.64sec
+---
++2 att vs +0 arm:     	3 shots | 2.73sec
++2 att vs +1 arm:     	3 shots | 2.73sec
++2 att vs +2 arm:     	3 shots | 2.73sec
++2 att vs +3 arm:     	3 shots | 2.73sec
+---
++3 att vs +0 arm:     	3 shots | 2.73sec
++3 att vs +1 arm:     	3 shots | 2.73sec
++3 att vs +2 arm:     	3 shots | 2.73sec
++3 att vs +3 arm:     	3 shots | 2.73sec
+---
+---
+thor attacking tank
+---
++0 att vs +0 arm:     	4 shots | 3.64sec
++0 att vs +1 arm:     	4 shots | 3.64sec
++0 att vs +2 arm:     	4 shots | 3.64sec
++0 att vs +3 arm:     	4 shots | 3.64sec
+---
++1 att vs +0 arm:     	3 shots | 2.73sec
++1 att vs +1 arm:     	3 shots | 2.73sec
++1 att vs +2 arm:     	3 shots | 2.73sec
++1 att vs +3 arm:     	4 shots | 3.64sec
+---
++2 att vs +0 arm:     	3 shots | 2.73sec
++2 att vs +1 arm:     	3 shots | 2.73sec
++2 att vs +2 arm:     	3 shots | 2.73sec
++2 att vs +3 arm:     	3 shots | 2.73sec
+---
++3 att vs +0 arm:     	3 shots | 2.73sec
++3 att vs +1 arm:     	3 shots | 2.73sec
++3 att vs +2 arm:     	3 shots | 2.73sec
++3 att vs +3 arm:     	3 shots | 2.73sec
+---
+---
+thor attacking thor
+---
++0 att vs +0 arm:     	7 shots | 6.37sec
++0 att vs +1 arm:     	8 shots | 7.28sec
++0 att vs +2 arm:     	8 shots | 7.28sec
++0 att vs +3 arm:     	8 shots | 7.28sec
+---
++1 att vs +0 arm:     	7 shots | 6.37sec
++1 att vs +1 arm:     	7 shots | 6.37sec
++1 att vs +2 arm:     	7 shots | 6.37sec
++1 att vs +3 arm:     	7 shots | 6.37sec
+---
++2 att vs +0 arm:     	6 shots | 5.46sec
++2 att vs +1 arm:     	6 shots | 5.46sec
++2 att vs +2 arm:     	7 shots | 6.37sec
++2 att vs +3 arm:     	7 shots | 6.37sec
+---
++3 att vs +0 arm:     	6 shots | 5.46sec
++3 att vs +1 arm:     	6 shots | 5.46sec
++3 att vs +2 arm:     	6 shots | 5.46sec
++3 att vs +3 arm:     	6 shots | 5.46sec
+---
+---
+thor attacking zergling
+---
++0 att vs +0 arm:     	1 shots | 0.91sec
++0 att vs +1 arm:     	1 shots | 0.91sec
++0 att vs +2 arm:     	1 shots | 0.91sec
++0 att vs +3 arm:     	1 shots | 0.91sec
+---
++1 att vs +0 arm:     	1 shots | 0.91sec
++1 att vs +1 arm:     	1 shots | 0.91sec
++1 att vs +2 arm:     	1 shots | 0.91sec
++1 att vs +3 arm:     	1 shots | 0.91sec
+---
++2 att vs +0 arm:     	1 shots | 0.91sec
++2 att vs +1 arm:     	1 shots | 0.91sec
++2 att vs +2 arm:     	1 shots | 0.91sec
++2 att vs +3 arm:     	1 shots | 0.91sec
+---
++3 att vs +0 arm:     	1 shots | 0.91sec
++3 att vs +1 arm:     	1 shots | 0.91sec
++3 att vs +2 arm:     	1 shots | 0.91sec
++3 att vs +3 arm:     	1 shots | 0.91sec
+---
+---
+thor attacking baneling
+---
++0 att vs +0 arm:     	1 shots | 0.91sec
++0 att vs +1 arm:     	1 shots | 0.91sec
++0 att vs +2 arm:     	1 shots | 0.91sec
++0 att vs +3 arm:     	1 shots | 0.91sec
+---
++1 att vs +0 arm:     	1 shots | 0.91sec
++1 att vs +1 arm:     	1 shots | 0.91sec
++1 att vs +2 arm:     	1 shots | 0.91sec
++1 att vs +3 arm:     	1 shots | 0.91sec
+---
++2 att vs +0 arm:     	1 shots | 0.91sec
++2 att vs +1 arm:     	1 shots | 0.91sec
++2 att vs +2 arm:     	1 shots | 0.91sec
++2 att vs +3 arm:     	1 shots | 0.91sec
+---
++3 att vs +0 arm:     	1 shots | 0.91sec
++3 att vs +1 arm:     	1 shots | 0.91sec
++3 att vs +2 arm:     	1 shots | 0.91sec
++3 att vs +3 arm:     	1 shots | 0.91sec
+---
+---
+thor attacking roach
+---
++0 att vs +0 arm:     	3 shots | 2.73sec
++0 att vs +1 arm:     	3 shots | 2.73sec
++0 att vs +2 arm:     	3 shots | 2.73sec
++0 att vs +3 arm:     	3 shots | 2.73sec
+---
++1 att vs +0 arm:     	3 shots | 2.73sec
++1 att vs +1 arm:     	3 shots | 2.73sec
++1 att vs +2 arm:     	3 shots | 2.73sec
++1 att vs +3 arm:     	3 shots | 2.73sec
+---
++2 att vs +0 arm:     	3 shots | 2.73sec
++2 att vs +1 arm:     	3 shots | 2.73sec
++2 att vs +2 arm:     	3 shots | 2.73sec
++2 att vs +3 arm:     	3 shots | 2.73sec
+---
++3 att vs +0 arm:     	2 shots | 1.82sec
++3 att vs +1 arm:     	2 shots | 1.82sec
++3 att vs +2 arm:     	3 shots | 2.73sec
++3 att vs +3 arm:     	3 shots | 2.73sec
+---
+---
+thor attacking ravager
+---
++0 att vs +0 arm:     	3 shots | 2.73sec
++0 att vs +1 arm:     	3 shots | 2.73sec
++0 att vs +2 arm:     	3 shots | 2.73sec
++0 att vs +3 arm:     	3 shots | 2.73sec
+---
++1 att vs +0 arm:     	2 shots | 1.82sec
++1 att vs +1 arm:     	2 shots | 1.82sec
++1 att vs +2 arm:     	3 shots | 2.73sec
++1 att vs +3 arm:     	3 shots | 2.73sec
+---
++2 att vs +0 arm:     	2 shots | 1.82sec
++2 att vs +1 arm:     	2 shots | 1.82sec
++2 att vs +2 arm:     	2 shots | 1.82sec
++2 att vs +3 arm:     	2 shots | 1.82sec
+---
++3 att vs +0 arm:     	2 shots | 1.82sec
++3 att vs +1 arm:     	2 shots | 1.82sec
++3 att vs +2 arm:     	2 shots | 1.82sec
++3 att vs +3 arm:     	2 shots | 1.82sec
+---
+---
+thor attacking queen
+---
++0 att vs +0 arm:     	4 shots | 3.64sec
++0 att vs +1 arm:     	4 shots | 3.64sec
++0 att vs +2 arm:     	4 shots | 3.64sec
++0 att vs +3 arm:     	4 shots | 3.64sec
+---
++1 att vs +0 arm:     	3 shots | 2.73sec
++1 att vs +1 arm:     	3 shots | 2.73sec
++1 att vs +2 arm:     	3 shots | 2.73sec
++1 att vs +3 arm:     	4 shots | 3.64sec
+---
++2 att vs +0 arm:     	3 shots | 2.73sec
++2 att vs +1 arm:     	3 shots | 2.73sec
++2 att vs +2 arm:     	3 shots | 2.73sec
++2 att vs +3 arm:     	3 shots | 2.73sec
+---
++3 att vs +0 arm:     	3 shots | 2.73sec
++3 att vs +1 arm:     	3 shots | 2.73sec
++3 att vs +2 arm:     	3 shots | 2.73sec
++3 att vs +3 arm:     	3 shots | 2.73sec
+---
+---
+thor attacking hydralisk
+---
++0 att vs +0 arm:     	2 shots | 1.82sec
++0 att vs +1 arm:     	2 shots | 1.82sec
++0 att vs +2 arm:     	2 shots | 1.82sec
++0 att vs +3 arm:     	2 shots | 1.82sec
+---
++1 att vs +0 arm:     	2 shots | 1.82sec
++1 att vs +1 arm:     	2 shots | 1.82sec
++1 att vs +2 arm:     	2 shots | 1.82sec
++1 att vs +3 arm:     	2 shots | 1.82sec
+---
++2 att vs +0 arm:     	2 shots | 1.82sec
++2 att vs +1 arm:     	2 shots | 1.82sec
++2 att vs +2 arm:     	2 shots | 1.82sec
++2 att vs +3 arm:     	2 shots | 1.82sec
+---
++3 att vs +0 arm:     	2 shots | 1.82sec
++3 att vs +1 arm:     	2 shots | 1.82sec
++3 att vs +2 arm:     	2 shots | 1.82sec
++3 att vs +3 arm:     	2 shots | 1.82sec
+---
+---
+thor attacking lurker
+---
++0 att vs +0 arm:     	4 shots | 3.64sec
++0 att vs +1 arm:     	4 shots | 3.64sec
++0 att vs +2 arm:     	4 shots | 3.64sec
++0 att vs +3 arm:     	4 shots | 3.64sec
+---
++1 att vs +0 arm:     	4 shots | 3.64sec
++1 att vs +1 arm:     	4 shots | 3.64sec
++1 att vs +2 arm:     	4 shots | 3.64sec
++1 att vs +3 arm:     	4 shots | 3.64sec
+---
++2 att vs +0 arm:     	3 shots | 2.73sec
++2 att vs +1 arm:     	3 shots | 2.73sec
++2 att vs +2 arm:     	4 shots | 3.64sec
++2 att vs +3 arm:     	4 shots | 3.64sec
+---
++3 att vs +0 arm:     	3 shots | 2.73sec
++3 att vs +1 arm:     	3 shots | 2.73sec
++3 att vs +2 arm:     	3 shots | 2.73sec
++3 att vs +3 arm:     	3 shots | 2.73sec
+---
+---
+thor attacking ultralisk
+---
++0 att vs +0 arm:     	10 shots | 9.1sec
++0 att vs +1 arm:     	11 shots | 10.01sec
++0 att vs +2 arm:     	11 shots | 10.01sec
++0 att vs +3 arm:     	12 shots | 10.92sec
+---
++1 att vs +0 arm:     	9 shots | 8.19sec
++1 att vs +1 arm:     	10 shots | 9.1sec
++1 att vs +2 arm:     	10 shots | 9.1sec
++1 att vs +3 arm:     	10 shots | 9.1sec
+---
++2 att vs +0 arm:     	8 shots | 7.28sec
++2 att vs +1 arm:     	9 shots | 8.19sec
++2 att vs +2 arm:     	9 shots | 8.19sec
++2 att vs +3 arm:     	9 shots | 8.19sec
+---
++3 att vs +0 arm:     	8 shots | 7.28sec
++3 att vs +1 arm:     	8 shots | 7.28sec
++3 att vs +2 arm:     	8 shots | 7.28sec
++3 att vs +3 arm:     	8 shots | 7.28sec
+---
+---
+thor attacking spinecrawler
+---
++0 att vs +0 arm:     	6 shots | 5.46sec
++0 att vs +1 arm:     	6 shots | 5.46sec
++0 att vs +2 arm:     	6 shots | 5.46sec
++0 att vs +3 arm:     	6 shots | 5.46sec
+---
++1 att vs +0 arm:     	5 shots | 4.55sec
++1 att vs +1 arm:     	5 shots | 4.55sec
++1 att vs +2 arm:     	5 shots | 4.55sec
++1 att vs +3 arm:     	5 shots | 4.55sec
+---
++2 att vs +0 arm:     	5 shots | 4.55sec
++2 att vs +1 arm:     	5 shots | 4.55sec
++2 att vs +2 arm:     	5 shots | 4.55sec
++2 att vs +3 arm:     	5 shots | 4.55sec
+---
++3 att vs +0 arm:     	5 shots | 4.55sec
++3 att vs +1 arm:     	5 shots | 4.55sec
++3 att vs +2 arm:     	5 shots | 4.55sec
++3 att vs +3 arm:     	5 shots | 4.55sec
+---
+---

@@ -1,0 +1,575 @@
+stalker attacking hydralisk
+---
++0 att vs +0 arm:     	6 shots | 5.16sec
++0 att vs +1 arm:     	7 shots | 6.02sec
++0 att vs +2 arm:     	8 shots | 6.88sec
++0 att vs +3 arm:     	10 shots | 8.6sec
+---
++1 att vs +0 arm:     	6 shots | 5.16sec
++1 att vs +1 arm:     	6 shots | 5.16sec
++1 att vs +2 arm:     	7 shots | 6.02sec
++1 att vs +3 arm:     	8 shots | 6.88sec
+---
++2 att vs +0 arm:     	5 shots | 4.3sec
++2 att vs +1 arm:     	6 shots | 5.16sec
++2 att vs +2 arm:     	6 shots | 5.16sec
++2 att vs +3 arm:     	7 shots | 6.02sec
+---
++3 att vs +0 arm:     	5 shots | 4.3sec
++3 att vs +1 arm:     	5 shots | 4.3sec
++3 att vs +2 arm:     	6 shots | 5.16sec
++3 att vs +3 arm:     	6 shots | 5.16sec
+---
+---
+stalker attacking hydralisk
+---
++0 att vs +0 arm:     	8 shots | 10.72sec
++0 att vs +1 arm:     	8 shots | 10.72sec
++0 att vs +2 arm:     	9 shots | 12.06sec
++0 att vs +3 arm:     	10 shots | 13.4sec
+---
++1 att vs +0 arm:     	7 shots | 9.38sec
++1 att vs +1 arm:     	8 shots | 10.72sec
++1 att vs +2 arm:     	8 shots | 10.72sec
++1 att vs +3 arm:     	9 shots | 12.06sec
+---
++2 att vs +0 arm:     	7 shots | 9.38sec
++2 att vs +1 arm:     	7 shots | 9.38sec
++2 att vs +2 arm:     	8 shots | 10.72sec
++2 att vs +3 arm:     	8 shots | 10.72sec
+---
++3 att vs +0 arm:     	6 shots | 8.04sec
++3 att vs +1 arm:     	7 shots | 9.38sec
++3 att vs +2 arm:     	7 shots | 9.38sec
++3 att vs +3 arm:     	8 shots | 10.72sec
+---
+---
+adept attacking hydralisk
+---
++0 att vs +0 arm:     	5 shots | 5.55sec
++0 att vs +1 arm:     	5 shots | 5.55sec
++0 att vs +2 arm:     	5 shots | 5.55sec
++0 att vs +3 arm:     	5 shots | 5.55sec
+---
++1 att vs +0 arm:     	4 shots | 4.44sec
++1 att vs +1 arm:     	4 shots | 4.44sec
++1 att vs +2 arm:     	5 shots | 5.55sec
++1 att vs +3 arm:     	5 shots | 5.55sec
+---
++2 att vs +0 arm:     	4 shots | 4.44sec
++2 att vs +1 arm:     	4 shots | 4.44sec
++2 att vs +2 arm:     	4 shots | 4.44sec
++2 att vs +3 arm:     	4 shots | 4.44sec
+---
++3 att vs +0 arm:     	4 shots | 4.44sec
++3 att vs +1 arm:     	4 shots | 4.44sec
++3 att vs +2 arm:     	4 shots | 4.44sec
++3 att vs +3 arm:     	4 shots | 4.44sec
+---
+---
+archon attacking hydralisk
+---
++0 att vs +0 arm:     	3 shots | 3.75sec
++0 att vs +1 arm:     	3 shots | 3.75sec
++0 att vs +2 arm:     	3 shots | 3.75sec
++0 att vs +3 arm:     	3 shots | 3.75sec
+---
++1 att vs +0 arm:     	3 shots | 3.75sec
++1 att vs +1 arm:     	3 shots | 3.75sec
++1 att vs +2 arm:     	3 shots | 3.75sec
++1 att vs +3 arm:     	3 shots | 3.75sec
+---
++2 att vs +0 arm:     	3 shots | 3.75sec
++2 att vs +1 arm:     	3 shots | 3.75sec
++2 att vs +2 arm:     	3 shots | 3.75sec
++2 att vs +3 arm:     	3 shots | 3.75sec
+---
++3 att vs +0 arm:     	2 shots | 2.5sec
++3 att vs +1 arm:     	2 shots | 2.5sec
++3 att vs +2 arm:     	3 shots | 3.75sec
++3 att vs +3 arm:     	3 shots | 3.75sec
+---
+---
+immortal attacking hydralisk
+---
++0 att vs +0 arm:     	5 shots | 5.2sec
++0 att vs +1 arm:     	5 shots | 5.2sec
++0 att vs +2 arm:     	6 shots | 6.24sec
++0 att vs +3 arm:     	6 shots | 6.24sec
+---
++1 att vs +0 arm:     	5 shots | 5.2sec
++1 att vs +1 arm:     	5 shots | 5.2sec
++1 att vs +2 arm:     	5 shots | 5.2sec
++1 att vs +3 arm:     	5 shots | 5.2sec
+---
++2 att vs +0 arm:     	4 shots | 4.16sec
++2 att vs +1 arm:     	4 shots | 4.16sec
++2 att vs +2 arm:     	5 shots | 5.2sec
++2 att vs +3 arm:     	5 shots | 5.2sec
+---
++3 att vs +0 arm:     	4 shots | 4.16sec
++3 att vs +1 arm:     	4 shots | 4.16sec
++3 att vs +2 arm:     	4 shots | 4.16sec
++3 att vs +3 arm:     	4 shots | 4.16sec
+---
+---
+colossus attacking hydralisk
+---
++0 att vs +0 arm:     	4 shots | 4.28sec
++0 att vs +1 arm:     	4 shots | 4.28sec
++0 att vs +2 arm:     	4 shots | 4.28sec
++0 att vs +3 arm:     	4 shots | 4.28sec
+---
++1 att vs +0 arm:     	3 shots | 3.21sec
++1 att vs +1 arm:     	3 shots | 3.21sec
++1 att vs +2 arm:     	4 shots | 4.28sec
++1 att vs +3 arm:     	4 shots | 4.28sec
+---
++2 att vs +0 arm:     	3 shots | 3.21sec
++2 att vs +1 arm:     	3 shots | 3.21sec
++2 att vs +2 arm:     	3 shots | 3.21sec
++2 att vs +3 arm:     	3 shots | 3.21sec
+---
++3 att vs +0 arm:     	3 shots | 3.21sec
++3 att vs +1 arm:     	3 shots | 3.21sec
++3 att vs +2 arm:     	3 shots | 3.21sec
++3 att vs +3 arm:     	3 shots | 3.21sec
+---
+---
+cannon attacking hydralisk
+---
++0 att vs +0 arm:     	5 shots | 4.45sec
++0 att vs +1 arm:     	5 shots | 4.45sec
++0 att vs +2 arm:     	6 shots | 5.34sec
++0 att vs +3 arm:     	6 shots | 5.34sec
+---
++1 att vs +0 arm:     	5 shots | 4.45sec
++1 att vs +1 arm:     	5 shots | 4.45sec
++1 att vs +2 arm:     	6 shots | 5.34sec
++1 att vs +3 arm:     	6 shots | 5.34sec
+---
++2 att vs +0 arm:     	5 shots | 4.45sec
++2 att vs +1 arm:     	5 shots | 4.45sec
++2 att vs +2 arm:     	6 shots | 5.34sec
++2 att vs +3 arm:     	6 shots | 5.34sec
+---
++3 att vs +0 arm:     	5 shots | 4.45sec
++3 att vs +1 arm:     	5 shots | 4.45sec
++3 att vs +2 arm:     	6 shots | 5.34sec
++3 att vs +3 arm:     	6 shots | 5.34sec
+---
+---
+marine attacking hydralisk
+---
++0 att vs +0 arm:     	16 shots | 6.512sec
++0 att vs +1 arm:     	19 shots | 7.733sec
++0 att vs +2 arm:     	24 shots | 9.768sec
++0 att vs +3 arm:     	32 shots | 13.024sec
+---
++1 att vs +0 arm:     	14 shots | 5.698sec
++1 att vs +1 arm:     	16 shots | 6.512sec
++1 att vs +2 arm:     	19 shots | 7.733sec
++1 att vs +3 arm:     	24 shots | 9.768sec
+---
++2 att vs +0 arm:     	12 shots | 4.884sec
++2 att vs +1 arm:     	14 shots | 5.698sec
++2 att vs +2 arm:     	16 shots | 6.512sec
++2 att vs +3 arm:     	19 shots | 7.733sec
+---
++3 att vs +0 arm:     	11 shots | 4.477sec
++3 att vs +1 arm:     	12 shots | 4.884sec
++3 att vs +2 arm:     	14 shots | 5.698sec
++3 att vs +3 arm:     	16 shots | 6.512sec
+---
+---
+marauder attacking hydralisk
+---
++0 att vs +0 arm:     	10 shots | 7.1sec
++0 att vs +1 arm:     	11 shots | 7.81sec
++0 att vs +2 arm:     	12 shots | 8.52sec
++0 att vs +3 arm:     	14 shots | 9.94sec
+---
++1 att vs +0 arm:     	9 shots | 6.39sec
++1 att vs +1 arm:     	10 shots | 7.1sec
++1 att vs +2 arm:     	11 shots | 7.81sec
++1 att vs +3 arm:     	12 shots | 8.52sec
+---
++2 att vs +0 arm:     	8 shots | 5.68sec
++2 att vs +1 arm:     	9 shots | 6.39sec
++2 att vs +2 arm:     	10 shots | 7.1sec
++2 att vs +3 arm:     	11 shots | 7.81sec
+---
++3 att vs +0 arm:     	8 shots | 5.68sec
++3 att vs +1 arm:     	8 shots | 5.68sec
++3 att vs +2 arm:     	9 shots | 6.39sec
++3 att vs +3 arm:     	10 shots | 7.1sec
+---
+---
+reaper attacking hydralisk
+---
++0 att vs +0 arm:     	13 shots | 10.27sec
++0 att vs +1 arm:     	17 shots | 13.43sec
++0 att vs +2 arm:     	27 shots | 21.33sec
++0 att vs +3 arm:     	65 shots | 51.35sec
+---
++1 att vs +0 arm:     	10 shots | 7.9sec
++1 att vs +1 arm:     	13 shots | 10.27sec
++1 att vs +2 arm:     	17 shots | 13.43sec
++1 att vs +3 arm:     	27 shots | 21.33sec
+---
++2 att vs +0 arm:     	8 shots | 6.32sec
++2 att vs +1 arm:     	10 shots | 7.9sec
++2 att vs +2 arm:     	13 shots | 10.27sec
++2 att vs +3 arm:     	17 shots | 13.43sec
+---
++3 att vs +0 arm:     	7 shots | 5.53sec
++3 att vs +1 arm:     	8 shots | 6.32sec
++3 att vs +2 arm:     	10 shots | 7.9sec
++3 att vs +3 arm:     	13 shots | 10.27sec
+---
+---
+ghost attacking hydralisk
+---
++0 att vs +0 arm:     	5 shots | 5.35sec
++0 att vs +1 arm:     	5 shots | 5.35sec
++0 att vs +2 arm:     	6 shots | 6.42sec
++0 att vs +3 arm:     	6 shots | 6.42sec
+---
++1 att vs +0 arm:     	5 shots | 5.35sec
++1 att vs +1 arm:     	5 shots | 5.35sec
++1 att vs +2 arm:     	5 shots | 5.35sec
++1 att vs +3 arm:     	5 shots | 5.35sec
+---
++2 att vs +0 arm:     	4 shots | 4.28sec
++2 att vs +1 arm:     	4 shots | 4.28sec
++2 att vs +2 arm:     	5 shots | 5.35sec
++2 att vs +3 arm:     	5 shots | 5.35sec
+---
++3 att vs +0 arm:     	4 shots | 4.28sec
++3 att vs +1 arm:     	4 shots | 4.28sec
++3 att vs +2 arm:     	4 shots | 4.28sec
++3 att vs +3 arm:     	4 shots | 4.28sec
+---
+---
+hellion attacking hydralisk
+---
++0 att vs +0 arm:     	5 shots | 8.95sec
++0 att vs +1 arm:     	6 shots | 10.74sec
++0 att vs +2 arm:     	6 shots | 10.74sec
++0 att vs +3 arm:     	6 shots | 10.74sec
+---
++1 att vs +0 arm:     	5 shots | 8.95sec
++1 att vs +1 arm:     	5 shots | 8.95sec
++1 att vs +2 arm:     	5 shots | 8.95sec
++1 att vs +3 arm:     	6 shots | 10.74sec
+---
++2 att vs +0 arm:     	5 shots | 8.95sec
++2 att vs +1 arm:     	5 shots | 8.95sec
++2 att vs +2 arm:     	5 shots | 8.95sec
++2 att vs +3 arm:     	5 shots | 8.95sec
+---
++3 att vs +0 arm:     	4 shots | 7.16sec
++3 att vs +1 arm:     	4 shots | 7.16sec
++3 att vs +2 arm:     	5 shots | 8.95sec
++3 att vs +3 arm:     	5 shots | 8.95sec
+---
+---
+hellbat attacking hydralisk
+---
++0 att vs +0 arm:     	4 shots | 5.72sec
++0 att vs +1 arm:     	4 shots | 5.72sec
++0 att vs +2 arm:     	4 shots | 5.72sec
++0 att vs +3 arm:     	4 shots | 5.72sec
+---
++1 att vs +0 arm:     	3 shots | 4.29sec
++1 att vs +1 arm:     	3 shots | 4.29sec
++1 att vs +2 arm:     	3 shots | 4.29sec
++1 att vs +3 arm:     	4 shots | 5.72sec
+---
++2 att vs +0 arm:     	3 shots | 4.29sec
++2 att vs +1 arm:     	3 shots | 4.29sec
++2 att vs +2 arm:     	3 shots | 4.29sec
++2 att vs +3 arm:     	3 shots | 4.29sec
+---
++3 att vs +0 arm:     	3 shots | 4.29sec
++3 att vs +1 arm:     	3 shots | 4.29sec
++3 att vs +2 arm:     	3 shots | 4.29sec
++3 att vs +3 arm:     	3 shots | 4.29sec
+---
+---
+siegedtank attacking hydralisk
+---
++0 att vs +0 arm:     	3 shots | 6.42sec
++0 att vs +1 arm:     	3 shots | 6.42sec
++0 att vs +2 arm:     	3 shots | 6.42sec
++0 att vs +3 arm:     	3 shots | 6.42sec
+---
++1 att vs +0 arm:     	3 shots | 6.42sec
++1 att vs +1 arm:     	3 shots | 6.42sec
++1 att vs +2 arm:     	3 shots | 6.42sec
++1 att vs +3 arm:     	3 shots | 6.42sec
+---
++2 att vs +0 arm:     	2 shots | 4.28sec
++2 att vs +1 arm:     	2 shots | 4.28sec
++2 att vs +2 arm:     	2 shots | 4.28sec
++2 att vs +3 arm:     	3 shots | 6.42sec
+---
++3 att vs +0 arm:     	2 shots | 4.28sec
++3 att vs +1 arm:     	2 shots | 4.28sec
++3 att vs +2 arm:     	2 shots | 4.28sec
++3 att vs +3 arm:     	2 shots | 4.28sec
+---
+---
+tank attacking hydralisk
+---
++0 att vs +0 arm:     	7 shots | 5.18sec
++0 att vs +1 arm:     	7 shots | 5.18sec
++0 att vs +2 arm:     	8 shots | 5.92sec
++0 att vs +3 arm:     	8 shots | 5.92sec
+---
++1 att vs +0 arm:     	6 shots | 4.44sec
++1 att vs +1 arm:     	6 shots | 4.44sec
++1 att vs +2 arm:     	7 shots | 5.18sec
++1 att vs +3 arm:     	7 shots | 5.18sec
+---
++2 att vs +0 arm:     	5 shots | 3.7sec
++2 att vs +1 arm:     	6 shots | 4.44sec
++2 att vs +2 arm:     	6 shots | 4.44sec
++2 att vs +3 arm:     	6 shots | 4.44sec
+---
++3 att vs +0 arm:     	5 shots | 3.7sec
++3 att vs +1 arm:     	5 shots | 3.7sec
++3 att vs +2 arm:     	5 shots | 3.7sec
++3 att vs +3 arm:     	6 shots | 4.44sec
+---
+---
+thor attacking hydralisk
+---
++0 att vs +0 arm:     	2 shots | 1.82sec
++0 att vs +1 arm:     	2 shots | 1.82sec
++0 att vs +2 arm:     	2 shots | 1.82sec
++0 att vs +3 arm:     	2 shots | 1.82sec
+---
++1 att vs +0 arm:     	2 shots | 1.82sec
++1 att vs +1 arm:     	2 shots | 1.82sec
++1 att vs +2 arm:     	2 shots | 1.82sec
++1 att vs +3 arm:     	2 shots | 1.82sec
+---
++2 att vs +0 arm:     	2 shots | 1.82sec
++2 att vs +1 arm:     	2 shots | 1.82sec
++2 att vs +2 arm:     	2 shots | 1.82sec
++2 att vs +3 arm:     	2 shots | 1.82sec
+---
++3 att vs +0 arm:     	2 shots | 1.82sec
++3 att vs +1 arm:     	2 shots | 1.82sec
++3 att vs +2 arm:     	2 shots | 1.82sec
++3 att vs +3 arm:     	2 shots | 1.82sec
+---
+---
+zergling attacking hydralisk
+---
++0 att vs +0 arm:     	19 shots | 9.443sec
++0 att vs +1 arm:     	24 shots | 11.928sec
++0 att vs +2 arm:     	33 shots | 16.401sec
++0 att vs +3 arm:     	50 shots | 24.85sec
+---
++1 att vs +0 arm:     	16 shots | 7.952sec
++1 att vs +1 arm:     	19 shots | 9.443sec
++1 att vs +2 arm:     	24 shots | 11.928sec
++1 att vs +3 arm:     	33 shots | 16.401sec
+---
++2 att vs +0 arm:     	14 shots | 6.958sec
++2 att vs +1 arm:     	16 shots | 7.952sec
++2 att vs +2 arm:     	19 shots | 9.443sec
++2 att vs +3 arm:     	24 shots | 11.928sec
+---
++3 att vs +0 arm:     	12 shots | 5.964sec
++3 att vs +1 arm:     	14 shots | 6.958sec
++3 att vs +2 arm:     	16 shots | 7.952sec
++3 att vs +3 arm:     	19 shots | 9.443sec
+---
+---
+baneling attacking hydralisk
+---
++0 att vs +0 arm:     	3 shots | 0.03sec
++0 att vs +1 arm:     	3 shots | 0.03sec
++0 att vs +2 arm:     	3 shots | 0.03sec
++0 att vs +3 arm:     	3 shots | 0.03sec
+---
++1 att vs +0 arm:     	3 shots | 0.03sec
++1 att vs +1 arm:     	3 shots | 0.03sec
++1 att vs +2 arm:     	3 shots | 0.03sec
++1 att vs +3 arm:     	3 shots | 0.03sec
+---
++2 att vs +0 arm:     	3 shots | 0.03sec
++2 att vs +1 arm:     	3 shots | 0.03sec
++2 att vs +2 arm:     	3 shots | 0.03sec
++2 att vs +3 arm:     	3 shots | 0.03sec
+---
++3 att vs +0 arm:     	2 shots | 0.02sec
++3 att vs +1 arm:     	2 shots | 0.02sec
++3 att vs +2 arm:     	3 shots | 0.03sec
++3 att vs +3 arm:     	3 shots | 0.03sec
+---
+---
+roach attacking hydralisk
+---
++0 att vs +0 arm:     	6 shots | 8.58sec
++0 att vs +1 arm:     	7 shots | 10.01sec
++0 att vs +2 arm:     	7 shots | 10.01sec
++0 att vs +3 arm:     	8 shots | 11.44sec
+---
++1 att vs +0 arm:     	6 shots | 8.58sec
++1 att vs +1 arm:     	6 shots | 8.58sec
++1 att vs +2 arm:     	6 shots | 8.58sec
++1 att vs +3 arm:     	7 shots | 10.01sec
+---
++2 att vs +0 arm:     	5 shots | 7.15sec
++2 att vs +1 arm:     	5 shots | 7.15sec
++2 att vs +2 arm:     	6 shots | 8.58sec
++2 att vs +3 arm:     	6 shots | 8.58sec
+---
++3 att vs +0 arm:     	5 shots | 7.15sec
++3 att vs +1 arm:     	5 shots | 7.15sec
++3 att vs +2 arm:     	5 shots | 7.15sec
++3 att vs +3 arm:     	5 shots | 7.15sec
+---
+---
+ravager attacking hydralisk
+---
++0 att vs +0 arm:     	6 shots | 6.84sec
++0 att vs +1 arm:     	7 shots | 7.98sec
++0 att vs +2 arm:     	7 shots | 7.98sec
++0 att vs +3 arm:     	8 shots | 9.12sec
+---
++1 att vs +0 arm:     	6 shots | 6.84sec
++1 att vs +1 arm:     	6 shots | 6.84sec
++1 att vs +2 arm:     	6 shots | 6.84sec
++1 att vs +3 arm:     	7 shots | 7.98sec
+---
++2 att vs +0 arm:     	5 shots | 5.7sec
++2 att vs +1 arm:     	5 shots | 5.7sec
++2 att vs +2 arm:     	6 shots | 6.84sec
++2 att vs +3 arm:     	6 shots | 6.84sec
+---
++3 att vs +0 arm:     	5 shots | 5.7sec
++3 att vs +1 arm:     	5 shots | 5.7sec
++3 att vs +2 arm:     	5 shots | 5.7sec
++3 att vs +3 arm:     	5 shots | 5.7sec
+---
+---
+queen attacking hydralisk
+---
++0 att vs +0 arm:     	13 shots | 9.23sec
++0 att vs +1 arm:     	17 shots | 12.07sec
++0 att vs +2 arm:     	27 shots | 19.17sec
++0 att vs +3 arm:     	62 shots | 44.02sec
+---
++1 att vs +0 arm:     	10 shots | 7.1sec
++1 att vs +1 arm:     	13 shots | 9.23sec
++1 att vs +2 arm:     	17 shots | 12.07sec
++1 att vs +3 arm:     	27 shots | 19.17sec
+---
++2 att vs +0 arm:     	8 shots | 5.68sec
++2 att vs +1 arm:     	10 shots | 7.1sec
++2 att vs +2 arm:     	13 shots | 9.23sec
++2 att vs +3 arm:     	17 shots | 12.07sec
+---
++3 att vs +0 arm:     	7 shots | 4.97sec
++3 att vs +1 arm:     	8 shots | 5.68sec
++3 att vs +2 arm:     	10 shots | 7.1sec
++3 att vs +3 arm:     	13 shots | 9.23sec
+---
+---
+hydralisk attacking hydralisk
+---
++0 att vs +0 arm:     	8 shots | 4.72sec
++0 att vs +1 arm:     	9 shots | 5.31sec
++0 att vs +2 arm:     	10 shots | 5.9sec
++0 att vs +3 arm:     	11 shots | 6.49sec
+---
++1 att vs +0 arm:     	8 shots | 4.72sec
++1 att vs +1 arm:     	8 shots | 4.72sec
++1 att vs +2 arm:     	9 shots | 5.31sec
++1 att vs +3 arm:     	10 shots | 5.9sec
+---
++2 att vs +0 arm:     	7 shots | 4.13sec
++2 att vs +1 arm:     	8 shots | 4.72sec
++2 att vs +2 arm:     	8 shots | 4.72sec
++2 att vs +3 arm:     	9 shots | 5.31sec
+---
++3 att vs +0 arm:     	7 shots | 4.13sec
++3 att vs +1 arm:     	7 shots | 4.13sec
++3 att vs +2 arm:     	8 shots | 4.72sec
++3 att vs +3 arm:     	8 shots | 4.72sec
+---
+---
+lurker attacking hydralisk
+---
++0 att vs +0 arm:     	5 shots | 7.15sec
++0 att vs +1 arm:     	5 shots | 7.15sec
++0 att vs +2 arm:     	6 shots | 8.58sec
++0 att vs +3 arm:     	6 shots | 8.58sec
+---
++1 att vs +0 arm:     	5 shots | 7.15sec
++1 att vs +1 arm:     	5 shots | 7.15sec
++1 att vs +2 arm:     	5 shots | 7.15sec
++1 att vs +3 arm:     	5 shots | 7.15sec
+---
++2 att vs +0 arm:     	4 shots | 5.72sec
++2 att vs +1 arm:     	5 shots | 7.15sec
++2 att vs +2 arm:     	5 shots | 7.15sec
++2 att vs +3 arm:     	5 shots | 7.15sec
+---
++3 att vs +0 arm:     	4 shots | 5.72sec
++3 att vs +1 arm:     	4 shots | 5.72sec
++3 att vs +2 arm:     	4 shots | 5.72sec
++3 att vs +3 arm:     	5 shots | 7.15sec
+---
+---
+ultralisk attacking hydralisk
+---
++0 att vs +0 arm:     	3 shots | 1.83sec
++0 att vs +1 arm:     	3 shots | 1.83sec
++0 att vs +2 arm:     	3 shots | 1.83sec
++0 att vs +3 arm:     	3 shots | 1.83sec
+---
++1 att vs +0 arm:     	3 shots | 1.83sec
++1 att vs +1 arm:     	3 shots | 1.83sec
++1 att vs +2 arm:     	3 shots | 1.83sec
++1 att vs +3 arm:     	3 shots | 1.83sec
+---
++2 att vs +0 arm:     	3 shots | 1.83sec
++2 att vs +1 arm:     	3 shots | 1.83sec
++2 att vs +2 arm:     	3 shots | 1.83sec
++2 att vs +3 arm:     	3 shots | 1.83sec
+---
++3 att vs +0 arm:     	3 shots | 1.83sec
++3 att vs +1 arm:     	3 shots | 1.83sec
++3 att vs +2 arm:     	3 shots | 1.83sec
++3 att vs +3 arm:     	3 shots | 1.83sec
+---
+---
+spinecrawler attacking hydralisk
+---
++0 att vs +0 arm:     	4 shots | 5.28sec
++0 att vs +1 arm:     	4 shots | 5.28sec
++0 att vs +2 arm:     	5 shots | 6.6sec
++0 att vs +3 arm:     	5 shots | 6.6sec
+---
++1 att vs +0 arm:     	4 shots | 5.28sec
++1 att vs +1 arm:     	4 shots | 5.28sec
++1 att vs +2 arm:     	5 shots | 6.6sec
++1 att vs +3 arm:     	5 shots | 6.6sec
+---
++2 att vs +0 arm:     	4 shots | 5.28sec
++2 att vs +1 arm:     	4 shots | 5.28sec
++2 att vs +2 arm:     	5 shots | 6.6sec
++2 att vs +3 arm:     	5 shots | 6.6sec
+---
++3 att vs +0 arm:     	4 shots | 5.28sec
++3 att vs +1 arm:     	4 shots | 5.28sec
++3 att vs +2 arm:     	5 shots | 6.6sec
++3 att vs +3 arm:     	5 shots | 6.6sec
+---
+---

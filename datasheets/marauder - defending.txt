@@ -1,0 +1,575 @@
+stalker attacking marauder
+---
++0 att vs +0 arm:     	9 shots | 7.74sec
++0 att vs +1 arm:     	11 shots | 9.46sec
++0 att vs +2 arm:     	13 shots | 11.18sec
++0 att vs +3 arm:     	16 shots | 13.76sec
+---
++1 att vs +0 arm:     	8 shots | 6.88sec
++1 att vs +1 arm:     	9 shots | 7.74sec
++1 att vs +2 arm:     	11 shots | 9.46sec
++1 att vs +3 arm:     	13 shots | 11.18sec
+---
++2 att vs +0 arm:     	7 shots | 6.02sec
++2 att vs +1 arm:     	8 shots | 6.88sec
++2 att vs +2 arm:     	9 shots | 7.74sec
++2 att vs +3 arm:     	11 shots | 9.46sec
+---
++3 att vs +0 arm:     	7 shots | 6.02sec
++3 att vs +1 arm:     	7 shots | 6.02sec
++3 att vs +2 arm:     	8 shots | 6.88sec
++3 att vs +3 arm:     	9 shots | 7.74sec
+---
+---
+stalker attacking marauder
+---
++0 att vs +0 arm:     	8 shots | 10.72sec
++0 att vs +1 arm:     	8 shots | 10.72sec
++0 att vs +2 arm:     	9 shots | 12.06sec
++0 att vs +3 arm:     	9 shots | 12.06sec
+---
++1 att vs +0 arm:     	7 shots | 9.38sec
++1 att vs +1 arm:     	7 shots | 9.38sec
++1 att vs +2 arm:     	8 shots | 10.72sec
++1 att vs +3 arm:     	8 shots | 10.72sec
+---
++2 att vs +0 arm:     	6 shots | 8.04sec
++2 att vs +1 arm:     	7 shots | 9.38sec
++2 att vs +2 arm:     	7 shots | 9.38sec
++2 att vs +3 arm:     	7 shots | 9.38sec
+---
++3 att vs +0 arm:     	6 shots | 8.04sec
++3 att vs +1 arm:     	6 shots | 8.04sec
++3 att vs +2 arm:     	6 shots | 8.04sec
++3 att vs +3 arm:     	7 shots | 9.38sec
+---
+---
+adept attacking marauder
+---
++0 att vs +0 arm:     	14 shots | 15.54sec
++0 att vs +1 arm:     	16 shots | 17.76sec
++0 att vs +2 arm:     	18 shots | 19.98sec
++0 att vs +3 arm:     	21 shots | 23.31sec
+---
++1 att vs +0 arm:     	13 shots | 14.43sec
++1 att vs +1 arm:     	14 shots | 15.54sec
++1 att vs +2 arm:     	16 shots | 17.76sec
++1 att vs +3 arm:     	18 shots | 19.98sec
+---
++2 att vs +0 arm:     	12 shots | 13.32sec
++2 att vs +1 arm:     	13 shots | 14.43sec
++2 att vs +2 arm:     	14 shots | 15.54sec
++2 att vs +3 arm:     	16 shots | 17.76sec
+---
++3 att vs +0 arm:     	11 shots | 12.21sec
++3 att vs +1 arm:     	12 shots | 13.32sec
++3 att vs +2 arm:     	13 shots | 14.43sec
++3 att vs +3 arm:     	14 shots | 15.54sec
+---
+---
+archon attacking marauder
+---
++0 att vs +0 arm:     	4 shots | 5.0sec
++0 att vs +1 arm:     	4 shots | 5.0sec
++0 att vs +2 arm:     	4 shots | 5.0sec
++0 att vs +3 arm:     	5 shots | 6.25sec
+---
++1 att vs +0 arm:     	4 shots | 5.0sec
++1 att vs +1 arm:     	4 shots | 5.0sec
++1 att vs +2 arm:     	4 shots | 5.0sec
++1 att vs +3 arm:     	4 shots | 5.0sec
+---
++2 att vs +0 arm:     	3 shots | 3.75sec
++2 att vs +1 arm:     	4 shots | 5.0sec
++2 att vs +2 arm:     	4 shots | 5.0sec
++2 att vs +3 arm:     	4 shots | 5.0sec
+---
++3 att vs +0 arm:     	3 shots | 3.75sec
++3 att vs +1 arm:     	3 shots | 3.75sec
++3 att vs +2 arm:     	3 shots | 3.75sec
++3 att vs +3 arm:     	3 shots | 3.75sec
+---
+---
+immortal attacking marauder
+---
++0 att vs +0 arm:     	3 shots | 3.12sec
++0 att vs +1 arm:     	3 shots | 3.12sec
++0 att vs +2 arm:     	3 shots | 3.12sec
++0 att vs +3 arm:     	3 shots | 3.12sec
+---
++1 att vs +0 arm:     	3 shots | 3.12sec
++1 att vs +1 arm:     	3 shots | 3.12sec
++1 att vs +2 arm:     	3 shots | 3.12sec
++1 att vs +3 arm:     	3 shots | 3.12sec
+---
++2 att vs +0 arm:     	3 shots | 3.12sec
++2 att vs +1 arm:     	3 shots | 3.12sec
++2 att vs +2 arm:     	3 shots | 3.12sec
++2 att vs +3 arm:     	3 shots | 3.12sec
+---
++3 att vs +0 arm:     	2 shots | 2.08sec
++3 att vs +1 arm:     	2 shots | 2.08sec
++3 att vs +2 arm:     	3 shots | 3.12sec
++3 att vs +3 arm:     	3 shots | 3.12sec
+---
+---
+colossus attacking marauder
+---
++0 att vs +0 arm:     	7 shots | 7.49sec
++0 att vs +1 arm:     	8 shots | 8.56sec
++0 att vs +2 arm:     	9 shots | 9.63sec
++0 att vs +3 arm:     	11 shots | 11.77sec
+---
++1 att vs +0 arm:     	7 shots | 7.49sec
++1 att vs +1 arm:     	7 shots | 7.49sec
++1 att vs +2 arm:     	8 shots | 8.56sec
++1 att vs +3 arm:     	9 shots | 9.63sec
+---
++2 att vs +0 arm:     	6 shots | 6.42sec
++2 att vs +1 arm:     	7 shots | 7.49sec
++2 att vs +2 arm:     	7 shots | 7.49sec
++2 att vs +3 arm:     	8 shots | 8.56sec
+---
++3 att vs +0 arm:     	6 shots | 6.42sec
++3 att vs +1 arm:     	6 shots | 6.42sec
++3 att vs +2 arm:     	7 shots | 7.49sec
++3 att vs +3 arm:     	7 shots | 7.49sec
+---
+---
+cannon attacking marauder
+---
++0 att vs +0 arm:     	7 shots | 6.23sec
++0 att vs +1 arm:     	7 shots | 6.23sec
++0 att vs +2 arm:     	8 shots | 7.12sec
++0 att vs +3 arm:     	8 shots | 7.12sec
+---
++1 att vs +0 arm:     	7 shots | 6.23sec
++1 att vs +1 arm:     	7 shots | 6.23sec
++1 att vs +2 arm:     	8 shots | 7.12sec
++1 att vs +3 arm:     	8 shots | 7.12sec
+---
++2 att vs +0 arm:     	7 shots | 6.23sec
++2 att vs +1 arm:     	7 shots | 6.23sec
++2 att vs +2 arm:     	8 shots | 7.12sec
++2 att vs +3 arm:     	8 shots | 7.12sec
+---
++3 att vs +0 arm:     	7 shots | 6.23sec
++3 att vs +1 arm:     	7 shots | 6.23sec
++3 att vs +2 arm:     	8 shots | 7.12sec
++3 att vs +3 arm:     	8 shots | 7.12sec
+---
+---
+marine attacking marauder
+---
++0 att vs +0 arm:     	25 shots | 10.175sec
++0 att vs +1 arm:     	32 shots | 13.024sec
++0 att vs +2 arm:     	42 shots | 17.094sec
++0 att vs +3 arm:     	63 shots | 25.641sec
+---
++1 att vs +0 arm:     	21 shots | 8.547sec
++1 att vs +1 arm:     	25 shots | 10.175sec
++1 att vs +2 arm:     	32 shots | 13.024sec
++1 att vs +3 arm:     	42 shots | 17.094sec
+---
++2 att vs +0 arm:     	18 shots | 7.326sec
++2 att vs +1 arm:     	21 shots | 8.547sec
++2 att vs +2 arm:     	25 shots | 10.175sec
++2 att vs +3 arm:     	32 shots | 13.024sec
+---
++3 att vs +0 arm:     	16 shots | 6.512sec
++3 att vs +1 arm:     	18 shots | 7.326sec
++3 att vs +2 arm:     	21 shots | 8.547sec
++3 att vs +3 arm:     	25 shots | 10.175sec
+---
+---
+marauder attacking marauder
+---
++0 att vs +0 arm:     	7 shots | 4.97sec
++0 att vs +1 arm:     	7 shots | 4.97sec
++0 att vs +2 arm:     	8 shots | 5.68sec
++0 att vs +3 arm:     	8 shots | 5.68sec
+---
++1 att vs +0 arm:     	6 shots | 4.26sec
++1 att vs +1 arm:     	7 shots | 4.97sec
++1 att vs +2 arm:     	7 shots | 4.97sec
++1 att vs +3 arm:     	7 shots | 4.97sec
+---
++2 att vs +0 arm:     	6 shots | 4.26sec
++2 att vs +1 arm:     	6 shots | 4.26sec
++2 att vs +2 arm:     	6 shots | 4.26sec
++2 att vs +3 arm:     	7 shots | 4.97sec
+---
++3 att vs +0 arm:     	5 shots | 3.55sec
++3 att vs +1 arm:     	6 shots | 4.26sec
++3 att vs +2 arm:     	6 shots | 4.26sec
++3 att vs +3 arm:     	6 shots | 4.26sec
+---
+---
+reaper attacking marauder
+---
++0 att vs +0 arm:     	21 shots | 16.59sec
++0 att vs +1 arm:     	32 shots | 25.28sec
++0 att vs +2 arm:     	63 shots | 49.77sec
++0 att vs +3 arm:     	125 shots | 98.75sec
+---
++1 att vs +0 arm:     	16 shots | 12.64sec
++1 att vs +1 arm:     	21 shots | 16.59sec
++1 att vs +2 arm:     	32 shots | 25.28sec
++1 att vs +3 arm:     	63 shots | 49.77sec
+---
++2 att vs +0 arm:     	13 shots | 10.27sec
++2 att vs +1 arm:     	16 shots | 12.64sec
++2 att vs +2 arm:     	21 shots | 16.59sec
++2 att vs +3 arm:     	32 shots | 25.28sec
+---
++3 att vs +0 arm:     	11 shots | 8.69sec
++3 att vs +1 arm:     	13 shots | 10.27sec
++3 att vs +2 arm:     	16 shots | 12.64sec
++3 att vs +3 arm:     	21 shots | 16.59sec
+---
+---
+ghost attacking marauder
+---
++0 att vs +0 arm:     	14 shots | 14.98sec
++0 att vs +1 arm:     	16 shots | 17.12sec
++0 att vs +2 arm:     	18 shots | 19.26sec
++0 att vs +3 arm:     	21 shots | 22.47sec
+---
++1 att vs +0 arm:     	13 shots | 13.91sec
++1 att vs +1 arm:     	14 shots | 14.98sec
++1 att vs +2 arm:     	16 shots | 17.12sec
++1 att vs +3 arm:     	18 shots | 19.26sec
+---
++2 att vs +0 arm:     	12 shots | 12.84sec
++2 att vs +1 arm:     	13 shots | 13.91sec
++2 att vs +2 arm:     	14 shots | 14.98sec
++2 att vs +3 arm:     	16 shots | 17.12sec
+---
++3 att vs +0 arm:     	11 shots | 11.77sec
++3 att vs +1 arm:     	12 shots | 12.84sec
++3 att vs +2 arm:     	13 shots | 13.91sec
++3 att vs +3 arm:     	14 shots | 14.98sec
+---
+---
+hellion attacking marauder
+---
++0 att vs +0 arm:     	18 shots | 32.22sec
++0 att vs +1 arm:     	21 shots | 37.59sec
++0 att vs +2 arm:     	25 shots | 44.75sec
++0 att vs +3 arm:     	32 shots | 57.28sec
+---
++1 att vs +0 arm:     	16 shots | 28.64sec
++1 att vs +1 arm:     	18 shots | 32.22sec
++1 att vs +2 arm:     	21 shots | 37.59sec
++1 att vs +3 arm:     	25 shots | 44.75sec
+---
++2 att vs +0 arm:     	14 shots | 25.06sec
++2 att vs +1 arm:     	16 shots | 28.64sec
++2 att vs +2 arm:     	18 shots | 32.22sec
++2 att vs +3 arm:     	21 shots | 37.59sec
+---
++3 att vs +0 arm:     	13 shots | 23.27sec
++3 att vs +1 arm:     	14 shots | 25.06sec
++3 att vs +2 arm:     	16 shots | 28.64sec
++3 att vs +3 arm:     	18 shots | 32.22sec
+---
+---
+hellbat attacking marauder
+---
++0 att vs +0 arm:     	8 shots | 11.44sec
++0 att vs +1 arm:     	8 shots | 11.44sec
++0 att vs +2 arm:     	9 shots | 12.87sec
++0 att vs +3 arm:     	9 shots | 12.87sec
+---
++1 att vs +0 arm:     	7 shots | 10.01sec
++1 att vs +1 arm:     	7 shots | 10.01sec
++1 att vs +2 arm:     	8 shots | 11.44sec
++1 att vs +3 arm:     	8 shots | 11.44sec
+---
++2 att vs +0 arm:     	6 shots | 8.58sec
++2 att vs +1 arm:     	7 shots | 10.01sec
++2 att vs +2 arm:     	7 shots | 10.01sec
++2 att vs +3 arm:     	7 shots | 10.01sec
+---
++3 att vs +0 arm:     	6 shots | 8.58sec
++3 att vs +1 arm:     	6 shots | 8.58sec
++3 att vs +2 arm:     	6 shots | 8.58sec
++3 att vs +3 arm:     	7 shots | 10.01sec
+---
+---
+siegedtank attacking marauder
+---
++0 att vs +0 arm:     	2 shots | 4.28sec
++0 att vs +1 arm:     	2 shots | 4.28sec
++0 att vs +2 arm:     	2 shots | 4.28sec
++0 att vs +3 arm:     	2 shots | 4.28sec
+---
++1 att vs +0 arm:     	2 shots | 4.28sec
++1 att vs +1 arm:     	2 shots | 4.28sec
++1 att vs +2 arm:     	2 shots | 4.28sec
++1 att vs +3 arm:     	2 shots | 4.28sec
+---
++2 att vs +0 arm:     	2 shots | 4.28sec
++2 att vs +1 arm:     	2 shots | 4.28sec
++2 att vs +2 arm:     	2 shots | 4.28sec
++2 att vs +3 arm:     	2 shots | 4.28sec
+---
++3 att vs +0 arm:     	2 shots | 4.28sec
++3 att vs +1 arm:     	2 shots | 4.28sec
++3 att vs +2 arm:     	2 shots | 4.28sec
++3 att vs +3 arm:     	2 shots | 4.28sec
+---
+---
+tank attacking marauder
+---
++0 att vs +0 arm:     	6 shots | 4.44sec
++0 att vs +1 arm:     	6 shots | 4.44sec
++0 att vs +2 arm:     	6 shots | 4.44sec
++0 att vs +3 arm:     	6 shots | 4.44sec
+---
++1 att vs +0 arm:     	5 shots | 3.7sec
++1 att vs +1 arm:     	5 shots | 3.7sec
++1 att vs +2 arm:     	5 shots | 3.7sec
++1 att vs +3 arm:     	6 shots | 4.44sec
+---
++2 att vs +0 arm:     	5 shots | 3.7sec
++2 att vs +1 arm:     	5 shots | 3.7sec
++2 att vs +2 arm:     	5 shots | 3.7sec
++2 att vs +3 arm:     	5 shots | 3.7sec
+---
++3 att vs +0 arm:     	4 shots | 2.96sec
++3 att vs +1 arm:     	4 shots | 2.96sec
++3 att vs +2 arm:     	5 shots | 3.7sec
++3 att vs +3 arm:     	5 shots | 3.7sec
+---
+---
+thor attacking marauder
+---
++0 att vs +0 arm:     	3 shots | 2.73sec
++0 att vs +1 arm:     	3 shots | 2.73sec
++0 att vs +2 arm:     	3 shots | 2.73sec
++0 att vs +3 arm:     	3 shots | 2.73sec
+---
++1 att vs +0 arm:     	2 shots | 1.82sec
++1 att vs +1 arm:     	3 shots | 2.73sec
++1 att vs +2 arm:     	3 shots | 2.73sec
++1 att vs +3 arm:     	3 shots | 2.73sec
+---
++2 att vs +0 arm:     	2 shots | 1.82sec
++2 att vs +1 arm:     	2 shots | 1.82sec
++2 att vs +2 arm:     	2 shots | 1.82sec
++2 att vs +3 arm:     	2 shots | 1.82sec
+---
++3 att vs +0 arm:     	2 shots | 1.82sec
++3 att vs +1 arm:     	2 shots | 1.82sec
++3 att vs +2 arm:     	2 shots | 1.82sec
++3 att vs +3 arm:     	2 shots | 1.82sec
+---
+---
+zergling attacking marauder
+---
++0 att vs +0 arm:     	32 shots | 15.904sec
++0 att vs +1 arm:     	42 shots | 20.874sec
++0 att vs +2 arm:     	63 shots | 31.311sec
++0 att vs +3 arm:     	125 shots | 62.125sec
+---
++1 att vs +0 arm:     	25 shots | 12.425sec
++1 att vs +1 arm:     	32 shots | 15.904sec
++1 att vs +2 arm:     	42 shots | 20.874sec
++1 att vs +3 arm:     	63 shots | 31.311sec
+---
++2 att vs +0 arm:     	21 shots | 10.437sec
++2 att vs +1 arm:     	25 shots | 12.425sec
++2 att vs +2 arm:     	32 shots | 15.904sec
++2 att vs +3 arm:     	42 shots | 20.874sec
+---
++3 att vs +0 arm:     	18 shots | 8.946sec
++3 att vs +1 arm:     	21 shots | 10.437sec
++3 att vs +2 arm:     	25 shots | 12.425sec
++3 att vs +3 arm:     	32 shots | 15.904sec
+---
+---
+baneling attacking marauder
+---
++0 att vs +0 arm:     	9 shots | 0.09sec
++0 att vs +1 arm:     	9 shots | 0.09sec
++0 att vs +2 arm:     	10 shots | 0.1sec
++0 att vs +3 arm:     	11 shots | 0.11sec
+---
++1 att vs +0 arm:     	8 shots | 0.08sec
++1 att vs +1 arm:     	8 shots | 0.08sec
++1 att vs +2 arm:     	9 shots | 0.09sec
++1 att vs +3 arm:     	9 shots | 0.09sec
+---
++2 att vs +0 arm:     	7 shots | 0.07sec
++2 att vs +1 arm:     	7 shots | 0.07sec
++2 att vs +2 arm:     	8 shots | 0.08sec
++2 att vs +3 arm:     	8 shots | 0.08sec
+---
++3 att vs +0 arm:     	6 shots | 0.06sec
++3 att vs +1 arm:     	7 shots | 0.07sec
++3 att vs +2 arm:     	7 shots | 0.07sec
++3 att vs +3 arm:     	7 shots | 0.07sec
+---
+---
+roach attacking marauder
+---
++0 att vs +0 arm:     	9 shots | 12.87sec
++0 att vs +1 arm:     	9 shots | 12.87sec
++0 att vs +2 arm:     	10 shots | 14.3sec
++0 att vs +3 arm:     	11 shots | 15.73sec
+---
++1 att vs +0 arm:     	8 shots | 11.44sec
++1 att vs +1 arm:     	8 shots | 11.44sec
++1 att vs +2 arm:     	9 shots | 12.87sec
++1 att vs +3 arm:     	9 shots | 12.87sec
+---
++2 att vs +0 arm:     	7 shots | 10.01sec
++2 att vs +1 arm:     	7 shots | 10.01sec
++2 att vs +2 arm:     	8 shots | 11.44sec
++2 att vs +3 arm:     	8 shots | 11.44sec
+---
++3 att vs +0 arm:     	6 shots | 8.58sec
++3 att vs +1 arm:     	7 shots | 10.01sec
++3 att vs +2 arm:     	7 shots | 10.01sec
++3 att vs +3 arm:     	7 shots | 10.01sec
+---
+---
+ravager attacking marauder
+---
++0 att vs +0 arm:     	9 shots | 10.26sec
++0 att vs +1 arm:     	9 shots | 10.26sec
++0 att vs +2 arm:     	10 shots | 11.4sec
++0 att vs +3 arm:     	11 shots | 12.54sec
+---
++1 att vs +0 arm:     	8 shots | 9.12sec
++1 att vs +1 arm:     	8 shots | 9.12sec
++1 att vs +2 arm:     	9 shots | 10.26sec
++1 att vs +3 arm:     	9 shots | 10.26sec
+---
++2 att vs +0 arm:     	7 shots | 7.98sec
++2 att vs +1 arm:     	7 shots | 7.98sec
++2 att vs +2 arm:     	8 shots | 9.12sec
++2 att vs +3 arm:     	8 shots | 9.12sec
+---
++3 att vs +0 arm:     	6 shots | 6.84sec
++3 att vs +1 arm:     	7 shots | 7.98sec
++3 att vs +2 arm:     	7 shots | 7.98sec
++3 att vs +3 arm:     	7 shots | 7.98sec
+---
+---
+queen attacking marauder
+---
++0 att vs +0 arm:     	21 shots | 14.91sec
++0 att vs +1 arm:     	32 shots | 22.72sec
++0 att vs +2 arm:     	63 shots | 44.73sec
++0 att vs +3 arm:     	125 shots | 88.75sec
+---
++1 att vs +0 arm:     	16 shots | 11.36sec
++1 att vs +1 arm:     	21 shots | 14.91sec
++1 att vs +2 arm:     	32 shots | 22.72sec
++1 att vs +3 arm:     	63 shots | 44.73sec
+---
++2 att vs +0 arm:     	13 shots | 9.23sec
++2 att vs +1 arm:     	16 shots | 11.36sec
++2 att vs +2 arm:     	21 shots | 14.91sec
++2 att vs +3 arm:     	32 shots | 22.72sec
+---
++3 att vs +0 arm:     	11 shots | 7.81sec
++3 att vs +1 arm:     	13 shots | 9.23sec
++3 att vs +2 arm:     	16 shots | 11.36sec
++3 att vs +3 arm:     	21 shots | 14.91sec
+---
+---
+hydralisk attacking marauder
+---
++0 att vs +0 arm:     	12 shots | 7.08sec
++0 att vs +1 arm:     	13 shots | 7.67sec
++0 att vs +2 arm:     	14 shots | 8.26sec
++0 att vs +3 arm:     	16 shots | 9.44sec
+---
++1 att vs +0 arm:     	11 shots | 6.49sec
++1 att vs +1 arm:     	12 shots | 7.08sec
++1 att vs +2 arm:     	13 shots | 7.67sec
++1 att vs +3 arm:     	14 shots | 8.26sec
+---
++2 att vs +0 arm:     	10 shots | 5.9sec
++2 att vs +1 arm:     	11 shots | 6.49sec
++2 att vs +2 arm:     	12 shots | 7.08sec
++2 att vs +3 arm:     	13 shots | 7.67sec
+---
++3 att vs +0 arm:     	9 shots | 5.31sec
++3 att vs +1 arm:     	10 shots | 5.9sec
++3 att vs +2 arm:     	11 shots | 6.49sec
++3 att vs +3 arm:     	12 shots | 7.08sec
+---
+---
+lurker attacking marauder
+---
++0 att vs +0 arm:     	5 shots | 7.15sec
++0 att vs +1 arm:     	5 shots | 7.15sec
++0 att vs +2 arm:     	5 shots | 7.15sec
++0 att vs +3 arm:     	5 shots | 7.15sec
+---
++1 att vs +0 arm:     	4 shots | 5.72sec
++1 att vs +1 arm:     	5 shots | 7.15sec
++1 att vs +2 arm:     	5 shots | 7.15sec
++1 att vs +3 arm:     	5 shots | 7.15sec
+---
++2 att vs +0 arm:     	4 shots | 5.72sec
++2 att vs +1 arm:     	4 shots | 5.72sec
++2 att vs +2 arm:     	4 shots | 5.72sec
++2 att vs +3 arm:     	4 shots | 5.72sec
+---
++3 att vs +0 arm:     	4 shots | 5.72sec
++3 att vs +1 arm:     	4 shots | 5.72sec
++3 att vs +2 arm:     	4 shots | 5.72sec
++3 att vs +3 arm:     	4 shots | 5.72sec
+---
+---
+ultralisk attacking marauder
+---
++0 att vs +0 arm:     	4 shots | 2.44sec
++0 att vs +1 arm:     	4 shots | 2.44sec
++0 att vs +2 arm:     	4 shots | 2.44sec
++0 att vs +3 arm:     	5 shots | 3.05sec
+---
++1 att vs +0 arm:     	4 shots | 2.44sec
++1 att vs +1 arm:     	4 shots | 2.44sec
++1 att vs +2 arm:     	4 shots | 2.44sec
++1 att vs +3 arm:     	4 shots | 2.44sec
+---
++2 att vs +0 arm:     	4 shots | 2.44sec
++2 att vs +1 arm:     	4 shots | 2.44sec
++2 att vs +2 arm:     	4 shots | 2.44sec
++2 att vs +3 arm:     	4 shots | 2.44sec
+---
++3 att vs +0 arm:     	3 shots | 1.83sec
++3 att vs +1 arm:     	3 shots | 1.83sec
++3 att vs +2 arm:     	4 shots | 2.44sec
++3 att vs +3 arm:     	4 shots | 2.44sec
+---
+---
+spinecrawler attacking marauder
+---
++0 att vs +0 arm:     	5 shots | 6.6sec
++0 att vs +1 arm:     	5 shots | 6.6sec
++0 att vs +2 arm:     	5 shots | 6.6sec
++0 att vs +3 arm:     	5 shots | 6.6sec
+---
++1 att vs +0 arm:     	5 shots | 6.6sec
++1 att vs +1 arm:     	5 shots | 6.6sec
++1 att vs +2 arm:     	5 shots | 6.6sec
++1 att vs +3 arm:     	5 shots | 6.6sec
+---
++2 att vs +0 arm:     	5 shots | 6.6sec
++2 att vs +1 arm:     	5 shots | 6.6sec
++2 att vs +2 arm:     	5 shots | 6.6sec
++2 att vs +3 arm:     	5 shots | 6.6sec
+---
++3 att vs +0 arm:     	5 shots | 6.6sec
++3 att vs +1 arm:     	5 shots | 6.6sec
++3 att vs +2 arm:     	5 shots | 6.6sec
++3 att vs +3 arm:     	5 shots | 6.6sec
+---
+---

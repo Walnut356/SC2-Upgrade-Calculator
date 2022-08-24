@@ -1,0 +1,575 @@
+stalker attacking spinecrawler
+---
++0 att vs +0 arm:     	27 shots | 23.22sec
++0 att vs +1 arm:     	27 shots | 23.22sec
++0 att vs +2 arm:     	27 shots | 23.22sec
++0 att vs +3 arm:     	27 shots | 23.22sec
+---
++1 att vs +0 arm:     	23 shots | 19.78sec
++1 att vs +1 arm:     	23 shots | 19.78sec
++1 att vs +2 arm:     	23 shots | 19.78sec
++1 att vs +3 arm:     	23 shots | 19.78sec
+---
++2 att vs +0 arm:     	20 shots | 17.2sec
++2 att vs +1 arm:     	20 shots | 17.2sec
++2 att vs +2 arm:     	20 shots | 17.2sec
++2 att vs +3 arm:     	20 shots | 17.2sec
+---
++3 att vs +0 arm:     	18 shots | 15.48sec
++3 att vs +1 arm:     	18 shots | 15.48sec
++3 att vs +2 arm:     	18 shots | 15.48sec
++3 att vs +3 arm:     	18 shots | 15.48sec
+---
+---
+stalker attacking spinecrawler
+---
++0 att vs +0 arm:     	29 shots | 38.86sec
++0 att vs +1 arm:     	29 shots | 38.86sec
++0 att vs +2 arm:     	29 shots | 38.86sec
++0 att vs +3 arm:     	29 shots | 38.86sec
+---
++1 att vs +0 arm:     	27 shots | 36.18sec
++1 att vs +1 arm:     	27 shots | 36.18sec
++1 att vs +2 arm:     	27 shots | 36.18sec
++1 att vs +3 arm:     	27 shots | 36.18sec
+---
++2 att vs +0 arm:     	25 shots | 33.5sec
++2 att vs +1 arm:     	25 shots | 33.5sec
++2 att vs +2 arm:     	25 shots | 33.5sec
++2 att vs +3 arm:     	25 shots | 33.5sec
+---
++3 att vs +0 arm:     	23 shots | 30.82sec
++3 att vs +1 arm:     	23 shots | 30.82sec
++3 att vs +2 arm:     	23 shots | 30.82sec
++3 att vs +3 arm:     	23 shots | 30.82sec
+---
+---
+adept attacking spinecrawler
+---
++0 att vs +0 arm:     	16 shots | 17.76sec
++0 att vs +1 arm:     	16 shots | 17.76sec
++0 att vs +2 arm:     	16 shots | 17.76sec
++0 att vs +3 arm:     	16 shots | 17.76sec
+---
++1 att vs +0 arm:     	14 shots | 15.54sec
++1 att vs +1 arm:     	14 shots | 15.54sec
++1 att vs +2 arm:     	14 shots | 15.54sec
++1 att vs +3 arm:     	14 shots | 15.54sec
+---
++2 att vs +0 arm:     	13 shots | 14.43sec
++2 att vs +1 arm:     	13 shots | 14.43sec
++2 att vs +2 arm:     	13 shots | 14.43sec
++2 att vs +3 arm:     	13 shots | 14.43sec
+---
++3 att vs +0 arm:     	12 shots | 13.32sec
++3 att vs +1 arm:     	12 shots | 13.32sec
++3 att vs +2 arm:     	12 shots | 13.32sec
++3 att vs +3 arm:     	12 shots | 13.32sec
+---
+---
+archon attacking spinecrawler
+---
++0 att vs +0 arm:     	10 shots | 12.5sec
++0 att vs +1 arm:     	10 shots | 12.5sec
++0 att vs +2 arm:     	10 shots | 12.5sec
++0 att vs +3 arm:     	10 shots | 12.5sec
+---
++1 att vs +0 arm:     	9 shots | 11.25sec
++1 att vs +1 arm:     	9 shots | 11.25sec
++1 att vs +2 arm:     	9 shots | 11.25sec
++1 att vs +3 arm:     	9 shots | 11.25sec
+---
++2 att vs +0 arm:     	8 shots | 10.0sec
++2 att vs +1 arm:     	8 shots | 10.0sec
++2 att vs +2 arm:     	8 shots | 10.0sec
++2 att vs +3 arm:     	8 shots | 10.0sec
+---
++3 att vs +0 arm:     	7 shots | 8.75sec
++3 att vs +1 arm:     	7 shots | 8.75sec
++3 att vs +2 arm:     	7 shots | 8.75sec
++3 att vs +3 arm:     	7 shots | 8.75sec
+---
+---
+immortal attacking spinecrawler
+---
++0 att vs +0 arm:     	18 shots | 18.72sec
++0 att vs +1 arm:     	18 shots | 18.72sec
++0 att vs +2 arm:     	18 shots | 18.72sec
++0 att vs +3 arm:     	18 shots | 18.72sec
+---
++1 att vs +0 arm:     	16 shots | 16.64sec
++1 att vs +1 arm:     	16 shots | 16.64sec
++1 att vs +2 arm:     	16 shots | 16.64sec
++1 att vs +3 arm:     	16 shots | 16.64sec
+---
++2 att vs +0 arm:     	14 shots | 14.56sec
++2 att vs +1 arm:     	14 shots | 14.56sec
++2 att vs +2 arm:     	14 shots | 14.56sec
++2 att vs +3 arm:     	14 shots | 14.56sec
+---
++3 att vs +0 arm:     	13 shots | 13.52sec
++3 att vs +1 arm:     	13 shots | 13.52sec
++3 att vs +2 arm:     	13 shots | 13.52sec
++3 att vs +3 arm:     	13 shots | 13.52sec
+---
+---
+colossus attacking spinecrawler
+---
++0 att vs +0 arm:     	12 shots | 12.84sec
++0 att vs +1 arm:     	12 shots | 12.84sec
++0 att vs +2 arm:     	12 shots | 12.84sec
++0 att vs +3 arm:     	12 shots | 12.84sec
+---
++1 att vs +0 arm:     	11 shots | 11.77sec
++1 att vs +1 arm:     	11 shots | 11.77sec
++1 att vs +2 arm:     	11 shots | 11.77sec
++1 att vs +3 arm:     	11 shots | 11.77sec
+---
++2 att vs +0 arm:     	10 shots | 10.7sec
++2 att vs +1 arm:     	10 shots | 10.7sec
++2 att vs +2 arm:     	10 shots | 10.7sec
++2 att vs +3 arm:     	10 shots | 10.7sec
+---
++3 att vs +0 arm:     	9 shots | 9.63sec
++3 att vs +1 arm:     	9 shots | 9.63sec
++3 att vs +2 arm:     	9 shots | 9.63sec
++3 att vs +3 arm:     	9 shots | 9.63sec
+---
+---
+cannon attacking spinecrawler
+---
++0 att vs +0 arm:     	17 shots | 15.13sec
++0 att vs +1 arm:     	17 shots | 15.13sec
++0 att vs +2 arm:     	17 shots | 15.13sec
++0 att vs +3 arm:     	17 shots | 15.13sec
+---
++1 att vs +0 arm:     	17 shots | 15.13sec
++1 att vs +1 arm:     	17 shots | 15.13sec
++1 att vs +2 arm:     	17 shots | 15.13sec
++1 att vs +3 arm:     	17 shots | 15.13sec
+---
++2 att vs +0 arm:     	17 shots | 15.13sec
++2 att vs +1 arm:     	17 shots | 15.13sec
++2 att vs +2 arm:     	17 shots | 15.13sec
++2 att vs +3 arm:     	17 shots | 15.13sec
+---
++3 att vs +0 arm:     	17 shots | 15.13sec
++3 att vs +1 arm:     	17 shots | 15.13sec
++3 att vs +2 arm:     	17 shots | 15.13sec
++3 att vs +3 arm:     	17 shots | 15.13sec
+---
+---
+marine attacking spinecrawler
+---
++0 att vs +0 arm:     	79 shots | 32.153sec
++0 att vs +1 arm:     	79 shots | 32.153sec
++0 att vs +2 arm:     	79 shots | 32.153sec
++0 att vs +3 arm:     	79 shots | 32.153sec
+---
++1 att vs +0 arm:     	62 shots | 25.234sec
++1 att vs +1 arm:     	62 shots | 25.234sec
++1 att vs +2 arm:     	62 shots | 25.234sec
++1 att vs +3 arm:     	62 shots | 25.234sec
+---
++2 att vs +0 arm:     	52 shots | 21.164sec
++2 att vs +1 arm:     	52 shots | 21.164sec
++2 att vs +2 arm:     	52 shots | 21.164sec
++2 att vs +3 arm:     	52 shots | 21.164sec
+---
++3 att vs +0 arm:     	44 shots | 17.908sec
++3 att vs +1 arm:     	44 shots | 17.908sec
++3 att vs +2 arm:     	44 shots | 17.908sec
++3 att vs +3 arm:     	44 shots | 17.908sec
+---
+---
+marauder attacking spinecrawler
+---
++0 att vs +0 arm:     	39 shots | 27.69sec
++0 att vs +1 arm:     	39 shots | 27.69sec
++0 att vs +2 arm:     	39 shots | 27.69sec
++0 att vs +3 arm:     	39 shots | 27.69sec
+---
++1 att vs +0 arm:     	35 shots | 24.85sec
++1 att vs +1 arm:     	35 shots | 24.85sec
++1 att vs +2 arm:     	35 shots | 24.85sec
++1 att vs +3 arm:     	35 shots | 24.85sec
+---
++2 att vs +0 arm:     	31 shots | 22.01sec
++2 att vs +1 arm:     	31 shots | 22.01sec
++2 att vs +2 arm:     	31 shots | 22.01sec
++2 att vs +3 arm:     	31 shots | 22.01sec
+---
++3 att vs +0 arm:     	28 shots | 19.88sec
++3 att vs +1 arm:     	28 shots | 19.88sec
++3 att vs +2 arm:     	28 shots | 19.88sec
++3 att vs +3 arm:     	28 shots | 19.88sec
+---
+---
+reaper attacking spinecrawler
+---
++0 att vs +0 arm:     	89 shots | 70.31sec
++0 att vs +1 arm:     	89 shots | 70.31sec
++0 att vs +2 arm:     	89 shots | 70.31sec
++0 att vs +3 arm:     	89 shots | 70.31sec
+---
++1 att vs +0 arm:     	56 shots | 44.24sec
++1 att vs +1 arm:     	56 shots | 44.24sec
++1 att vs +2 arm:     	56 shots | 44.24sec
++1 att vs +3 arm:     	56 shots | 44.24sec
+---
++2 att vs +0 arm:     	41 shots | 32.39sec
++2 att vs +1 arm:     	41 shots | 32.39sec
++2 att vs +2 arm:     	41 shots | 32.39sec
++2 att vs +3 arm:     	41 shots | 32.39sec
+---
++3 att vs +0 arm:     	32 shots | 25.28sec
++3 att vs +1 arm:     	32 shots | 25.28sec
++3 att vs +2 arm:     	32 shots | 25.28sec
++3 att vs +3 arm:     	32 shots | 25.28sec
+---
+---
+ghost attacking spinecrawler
+---
++0 att vs +0 arm:     	18 shots | 19.26sec
++0 att vs +1 arm:     	18 shots | 19.26sec
++0 att vs +2 arm:     	18 shots | 19.26sec
++0 att vs +3 arm:     	18 shots | 19.26sec
+---
++1 att vs +0 arm:     	16 shots | 17.12sec
++1 att vs +1 arm:     	16 shots | 17.12sec
++1 att vs +2 arm:     	16 shots | 17.12sec
++1 att vs +3 arm:     	16 shots | 17.12sec
+---
++2 att vs +0 arm:     	14 shots | 14.98sec
++2 att vs +1 arm:     	14 shots | 14.98sec
++2 att vs +2 arm:     	14 shots | 14.98sec
++2 att vs +3 arm:     	14 shots | 14.98sec
+---
++3 att vs +0 arm:     	13 shots | 13.91sec
++3 att vs +1 arm:     	13 shots | 13.91sec
++3 att vs +2 arm:     	13 shots | 13.91sec
++3 att vs +3 arm:     	13 shots | 13.91sec
+---
+---
+hellion attacking spinecrawler
+---
++0 att vs +0 arm:     	19 shots | 34.01sec
++0 att vs +1 arm:     	19 shots | 34.01sec
++0 att vs +2 arm:     	19 shots | 34.01sec
++0 att vs +3 arm:     	19 shots | 34.01sec
+---
++1 att vs +0 arm:     	17 shots | 30.43sec
++1 att vs +1 arm:     	17 shots | 30.43sec
++1 att vs +2 arm:     	17 shots | 30.43sec
++1 att vs +3 arm:     	17 shots | 30.43sec
+---
++2 att vs +0 arm:     	15 shots | 26.85sec
++2 att vs +1 arm:     	15 shots | 26.85sec
++2 att vs +2 arm:     	15 shots | 26.85sec
++2 att vs +3 arm:     	15 shots | 26.85sec
+---
++3 att vs +0 arm:     	14 shots | 25.06sec
++3 att vs +1 arm:     	14 shots | 25.06sec
++3 att vs +2 arm:     	14 shots | 25.06sec
++3 att vs +3 arm:     	14 shots | 25.06sec
+---
+---
+hellbat attacking spinecrawler
+---
++0 att vs +0 arm:     	11 shots | 15.73sec
++0 att vs +1 arm:     	11 shots | 15.73sec
++0 att vs +2 arm:     	11 shots | 15.73sec
++0 att vs +3 arm:     	11 shots | 15.73sec
+---
++1 att vs +0 arm:     	10 shots | 14.3sec
++1 att vs +1 arm:     	10 shots | 14.3sec
++1 att vs +2 arm:     	10 shots | 14.3sec
++1 att vs +3 arm:     	10 shots | 14.3sec
+---
++2 att vs +0 arm:     	9 shots | 12.87sec
++2 att vs +1 arm:     	9 shots | 12.87sec
++2 att vs +2 arm:     	9 shots | 12.87sec
++2 att vs +3 arm:     	9 shots | 12.87sec
+---
++3 att vs +0 arm:     	9 shots | 12.87sec
++3 att vs +1 arm:     	9 shots | 12.87sec
++3 att vs +2 arm:     	9 shots | 12.87sec
++3 att vs +3 arm:     	9 shots | 12.87sec
+---
+---
+siegedtank attacking spinecrawler
+---
++0 att vs +0 arm:     	9 shots | 19.26sec
++0 att vs +1 arm:     	9 shots | 19.26sec
++0 att vs +2 arm:     	9 shots | 19.26sec
++0 att vs +3 arm:     	9 shots | 19.26sec
+---
++1 att vs +0 arm:     	8 shots | 17.12sec
++1 att vs +1 arm:     	8 shots | 17.12sec
++1 att vs +2 arm:     	8 shots | 17.12sec
++1 att vs +3 arm:     	8 shots | 17.12sec
+---
++2 att vs +0 arm:     	7 shots | 14.98sec
++2 att vs +1 arm:     	7 shots | 14.98sec
++2 att vs +2 arm:     	7 shots | 14.98sec
++2 att vs +3 arm:     	7 shots | 14.98sec
+---
++3 att vs +0 arm:     	7 shots | 14.98sec
++3 att vs +1 arm:     	7 shots | 14.98sec
++3 att vs +2 arm:     	7 shots | 14.98sec
++3 att vs +3 arm:     	7 shots | 14.98sec
+---
+---
+tank attacking spinecrawler
+---
++0 att vs +0 arm:     	24 shots | 17.76sec
++0 att vs +1 arm:     	24 shots | 17.76sec
++0 att vs +2 arm:     	24 shots | 17.76sec
++0 att vs +3 arm:     	24 shots | 17.76sec
+---
++1 att vs +0 arm:     	21 shots | 15.54sec
++1 att vs +1 arm:     	21 shots | 15.54sec
++1 att vs +2 arm:     	21 shots | 15.54sec
++1 att vs +3 arm:     	21 shots | 15.54sec
+---
++2 att vs +0 arm:     	18 shots | 13.32sec
++2 att vs +1 arm:     	18 shots | 13.32sec
++2 att vs +2 arm:     	18 shots | 13.32sec
++2 att vs +3 arm:     	18 shots | 13.32sec
+---
++3 att vs +0 arm:     	17 shots | 12.58sec
++3 att vs +1 arm:     	17 shots | 12.58sec
++3 att vs +2 arm:     	17 shots | 12.58sec
++3 att vs +3 arm:     	17 shots | 12.58sec
+---
+---
+thor attacking spinecrawler
+---
++0 att vs +0 arm:     	6 shots | 5.46sec
++0 att vs +1 arm:     	6 shots | 5.46sec
++0 att vs +2 arm:     	6 shots | 5.46sec
++0 att vs +3 arm:     	6 shots | 5.46sec
+---
++1 att vs +0 arm:     	5 shots | 4.55sec
++1 att vs +1 arm:     	5 shots | 4.55sec
++1 att vs +2 arm:     	5 shots | 4.55sec
++1 att vs +3 arm:     	5 shots | 4.55sec
+---
++2 att vs +0 arm:     	5 shots | 4.55sec
++2 att vs +1 arm:     	5 shots | 4.55sec
++2 att vs +2 arm:     	5 shots | 4.55sec
++2 att vs +3 arm:     	5 shots | 4.55sec
+---
++3 att vs +0 arm:     	5 shots | 4.55sec
++3 att vs +1 arm:     	5 shots | 4.55sec
++3 att vs +2 arm:     	5 shots | 4.55sec
++3 att vs +3 arm:     	5 shots | 4.55sec
+---
+---
+zergling attacking spinecrawler
+---
++0 att vs +0 arm:     	107 shots | 53.179sec
++0 att vs +1 arm:     	107 shots | 53.179sec
++0 att vs +2 arm:     	107 shots | 53.179sec
++0 att vs +3 arm:     	107 shots | 53.179sec
+---
++1 att vs +0 arm:     	79 shots | 39.263sec
++1 att vs +1 arm:     	79 shots | 39.263sec
++1 att vs +2 arm:     	79 shots | 39.263sec
++1 att vs +3 arm:     	79 shots | 39.263sec
+---
++2 att vs +0 arm:     	63 shots | 31.311sec
++2 att vs +1 arm:     	63 shots | 31.311sec
++2 att vs +2 arm:     	63 shots | 31.311sec
++2 att vs +3 arm:     	63 shots | 31.311sec
+---
++3 att vs +0 arm:     	52 shots | 25.844sec
++3 att vs +1 arm:     	52 shots | 25.844sec
++3 att vs +2 arm:     	52 shots | 25.844sec
++3 att vs +3 arm:     	52 shots | 25.844sec
+---
+---
+baneling attacking spinecrawler
+---
++0 att vs +0 arm:     	10 shots | 0.1sec
++0 att vs +1 arm:     	10 shots | 0.1sec
++0 att vs +2 arm:     	10 shots | 0.1sec
++0 att vs +3 arm:     	10 shots | 0.1sec
+---
++1 att vs +0 arm:     	9 shots | 0.09sec
++1 att vs +1 arm:     	9 shots | 0.09sec
++1 att vs +2 arm:     	9 shots | 0.09sec
++1 att vs +3 arm:     	9 shots | 0.09sec
+---
++2 att vs +0 arm:     	8 shots | 0.08sec
++2 att vs +1 arm:     	8 shots | 0.08sec
++2 att vs +2 arm:     	8 shots | 0.08sec
++2 att vs +3 arm:     	8 shots | 0.08sec
+---
++3 att vs +0 arm:     	7 shots | 0.07sec
++3 att vs +1 arm:     	7 shots | 0.07sec
++3 att vs +2 arm:     	7 shots | 0.07sec
++3 att vs +3 arm:     	7 shots | 0.07sec
+---
+---
+roach attacking spinecrawler
+---
++0 att vs +0 arm:     	23 shots | 32.89sec
++0 att vs +1 arm:     	23 shots | 32.89sec
++0 att vs +2 arm:     	23 shots | 32.89sec
++0 att vs +3 arm:     	23 shots | 32.89sec
+---
++1 att vs +0 arm:     	20 shots | 28.6sec
++1 att vs +1 arm:     	20 shots | 28.6sec
++1 att vs +2 arm:     	20 shots | 28.6sec
++1 att vs +3 arm:     	20 shots | 28.6sec
+---
++2 att vs +0 arm:     	18 shots | 25.74sec
++2 att vs +1 arm:     	18 shots | 25.74sec
++2 att vs +2 arm:     	18 shots | 25.74sec
++2 att vs +3 arm:     	18 shots | 25.74sec
+---
++3 att vs +0 arm:     	16 shots | 22.88sec
++3 att vs +1 arm:     	16 shots | 22.88sec
++3 att vs +2 arm:     	16 shots | 22.88sec
++3 att vs +3 arm:     	16 shots | 22.88sec
+---
+---
+ravager attacking spinecrawler
+---
++0 att vs +0 arm:     	23 shots | 26.22sec
++0 att vs +1 arm:     	23 shots | 26.22sec
++0 att vs +2 arm:     	23 shots | 26.22sec
++0 att vs +3 arm:     	23 shots | 26.22sec
+---
++1 att vs +0 arm:     	20 shots | 22.8sec
++1 att vs +1 arm:     	20 shots | 22.8sec
++1 att vs +2 arm:     	20 shots | 22.8sec
++1 att vs +3 arm:     	20 shots | 22.8sec
+---
++2 att vs +0 arm:     	18 shots | 20.52sec
++2 att vs +1 arm:     	18 shots | 20.52sec
++2 att vs +2 arm:     	18 shots | 20.52sec
++2 att vs +3 arm:     	18 shots | 20.52sec
+---
++3 att vs +0 arm:     	16 shots | 18.24sec
++3 att vs +1 arm:     	16 shots | 18.24sec
++3 att vs +2 arm:     	16 shots | 18.24sec
++3 att vs +3 arm:     	16 shots | 18.24sec
+---
+---
+queen attacking spinecrawler
+---
++0 att vs +0 arm:     	87 shots | 61.77sec
++0 att vs +1 arm:     	87 shots | 61.77sec
++0 att vs +2 arm:     	87 shots | 61.77sec
++0 att vs +3 arm:     	87 shots | 61.77sec
+---
++1 att vs +0 arm:     	55 shots | 39.05sec
++1 att vs +1 arm:     	55 shots | 39.05sec
++1 att vs +2 arm:     	55 shots | 39.05sec
++1 att vs +3 arm:     	55 shots | 39.05sec
+---
++2 att vs +0 arm:     	41 shots | 29.11sec
++2 att vs +1 arm:     	41 shots | 29.11sec
++2 att vs +2 arm:     	41 shots | 29.11sec
++2 att vs +3 arm:     	41 shots | 29.11sec
+---
++3 att vs +0 arm:     	32 shots | 22.72sec
++3 att vs +1 arm:     	32 shots | 22.72sec
++3 att vs +2 arm:     	32 shots | 22.72sec
++3 att vs +3 arm:     	32 shots | 22.72sec
+---
+---
+hydralisk attacking spinecrawler
+---
++0 att vs +0 arm:     	31 shots | 18.29sec
++0 att vs +1 arm:     	31 shots | 18.29sec
++0 att vs +2 arm:     	31 shots | 18.29sec
++0 att vs +3 arm:     	31 shots | 18.29sec
+---
++1 att vs +0 arm:     	28 shots | 16.52sec
++1 att vs +1 arm:     	28 shots | 16.52sec
++1 att vs +2 arm:     	28 shots | 16.52sec
++1 att vs +3 arm:     	28 shots | 16.52sec
+---
++2 att vs +0 arm:     	26 shots | 15.34sec
++2 att vs +1 arm:     	26 shots | 15.34sec
++2 att vs +2 arm:     	26 shots | 15.34sec
++2 att vs +3 arm:     	26 shots | 15.34sec
+---
++3 att vs +0 arm:     	24 shots | 14.16sec
++3 att vs +1 arm:     	24 shots | 14.16sec
++3 att vs +2 arm:     	24 shots | 14.16sec
++3 att vs +3 arm:     	24 shots | 14.16sec
+---
+---
+lurker attacking spinecrawler
+---
++0 att vs +0 arm:     	18 shots | 25.74sec
++0 att vs +1 arm:     	18 shots | 25.74sec
++0 att vs +2 arm:     	18 shots | 25.74sec
++0 att vs +3 arm:     	18 shots | 25.74sec
+---
++1 att vs +0 arm:     	16 shots | 22.88sec
++1 att vs +1 arm:     	16 shots | 22.88sec
++1 att vs +2 arm:     	16 shots | 22.88sec
++1 att vs +3 arm:     	16 shots | 22.88sec
+---
++2 att vs +0 arm:     	14 shots | 20.02sec
++2 att vs +1 arm:     	14 shots | 20.02sec
++2 att vs +2 arm:     	14 shots | 20.02sec
++2 att vs +3 arm:     	14 shots | 20.02sec
+---
++3 att vs +0 arm:     	13 shots | 18.59sec
++3 att vs +1 arm:     	13 shots | 18.59sec
++3 att vs +2 arm:     	13 shots | 18.59sec
++3 att vs +3 arm:     	13 shots | 18.59sec
+---
+---
+ultralisk attacking spinecrawler
+---
++0 att vs +0 arm:     	10 shots | 6.1sec
++0 att vs +1 arm:     	10 shots | 6.1sec
++0 att vs +2 arm:     	10 shots | 6.1sec
++0 att vs +3 arm:     	10 shots | 6.1sec
+---
++1 att vs +0 arm:     	9 shots | 5.49sec
++1 att vs +1 arm:     	9 shots | 5.49sec
++1 att vs +2 arm:     	9 shots | 5.49sec
++1 att vs +3 arm:     	9 shots | 5.49sec
+---
++2 att vs +0 arm:     	8 shots | 4.88sec
++2 att vs +1 arm:     	8 shots | 4.88sec
++2 att vs +2 arm:     	8 shots | 4.88sec
++2 att vs +3 arm:     	8 shots | 4.88sec
+---
++3 att vs +0 arm:     	8 shots | 4.88sec
++3 att vs +1 arm:     	8 shots | 4.88sec
++3 att vs +2 arm:     	8 shots | 4.88sec
++3 att vs +3 arm:     	8 shots | 4.88sec
+---
+---
+spinecrawler attacking spinecrawler
+---
++0 att vs +0 arm:     	14 shots | 18.48sec
++0 att vs +1 arm:     	14 shots | 18.48sec
++0 att vs +2 arm:     	14 shots | 18.48sec
++0 att vs +3 arm:     	14 shots | 18.48sec
+---
++1 att vs +0 arm:     	14 shots | 18.48sec
++1 att vs +1 arm:     	14 shots | 18.48sec
++1 att vs +2 arm:     	14 shots | 18.48sec
++1 att vs +3 arm:     	14 shots | 18.48sec
+---
++2 att vs +0 arm:     	14 shots | 18.48sec
++2 att vs +1 arm:     	14 shots | 18.48sec
++2 att vs +2 arm:     	14 shots | 18.48sec
++2 att vs +3 arm:     	14 shots | 18.48sec
+---
++3 att vs +0 arm:     	14 shots | 18.48sec
++3 att vs +1 arm:     	14 shots | 18.48sec
++3 att vs +2 arm:     	14 shots | 18.48sec
++3 att vs +3 arm:     	14 shots | 18.48sec
+---
+---
