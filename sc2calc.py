@@ -1,5 +1,9 @@
 from math import ceil
 
+#Simple calculator for shots/time to kill for starcraft 2 units 
+#check faction comments for assumed upgrades
+#zerg innate regen factored in.
+
 #protoss units, numbers imply glaives upgrade researched
 zealot = {"name" : "zealot", "faction" : "protoss",
 "health" : 100, "shields" : 50, "armor" : 1, "armorup" : 1, "shieldarmor" : 0, "shieldup" : 1,
@@ -154,86 +158,147 @@ spinecrawler = {"name" : "spinecrawler", "faction" : "zerg",
 "bonusvs" : "armored", "bonusdmg" : 5, "bonusup" : 0, 
 "tags" : ["light", "biological"]}
 
-def DamageCalc(attacker, defender, unitFile):
-    unitFile.write(f'{attacker["name"]} attacking {defender["name"]}\n---\n')
-    health = defender["health"]
-    armor = defender["armor"]
-    armorup = defender["armorup"]
-
-    attack = attacker["attack"]
-    attackmult = attacker["attackmult"]
-    weaponsup = attacker["weaponsup"]
-    bonusdmg = attacker["bonusdmg"]
-    bonusup = 0
-    if attacker["bonusvs"] in defender["tags"]:
-        attack += bonusdmg
-        bonusup = attacker["bonusup"]
-    attackspeed = attacker["attackspeed"]
-    
-    shotsToKill = 0
-       
-    if defender["faction"] == "protoss": 
-        shieldarmor = defender["shieldarmor"]
-        shieldup = defender["shieldup"]
-        for i in range(0,4):
-            for j in range(0,4):
-                for k in range (0,4):
-                    shotsToKill = 0
-                    shields = defender["shields"]
-                    health = defender["health"]
-                    Dmg = (attack + (weaponsup * i) + (bonusup * i))
-                    healthDmg = max([(Dmg - (armor + (armorup * j))), .5])
-                    shieldDmg = max([(Dmg - (shieldarmor + (shieldup * k))), .5])
-                    
-                    while shields > 0:
-                        shields -= shieldDmg
-                        shotsToKill += 1
-                            
-                    health -= (shields * -1) - (armor + armorup)
-                    
-                    while health > 0:
-                        health -= healthDmg
-                        shotsToKill += 1
-                    unitFile.write(f'+{i} att vs +{j} arm/+{k} sh:\t')
-                    unitFile.write(f'{ceil(shotsToKill/attackmult)} shots | {round(ceil(shotsToKill/attackmult) * attackspeed, 3)}sec\n')
-                unitFile.write("---\n")
-            unitFile.write("---\n")
-                    
-    else:
-        for i in range(0,4):
-            for j in range(0,4):
-                shotsToKill = 0
-                health = defender["health"]
-                Dmg = max([(attack + (weaponsup * i) + (bonusup * i)), .5])
-                healthDmg = max([(Dmg - (armor + (armorup * j))), .5])
-                    
-                while health > 0:
-                    health -= healthDmg
-                    shotsToKill += 1
-                    if defender["faction"] == "zerg":
-                        health += .38 * attackspeed
-                
-
-                unitFile.write(f'+{i} att vs +{j} arm:     \t')
-                unitFile.write(f'{ceil(shotsToKill/attackmult)} shots | {round(ceil(shotsToKill/attackmult) * attackspeed, 3)}sec\n')
-            unitFile.write("---\n")
-        unitFile.write("---\n")
-
-
-                 
 units = [zealot, stalker, adept, archon, immortal, colossus, cannon, 
          marine, marauder, reaper, ghost, hellion, hellbat, siegedtank, tank, thor, 
-         zergling, baneling, roach, ravager, queen, hydralisk, lurker, ultralisk, spinecrawler]             
+         zergling, baneling, roach, ravager, queen, hydralisk, lurker, ultralisk, spinecrawler] 
+#for convenience
+protossUnits = [zealot, stalker, adept, archon, immortal, colossus]
+
+terranUnits = [marine, marauder]
+
+zergUnits = [zergling, baneling, roach, ravager, queen, hydralisk, lurker]
 
 
-for unit in units:
-    unitFile = open(f'.\datasheets\{unit["name"]} - attacking.txt', 'a')
-    for unit2 in units:
-        DamageCalc(unit, unit2, unitFile)
-    unitFile.close()
+#TODO add damage_stats object w/ initializer of DamageCalc()
+#split DamageCalc into StatsCalc() and ToKillCount()
 
-for unit in units:
-    unitFile = open(f'.\datasheets\{unit["name"]} - defending.txt', 'a')
-    for unit2 in units:
-        DamageCalc(unit2, unit, unitFile)
-    unitFile.close()
+def DamageCalc(attacker, defender, plusW, plusA, plusS):
+    #print(f'{attacker["name"]} -> {defender["name"]}')
+    health = defender["health"]
+    armor = defender["armor"]
+    armorUp = defender["armorup"]
+
+    attack = attacker["attack"]
+    attackMult = attacker["attackmult"]
+    weaponsUp = attacker["weaponsup"]
+    bonusDmg = attacker["bonusdmg"]
+    bonusUp = 0
+    if attacker["bonusvs"] in defender["tags"]:
+        attack += bonusDmg
+        bonusUp = attacker["bonusup"]
+    attackSpeed = attacker["attackspeed"]
+    
+    shotsToKill = 0
+
+    shotTotals = {"Shots to Kill" : 0, "Time to Kill" : 0}
+    
+    health = defender["health"]
+    Dmg = (attack + (weaponsUp * plusW) + (bonusUp * plusW))
+    healthDmg = max([(Dmg - (armor + (armorUp * plusA))), .5])
+    
+    if defender["faction"] == "protoss":
+        #protoss defender
+        shieldUp = defender["shieldup"]
+        shieldArmor = defender["shieldarmor"]
+        health = defender["health"]
+        shields = defender["shields"]
+        shieldDmg = max([(Dmg - (shieldArmor + (shieldUp * plusS))), .5])
+        while shields > 0:
+            shields -= shieldDmg
+            shotsToKill += 1
+
+        shotTotals["Shots to Break Shield"] = (ceil(shotsToKill/attackMult))
+        shotTotals["Time to Shield Break"] = (round(ceil(shotsToKill/attackMult) * attackSpeed, 3))
+
+        health -= (shields * -1) - (armor + (armorUp * plusA))
+
+        while health > 0:
+            health -= healthDmg
+            shotsToKill += 1
+            
+        shotTotals["Shots to Kill"] = (ceil(shotsToKill/attackMult))
+        shotTotals["Time to Kill"] = (round(ceil(shotsToKill/attackMult) * attackSpeed, 3))
+                
+    else:
+        #non-protoss defender
+        while health > 0:
+            health -= healthDmg
+            shotsToKill += 1
+            if defender["faction"] == "zerg": #zerg inherent regen, universal aside from muta
+                health += .38 * attackSpeed
+                
+        shotTotals["Shots to Kill"] = (ceil(shotsToKill/attackMult))
+        shotTotals["Time to Kill"] = (round(ceil(shotsToKill/attackMult) * attackSpeed, 3))
+
+    
+
+    return shotTotals
+
+
+
+def loopMain():
+    #Input & validation
+    unit1 = input("Attacking unit: ").lower()
+    unit1 = next((i for i in units if i["name"] == unit1), False)
+    while unit1 == False:
+        unit1 = input("That is not a valid unit name. Please try again: ").lower()
+        unit1 = next((i for i in units if i["name"] == unit1), False)
+        
+    unit2 = input("Defending unit: ").lower()
+    unit2 = next((i for i in units if i["name"] == unit2), False)
+    while unit2 == False:
+        unit2 = input("That is not a valid unit name. Please try again: ").lower()
+        unit2 = next((i for i in units if i["name"] == unit2), False)
+
+    
+    plusW = input("Attack upgrade: ")
+    while True:
+        if plusW.isnumeric():
+            if int(plusW) > 0 or int(plusW) < 3:
+                break   
+        plusW = input("Valid upgrade values are between 0 and 3 inclusive. Please try again: ")
+    plusW = int(plusW)
+        
+    plusA = input("Armor upgrade: ")
+    while True:
+        if plusA.isnumeric():
+            if int(plusA) > 0 or int(plusA) < 3:
+                break    
+        plusA = input("Valid upgrade values are between 0 and 3 inclusive. Please try again: ")
+            
+    plusA = int(plusA)
+    
+    if unit2["faction"] == "protoss":
+        plusS = input("Shield upgrade: ")
+        while True:
+            if plusS.isnumeric():
+                if int(plusS) > 0 or int(plusS) < 3:
+                    break   
+            plusS = input("Valid upgrade values are between 0 and 3 inclusive. Please try again: ")
+        
+        plusS = int(plusS)
+        
+        print(f'---\n+{plusW} weapons {unit1["name"]} attacking +{plusA} armor/+{plusS} shields {unit2["name"]}')
+    
+    else:
+        plusS = 0
+        print(f'--\n+{plusW} weapons {unit1["name"]} attacking +{plusA} armor {unit2["name"]}')
+    
+    killStats = DamageCalc(unit1, unit2, plusW, plusA, plusS)
+    
+    print(killStats)
+    print("---\n")
+
+    loopCheck = input("Would you like to continue? (y/n): ")
+    if loopCheck == "y":
+        loopCheck = True
+    elif loopCheck == "n":
+        loopCheck = False
+    else:
+        while loopCheck != ("y" or "n"):
+            loopCheck = input("Would you like to continue? (y/n): ")
+    print("\n---\n")
+    return loopCheck
+
+while loopMain():
+    pass
