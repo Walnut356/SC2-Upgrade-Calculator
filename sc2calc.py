@@ -189,7 +189,7 @@ def DamageCalc(attacker, defender, unitFile):
                         shields -= shieldDmg
                         shotsToKill += 1
                             
-                    health -= (shields * -1) - (armor + armorup)
+                    health -= (shields * -1) - (armor + (armorup * j))
                     
                     while health > 0:
                         health -= healthDmg
