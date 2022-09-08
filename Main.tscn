@@ -1,0 +1,154 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Theme.tres" type="Theme" id=1]
+[ext_resource path="res://Scenes/attackunitselection.gd" type="Script" id=2]
+[ext_resource path="res://Scenes/Main.gd" type="Script" id=3]
+
+[sub_resource type="Theme" id=1]
+OptionButton/constants/hseparation = 2
+
+[node name="Control" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+theme = ExtResource( 1 )
+script = ExtResource( 3 )
+
+[node name="Panel" type="Panel" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="VBoxContainer2" type="VBoxContainer" parent="."]
+anchor_left = 0.0416667
+anchor_top = 0.0416667
+anchor_right = 0.958333
+anchor_bottom = 0.958333
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="VBoxContainer" type="VBoxContainer" parent="VBoxContainer2"]
+margin_right = 439.0
+margin_bottom = 90.0
+
+[node name="AttackUnit" type="OptionButton" parent="VBoxContainer2/VBoxContainer"]
+margin_right = 207.0
+margin_bottom = 37.0
+size_flags_horizontal = 2
+size_flags_vertical = 2
+theme = SubResource( 1 )
+text = "Attacking Unit"
+align = 1
+script = ExtResource( 2 )
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer2/VBoxContainer"]
+margin_top = 45.0
+margin_right = 439.0
+margin_bottom = 90.0
+alignment = 1
+
+[node name="SpinBox" type="SpinBox" parent="VBoxContainer2/VBoxContainer/HBoxContainer"]
+margin_left = 121.0
+margin_right = 317.0
+margin_bottom = 45.0
+max_value = 3.0
+prefix = "+"
+suffix = "Attack"
+
+[node name="CheckBox2" type="CheckBox" parent="VBoxContainer2/VBoxContainer"]
+visible = false
+margin_top = 98.0
+margin_right = 440.0
+margin_bottom = 146.0
+icon_align = 1
+
+[node name="VBoxContainer2" type="VBoxContainer" parent="VBoxContainer2"]
+margin_top = 98.0
+margin_right = 439.0
+margin_bottom = 188.0
+
+[node name="DefendUnit" type="OptionButton" parent="VBoxContainer2/VBoxContainer2"]
+margin_right = 218.0
+margin_bottom = 37.0
+size_flags_horizontal = 2
+theme = SubResource( 1 )
+text = "Defending Unit"
+align = 1
+script = ExtResource( 2 )
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer2/VBoxContainer2"]
+margin_top = 45.0
+margin_right = 439.0
+margin_bottom = 90.0
+alignment = 1
+
+[node name="SpinBox2" type="SpinBox" parent="VBoxContainer2/VBoxContainer2/HBoxContainer"]
+margin_left = 121.0
+margin_right = 317.0
+margin_bottom = 45.0
+max_value = 3.0
+prefix = "+"
+suffix = "Armor"
+
+[node name="SpinBox3" type="SpinBox" parent="VBoxContainer2/VBoxContainer2/HBoxContainer"]
+visible = false
+margin_left = 224.0
+margin_right = 420.0
+margin_bottom = 45.0
+max_value = 3.0
+prefix = "+"
+suffix = "Shields"
+
+[node name="GuardianShield" type="CheckBox" parent="VBoxContainer2/VBoxContainer2"]
+visible = false
+margin_top = 98.0
+margin_right = 440.0
+margin_bottom = 146.0
+
+[node name="CheckBox" type="CheckBox" parent="VBoxContainer2/VBoxContainer2"]
+visible = false
+margin_top = 154.0
+margin_right = 440.0
+margin_bottom = 202.0
+
+[node name="HSeparator" type="HSeparator" parent="VBoxContainer2"]
+margin_top = 196.0
+margin_right = 439.0
+margin_bottom = 204.0
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer2"]
+visible = false
+margin_top = 212.0
+margin_right = 440.0
+margin_bottom = 361.0
+
+[node name="Label" type="Label" parent="VBoxContainer2/HBoxContainer"]
+margin_right = 246.0
+margin_bottom = 149.0
+size_flags_horizontal = 3
+size_flags_vertical = 2
+text = "Shots to Break Shields:
+Time to Break Shields:
+Shots to Kill:
+Time to Kill:
+"
+align = 2
+
+[node name="Label2" type="Label" parent="VBoxContainer2/HBoxContainer"]
+margin_left = 254.0
+margin_right = 267.0
+margin_bottom = 118.0
+size_flags_horizontal = 3
+size_flags_vertical = 2
+text = "0
+0
+0
+0"
+
+[connection signal="item_selected" from="VBoxContainer2/VBoxContainer/AttackUnit" to="." method="_on_AttackUnit_item_selected"]
+[connection signal="value_changed" from="VBoxContainer2/VBoxContainer/HBoxContainer/SpinBox" to="." method="_on_SpinBox_value_changed"]
+[connection signal="toggled" from="VBoxContainer2/VBoxContainer/CheckBox2" to="." method="_on_CheckBox2_toggled"]
+[connection signal="item_selected" from="VBoxContainer2/VBoxContainer2/DefendUnit" to="." method="_on_DefendUnit_item_selected"]
+[connection signal="value_changed" from="VBoxContainer2/VBoxContainer2/HBoxContainer/SpinBox2" to="." method="_on_SpinBox2_value_changed"]
+[connection signal="value_changed" from="VBoxContainer2/VBoxContainer2/HBoxContainer/SpinBox3" to="." method="_on_SpinBox3_value_changed"]
+[connection signal="toggled" from="VBoxContainer2/VBoxContainer2/GuardianShield" to="." method="_on_GuardianShield_toggled"]
+[connection signal="toggled" from="VBoxContainer2/VBoxContainer2/CheckBox" to="." method="_on_CheckBox_toggled"]
