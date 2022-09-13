@@ -1,185 +1,583 @@
 extends Control
 
+"""
+TODO:
+Shield battery on defending unit toggle 
+	-max +50.4 shields/s, max 3 per 1 energy, max 100 energy
+	-2x rate on overcharge, no energy limits, 14 seconds
+Air units
+Air unit logic
+BW units/BW "physics"
+Splash radii
+Fix Ranged Logic (tags -> bool dict value)
+Queen ground attack ranged or melee?
+Disruptor/WM bonus shield damage before or after base damage?
+phoenix lift "logic" (can't lift massive)
+air unit modifiers
+multiple weapons logic (thor, queen, tempest)
+possible "crazy mode" where anything can hit anything else
+comparisons/multiple upgrades tests/multiple windows
+dynamic window resizing?
+spell damage logic (if spell tag, ignore armor in damage calc)
+carrier interceptor count (just increase attack multiplier?
+'custom unit' (i.e. text entry) mode 
+supply structures, town halls, stasis ward, auto turret, creep tumor, nydus, sensor tower
+bunker (spinbox units?)
+medivac healing? transfuse?
+zerg, alternate cacoon types (overseer, brood, bane, lurker, ravager)
+muta regen
+"""
+
+"""
+class UnitData:
+	var name:string
+	var faction:string
+	var tags 
+	var canHitGround:bool
+	var canHitAir:bool
+	
+	var health:float
+	var shields:float
+	var armor:int
+	var shieldarmor:int
+
+	var attack:int
+	var attackspeed:float
+	var attackmult:int
+	var bonusDmg:int
+	var bonusUp:int
+	var bonusVs
+	
+	var weaponsup:int
+	var armorup:int
+	var shieldup:int
+"""	
+
+"""
+var = {
+"name" : "", "faction" : "", "flying" : , "hitground" : , "hitair" : ,
+"health" : , "shields" : , "armor" : 0, "armorup" : 1, "shieldarmor" : 0, "shieldup" : 1,
+"attack" : , "attackspeed" : , "attackmult" : 1, "weaponsup" : 0,
+"ranged": , "bonusvs" : "", "bonusdmg" : 0, "bonusup" : 0, 
+"tags" : [""]
+}
+"""
+	
+
+#---------------#
 #---Unit Data---#
+#---------------#
 
-#protoss units
-var probe = {"name" : "probe", "faction" : "protoss",
+#---protoss units---#
+
+var probe = {
+"name" : "probe", "faction" : "protoss", "flying" : false, "hitground" : true, "hitair" : false,
 "health" : 20, "shields" : 20, "armor" : 0, "armorup" : 1, "shieldarmor" : 0, "shieldup" : 1,
-"attack" : 5, "attackspeed" : 1.07, "attackmult" : 1, "weaponsup" : 0, 
-"bonusvs" : "", "bonusdmg" : 0, "bonusup" : 0, 
-"tags" : ["light", "mechanical"]}
+"attack" : 5, "attackspeed" : 1.07, "attackmult" : 1, "weaponsup" : 0,
+"ranged" : false, "bonusvs" : "", "bonusdmg" : 0, "bonusup" : 0, 
+"tags" : ["light", "mechanical"]
+}
 
-var zealot = {"name" : "zealot", "faction" : "protoss",
+var zealot = {
+"name" : "zealot", "faction" : "protoss", "flying" : false, "hitground" : true, "hitair" : false, 
 "health" : 100, "shields" : 50, "armor" : 1, "armorup" : 1, "shieldarmor" : 0, "shieldup" : 1,
 "attack" : 8, "attackspeed" : .86, "attackmult" : 2, "weaponsup" : 1, 
-"bonusvs" : "", "bonusdmg" : 0, "bonusup" : 0, 
-"tags" : ["light", "biological"]}
+"ranged" : false, "bonusvs" : "", "bonusdmg" : 0, "bonusup" : 0, 
+"tags" : ["light", "biological"]
+}
 
-var stalker = {"name" : "stalker", "faction" : "protoss",
+var stalker = {
+"name" : "stalker", "faction" : "protoss", "flying" : false, "hitground" : true, "hitair" : true, 
 "health" : 80, "shields" : 80, "armor" : 1, "armorup" : 1, "shieldarmor" : 0, "shieldup" : 1,
 "attack" : 13, "attackspeed" : 1.34, "attackmult" : 1, "weaponsup" : 1, 
-"bonusvs" : "armored", "bonusdmg" : 5, "bonusup" : 1, 
-"tags" : ["armored", "mechanical", "ranged"]}
+"ranged" : true, "bonusvs" : "armored", "bonusdmg" : 5, "bonusup" : 1, 
+"tags" : ["armored", "mechanical"]
+}
 
-var adept = {"name" : "adept", "faction" : "protoss",
+var sentry = {
+"name" : "sentry", "faction" : "protoss", "flying" : false, "hitground" : true, "hitair" : true,
+"health" : 40, "shields" : 40, "armor" : 1, "armorup" : 1, "shieldarmor" : 0, "shieldup" : 1,
+"attack" : 6, "attackspeed" : .71, "attackmult" : 1, "weaponsup" : 1, 
+"ranged" : true, "bonusvs" : "", "bonusdmg" : 0, "bonusup" : 0, 
+"tags" : ["light", "mechanical", "psionic"]
+}
+
+var adept = {
+"name" : "adept", "faction" : "protoss", "flying" : false, "hitground" : true, "hitair" : false, 
 "health" : 70, "shields" : 70, "armor" : 1, "armorup" : 1, "shieldarmor" : 0, "shieldup" : 1,
 "attack" : 10, "attackspeed" : 1.61, "attackmult" : 1, "weaponsup" : 1, 
-"bonusvs" : "light", "bonusdmg" : 12, "bonusup" : 1, 
-"tags" : ["light", "biological", "ranged"]}
+"ranged" : true, "bonusvs" : "light", "bonusdmg" : 12, "bonusup" : 1, 
+"tags" : ["light", "biological"]
+}
 
-var archon = {"name" : "archon", "faction" : "protoss",
+var templar = {
+"name" : "high templar", "faction" : "protoss", "flying" : false, "hitground" : true, "hitair" : false,
+"health" : 40, "shields" : 40, "armor" : 0, "armorup" : 1, "shieldarmor" : 0, "shieldup" : 1,
+"attack" : 4, "attackspeed" : 1.25, "attackmult" : 1, "weaponsup" : 1,
+"ranged" : true, "bonusvs" : "", "bonusdmg" : 0, "bonusup" : 0, 
+"tags" : ["biological", "light", "psionic"]
+}
+
+var DT = {
+"name" : "dark templar", "faction" : "protoss", "flying" : false, "hitground" : true, "hitair" : false,
+"health" : 40, "shields" : 80, "armor" : 1, "armorup" : 1, "shieldarmor" : 0, "shieldup" : 1,
+"attack" : 45, "attackspeed" : 1.21, "attackmult" : 1, "weaponsup" : 5,
+"ranged": false, "bonusvs" : "", "bonusdmg" : 0, "bonusup" : 0, 
+"tags" : ["biological", "light", "psionic"]
+}
+
+var archon = {
+"name" : "archon", "faction" : "protoss", "flying" : false, "hitground" : true, "hitair" : true, 
 "health" : 10, "shields" : 350, "armor" : 0, "armorup" : 1, "shieldarmor" : 0, "shieldup" : 1,
 "attack" : 25, "attackspeed" : 1.25, "attackmult" : 1, "weaponsup" : 3, 
-"bonusvs" : "biological", "bonusdmg" : 10, "bonusup" : 1, 
-"tags" : ["psionic", "massive", "ranged"]}
+"ranged" : true "bonusvs" : "biological", "bonusdmg" : 10, "bonusup" : 1, 
+"tags" : ["psionic", "massive"]
+}
 
-var immortal = {"name" : "immortal", "faction" : "protoss",
+var observer = {
+"name" : "observer", "faction" : "protoss", "flying" : true, "hitground" : false, "hitair" : false,
+"health" : 40, "shields" : 20, "armor" : 0, "armorup" : 1, "shieldarmor" : 0, "shieldup" : 1,
+"attack" : null, "attackspeed" : null, "attackmult" : null, "weaponsup" : null,
+"ranged": null, "bonusvs" : "", "bonusdmg" : null, "bonusup" : null, 
+"tags" : ["light", "mechanical"]
+}
+
+var prism = {
+"name" : "warp prism", "faction" : "protoss", "flying" : true, "hitground" : false, "hitair" : false,
+"health" : 80, "shields" : 100, "armor" : 0, "armorup" : 1, "shieldarmor" : 0, "shieldup" : 1,
+"attack" : null, "attackspeed" : null, "attackmult" : null, "weaponsup" : null,
+"ranged": null, "bonusvs" : "", "bonusdmg" : null, "bonusup" : null, 
+"tags" : ["armored", "mechanical", "psionic"]
+}
+
+var immortal = {
+"name" : "immortal", "faction" : "protoss", "flying" : false, "hitground" : true, "hitair" : false, 
 "health" : 200, "shields" : 100, "armor" : 1, "armorup" : 1, "shieldarmor" : 0, "shieldup" : 1,
 "attack" : 20, "attackspeed" : 1.04, "attackmult" : 1, "weaponsup" : 2, 
-"bonusvs" : "armored", "bonusdmg" : 30, "bonusup" : 3, 
-"tags" : ["armored", "mechanical", "ranged"]}
+"ranged" : true, "bonusvs" : "armored", "bonusdmg" : 30, "bonusup" : 3, 
+"tags" : ["armored", "mechanical"]
+}
 
-var colossus = {"name" : "colossus", "faction" : "protoss",
+var colossus = {
+"name" : "colossus", "faction" : "protoss", "flying" : false, "hitground" : true, "hitair" : false, 
 "health" : 200, "shields" : 150, "armor" : 1, "armorup" : 1, "shieldarmor" : 0, "shieldup" : 1,
 "attack" : 10, "attackspeed" : 1.07, "attackmult" : 2, "weaponsup" : 1, 
-"bonusvs" : "light", "bonusdmg" : 5, "bonusup" : 1, 
-"tags" : ["armored", "massive", "mechanical", "ranged"]}
+"ranged" : true, "bonusvs" : "light", "bonusdmg" : 5, "bonusup" : 1, 
+"tags" : ["armored", "massive", "mechanical"]
+}
 
-var cannon = {"name" : "cannon", "faction" : "protoss",
+var disruptor = {
+"name" : "disruptor", "faction" : "protoss", "flying" : false, "hitground" : true, "hitair" : false,
+"health" : 100, "shields" : 100, "armor" : 1, "armorup" : 1, "shieldarmor" : 0, "shieldup" : 1,
+"attack" : 145, "attackspeed" : 2.1, "attackmult" : 1, "weaponsup" : 0,
+"ranged": false, "bonusvs" : "", "bonusdmg" : 55, "bonusup" : 0, 
+"tags" : ["armored", "mechanical", "spell"]
+}
+
+var phoenix = {
+"name" : "phoenix", "faction" : "protoss", "flying" : true, "hitground" : true, "hitair" : true,
+"health" : 120, "shields" : 60, "armor" : 0, "armorup" : 1, "shieldarmor" : 0, "shieldup" : 1,
+"attack" : 5, "attackspeed" : .79, "attackmult" : 2, "weaponsup" : 1,
+"ranged": true, "bonusvs" : "light", "bonusdmg" : 5, "bonusup" : 0, 
+"tags" : ["light", "mechanical"]
+}
+
+var voidray= {
+"name" : "voidray", "faction" : "protoss", "flying" : true, "hitground" : true, "hitair" : true,
+"health" : 150, "shields" : 100, "armor" : 0, "armorup" : 1, "shieldarmor" : 0, "shieldup" : 1,
+"attack" : 6, "attackspeed" : .36, "attackmult" : 1, "weaponsup" : 1,
+"ranged": true, "bonusvs" : "armored", "bonusdmg" : 4, "bonusup" : 0, 
+"tags" : ["armored", "mechanical"]
+}
+
+var oracle = {
+"name" : "oracle", "faction" : "protoss", "flying" : true, "hitground" : true, "hitair" : false,
+"health" : 100, "shields" : 60, "armor" : 0, "armorup" : 1, "shieldarmor" : 0, "shieldup" : 1,
+"attack" : 15, "attackspeed" : .61, "attackmult" : 1, "weaponsup" : 0,
+"ranged": true, "bonusvs" : "light", "bonusdmg" : 7, "bonusup" : 0, 
+"tags" : ["mechanical", "armored", "psionic", "spell"]
+}
+
+var tempest = {
+"name" : "tempest", "faction" : "protoss", "flying" : true, "hitground" : true, "hitair" : true,
+"health" : 200, "shields" : 100, "armor" : 2, "armorup" : 1, "shieldarmor" : 0, "shieldup" : 1,
+"attack" : 40, "attackspeed" : 2.36, "attackmult" : 1, "weaponsup" : 4,
+"ranged": true, "bonusvs" : "", "bonusdmg" : 0, "bonusup" : 0, 
+"tags" : ["armored", "mechanical", "massive"]
+}
+
+var carrier = {
+"name" : "carrier", "faction" : "protoss", "flying" : true, "hitground" : true, "hitair" : true,
+"health" : 300, "shields" : 150, "armor" : 2, "armorup" : 1, "shieldarmor" : 0, "shieldup" : 1,
+"attack" : 5, "attackspeed" : 2.14, "attackmult" : 2, "weaponsup" : 1,
+"ranged": true, "bonusvs" : "", "bonusdmg" : 0, "bonusup" : 0, 
+"tags" : ["armored", "mechanical", "massive"]
+}
+
+var interceptor = {
+"name" : "interceptor", "faction" : "protoss", "flying" : true, "hitground" : true, "hitair" : true,
+"health" : 40, "shields" : 40, "armor" : 0, "armorup" : 1, "shieldarmor" : 0, "shieldup" : 1,
+"attack" : 5, "attackspeed" : 2.14, "attackmult" : 2, "weaponsup" : 1,
+"ranged": true, "bonusvs" : "", "bonusdmg" : 0, "bonusup" : 0, 
+"tags" : ["light", "mechanical"]
+}
+
+var mothership = {
+"name" : "mothership", "faction" : "protoss", "flying" : true, "hitground" : true, "hitair" : true,
+"health" : 350, "shields" : 350, "armor" : 2, "armorup" : 1, "shieldarmor" : 0, "shieldup" : 1,
+"attack" : 6, "attackspeed" : 1.58, "attackmult" : 6, "weaponsup" : 1,
+"ranged": true, "bonusvs" : "", "bonusdmg" : 0, "bonusup" : 0, 
+"tags" : ["armored", "massive", "psionic", "mechanical", "heroic"]
+}
+
+var cannon = {
+"name" : "cannon", "faction" : "protoss", "flying" : false, "hitground" : true, "hitair" : true, 
 "health" : 150, "shields" : 150, "armor" : 1, "armorup" : 0, "shieldarmor" : 0, "shieldup" : 1,
 "attack" : 20, "attackspeed" : .89, "attackmult" : 1, "weaponsup" : 0, 
-"bonusvs" : "", "bonusdmg" : 0, "bonusup" : 0, 
-"tags" : ["armored", "structure", "ranged"]}
+"ranged" : true, "bonusvs" : "", "bonusdmg" : 0, "bonusup" : 0, 
+"tags" : ["armored", "structure"]
+}
+var battery = {
+"name" : "shield battery", "faction" : "protoss", "flying" : false, "hitground" : false , "hitair" : false,
+"health" : 150, "shields" : 150, "armor" : 0, "armorup" : 0, "shieldarmor" : 0, "shieldup" : 1,
+"attack" : null, "attackspeed" : null, "attackmult" : null, "weaponsup" : null, 
+"ranged" : null, "bonusvs" : "", "bonusdmg" : null, "bonusup" : null, 
+"tags" : ["armored", "structure"]
+}
 
 
-#terran units
-var scv = {"name" : "scv", "faction" : "terran", 
+#---terran units---#
+
+var scv = {
+"name" : "scv", "faction" : "terran",  "flying" : false, "hitground" : true, "hitair" : false, 
 "health" : 45, "shields" : 0, "armor" : 0, "armorup" : 1, "shieldarmor" : 0, "shieldup" : 0,
 "attack" : 5, "attackspeed" : 1.07, "attackmult" : 1, "weaponsup" : 0, 
-"bonusvs" : "", "bonusdmg" : 0, "bonusup" : 0, 
-"tags" : ["light", "biological", "mechanical"]}
+"ranged" : false, "bonusvs" : "", "bonusdmg" : 0, "bonusup" : 0, 
+"tags" : ["light", "biological", "mechanical"]
+}
 
-var marine = {"name" : "marine", "faction" : "terran", 
+var mule = {
+"name" : "mule", "faction" : "terran", "flying" : false, "hitground" : false, "hitair" : false,
+"health" : 60, "shields" : 0, "armor" : 0, "armorup" : 1, "shieldarmor" : 0, "shieldup" : 0,
+"attack" : null, "attackspeed" : null, "attackmult" : null, "weaponsup" : null,
+"ranged": null, "bonusvs" : "null", "bonusdmg" : null, "bonusup" : null, 
+"tags" : ["light", "mechanical"]
+}
+
+var marine = {
+"name" : "marine", "faction" : "terran",  "flying" : false, "hitground" : true, "hitair" : false, 
 "health" : 55, "shields" : 0, "armor" : 0, "armorup" : 1, "shieldarmor" : 0, "shieldup" : 0,
 "attack" : 6, "attackspeed" : .61, "attackmult" : 1, "weaponsup" : 1, 
-"bonusvs" : "", "bonusdmg" : 0, "bonusup" : 0, 
-"tags" : ["light", "biological", "ranged"]}
+"ranged" : true, "bonusvs" : "", "bonusdmg" : 0, "bonusup" : 0, 
+"tags" : ["light", "biological"]
+}
 
-var marauder = {"name" : "marauder", "faction" : "terran", 
+var marauder = {
+"name" : "marauder", "faction" : "terran",  "flying" : false, "hitground" : true, "hitair" : false, 
 "health" : 125, "shields" : 0, "armor" : 1, "armorup" : 1, "shieldarmor" : 0, "shieldup" : 0,
 "attack" : 10, "attackspeed" : 1.07, "attackmult" : 1, "weaponsup" : 1, 
-"bonusvs" : "armored", "bonusdmg" : 10, "bonusup" : 1, 
-"tags" : ["armored", "biological", "ranged"]}
+"ranged" : true, "bonusvs" : "armored", "bonusdmg" : 10, "bonusup" : 1, 
+"tags" : ["armored", "biological"]
+}
 
-var reaper = {"name" : "reaper", "faction" : "terran", 
+var reaper = {
+"name" : "reaper", "faction" : "terran",  "flying" : false, "hitground" : true, "hitair" : false, 
 "health" : 60, "shields" : 0, "armor" : 0, "armorup" : 1, "shieldarmor" : 0, "shieldup" : 0,
 "attack" : 4, "attackspeed" : .79, "attackmult" : 2, "weaponsup" : 1, 
-"bonusvs" : "", "bonusdmg" : 0, "bonusup" : 0, 
-"tags" : ["light", "biological", "ranged"]}
+"ranged" : true, "bonusvs" : "", "bonusdmg" : 0, "bonusup" : 0, 
+"tags" : ["light", "biological"]
+}
 
-var ghost = {"name" : "ghost", "faction" : "terran", 
+var ghost = {
+"name" : "ghost", "faction" : "terran",  "flying" : false,  "hitground" : true, "hitair" : false, 
 "health" : 100, "shields" : 0, "armor" : 0, "armorup" : 1, "shieldarmor" : 0, "shieldup" : 0,
 "attack" : 10, "attackspeed" : 1.07, "attackmult" : 1, "weaponsup" : 1, 
-"bonusvs" : "light", "bonusdmg" : 10, "bonusup" : 1, 
-"tags" : ["psionic", "biological", "ranged"]}
+"ranged" : true, "bonusvs" : "light", "bonusdmg" : 10, "bonusup" : 1, 
+"tags" : ["psionic", "biological"]
+}
 
-var hellion = {"name" : "hellion", "faction" : "terran", 
+var hellion = {
+"name" : "hellion", "faction" : "terran",  "flying" : false,  "hitground" : true, "hitair" : false, 
 "health" : 90, "shields" : 0, "armor" : 0, "armorup" : 1, "shieldarmor" : 0, "shieldup" : 0,
 "attack" : 8, "attackspeed" : 1.79, "attackmult" : 1, "weaponsup" : 1, 
-"bonusvs" : "light", "bonusdmg" : 6, "bonusup" : 1, 
-"tags" : ["light", "mechanical", "ranged"]}
+"ranged" : true, "bonusvs" : "light", "bonusdmg" : 6, "bonusup" : 1, 
+"tags" : ["light", "mechanical"]
+}
 
-var hellbat = {"name" : "hellbat", "faction" : "terran", 
+var hellbat = {
+"name" : "hellbat", "faction" : "terran",  "flying" : false,  "hitground" : true, "hitair" : false, 
 "health" : 135, "shields" : 0, "armor" : 0, "armorup" : 1, "shieldarmor" : 0, "shieldup" : 0,
 "attack" : 18, "attackspeed" : 1.43, "attackmult" : 1, "weaponsup" : 2, 
-"bonusvs" : "light", "bonusdmg" : 0, "bonusup" : 1, 
-"tags" : ["mechanical", "light", "biological", "ranged"]}
+"ranged" : true, "bonusvs" : "light", "bonusdmg" : 0, "bonusup" : 1, 
+"tags" : ["mechanical", "light", "biological"]
+}
 
-var siegedtank = {"name" : "siegedtank", "faction" : "terran", 
+var mine = {
+"name" : "widowmine", "faction" : "terran", "flying" : false, "hitground" : true, "hitair" : true,
+"health" : 90, "shields" : 0, "armor" : 0, "armorup" : 1, "shieldarmor" : 0, "shieldup" : 0,
+"attack" : 145, "attackspeed" : 1.07, "attackmult" : 1, "weaponsup" : 0,
+"ranged": true, "bonusvs" : "", "bonusdmg" : 0, "bonusup" : 0, 
+"tags" : ["light", "mechanical", "spell"]
+}
+
+
+var cyclone = {
+"name" : "cyclone", "faction" : "terran", "flying" : false, "hitground" : true, "hitair" : true,
+"health" : 120, "shields" : 0, "armor" : 1, "armorup" : 1, "shieldarmor" : 0, "shieldup" : 0,
+"attack" : 18, "attackspeed" : .71, "attackmult" : 1, "weaponsup" : 2,
+"ranged": true, "bonusvs" : "", "bonusdmg" : 0, "bonusup" : 0, 
+"tags" : ["armored", "mechanical"]
+}
+
+var siegedtank = {"name" : "siegedtank",  "flying" : false, "faction" : "terran",  "hitground" : true, "hitair" : false, 
 "health" : 175, "shields" : 0, "armor" : 1, "armorup" : 1, "shieldarmor" : 0, "shieldup" : 0,
 "attack" : 40, "attackspeed" : 2.14, "attackmult" : 1, "weaponsup" : 4, 
-"bonusvs" : "armored", "bonusdmg" : 30, "bonusup" : 1, 
-"tags" : ["armored", "mechanical", "ranged"]}
+"ranged" : true, "bonusvs" : "armored", "bonusdmg" : 30, "bonusup" : 1, 
+"tags" : ["armored", "mechanical"]}
 
-var tank = {"name" : "tank", "faction" : "terran", 
+var tank = {
+"name" : "tank", "faction" : "terran",  "flying" : false,  "hitground" : true, "hitair" : false, 
 "health" : 175, "shields" : 0, "armor" : 1, "armorup" : 1, "shieldarmor" : 0, "shieldup" : 0,
 "attack" : 15, "attackspeed" : .74, "attackmult" : 1, "weaponsup" : 2, 
-"bonusvs" : "armored", "bonusdmg" : 10, "bonusup" : 1, 
-"tags" : ["armored", "mechanical", "ranged"]}
+"ranged" : true, "bonusvs" : "armored", "bonusdmg" : 10, "bonusup" : 1, 
+"tags" : ["armored", "mechanical"]
+}
 
-var thor = {"name" : "thor", "faction" : "terran", 
+var thor = {
+"name" : "thor", "faction" : "terran",  "flying" : false,  "hitground" : true, "hitair" : false, 
 "health" : 400, "shields" : 0, "armor" : 1, "armorup" : 1, "shieldarmor" : 0, "shieldup" : 0,
 "attack" : 30, "attackspeed" : .91, "attackmult" : 2, "weaponsup" : 3, 
-"bonusvs" : "", "bonusdmg" : 0, "bonusup" : 0, 
-"tags" : ["armored", "mechanical", "massive", "ranged"]}
+"ranged" : true, "bonusvs" : "", "bonusdmg" : 0, "bonusup" : 0, 
+"tags" : ["armored", "mechanical", "massive"]
+}
 
-var planetary = {"name" : "planetary", "faction" : "terran", 
+var viking = {
+"name" : "viking", "faction" : "terran", "flying" : , "hitground" : false, "hitair" : true,
+"health" : 135, "shields" : 0, "armor" : 0, "armorup" : 1, "shieldarmor" : 0, "shieldup" : 0,
+"attack" : 10, "attackspeed" : 1.43, "attackmult" : 2, "weaponsup" : 1,
+"ranged": true, "bonusvs" : "armored", "bonusdmg" : 4, "bonusup" : 0, 
+"tags" : ["armored", "mechanical"]
+}
+
+var medivac = {
+"name" : "medivac", "faction" : "terran", "flying" : true, "hitground" : false, "hitair" : false,
+"health" : 150, "shields" : 0, "armor" : 1, "armorup" : 1, "shieldarmor" : 0, "shieldup" : 0,
+"attack" : null, "attackspeed" : null, "attackmult" : null, "weaponsup" : null,
+"ranged": null, "bonusvs" : "", "bonusdmg" : null, "bonusup" : null, 
+"tags" : ["armored", "mechanical"]
+}
+
+var liberator = {
+"name" : "liberator", "faction" : "terran", "flying" : true, "hitground" : false, "hitair" : true,
+"health" : 180, "shields" : 0, "armor" : 0, "armorup" : 1, "shieldarmor" : 0, "shieldup" : 0,
+"attack" : 5, "attackspeed" : 1.29, "attackmult" : 2, "weaponsup" : 1,
+"ranged": true, "bonusvs" : "", "bonusdmg" : 0, "bonusup" : 0, 
+"tags" : ["armored", "mechanical"]
+}
+
+var raven = {
+"name" : "raven", "faction" : "terran", "flying" : true, "hitground" : false, "hitair" : false,
+"health" : 140, "shields" : 0, "armor" : 1, "armorup" : 1, "shieldarmor" : 0, "shieldup" : 0,
+"attack" : null, "attackspeed" : null, "attackmult" : null, "weaponsup" : null,
+"ranged": null, "bonusvs" : "", "bonusdmg" : null, "bonusup" : null, 
+"tags" : ["light", "mechanical"]
+}
+
+var banshee = {
+"name" : "banshee", "faction" : "terran", "flying" : true, "hitground" : true, "hitair" : false,
+"health" : 140, "shields" : 0, "armor" : 0, "armorup" : 1, "shieldarmor" : 0, "shieldup" : 0,
+"attack" : 12, "attackspeed" : .89, "attackmult" : 2, "weaponsup" : 1,
+"ranged": true, "bonusvs" : "", "bonusdmg" : 0, "bonusup" : 0, 
+"tags" : ["light", "mechanical"]
+}
+
+var battlecruiser = {
+"name" : "battlecruiser", "faction" : "terran", "flying" : true, "hitground" : true, "hitair" : true,
+"health" : 550, "shields" : 0, "armor" : 3, "armorup" : 1, "shieldarmor" : 0, "shieldup" : 0,
+"attack" : 8, "attackspeed" : .16, "attackmult" : 1, "weaponsup" : 1,
+"ranged": true, "bonusvs" : "", "bonusdmg" : 0, "bonusup" : 0, 
+"tags" : ["armored", "mechanical", "massive"]
+}
+
+var planetary = {
+"name" : "planetary", "faction" : "terran",  "flying" : false,  "hitground" : true, "hitair" : false, 
 "health" : 1500, "shields" : 0, "armor" : 3, "armorup" : 0, "shieldarmor" : 0, "shieldup" : 0,
 "attack" : 40, "attackspeed" : 1.43, "attackmult" : 1, "weaponsup" : 0, 
-"bonusvs" : "", "bonusdmg" : 0, "bonusup" : 0, 
-"tags" : ["armored", "mechanical", "structure", "ranged"]}
+"ranged" : true, "bonusvs" : "", "bonusdmg" : 0, "bonusup" : 0, 
+"tags" : ["armored", "mechanical", "structure"]
+}
 
 
-#zerg units
-var drone = {"name" : "drone", "faction" : "zerg", 
+
+#---zerg units---#
+
+var larva = {
+"name" : "larva", "faction" : "zerg", "flying" : false, "hitground" : false, "hitair" : false,
+"health" : 25, "shields" : 0, "armor" : 10, "armorup" : 0, "shieldarmor" : 0, "shieldup" : 0,
+"attack" : null, "attackspeed" : null, "attackmult" : null, "weaponsup" : null,
+"ranged": null, "bonusvs" : "", "bonusdmg" : null, "bonusup" : null, 
+"tags" : ["biological", "light"]
+}
+
+var egg = {
+"name" : "egg", "faction" : "zerg", "flying" : false, "hitground" : false, "hitair" : false,
+"health" : 200, "shields" : 0, "armor" : 10, "armorup" : 0, "shieldarmor" : 0, "shieldup" : 0,
+"attack" : null, "attackspeed" : null, "attackmult" : null, "weaponsup" : null,
+"ranged": null, "bonusvs" : "", "bonusdmg" : null, "bonusup" : null, 
+"tags" : ["biological", "light"]
+}
+
+var drone = {
+"name" : "drone", "faction" : "zerg",  "flying" : false,  "hitground" : true, "hitair" : false, 
 "health" : 40, "shields" : 0, "armor" : 0, "armorup" : 1, "shieldarmor" : 0, "shieldup" : 0,
 "attack" : 5, "attackspeed" : 1.07, "attackmult" : 1, "weaponsup" : 0,
-"bonusvs" : "", "bonusdmg" : 0, "bonusup" : 0, 
-"tags" : ["light", "biological"]}
+"ranged" : false, "bonusvs" : "", "bonusdmg" : 0, "bonusup" : 0, 
+"tags" : ["light", "biological"]
+}
 
-var zergling = {"name" : "zergling", "faction" : "zerg", 
-"health" : 35, "shields" : 0, "armor" : 0, "armorup" : 1, "shieldarmor" : 0, "shieldup" : 0,
-"attack" : 5, "attackspeed" : .497, "attackmult" : 1, "weaponsup" : 1,
-"bonusvs" : "", "bonusdmg" : 0, "bonusup" : 0, 
-"tags" : ["light", "biological"]}
+var overlord = {
+"name" : "overlord", "faction" : "zerg",  "flying" : true,  "hitground" : false, "hitair" : false, 
+"health" : 200, "shields" : 0, "armor" : 0, "armorup" : 1, "shieldarmor" : 0, "shieldup" : 0,
+"attack" : null, "attackspeed" : null, "attackmult" : null, "weaponsup" : null,
+"ranged" : null, "bonusvs" : "", "bonusdmg" : null, "bonusup" : null, 
+"tags" : ["armored", "biological"]
+}
 
-var baneling = {"name" : "baneling", "faction" : "zerg", 
-"health" : 30, "shields" : 0, "armor" : 0, "armorup" : 1, "shieldarmor" : 0, "shieldup" : 0,
-"attack" : 16, "attackspeed" : .01, "attackmult" : 1, "weaponsup" : 2,
-"bonusvs" : "light", "bonusdmg" : 19, "bonusup" : 2, 
-"tags" : ["biological"]}
-
-var roach = {"name" : "roach", "faction" : "zerg", 
-"health" : 145, "shields" : 0, "armor" : 1, "armorup" : 1, "shieldarmor" : 0, "shieldup" : 0,
-"attack" : 16, "attackspeed" : 1.43, "attackmult" : 1, "weaponsup" : 2,
-"bonusvs" : "", "bonusdmg" : 0, "bonusup" : 0, 
-"tags" : ["armored", "biological", "ranged"]}
-
-var ravager = {"name" : "ravager", "faction" : "zerg", 
-"health" : 120, "shields" : 0, "armor" : 1, "armorup" : 1, "shieldarmor" : 0, "shieldup" : 0,
-"attack" : 16, "attackspeed" : 1.14, "attackmult" : 1, "weaponsup" : 2,
-"bonusvs" : "", "bonusdmg" : 0, "bonusup" : 0, 
-"tags" : ["biological", "ranged"]} 
-
-var hydralisk = {"name" : "hydralisk", "faction" : "zerg", 
-"health" : 90, "shields" : 0, "armor" : 0, "armorup" : 1, "shieldarmor" : 0, "shieldup" : 0,
-"attack" : 12, "attackspeed" : .59, "attackmult" : 1, "weaponsup" : 1,
-"bonusvs" : "", "bonusdmg" : 0, "bonusup" : 0, 
-"tags" : ["light", "biological", "ranged"]}
-
-var queen = {"name" : "queen", "faction" : "zerg", 
+var queen = {
+"name" : "queen", "faction" : "zerg",  "flying" : false,  "hitground" : true, "hitair" : false, 
 "health" : 175, "shields" : 0, "armor" : 1, "armorup" : 1, "shieldarmor" : 0, "shieldup" : 0,
 "attack" : 4, "attackspeed" : .71, "attackmult" : 2, "weaponsup" : 1,
-"bonusvs" : "", "bonusdmg" : 0, "bonusup" : 0, 
-"tags" : ["psionic", "biological", "ranged"]}
+"ranged" : true, "bonusvs" : "", "bonusdmg" : 0, "bonusup" : 0, 
+"tags" : ["psionic", "biological"]
+}
 
-var lurker = {"name" : "lurker", "faction" : "zerg", 
+var zergling = {
+"name" : "zergling", "faction" : "zerg",  "flying" : false,  "hitground" : true, "hitair" : false, 
+"health" : 35, "shields" : 0, "armor" : 0, "armorup" : 1, "shieldarmor" : 0, "shieldup" : 0,
+"attack" : 5, "attackspeed" : .497, "attackmult" : 1, "weaponsup" : 1,
+"ranged" : false, "bonusvs" : "", "bonusdmg" : 0, "bonusup" : 0, 
+"tags" : ["light", "biological"]
+}
+
+var baneling = {
+"name" : "baneling", "faction" : "zerg",  "flying" : false,  "hitground" : true, "hitair" : false, 
+"health" : 30, "shields" : 0, "armor" : 0, "armorup" : 1, "shieldarmor" : 0, "shieldup" : 0,
+"attack" : 16, "attackspeed" : .01, "attackmult" : 1, "weaponsup" : 2,
+"ranged" : false, "bonusvs" : "light", "bonusdmg" : 19, "bonusup" : 2, 
+"tags" : ["biological"]
+}
+
+var roach = {
+"name" : "roach", "faction" : "zerg",  "flying" : false,  "hitground" : true, "hitair" : false, 
+"health" : 145, "shields" : 0, "armor" : 1, "armorup" : 1, "shieldarmor" : 0, "shieldup" : 0,
+"attack" : 16, "attackspeed" : 1.43, "attackmult" : 1, "weaponsup" : 2,
+"ranged" : true, "bonusvs" : "", "bonusdmg" : 0, "bonusup" : 0, 
+"tags" : ["armored", "biological"]
+}
+
+var ravager = {
+"name" : "ravager", "faction" : "zerg",  "flying" : false,  "hitground" : true, "hitair" : false, 
+"health" : 120, "shields" : 0, "armor" : 1, "armorup" : 1, "shieldarmor" : 0, "shieldup" : 0,
+"attack" : 16, "attackspeed" : 1.14, "attackmult" : 1, "weaponsup" : 2,
+"ranged" : true, "bonusvs" : "", "bonusdmg" : 0, "bonusup" : 0, 
+"tags" : ["biological"]
+} 
+
+var hydralisk = {
+"name" : "hydralisk", "faction" : "zerg",  "flying" : false,  "hitground" : true, "hitair" : false, 
+"health" : 90, "shields" : 0, "armor" : 0, "armorup" : 1, "shieldarmor" : 0, "shieldup" : 0,
+"attack" : 12, "attackspeed" : .59, "attackmult" : 1, "weaponsup" : 1,
+"ranged" : true, "bonusvs" : "", "bonusdmg" : 0, "bonusup" : 0, 
+"tags" : ["light", "biological"]
+}
+
+var lurker = {
+"name" : "lurker", "faction" : "zerg",  "flying" : false,  "hitground" : true, "hitair" : false, 
 "health" : 200, "shields" : 0, "armor" : 1, "armorup" : 1, "shieldarmor" : 0, "shieldup" : 0,
 "attack" : 20, "attackspeed" : 1.43, "attackmult" : 1, "weaponsup" : 2,
-"bonusvs" : "armored", "bonusdmg" : 10, "bonusup" : 1, 
-"tags" : ["armored", "biological", "ranged"]}
+"ranged" : true, "bonusvs" : "armored", "bonusdmg" : 10, "bonusup" : 1, 
+"tags" : ["armored", "biological"]
+}
 
-var ultralisk = {"name" : "ultralisk", "faction" : "zerg", 
+var mutalisk = {
+"name" : "mutalisk", "faction" : "zerg", "flying" : true, "hitground" : true, "hitair" : true,
+"health" : 120, "shields" : , "armor" : 0, "armorup" : 1, "shieldarmor" : 0, "shieldup" : 0,
+"attack" : 9, "attackspeed" : 1.09, "attackmult" : 1, "weaponsup" : 1,
+"ranged": true, "bonusvs" : "", "bonusdmg" : 0, "bonusup" : 0, 
+"tags" : ["biological", "light"]
+}
+
+var corruptor = {
+"name" : "corruptor", "faction" : "zerg", "flying" : true, "hitground" : false, "hitair" : true,
+"health" : 200, "shields" : 0, "armor" : 2, "armorup" : 1, "shieldarmor" : 0, "shieldup" : 0,
+"attack" : 14, "attackspeed" : 1.36, "attackmult" : 1, "weaponsup" : 1,
+"ranged": true, "bonusvs" : "massive", "bonusdmg" : 6, "bonusup" : 1, 
+"tags" : ["biological", "armored"]
+}
+
+var swarmhost = {
+"name" : "swarmhost", "faction" : "zerg", "flying" : false, "hitground" : false, "hitair" : false,
+"health" : 160, "shields" : 0, "armor" : 1, "armorup" : 1, "shieldarmor" : 0, "shieldup" : 0,
+"attack" : null, "attackspeed" : null, "attackmult" : null, "weaponsup" : null,
+"ranged": null, "bonusvs" : "", "bonusdmg" : null, "bonusup" : null, 
+"tags" : ["biological", "armored"]
+}
+
+var locust = {
+"name" : "locust", "faction" : "zerg", "flying" : false, "hitground" : true, "hitair" : false,
+"health" : 50, "shields" : 0, "armor" : 0, "armorup" : 1, "shieldarmor" : 0, "shieldup" : 0,
+"attack" : 10, "attackspeed" : .43, "attackmult" : 1, "weaponsup" : 1,
+"ranged": true, "bonusvs" : "", "bonusdmg" : 0, "bonusup" : 0, 
+"tags" : ["biological", "light"]
+}
+
+var infestor = {
+"name" : "infestor", "faction" : "zerg", "flying" : false, "hitground" : false, "hitair" : false,
+"health" : 90, "shields" : 0, "armor" : 0, "armorup" : 1, "shieldarmor" : 0, "shieldup" : 0,
+"attack" : null, "attackspeed" : null, "attackmult" : null, "weaponsup" : null,
+"ranged": null, "bonusvs" : "", "bonusdmg" : null, "bonusup" : null, 
+"tags" : ["biological", "armored", "psionic"]
+}
+
+var viper = {
+"name" : "viper", "faction" : "zerg", "flying" : true, "hitground" : false, "hitair" : true,
+"health" : 150, "shields" : 0, "armor" : 1, "armorup" : 1, "shieldarmor" : 0, "shieldup" : 0,
+"attack" : 120, "attackspeed" : 7, "attackmult" : 1, "weaponsup" : 0,
+"ranged": false, "bonusvs" : "", "bonusdmg" : 0, "bonusup" : 0, 
+"tags" : ["biological", "biological", "psionic", "spell"]
+}
+
+var ultralisk = {
+"name" : "ultralisk", "faction" : "zerg",  "flying" : false,  "hitground" : true, "hitair" : false, 
 "health" : 500, "shields" : 0, "armor" : 2, "armorup" : 1, "shieldarmor" : 0, "shieldup" : 0,
 "attack" : 35, "attackspeed" : .61, "attackmult" : 1, "weaponsup" : 3,
-"bonusvs" : "", "bonusdmg" : 0, "bonusup" : 0, 
-"tags" : ["armored", "biological", "massive"]}
+"ranged" : false, "bonusvs" : "", "bonusdmg" : 0, "bonusup" : 0, 
+"tags" : ["armored", "biological", "massive"]
+}
 
-var spinecrawler = {"name" : "spinecrawler", "faction" : "zerg", 
+var broodlord = {
+"name" : "broodlord", "faction" : "zerg", "flying" : true, "hitground" : true, "hitair" : false,
+"health" : 225, "shields" : 0, "armor" : 1, "armorup" : 1, "shieldarmor" : 0, "shieldup" : 0,
+"attack" : 20, "attackspeed" : 1.79, "attackmult" : 1, "weaponsup" : 2,
+"ranged": true, "bonusvs" : "", "bonusdmg" : 0, "bonusup" : 0, 
+"tags" : ["biological", "armored", "massive"]
+}
+
+var broodling = {
+"name" : "broodling", "faction" : "zerg", "flying" : false, "hitground" : true, "hitair" : false,
+"health" : 30, "shields" : 0, "armor" : 0, "armorup" : 1, "shieldarmor" : 0, "shieldup" : 0,
+"attack" : 4, "attackspeed" : .46, "attackmult" : 1, "weaponsup" : 1,
+"ranged": false, "bonusvs" : "", "bonusdmg" : 0, "bonusup" : 0, 
+"tags" : ["biological", "light"]
+}
+
+var spinecrawler = {
+"name" : "spinecrawler", "faction" : "zerg",  "flying" : false,  "hitground" : true, "hitair" : false, 
 "health" : 300, "shields" : 0, "armor" : 2, "armorup" : 0, "shieldarmor" : 0, "shieldup" : 0,
 "attack" : 25, "attackspeed" : 1.32, "attackmult" : 1, "weaponsup" : 0,
-"bonusvs" : "armored", "bonusdmg" : 5, "bonusup" : 0, 
-"tags" : ["light", "biological", "ranged"]}
+"ranged" : true, "bonusvs" : "armored", "bonusdmg" : 5, "bonusup" : 0, 
+"tags" : ["light", "biological"]
+}
 
 #---Variables---#
 
@@ -451,3 +849,7 @@ func _on_GuardianShield_toggled(button_pressed):
 	if not button_pressed:
 		defendUnit["armor"] -= 2
 		defendUnit["shieldarmor"] -= 2
+
+func _on_SplashZone_value_changed(value):
+	#match attackUnit:
+		
