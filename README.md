@@ -5,7 +5,7 @@ Simple windows desktop app calculator for starcraft 2. Calculates  shots to kill
 v1.0
 ---
 initial release
----
+
 v1.1
 ---
 -added air units and air unit logic
