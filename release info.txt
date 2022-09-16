@@ -1,0 +1,12 @@
+v1.0
+initial release
+---
+v1.1
+-added air units and air unit logic
+    -added viking and phoenix logic
+    -fixed colossus ground/air logic
+-added multiple attack types for units (thor, viking, liberator, queen)
+-fixed attack modifiers not working properly
+-fixed marine hp and added combat shields
+-added logic for spell damage
+-added egg types
