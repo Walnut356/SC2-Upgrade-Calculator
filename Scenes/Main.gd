@@ -2,11 +2,9 @@ extends Control
 
 """
 TODO:
-zerg, alternate cacoon types (overseer, brood, bane, lurker, ravager)
-Splash radii
 
+loaded bunker attack stats?
 supply structures, town halls, stasis ward, auto turret, creep tumor, nydus, sensor tower
-bunker (spinbox units?)
 Shield battery on defending unit toggle
 	-max +50.4 shields/s, max 3 per 1 energy, max 100 energy
 	-2x rate on overcharge, no energy limits, 14 seconds
@@ -15,7 +13,7 @@ medivac healing? transfuse?
 BW units/BW "physics"
 possible "crazy mode" where anything can hit anything else
 comparisons/multiple upgrades tests/multiple windows
-dynamic window resizing?
+dynamic window resizing that works properly?
 'custom unit' (i.e. text entry) mode
 
 
@@ -281,7 +279,7 @@ var reaper = {
 }
 
 var ghost = {
-"name" : "Ghost", "faction" : "terran",  "flying" : false,  "hitground" : true, "hitair" : false,
+"name" : "Ghost", "faction" : "terran",  "flying" : false,  "hitground" : true, "hitair" : true,
 "health" : 100, "shields" : 0, "armor" : 0, "armorup" : 1, "shieldarmor" : 0, "shieldup" : 0,
 "attack" : 10, "attackspeed" : 1.07, "attackmult" : 1, "weaponsup" : 1,
 "ranged" : true, "bonusvs" : "light", "bonusdmg" : 10, "bonusup" : 1,
@@ -321,16 +319,8 @@ var cyclone = {
 "tags" : ["armored", "mechanical"]
 }
 
-var siegedtank = {
-"name" : "Tank",  "flying" : false, "faction" : "terran",  "hitground" : true, "hitair" : false,
-"health" : 175, "shields" : 0, "armor" : 1, "armorup" : 1, "shieldarmor" : 0, "shieldup" : 0,
-"attack" : 40, "attackspeed" : 2.14, "attackmult" : 1, "weaponsup" : 4,
-"ranged" : true, "bonusvs" : "armored", "bonusdmg" : 30, "bonusup" : 1,
-"tags" : ["armored", "mechanical"]
-}
-
 var tank = {
-"name" : "Tank", "faction" : "terran",  "flying" : false,  "hitground" : true, "hitair" : false,
+"name" : "Siege Tank", "faction" : "terran",  "flying" : false,  "hitground" : true, "hitair" : false,
 "health" : 175, "shields" : 0, "armor" : 1, "armorup" : 1, "shieldarmor" : 0, "shieldup" : 0,
 "attack" : 15, "attackspeed" : .74, "attackmult" : 1, "weaponsup" : 2,
 "ranged" : true, "bonusvs" : "armored", "bonusdmg" : 10, "bonusup" : 1,
@@ -386,7 +376,7 @@ var banshee = {
 }
 
 var battlecruiser = {
-"name" : "Battlecruiser", "faction" : "terran", "flying" : true, "hitground" : true, "hitair" : true,
+"name" : "Battle Cruiser", "faction" : "terran", "flying" : true, "hitground" : true, "hitair" : true,
 "health" : 550, "shields" : 0, "armor" : 3, "armorup" : 1, "shieldarmor" : 0, "shieldup" : 0,
 "attack" : 8, "attackspeed" : .16, "attackmult" : 1, "weaponsup" : 1,
 "ranged": true, "bonusvs" : "", "bonusdmg" : 0, "bonusup" : 0,
@@ -398,6 +388,30 @@ var planetary = {
 "health" : 1500, "shields" : 0, "armor" : 3, "armorup" : 0, "shieldarmor" : 0, "shieldup" : 0,
 "attack" : 40, "attackspeed" : 1.43, "attackmult" : 1, "weaponsup" : 0,
 "ranged" : true, "bonusvs" : "", "bonusdmg" : 0, "bonusup" : 0,
+"tags" : ["armored", "mechanical", "structure"]
+}
+
+var turret = {
+"name" : "Missile Turret", "faction" : "terran", "flying" : false, "hitground" : false, "hitair" : true,
+"health" : 250, "shields" : 0, "armor" : 0, "armorup" : 0, "shieldarmor" : 0, "shieldup" : 0,
+"attack" : 12, "attackspeed" : .61, "attackmult" : 2, "weaponsup" : 0,
+"ranged": true, "bonusvs" : "", "bonusdmg" : 0, "bonusup" : 0,
+"tags" : ["armored", "mechanical", "structure"]
+}
+
+var bunker = {
+"name" : "Bunker", "faction" : "terran", "flying" : false, "hitground" : true, "hitair" : true,
+"health" : 400, "shields" : 0, "armor" : 1, "armorup" : 0, "shieldarmor" : 0, "shieldup" : 0,
+"attack" : 0, "attackspeed" : 0, "attackmult" : 1, "weaponsup" : 0,
+"ranged": true, "bonusvs" : "", "bonusdmg" : 0, "bonusup" : 0,
+"tags" : ["armored", "mechanical", "structure"]
+}
+
+var autoturret = {
+"name" : "Auto Turret", "faction" : "terran", "flying" : false, "hitground" : true, "hitair" : true,
+"health" : 150, "shields" : 0, "armor" : 1, "armorup" : 0, "shieldarmor" : 0, "shieldup" : 0,
+"attack" : 18, "attackspeed" : .57, "attackmult" : 1, "weaponsup" : 0,
+"ranged": true, "bonusvs" : "", "bonusdmg" : 0, "bonusup" : 0,
 "tags" : ["armored", "mechanical", "structure"]
 }
 
@@ -526,17 +540,17 @@ var locust = {
 }
 
 var infestor = {
-"name" : "Infestor", "faction" : "zerg", "flying" : false, "hitground" : false, "hitair" : false,
+"name" : "Infestor", "faction" : "zerg", "flying" : false, "hitground" : true, "hitair" : true,
 "health" : 90, "shields" : 0, "armor" : 0, "armorup" : 1, "shieldarmor" : 0, "shieldup" : 0,
-"attack" : null, "attackspeed" : null, "attackmult" : null, "weaponsup" : null,
-"ranged": null, "bonusvs" : "", "bonusdmg" : null, "bonusup" : null,
-"tags" : ["biological", "armored", "psionic"]
+"attack" : 1, "attackspeed" : .1, "attackmult" : 30, "weaponsup" : 0,
+"ranged": false, "bonusvs" : "", "bonusdmg" : 0, "bonusup" : 0,
+"tags" : ["biological", "armored", "psionic", "spell"]
 }
 
 var viper = {
 "name" : "Viper", "faction" : "zerg", "flying" : true, "hitground" : false, "hitair" : true,
 "health" : 150, "shields" : 0, "armor" : 1, "armorup" : 1, "shieldarmor" : 0, "shieldup" : 0,
-"attack" : 120, "attackspeed" : 7, "attackmult" : 1, "weaponsup" : 0,
+"attack" : 3, "attackspeed" : .175, "attackmult" : 40, "weaponsup" : 0,
 "ranged": false, "bonusvs" : "", "bonusdmg" : 0, "bonusup" : 0,
 "tags" : ["biological", "biological", "psionic", "spell"]
 }
@@ -588,7 +602,7 @@ var sporecrawler = {
 #---Variables---#
 
 var units:Array = [probe, zealot, stalker, adept, archon, immortal, colossus, cannon,
-		 scv, marine, marauder, reaper, ghost, hellion, hellbat, siegedtank, tank, thor, planetary,
+		 scv, marine, marauder, reaper, ghost, hellion, hellbat, tank, thor, planetary, turret, bunker,
 		 drone, zergling, baneling, roach, ravager, queen, hydralisk, lurker, ultralisk, spinecrawler]
 
 var attackUnit = null
@@ -599,13 +613,14 @@ var armorboxUp:int = 0
 var shieldboxUp:int = 0
 
 var aModeBox
-var aModeChoice:int
 var dModeBox
+var sZoneBox
 
 #---Process Functions---#
 func _ready():
 	aModeBox = $"%AModeChoice".get_popup()
 	dModeBox = $"%DModeChoice".get_popup()
+	sZoneBox = $"%SplashZone".get_popup()
 	$"%InterceptorCount".get_line_edit().expand_to_text_length = true
 
 func _input(_event):
@@ -613,14 +628,24 @@ func _input(_event):
 		$VBoxContainer2/HBoxContainer.visible = true
 		if defendUnit["faction"] == "protoss":
 			$"%ShieldUpgrade".visible = true
-			$"%Label".text = "Shots to Break Shields:\nTime to Break Shields:\n\nShots to Kill:\nTime to Kill:"
+			if "spell" in attackUnit["tags"]:
+				$"%Label".text = "Casts to Break Shields:\nTime to Break Shields:\n\nCasts to Kill:\nTime to Kill:"
+			elif attackUnit["name"] == "Carrier":
+				$"%Label".text = "Volleys to Break Shields:\nTime to Break Shields:\n\nVolleys to Kill:\nTime to Kill:"
+			else:
+				$"%Label".text = "Shots to Break Shields:\nTime to Break Shields:\n\nShots to Kill:\nTime to Kill:"
 			if attackUnit["ranged"]:
 				$"%GuardianShield".visible = true
 			else:
 				$"%GuardianShield".visible = false
 		else:
 			$"%ShieldUpgrade".visible = false
-			$"%Label".text = "Shots to Kill:\nTime to Kill:"
+			if "spell" in attackUnit["tags"]:
+				$"%Label".text = "Casts to Kill:\nTime to Kill:"
+			elif attackUnit["name"] == "Carrier":
+				$"%Label".text = "Volleys to Kill:\nTime to Kill:"
+			else:
+				$"%Label".text = "Shots to Kill:\nTime to Kill:"
 			$"%GuardianShield".visible = false
 			$"%GuardianShield".pressed = false
 
@@ -641,6 +666,18 @@ func _input(_event):
 			$"%ShieldUpgrade".set_editable(true)
 
 		match attackUnit["name"]:
+			"High Templar":
+				aModeBox.set_item_disabled(0, false)
+				aModeBox.set_item_disabled(1, false)
+				if defendUnit["flying"]:
+					aModeBox.set_item_disabled(0, true)
+				if "structure" in defendUnit["tags"]:
+					aModeBox.set_item_disabled(1, true)
+					$"%AModeChoice".select(0)
+					$"%AModeChoice".emit_signal("item_selected", 0)
+				if $"%AModeChoice".selected < 0 and (not "structure" in defendUnit["tags"]):
+						$"%AModeChoice".select(1)
+						$"%AModeChoice".emit_signal("item_selected", 1)
 			"Phoenix":
 				if !defendUnit["flying"] and !("massive" in defendUnit["tags"] or "structure" in defendUnit["tags"]):
 					$"%AttackerModifier".pressed = true
@@ -664,10 +701,33 @@ func _input(_event):
 				if $"%AModeChoice".selected == 0:
 					$"%AttackerModifier".visible = true
 					$"%AttackerModifier".text = "Tectonic Destabilizers (vs Struct: +40)"
-			"Widowmine":
-				pass
-			"Tank":
-				pass
+			"Ghost":
+				aModeBox.set_item_disabled(1, true)
+				$"%SplashZone".disabled = false
+				if $"%AModeChoice".selected < 0:
+					$"%AModeChoice".select(0)
+					$"%AModeChoice".emit_signal("item_selected", 0)
+				if $"%AModeChoice".selected < 2:
+					$"%SplashZone".disabled = true
+					$"%SplashZone".select(0)
+					$"%SplashZone".emit_signal("item_selected", 0)
+				if "biological" in defendUnit["tags"]:
+					aModeBox.set_item_disabled(1, false)
+				elif $"%AModeChoice".selected == 1:
+					$"%AModeChoice".select(0)
+					$"%AModeChoice".emit_signal("item_selected", 0)
+			"Cyclone":
+				$"%AttackerModifier".disabled = false
+				if $"%AModeChoice".selected < 0:
+					$"%AModeChoice".select(1)
+					$"%AModeChoice".emit_signal("item_selected", 1)
+				if $"%AModeChoice".selected == 0:
+					$"%AttackerModifier".disabled = true
+					$"%AttackerModifier".pressed = false
+			"Siege Tank":
+				if $"%AModeChoice".selected < 0:
+					$"%AModeChoice".select(1)
+					$"%AModeChoice".emit_signal("item_selected", 1)
 			"Thor":
 				aModeBox.set_item_disabled(0, false)
 				aModeBox.set_item_disabled(1, false)
@@ -694,7 +754,7 @@ func _input(_event):
 					$"%AModeChoice".disabled = true
 			"Viking":
 				$"%AModeChoice".disabled = true
-				if defendUnit["name"] == "Viking":
+				if defendUnit["name"] in ["Viking", "Colossus"]:
 					$"%AttackerModifier".disabled = false
 					$"%AModeChoice".select($"%AttackerModifier".pressed)
 				elif !defendUnit["flying"]:
@@ -718,6 +778,21 @@ func _input(_event):
 				else:
 					$"%AModeChoice".select(0)
 					$"%AModeChoice".emit_signal("item_selected", 0)
+			"Battle Cruiser":
+				aModeBox.set_item_disabled(0, false)
+				aModeBox.set_item_disabled(1, false)
+				aModeBox.set_item_disabled(2, false)
+				if !defendUnit["flying"]:
+					aModeBox.set_item_disabled(1, true)
+					if $"%AModeChoice".selected < 0 or $"%AModeChoice".selected == 1: 
+						$"%AModeChoice".select(0)
+						$"%AModeChoice".emit_signal("item_selected", 0)
+				else:
+					aModeBox.set_item_disabled(0, true)
+					if $"%AModeChoice".selected <= 0: 
+						$"%AModeChoice".select(1)
+						$"%AModeChoice".emit_signal("item_selected", 1)
+					
 			"Queen":
 				if defendUnit["flying"]:
 					$"%AModeChoice".select(1)
@@ -735,7 +810,7 @@ func _input(_event):
 				else:
 					defendUnit["flying"] = false
 			"Viking":
-				if (attackUnit["hitground"] and attackUnit["hitair"]) or (not attackUnit["hitground"] and not attackUnit["hitair"]) or attackUnit["name"] == "Phoenix" or attackUnit["name"] == "Queen" or attackUnit["name"] == "Liberator":
+				if (attackUnit["hitground"] and attackUnit["hitair"]) or (not attackUnit["hitground"] and not attackUnit["hitair"]) or attackUnit["name"] in ["Phoenix", "Queen", "Liberator"]:
 					$"%DefenderModifier".disabled = false
 				else:
 					defendUnit["flying"] = attackUnit["hitair"]
@@ -774,6 +849,8 @@ func CalcCheck():
 
 
 func CanAttack() -> bool:
+	if (attackUnit["name"] in ["Liberator", "Viper", "Widowmine", "Infestor"]) and "structure" in defendUnit["tags"]:
+		return false
 	if attackUnit["hitair"] and attackUnit["hitground"]:
 		return true
 	elif attackUnit["hitair"] and defendUnit["flying"]:
@@ -788,10 +865,16 @@ func CanAttack() -> bool:
 func DamageCalc():
 	var health:float = defendUnit["health"]
 	var shields:float = defendUnit["shields"]
+	
 	var armor = defendUnit["armor"]
 	var armorUp = defendUnit["armorup"]
 	var shieldUp = defendUnit["shieldup"]
 	var shieldArmor = defendUnit["shieldarmor"]
+	if "spell" in attackUnit["tags"]:
+		armor = 0
+		armorUp = 0
+		shieldUp = 0
+		shieldArmor = 0
 
 	var attack = attackUnit["attack"]
 	var attackMult = attackUnit["attackmult"]
@@ -803,8 +886,9 @@ func DamageCalc():
 		bonusUp = attackUnit["bonusup"]
 	var attackSpeed = attackUnit["attackspeed"]
 	var barrierCD:float = 0.0
-
-
+	var zergRegen = 0
+	if defendUnit["faction"] == "zerg":
+		zergRegen = .38 if defendUnit["name"] != "Mutalisk" else 1.4
 
 	var shotsToKill = 0.0
 
@@ -814,13 +898,12 @@ func DamageCalc():
 	var healthDmg = max((Dmg - (armor + (armorUp * armorboxUp))), .5)
 	var shieldDmg = max((Dmg - (shieldArmor + (shieldUp * shieldboxUp))), .5)
 
-
-	if "spell" in attackUnit["tags"]:
-		if attackUnit["name"] == "Widowmine" and defendUnit["faction"] == "protoss":
+	if attackUnit["name"] in ["ghost", "disruptor", "widowmine", "battlecruiser"]:
+		if defendUnit["faction"] == "protoss":
 			shields -= bonusDmg
-		shotsToKill = (health + shields)/ attack
+		shotsToKill = (health + max(shields, 0))/attack
 		shotTotals = str(ceil(shotsToKill)) + "\n"
-		shotTotals = shotTotals + str((health + shields)/(attack/attackSpeed)*shotsToKill) + "s\n\n"
+		shotTotals = shotTotals + str(attackSpeed*shotsToKill) + "s\n\n"
 		return shotTotals
 
 	if defendUnit["faction"] == "protoss":
@@ -841,9 +924,11 @@ func DamageCalc():
 						barrier = 0
 						break
 				barrierCD = 30.0
-
-		shotTotals = str((ceil(shotsToKill/attackMult))) + "\n"
-		shotTotals = shotTotals + str((ceil(shotsToKill/attackMult) * attackSpeed)) + "s\n\n"
+		var timeToKill = ceil(shotsToKill/attackMult) * attackSpeed
+		if "spell" in attackUnit["tags"]:
+				timeToKill = shotsToKill * attackSpeed
+		shotTotals = str(ceil(shotsToKill/attackMult)) + "\n"
+		shotTotals = shotTotals + str(timeToKill) + "s\n\n"
 
 		health -= (shields * -1) - (armor + (armorUp * armorboxUp))
 
@@ -861,27 +946,27 @@ func DamageCalc():
 					if barrierCD < attackSpeed:
 						barrier = 0
 				barrierCD = 30.0
+		timeToKill = ceil(shotsToKill/attackMult) * attackSpeed
+		if "spell" in attackUnit["tags"]:
+			timeToKill = shotsToKill * attackSpeed
+		shotTotals = shotTotals + str(ceil(shotsToKill/attackMult)) + "\n"
+		shotTotals = shotTotals + str(timeToKill) + "s\n"
 
-		shotTotals = shotTotals + str((ceil(shotsToKill/attackMult))) + "\n"
-		shotTotals = shotTotals + str((ceil(shotsToKill/attackMult) * attackSpeed)) + "s\n"
 
 	else:
 		#non-protoss defender
 		while health > 0:
 			health -= healthDmg
 			shotsToKill += 1.0
-			if defendUnit["faction"] == "zerg": #zerg inherent regen, universal aside from muta
-				if defendUnit == mutalisk:
-					health += 1.4 * attackSpeed
-				else:
-					health += .38 * attackSpeed
-			#should almost never come up, but if a unit does less damage than zerg regen
-			#the calculation will now break at 10k rather than continuing forever and crashing
+			health += zergRegen * attackSpeed
 			if shotsToKill >= 10000:
 				break
 		if shotsToKill < 10000:
+			var timeToKill = ceil(shotsToKill/attackMult) * attackSpeed
+			if "spell" in attackUnit["tags"]:
+				timeToKill = shotsToKill * attackSpeed
 			shotTotals = str(ceil(shotsToKill/attackMult)) + "\n"
-			shotTotals = shotTotals + str(ceil(shotsToKill/attackMult) * attackSpeed) + "s\n"
+			shotTotals = shotTotals + str(timeToKill) + "s\n"
 		else:
 			shotTotals = ">10,000 (Infinite?)\nInfinite?"
 	return shotTotals
@@ -893,7 +978,7 @@ func DamageCalc():
 
 #de-ID's the units into their dictionaries
 var unitCode = {-1 : null, 0 : null, 101 : probe, 102 : zealot, 103 : stalker, 104 : sentry, 105 : adept, 106 : HT, 107 : DT, 108 : archon, 109 : observer, 110 : prism, 111 : immortal, 112 : colossus, 113 : disruptor, 114 : phoenix, 115 : voidray, 116 : oracle, 117 : tempest, 118 : carrier, 119 : interceptor, 120 : mothership, 121 : cannon, 122 : battery,
-201 : scv, 202 : mule, 203 : marine, 204 : marauder, 205 : reaper, 206 : ghost, 207 : hellion, 208 : hellbat, 209 : mine, 210 : siegedtank, 211 : tank, 212 : thor, 213 : viking, 214 : medivac, 215 : liberator, 216 : raven, 217 : banshee, 218 : battlecruiser, 219 : planetary,
+201 : scv, 202 : mule, 203 : marine, 204 : marauder, 205 : reaper, 206 : ghost, 207 : hellion, 208 : hellbat, 209 : mine, 210 : cyclone, 211 : tank, 212 : thor, 213 : viking, 214 : medivac, 215 : liberator, 216 : raven, 217 : banshee, 218 : battlecruiser, 219 : planetary, 220 : turret, 221 : bunker, 222 : autoturret,
 301 : larva, 302 : egg, 303 : drone, 304 : overlord, 305 : queen, 306 : zergling, 307 : baneling, 308 : roach, 309 : ravager, 310 : hydralisk, 311 : lurker, 312 : mutalisk, 313 : corruptor, 314 : swarmhost, 315 : locust, 316 : infestor, 317 : viper, 318 : ultralisk, 319 : broodlord, 320 : broodling, 321 : spinecrawler, 322 : sporecrawler}
 
 
@@ -903,8 +988,15 @@ func _on_AttackUnit_item_selected(_index):
 	$"%AttackerModifier".visible = false
 	$"%AttackerModifier".disabled = false
 	$"%InterceptorCount".visible = false
+	$"%AModeChoice".disabled = false
 	$"%AModeChoice".visible = false
-	aModeBox.clear()
+	$"%AModeChoice".select(-1)
+	$"%SplashZone".visible = false
+	$"%SplashZone".select(-1)
+	for i in range (0, sZoneBox.get_item_count()):
+		sZoneBox.remove_item(0)
+	for i in range (0, aModeBox.get_item_count()):
+		aModeBox.remove_item(0)
 	attackUnit = $"%AttackUnit".get_selected_id()
 	attackUnit = unitCode[attackUnit].duplicate()
 
@@ -914,11 +1006,27 @@ func _on_AttackUnit_item_selected(_index):
 	else:
 		$"%GuardianShield".visible = false
 		$"%GuardianShield".pressed = false
+	
+	if attackUnit["faction"] == "terran":
+		$"%AntiArmor".visible = true
+	else:
+		$"%AntiArmor".visible = false
+		$"%AntiArmor".pressed = false
 
 	match attackUnit["name"]:
 		"Adept":
 			$"%AttackerModifier".visible = true
 			$"%AttackerModifier".text = "Resonating Glaives (Attack Time: -.5s)"
+		"High Templar":
+			$"%AModeChoice".visible = true
+			aModeBox.add_item("Psi Blast", 0)
+			aModeBox.add_item("Psi Storm (Spell)", 1)
+		"Archon":
+			$"%SplashZone".visible = true
+			sZoneBox.add_item(".25u (100% dmg)", 0)
+			sZoneBox.add_item(".5u (50% dmg)", 1)
+			sZoneBox.add_item("1u (25% dmg)", 2)
+			$"%SplashZone".select(0)
 		"Phoenix":
 			$"%AttackerModifier".visible = true
 			$"%AttackerModifier".text = "Graviton Beam"
@@ -940,14 +1048,41 @@ func _on_AttackUnit_item_selected(_index):
 		"Marauder":
 			$"%AttackerModifier".visible = true
 			$"%AttackerModifier".text = "Stim (Attack Time: -.36s)"
+		"Ghost":
+			$"%AModeChoice".visible = true
+			aModeBox.add_item("C-10 Canister Rifle", 0)
+			aModeBox.add_item("Snipe (Spell)", 1)
+			aModeBox.add_item("Nuke (Spell)", 2)
+			$"%SplashZone".visible = true
+			sZoneBox.add_item("4u (100% dmg)", 0)
+			sZoneBox.add_item("6u (50% dmg)", 1)
+			sZoneBox.add_item("8u (25% dmg)", 2)
+			$"%SplashZone".select(0)
 		"Hellion":
 			$"%AttackerModifier".visible = true
 			$"%AttackerModifier".text = "Blueflame (vs Light: +5)"
 		"Hellbat":
 			$"%AttackerModifier".visible = true
 			$"%AttackerModifier".text = "Blueflame (vs Light: +12)"
-		"Tank":
-			pass
+		"Widowmine":
+			$"%SplashZone".visible = true
+			sZoneBox.add_item("Direct Hit (120 dmg)", 0)
+			sZoneBox.add_item("1.75u (40 dmg)", 1)
+			$"%SplashZone".select(0)
+		"Cyclone":
+			$"%AModeChoice".visible = true
+			aModeBox.add_item("Typhoon Missile Pods", 0)
+			aModeBox.add_item("Lock On (Spell)", 1)
+			$"%AttackerModifier".visible = true
+			$"%AttackerModifier".text = "Mag-Field Accel. (vs Armored: +400)"
+		"Siege Tank":
+			$"%AModeChoice".visible = true
+			aModeBox.add_item("90mm Cannons", 0)
+			aModeBox.add_item("Crucio Shock Cannon (AoE)", 1)
+			$"%SplashZone".visible = true
+			sZoneBox.add_item(".4687u (100% dmg)", 0)
+			sZoneBox.add_item(".6812u (50% dmg)", 1)
+			sZoneBox.add_item("1.25u (25% dmg)", 2)
 		"Thor":
 			$"%AModeChoice".visible = true
 			aModeBox.add_item("Thor's Hammer (AtG)", 0)
@@ -963,6 +1098,17 @@ func _on_AttackUnit_item_selected(_index):
 			$"%AModeChoice".visible = true
 			aModeBox.add_item("Lexington Rockets (AtA)", 0)
 			aModeBox.add_item("Concord Cannon (AtG)", 1)
+		"Battle Cruiser":
+			$"%AModeChoice".visible = true
+			aModeBox.add_item("Laser Battery (AtG)", 0)
+			aModeBox.add_item("Laser Battery (AtA)", 1)
+			aModeBox.add_item("Yamato Cannon (Spell)", 2)
+		"Planetary Fortress":
+			$"%SplashZone".visible = true
+			sZoneBox.add_item(".5u (100% dmg)", 0)
+			sZoneBox.add_item(".8u (75% dmg)", 1)
+			sZoneBox.add_item("1.25u (37.5% dmg)", 2)
+			$"%SplashZone".select(0)
 		"Zergling":
 			$"%AttackerModifier".visible = true
 			$"%AttackerModifier".text = "Adrenal Glands"
@@ -970,6 +1116,33 @@ func _on_AttackUnit_item_selected(_index):
 			$"%AModeChoice".visible = true
 			aModeBox.add_item("Talons (GtG)", 0)
 			aModeBox.add_item("Acid Spines (GtA)", 1)
+		"Ravager":
+			$"%AModeChoice".visible = true
+			aModeBox.add_item("Plasma Discharge", 0)
+			aModeBox.add_item("Corrosive Bile (Spell)", 1)
+			$"%AModeChoice".select(0)
+		"Infestor":
+			$"%AModeChoice".visible = true
+			$"%AModeChoice".disabled = true
+			aModeBox.add_item("Fungal Growth", 0)
+			$"%AModeChoice".select(0)
+		"Mutalisk":
+			$"%SplashZone".visible = true
+			sZoneBox.add_item("Direct Hit", 0)
+			sZoneBox.add_item("Bounce 1 (33% dmg)", 1)
+			sZoneBox.add_item("Bounce 2 (11% dmg)", 2)
+			$"%SplashZone".select(0)
+		"Viper":
+			$"%AModeChoice".visible = true
+			$"%AModeChoice".disabled = true
+			aModeBox.add_item("Parasitic Bomb", 0)
+			$"%AModeChoice".select(0)
+		"Ultralisk":
+			$"%SplashZone".visible = true
+			sZoneBox.add_item("Direct Hit (100% dmg)", 0)
+			sZoneBox.add_item("2 unit Semi-Circle (33% dmg)", 1)
+			$"%SplashZone".select(0)
+
 		_:
 			$"%AttackerModifier".visible = false
 			$"%AttackerModifier".text = ""
@@ -995,7 +1168,16 @@ func _on_DefendUnit_item_selected(_index):
 		"Viking":
 			$"%DefenderModifier".visible = true
 			$"%DefenderModifier".text = "Assault Mode (Grounded)"
-		"Planetary":
+		"Planetary Fortress":
+			$"%DefenderModifier".visible = true
+			$"%DefenderModifier".text = "Neosteel Armor (+2 Armor)"
+		"Missile Turret":
+			$"%DefenderModifier".visible = true
+			$"%DefenderModifier".text = "Neosteel Armor (+2 Armor)"
+		"Bunker":
+			$"%DefenderModifier".visible = true
+			$"%DefenderModifier".text = "Neosteel Armor (+2 Armor)"
+		"Auto Turret":
 			$"%DefenderModifier".visible = true
 			$"%DefenderModifier".text = "Neosteel Armor (+2 Armor)"
 		"Egg":
@@ -1048,6 +1230,9 @@ func _on_AttackerModifier_toggled(button_pressed):
 		"Hellbat":
 			if button_pressed: attackUnit["bonusdmg"] = 12
 			else: attackUnit["bonusdmg"] = hellbat["bonusdmg"]
+		"Cyclone":
+			if button_pressed: attackUnit["bonusdmg"] = 20
+			else: attackUnit["bonusdmg"] = hellbat["bonusdmg"]
 		"Viking":
 			if button_pressed:
 				attackUnit["hitair"] = false
@@ -1083,9 +1268,18 @@ func _on_DefenderModifier_toggled(button_pressed):
 			"Viking":
 				if button_pressed: defendUnit["flying"] = false
 				else: defendUnit["flying"] = viking["flying"]
-			"Planetary":
+			"Planetary Fortress":
 				if button_pressed: defendUnit["armor"] = 5
 				else: defendUnit["armor"] = planetary["armor"]
+			"Missile Turret":
+				if button_pressed: defendUnit["armor"] = 2
+				else: defendUnit["armor"] = turret["armor"]
+			"Bunker":
+				if button_pressed: defendUnit["armor"] = 3
+				else: defendUnit["armor"] = bunker["armor"]
+			"Auto Turret":
+				if button_pressed: defendUnit["armor"] = 3
+				else: defendUnit["armor"] = autoturret["armor"]
 			"Baneling":
 				if button_pressed: defendUnit["health"] = 35
 				else: defendUnit["health"] = baneling["health"]
@@ -1096,40 +1290,6 @@ func _on_DefenderModifier_toggled(button_pressed):
 				if button_pressed: defendUnit["armor"] = 4
 				else: defendUnit["armor"] = ultralisk["armor"]
 
-
-
-#---Signal Processing---#
-
-func _on_AttackUpgrade_value_changed(value):
-	attackboxUp = value
-
-
-
-func _on_ArmorUpgrade_value_changed(value):
-	armorboxUp = value
-
-
-
-func _on_ShieldUpgrade_value_changed(value):
-	shieldboxUp = value
-
-
-func _on_GuardianShield_toggled(button_pressed):
-	if button_pressed:
-		defendUnit["armor"] += 2
-		defendUnit["shieldarmor"] += 2
-	if not button_pressed:
-		defendUnit["armor"] -= 2
-		defendUnit["shieldarmor"] -= 2
-
-
-func _on_SplashZone_value_changed(_value):
-	pass
-	#match attackUnit:
-
-func _on_InterceptorCount_value_changed(value):
-	if attackUnit["name"] == "Carrier":
-		attackUnit["attackmult"] = 2 * value
 
 func _on_AModeChoice_item_selected(index):
 	match attackUnit["name"]:
@@ -1149,31 +1309,94 @@ func _on_AModeChoice_item_selected(index):
 				attackUnit["bonusvs"] = "massive"
 				attackUnit["bonusdmg"] = 22
 				attackUnit["bonusup"] = 2
-		"Thor":
+		"High Templar":
 			if index == 0:
-				attackUnit["attack"] = 30
-				attackUnit["weaponsup"] = 3
-				attackUnit["attackmult"] = 2
-				attackUnit["attackspeed"] = .91
-				attackUnit["bonusvs"] = ""
-				attackUnit["bonusdmg"] = 0
-				attackUnit["bonusup"] = 0
-			elif index == 1:
-				attackUnit["attack"] = 6
-				attackUnit["weaponsup"] = 1
-				attackUnit["attackmult"] = 4
-				attackUnit["attackspeed"] = 2.14
-				attackUnit["bonusvs"] = "light"
-				attackUnit["bonusdmg"] = 6
-				attackUnit["bonusup"] = 1
-			elif index == 2:
-				attackUnit["attack"] = 25
-				attackUnit["weaponsup"] = 3
+				attackUnit["attack"] = 4
+				attackUnit["attackspeed"] = 1.25
 				attackUnit["attackmult"] = 1
-				attackUnit["attackspeed"] = .91
-				attackUnit["bonusvs"] = "massive"
+				attackUnit["tags"].erase("spell")
+				attackUnit["hitair"] = false
+			else:
+				attackUnit["attack"] = 10
+				attackUnit["attackspeed"] = 0.357125
+				attackUnit["attackmult"] = 8
+				attackUnit["tags"].append("spell")
+				attackUnit["hitair"] = true
+		"Ghost":
+			match index:
+				0:
+					attackUnit["attack"] = ghost["attack"]
+					attackUnit["attackspeed"] = ghost["attackspeed"]
+					attackUnit["bonusdmg"] = ghost["bonusdmg"]
+					attackUnit["bonusvs"] = ghost["bonusvs"]
+					attackUnit["tags"].erase("spell")
+				1:
+					attackUnit["attack"] = 170
+					attackUnit["attackspeed"] = 1.43
+					attackUnit["tags"].erase("spell")
+					attackUnit["tags"].append("spell")
+				2:
+					attackUnit["attack"] = 300
+					attackUnit["attackspeed"] = 14
+					attackUnit["bonusdmg"] = 200
+					attackUnit["bonusvs"] = "structure"
+					attackUnit["tags"].erase("spell") #I could also just check if there is "spell" already
+					attackUnit["tags"].append("spell") #but this is easier
+		"Cyclone":
+			if index == 0:
+				attackUnit["attack"] = cyclone["attack"]
+				attackUnit["attackspeed"] = cyclone["attackspeed"]
+				attackUnit["attackmult"] = cyclone["attackmult"]
+				attackUnit["bonusvs"] = cyclone["bonusvs"]
+				attackUnit["tags"].erase("spell")
+			else:
+				attackUnit["attack"] = 20
+				attackUnit["attackspeed"] = 0.71
+				attackUnit["attackmult"] = 20
+				attackUnit["bonusvs"] = "armored"
+				attackUnit["tags"].append("spell")
+		"Siege Tank":
+			if index == 0:
+				attackUnit["attack"] = 15
+				attackUnit["weaponsup"] = 2
+				attackUnit["attackspeed"] = .74
+				attackUnit["bonusvs"] = "armored"
 				attackUnit["bonusdmg"] = 10
 				attackUnit["bonusup"] = 1
+				
+			else:
+				attackUnit["attack"] = 40
+				attackUnit["weaponsup"] = 4
+				attackUnit["attackspeed"] = 2.14
+				attackUnit["bonusvs"] = "armored"
+				attackUnit["bonusdmg"] = 30
+				attackUnit["bonusup"] = 1
+		"Thor":
+			match index:
+				0:
+					attackUnit["attack"] = 30
+					attackUnit["weaponsup"] = 3
+					attackUnit["attackmult"] = 2
+					attackUnit["attackspeed"] = .91
+					attackUnit["bonusvs"] = ""
+					attackUnit["bonusdmg"] = 0
+					attackUnit["bonusup"] = 0
+				1:
+					attackUnit["attack"] = 6
+					attackUnit["weaponsup"] = 1
+					attackUnit["attackmult"] = 4
+					attackUnit["attackspeed"] = 2.14
+					attackUnit["bonusvs"] = "light"
+					attackUnit["bonusdmg"] = 6
+					attackUnit["bonusup"] = 1
+				2:
+					attackUnit["attack"] = 25
+					attackUnit["weaponsup"] = 3
+					attackUnit["attackmult"] = 1
+					attackUnit["attackspeed"] = .91
+					attackUnit["bonusvs"] = "massive"
+					attackUnit["bonusdmg"] = 10
+					attackUnit["bonusup"] = 1
 		"Liberator":
 			if index == 0:
 				attackUnit["attack"] = 5
@@ -1189,6 +1412,20 @@ func _on_AModeChoice_item_selected(index):
 				attackUnit["attackspeed"] = 1.14
 				attackUnit["hitair"] = false
 				attackUnit["hitground"] = true
+		"Battle Cruiser":
+			match index:
+				0:
+					attackUnit["attack"] = battlecruiser["attack"]
+					attackUnit["attackspeed"] = battlecruiser["attackspeed"]
+					attackUnit["tags"].erase("spell")
+				1:
+					attackUnit["attack"] = 5
+					attackUnit["attackspeed"] = battlecruiser["attackspeed"]
+					attackUnit["tags"].erase("spell")
+				2:
+					attackUnit["attack"] = 240
+					attackUnit["attackspeed"] = 2
+					attackUnit["tags"].append("spell")
 		"Queen":
 			if index == 0:
 				attackUnit["attack"] = 4
@@ -1196,6 +1433,17 @@ func _on_AModeChoice_item_selected(index):
 			else:
 				attackUnit["attack"] = 9
 				attackUnit["attackmult"] = 1
+		"Ravager":
+			if index == 0:
+				attackUnit["attack"] = 16
+				attackUnit["attackspeed"] = 1.14
+				attackUnit["tags"].erase("spell")
+				attackUnit["hitair"] = false
+			else:
+				attackUnit["attack"] = 60
+				attackUnit["attackspeed"] = 2.5
+				attackUnit["tags"].append("spell")
+				attackUnit["hitair"] = true
 
 
 
@@ -1239,3 +1487,75 @@ func _on_DModeChoice_item_selected(index):
 					defendUnit["armorup"] = 1
 					defendUnit["tags"].append("massive")
 					defendUnit["flying"] = true
+
+#---Signal Processing---#
+
+func _on_AttackUpgrade_value_changed(value):
+	attackboxUp = value
+
+
+
+func _on_ArmorUpgrade_value_changed(value):
+	armorboxUp = value
+
+
+
+func _on_ShieldUpgrade_value_changed(value):
+	shieldboxUp = value
+
+
+func _on_GuardianShield_toggled(button_pressed):
+	if button_pressed:
+		defendUnit["armor"] += 2
+		defendUnit["shieldarmor"] += 2
+	if not button_pressed:
+		defendUnit["armor"] -= 2
+		defendUnit["shieldarmor"] -= 2
+
+func _on_AntiArmor_toggled(button_pressed):
+	if button_pressed:
+		defendUnit["armor"] -= 3
+		defendUnit["shieldarmor"] -= 3
+	if not button_pressed:
+		defendUnit["armor"] += 3
+		defendUnit["shieldarmor"] += 3
+
+func _on_InterceptorCount_value_changed(value):
+	if attackUnit["name"] == "Carrier":
+		attackUnit["attackmult"] = 2 * value
+
+func _on_SplashZone_item_selected(index):
+	match attackUnit["name"]:
+		"Archon":
+			match index:
+				0: attackUnit["attack"] = archon["attack"]
+				1: attackUnit["attack"] = archon["attack"] * .5
+				2: attackUnit["attack"] = archon["attack"] * .25
+		"Ghost":
+			match index:
+				0: attackUnit["attack"] = ghost["attack"]
+				1: attackUnit["attack"] = ghost["attack"] * .5
+				2: attackUnit["attack"] = ghost["attack"] * .25
+		"Widowmine":
+			match index:
+				0: attackUnit["attack"] = mine["attack"]
+				1: attackUnit["attack"] = 40
+		"Siege Tank":
+			match index:
+				0: attackUnit["attack"] = tank["attack"]
+				1: attackUnit["attack"] = tank["attack"]
+				2: attackUnit["attack"] = tank["attack"]
+		"Planetary Fortress":
+			match index:
+				0: attackUnit["attack"] = planetary["attack"]
+				1: attackUnit["attack"] = planetary["attack"] * .75
+				2: attackUnit["attack"] = planetary["attack"] * .375
+		"Mutalisk":
+			match index:
+				0: attackUnit["attack"] = mutalisk["attack"]
+				1: attackUnit["attack"] = mutalisk["attack"] * .33
+				2: attackUnit["attack"] = mutalisk["attack"] * .11
+		"Ultralisk":
+			match index:
+				0: attackUnit["attack"] = ultralisk["attack"]
+				1: attackUnit["attack"] = ultralisk["attack"] * .33

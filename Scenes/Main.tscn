@@ -86,6 +86,14 @@ value = 8.0
 rounded = true
 suffix = "Interceptors"
 
+[node name="SplashZone" type="OptionButton" parent="VBoxContainer2/VBoxContainer/HBoxContainer"]
+unique_name_in_owner = true
+visible = false
+margin_left = 262.0
+margin_right = 451.0
+margin_bottom = 45.0
+text = "Splash Zone"
+
 [node name="AttackerModifier" type="CheckBox" parent="VBoxContainer2/VBoxContainer"]
 unique_name_in_owner = true
 visible = false
@@ -154,16 +162,24 @@ suffix = "Shields"
 unique_name_in_owner = true
 visible = false
 margin_top = 98.0
-margin_right = 440.0
+margin_right = 510.0
 margin_bottom = 146.0
-text = "Guardian Shield (+2 armor vs ranged)"
+text = "Guardian Shield (+2 Armor vs Ranged)"
 
-[node name="DefenderModifier" type="CheckBox" parent="VBoxContainer2/VBoxContainer2"]
+[node name="AntiArmor" type="CheckBox" parent="VBoxContainer2/VBoxContainer2"]
 unique_name_in_owner = true
 visible = false
 margin_top = 98.0
 margin_right = 510.0
 margin_bottom = 146.0
+text = "Anti-Armor Missile (-3 Armor)"
+
+[node name="DefenderModifier" type="CheckBox" parent="VBoxContainer2/VBoxContainer2"]
+unique_name_in_owner = true
+visible = false
+margin_top = 154.0
+margin_right = 510.0
+margin_bottom = 202.0
 
 [node name="HSeparator" type="HSeparator" parent="VBoxContainer2"]
 margin_top = 196.0
@@ -207,10 +223,12 @@ text = "0
 [connection signal="item_selected" from="VBoxContainer2/VBoxContainer/HBoxContainer2/AModeChoice" to="." method="_on_AModeChoice_item_selected"]
 [connection signal="value_changed" from="VBoxContainer2/VBoxContainer/HBoxContainer/AttackUpgrade" to="." method="_on_AttackUpgrade_value_changed"]
 [connection signal="value_changed" from="VBoxContainer2/VBoxContainer/HBoxContainer/InterceptorCount" to="." method="_on_InterceptorCount_value_changed"]
+[connection signal="item_selected" from="VBoxContainer2/VBoxContainer/HBoxContainer/SplashZone" to="." method="_on_SplashZone_item_selected"]
 [connection signal="toggled" from="VBoxContainer2/VBoxContainer/AttackerModifier" to="." method="_on_AttackerModifier_toggled"]
 [connection signal="item_selected" from="VBoxContainer2/VBoxContainer2/HBoxContainer2/DefendUnit" to="." method="_on_DefendUnit_item_selected"]
 [connection signal="item_selected" from="VBoxContainer2/VBoxContainer2/HBoxContainer2/DModeChoice" to="." method="_on_DModeChoice_item_selected"]
 [connection signal="value_changed" from="VBoxContainer2/VBoxContainer2/HBoxContainer/ArmorUpgrade" to="." method="_on_ArmorUpgrade_value_changed"]
 [connection signal="value_changed" from="VBoxContainer2/VBoxContainer2/HBoxContainer/ShieldUpgrade" to="." method="_on_ShieldUpgrade_value_changed"]
 [connection signal="toggled" from="VBoxContainer2/VBoxContainer2/GuardianShield" to="." method="_on_GuardianShield_toggled"]
+[connection signal="toggled" from="VBoxContainer2/VBoxContainer2/AntiArmor" to="." method="_on_AntiArmor_toggled"]
 [connection signal="toggled" from="VBoxContainer2/VBoxContainer2/DefenderModifier" to="." method="_on_DefenderModifier_toggled"]

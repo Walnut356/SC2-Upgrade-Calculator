@@ -7,7 +7,7 @@ var subZerg = PopupMenu.new()
 var subMenus = [subProtoss, subTerran, subZerg]
 
 var protossUnits = ["Probe", "Zealot", "Stalker", "Sentry", "Adept", "High Templar",  "Dark Templar", "Archon", "Observer", "Warp Prism", "Immortal", "Colossus", "Disruptor", "Phoenix", "Void Ray", "Oracle", "Tempest", "Carrier", "Interceptor", "Mothership", "Photon Cannon", "Shield Battery"]
-var terranUnits = ["SCV", "MULE", "Marine", "Marauder", "Reaper", "Ghost", "Hellion", "Hellbat", "Widowmine", "Tank (Sieged)", "Tank (Unsieged)", "Thor", "Viking", "Medivac", "Liberator", "Raven", "Banshee", "Battle Cruiser", "Planetary Fortress"]
+var terranUnits = ["SCV", "MULE", "Marine", "Marauder", "Reaper", "Ghost", "Hellion", "Hellbat", "Widowmine", "Cyclone", "Siege Tank", "Thor", "Viking", "Medivac", "Liberator", "Raven", "Banshee", "Battle Cruiser", "Planetary Fortress", "Missile Turret", "Bunker", "Auto Turret"]
 var zergUnits = ["Larva", "Egg", "Drone", "Overlord", "Queen", "Zergling", "Baneling", "Roach", "Ravager", "Hydralisk", "Lurker", "Mutalisk", "Corruptor", "Swarm Host", "Locust", "Infestor", "Viper", "Ultralisk", "Broodlord", "Broodling", "Spine Scrawler", "Spore Crawler"]
 
 func _ready():
