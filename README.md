@@ -23,3 +23,14 @@ v1.1
 -added logic for spell damage
 
 -added egg types
+
+v1.2
+---
+-refactored tank/siege mode to match other units with multiple attacks
+-fixed spell damage calculation 
+	-extra fix for DoT spells
+-added spells: snipe, anti-armor missile, corrosive bile
+-added structures: missile turret, bunker, auto turret
+	-bunker allows toggling between marines, reapers, marauders, and ghosts
+-fixed battlecruiser vs ground attack
+-enabled cyclone in terran selection submenu(lol)
