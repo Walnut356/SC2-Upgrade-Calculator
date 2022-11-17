@@ -17,6 +17,12 @@ boot_splash/show_image=false
 config/icon="res://calc.png"
 config/windows_native_icon="res://calc.ico"
 
+[autoload]
+
+UnitData="*res://Scripts/UnitStats.gd"
+DamageCalc="*res://Scripts/DamageCalc.gd"
+Unit="*res://Scripts/Unit.gd"
+
 [display]
 
 window/size/width=550

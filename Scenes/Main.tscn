@@ -1,8 +1,8 @@
 [gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://Theme.tres" type="Theme" id=1]
-[ext_resource path="res://Scenes/attackunitselection.gd" type="Script" id=2]
-[ext_resource path="res://Scenes/Main.gd" type="Script" id=3]
+[ext_resource path="res://Scripts/attackunitselection.gd" type="Script" id=2]
+[ext_resource path="res://Scripts/Main.gd" type="Script" id=3]
 
 [sub_resource type="Theme" id=1]
 OptionButton/constants/hseparation = 2
@@ -166,6 +166,14 @@ margin_right = 510.0
 margin_bottom = 146.0
 text = "Guardian Shield (+2 Armor vs Ranged)"
 
+[node name="Healing" type="CheckBox" parent="VBoxContainer2/VBoxContainer2"]
+unique_name_in_owner = true
+visible = false
+margin_top = 98.0
+margin_right = 510.0
+margin_bottom = 146.0
+text = "Medivac Support"
+
 [node name="AntiArmor" type="CheckBox" parent="VBoxContainer2/VBoxContainer2"]
 unique_name_in_owner = true
 visible = false
@@ -177,9 +185,9 @@ text = "Anti-Armor Missile (-3 Armor)"
 [node name="DefenderModifier" type="CheckBox" parent="VBoxContainer2/VBoxContainer2"]
 unique_name_in_owner = true
 visible = false
-margin_top = 154.0
+margin_top = 98.0
 margin_right = 510.0
-margin_bottom = 202.0
+margin_bottom = 146.0
 
 [node name="HSeparator" type="HSeparator" parent="VBoxContainer2"]
 margin_top = 196.0
@@ -230,5 +238,6 @@ text = "0
 [connection signal="value_changed" from="VBoxContainer2/VBoxContainer2/HBoxContainer/ArmorUpgrade" to="." method="_on_ArmorUpgrade_value_changed"]
 [connection signal="value_changed" from="VBoxContainer2/VBoxContainer2/HBoxContainer/ShieldUpgrade" to="." method="_on_ShieldUpgrade_value_changed"]
 [connection signal="toggled" from="VBoxContainer2/VBoxContainer2/GuardianShield" to="." method="_on_GuardianShield_toggled"]
+[connection signal="toggled" from="VBoxContainer2/VBoxContainer2/Healing" to="." method="_on_Healing_toggled"]
 [connection signal="toggled" from="VBoxContainer2/VBoxContainer2/AntiArmor" to="." method="_on_AntiArmor_toggled"]
 [connection signal="toggled" from="VBoxContainer2/VBoxContainer2/DefenderModifier" to="." method="_on_DefenderModifier_toggled"]
