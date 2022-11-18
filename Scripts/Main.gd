@@ -615,18 +615,7 @@ func _on_AModeChoice_item_selected(index):
 				attackUnit.bonusDmg = 22
 				attackUnit.bonusUp = 2
 		"High Templar":
-			if index == 0:
-				attackUnit.attack = 4
-				attackUnit.attackSpeed = 1.25
-				attackUnit.attackMult = 1
-				attackUnit.spell = false
-				attackUnit.hitAir = false
-			else:
-				attackUnit.attack = 10
-				attackUnit.attackSpeed = 0.357125
-				attackUnit.attackMult = 8
-				attackUnit.spell = true
-				attackUnit.hitAir = true
+			attackUnit.changeWeapon(index)
 		"Ghost":
 			match index:
 				0:
@@ -834,19 +823,7 @@ func _on_InterceptorCount_value_changed(value):
 func _on_SplashZone_item_selected(index):
 	match attackUnit.type:
 		"Archon":
-			match index:
-				0: 
-					attackUnit.attack = UnitData.archon.attack
-					attackUnit.bonusDmg = UnitData.archon.bonusDmg
-					attackUnit.weaponsUp = UnitData.archon.weaponsUp
-				1: 
-					attackUnit.attack = UnitData.archon.attack * .5
-					attackUnit.bonusDmg = UnitData.archon.bonusDmg * .5
-					attackUnit.weaponsUp = UnitData.archon.weaponsUp * .5
-				2: 
-					attackUnit.attack = UnitData.archon.attack * .25
-					attackUnit.bonusDmg = UnitData.archon.bonusDmg * .25
-					attackUnit.weaponsUp = UnitData.archon.weaponsUp * .25
+			attackUnit.applyModifier(index)
 		"Ghost":
 			match index:
 				0: attackUnit.attack = UnitData.ghost.attack

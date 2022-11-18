@@ -1,24 +1,169 @@
 extends Node
 
-var unitCode = {-1 : null, 0 : null, 101 : probe, 102 : zealot, 103 : stalker, 104 : sentry, 105 : adept, 106 : HT, 107 : DT, 108 : archon, 109 : observer, 110 : prism, 111 : immortal, 112 : colossus, 113 : disruptor, 114 : phoenix, 115 : voidray, 116 : oracle, 117 : tempest, 118 : carrier, 119 : interceptor, 120 : mothership, 121 : cannon, 122 : battery,
-201 : scv, 202 : mule, 203 : marine, 204 : marauder, 205 : reaper, 206 : ghost, 207 : hellion, 208 : hellbat, 209 : mine, 210 : cyclone, 211 : tank, 212 : thor, 213 : viking, 214 : medivac, 215 : liberator, 216 : raven, 217 : banshee, 218 : battlecruiser, 219 : planetary, 220 : turret, 221 : bunker, 222 : autoturret,
-301 : larva, 302 : egg, 303 : drone, 304 : overlord, 305 : queen, 306 : zergling, 307 : baneling, 308 : roach, 309 : ravager, 310 : hydralisk, 311 : lurker, 312 : mutalisk, 313 : corruptor, 314 : swarmhost, 315 : locust, 316 : infestor, 317 : viper, 318 : ultralisk, 319 : broodlord, 320 : broodling, 321 : spinecrawler, 322 : sporecrawler}
+var unitCode = {-1 : null, 0 : null, 101 : Probe, 102 : Zealot, 103 : Stalker, 104 : Sentry, 105 : Adept, 106 : HT, 107 : DT, 108 : Archon, 109 : Observer, 110 : Prism, 111 : Immortal, 112 : Colossus, 113 : Disruptor, 114 : Phoenix, 115 : Voidray, 116 : Oracle, 117 : Tempest, 118 : Carrier, 119 : Interceptor, 120 : Mothership, 121 : Cannon, 122 : Battery,
+201 : SCV, 202 : MULE, 203 : Marine, 204 : Marauder, 205 : Reaper, 206 : Ghost, 207 : Hellion, 208 : Hellbat, 209 : Widowmine, 210 : Cyclone, 211 : Tank, 212 : Thor, 213 : Viking, 214 : Medivac, 215 : Liberator, 216 : Raven, 217 : Banshee, 218 : Battlecruiser, 219 : Planetary, 220 : Turret, 221 : Bunker, 222 : Autoturret,
+301 : Larva, 302 : Egg, 303 : Drone, 304 : Overlord, 305 : Queen, 306 : Zergling, 307 : Baneling, 308 : Roach, 309 : Ravager, 310 : Hydralisk, 311 : Lurker, 312 : Mutalisk, 313 : Corruptor, 314 : Swarmhost, 315 : Locust, 316 : Infestor, 317 : Viper, 318 : Ultralisk, 319 : Broodlord, 320 : Broodling, 321 : Spinecrawler, 322 : Sporecrawler}
 
 #---------------#
 #---Unit Data---#
 #---------------#
 
+"""
+class :
+	extends Unit
+	
+	func _ready():
+		type = 
+		faction = ""
+		tags = [""]
+		cost = []
+		flying = 
+		health = 
+		shields = 
+		armor = 
+		shieldArmor = 
+		moveSpeed = 
+		canAttack = 
+		spell = 
+		hitGround = 
+		hitAir = 
+		attackRange = 
+		attack = 
+		attackSpeed = 
+		attackMult = 
+		bonusDmg = 
+		bonusUp = 
+		bonusVs = 
+		weaponsUp = 
+		armorUp = 
+		shieldUp =
+ """
+
 #---protoss units---#
 
-var probe:Unit = Unit.new("Probe", "Protoss", ["light", "mechanical"], [50, 0, 1], false, 20, 20, 0, 0, 3.94, false, true, true, false, .1, 5, 1.07, 1, 0, 0, "", 0, 1, 1)
+class Probe:
+	extends Unit
+	
+	func _ready():
+		type = "Probe"
+		faction = "Protoss"
+		tags = ["light", "mechanical"]
+		cost = [50, 0, 1]
+		flying =  false
+		health = 20
+		shields = 20
+		armor = 0
+		shieldArmor = 0
+		moveSpeed = 3.94
+		canAttack = true
+		spell = false
+		hitGround = true
+		hitAir = false
+		attackRange = .1
+		attack = 5
+		attackSpeed = 1.07
+		attackMult = 1
+		bonusDmg = 0
+		bonusUp = 0
+		bonusVs = ""
+		weaponsUp = 0
+		armorUp = 1
+		shieldUp = 1
 
-var zealot:Unit = Unit.new("Zealot", "Protoss", ["light", "biological"], [100, 0, 2], false, 100, 50, 1, 0, 3.15, false, true, true, false, .1, 8, .86, 2, 0, 0, "", 1, 1, 1)
+class Zealot:
+	extends Unit
+	
+	func _ready():
+		type = "Zealot"
+		faction = "Protoss"
+		tags = ["light", "biological"]
+		cost = [100, 0, 2]
+		flying = false
+		health = 100
+		shields = 50
+		armor = 1
+		shieldArmor =  0
+		moveSpeed = 3.15
+		canAttack = true
+		spell = false
+		hitGround = true
+		hitAir = false
+		attackRange = .1
+		attack = 8
+		attackSpeed = .86
+		attackMult = 2
+		bonusDmg = 0
+		bonusUp = 0
+		bonusVs = ""
+		weaponsUp = 1
+		armorUp = 1
+		shieldUp = 1
+		
+	func applyUpgrade(b:bool):
+		if b:
+			moveSpeed = 4.725
+		else:
+			moveSpeed = 3.15
 
-var stalker:Unit = Unit.new("Stalker", "Protoss", ["armored", "mechanical"], [125, 50, 2], false, 80, 80, 1, 0, 4.13, false, true, true, true, 6, 13, 1.34, 1, 5, 1, "armored", 1, 1, 1)
+class Stalker:
+	extends Unit
+	
+	func _ready():
+		type = "Stalker"
+		faction = "Protoss"
+		tags = ["armored", "mechanical"]
+		cost = [125, 50, 2]
+		flying = false
+		health = 80
+		shields = 80
+		armor = 1
+		shieldArmor = 1 
+		moveSpeed = 4.13
+		canAttack = true
+		spell = false
+		hitGround = true
+		hitAir = true
+		attackRange = 6
+		attack = 13
+		attackSpeed = 1.34
+		attackMult = 1
+		bonusDmg = 5
+		bonusUp = 1
+		bonusVs = "armored"
+		weaponsUp = 1
+		armorUp = 1
+		shieldUp = 1
 
-var sentry:Unit = Unit.new("Sentry", "Protoss", ["light", "mechanical", "psionic"], [50, 100, 2], false, 40, 40, 1, 0, 3.15, false, true, true, true, 5, 6, .71, 1, 0, 0, "", 1, 1, 1)
+class Sentry:
+	extends Unit
+	
+	func _ready():
+		type = "Sentry"
+		faction = "Protoss"
+		tags = ["light", "mechanical", "psionic"]
+		cost = [50, 100, 2]
+		flying = false
+		health = 40
+		shields = 40
+		armor = 1
+		shieldArmor = 0 
+		moveSpeed = 3.14
+		canAttack = true
+		spell = false
+		hitGround = true
+		hitAir = true
+		attackRange = 5 
+		attack = 6
+		attackSpeed = .71
+		attackMult = 1
+		bonusDmg = 0
+		bonusUp = 0
+		bonusVs = ""
+		weaponsUp = 1
+		armorUp = 1
+		shieldUp = 1
 
-class adept:
+class Adept:
 	extends Unit
 	
 	func _ready():
@@ -53,43 +198,1081 @@ class adept:
 		else:
 			self.attackSpeed = 1.61
 
-var HT:Unit = Unit.new("High Templar", "Protoss", ["biological", "light", "psionic"], [50, 150, 2], false, 40, 40, 0, 0, 2.62, true, false, true, false, 6, 4, 1.25, 1, 0, 0, "", 1, 1, 1)
+class HT:
+	extends Unit
+	
+	func _ready():
+		type = "High Templar"
+		faction = "Protoss"
+		tags = ["light", "biological", "psionic"]
+		cost = [50, 150, 2]
+		flying = false
+		health = 40
+		shields = 40
+		armor = 0
+		shieldArmor = 0
+		moveSpeed = 2.62
+		canAttack = true
+		spell = false
+		hitGround = true
+		hitAir = false
+		attackRange = 6
+		attack = 4
+		attackSpeed = 1.25 
+		attackMult = 1
+		bonusDmg = 0
+		bonusUp = 0
+		bonusVs = ""
+		weaponsUp = 1
+		armorUp = 1
+		shieldUp = 1
+		
+	func changeWeapon(att:int):
+		match att:
+			0:
+				attackUnit.attack = 4
+				attackUnit.attackSpeed = 1.25
+				attackUnit.attackMult = 1
+				attackUnit.spell = false
+				attackUnit.hitAir = false
+			1:
+				attackUnit.attack = 10
+				attackUnit.attackSpeed = 0.357125
+				attackUnit.attackMult = 8
+				attackUnit.spell = true
+				attackUnit.hitAir = true
 
-var DT:Unit = Unit.new("Dark Templar", "Protoss", ["biological", "light", "psionic"], [125, 125, 2], false, 40, 80, 1, 0, 3.94, true, false, true, false, .1, 45, 1.21, 1, 0, 0, "", 5, 1, 1)
+class DT:
+	extends Unit
+	
+	func _ready():
+		type = "Dark Templar"
+		faction = "Protoss"
+		tags = ["light", "biological", "psionic"]
+		cost = [125, 125, 2]
+		flying = false
+		health = 40
+		shields = 80
+		armor = 1
+		shieldArmor = 0
+		moveSpeed = 3.94
+		canAttack = true
+		spell = false
+		hitGround = true
+		hitAir = false
+		attackRange = .1
+		attack = 45
+		attackSpeed = 1.21 
+		attackMult = 1
+		bonusDmg = 0
+		bonusUp = 0
+		bonusVs = ""
+		weaponsUp = 5
+		armorUp = 1
+		shieldUp = 1
 
-var archon:Unit = Unit.new("Archon", "Protoss", ["psionic", "massive"], [100, 300, 4], false, 10, 350, 0, 0, 3.94, true, false, true, true, 3, 25, 1.25, 1, 10, 1, "biological", 3, 1, 1)
+class Archon:
+	extends Unit
+	
+	func _ready():
+		type = "Archon" 
+		faction = "Protoss"
+		tags = ["psionic", "massive"]
+		cost = [100, 300, 4]
+		flying = false
+		health = 10
+		shields = 350
+		armor = 0
+		shieldArmor = 0 
+		moveSpeed = 3.94
+		canAttack = true
+		spell = false
+		hitGround = true
+		hitAir = true
+		attackRange = 3
+		attack = 25
+		attackSpeed = 1.25
+		attackMult = 1
+		bonusDmg = 10
+		bonusUp = 1
+		bonusVs = "biological"
+		weaponsUp = 3
+		armorUp = 1
+		shieldUp = 1
+	func applyModifier(mod:int):
+		match mod:
+			0: 
+				attack = 25
+				bonusDmg = 10
+				weaponsUp = 3
+			1: 
+				attackUnit.attack = UnitData.archon.attack * .5
+				attackUnit.bonusDmg = UnitData.archon.bonusDmg * .5
+				attackUnit.weaponsUp = UnitData.archon.weaponsUp * .5
+			2: 
+				attackUnit.attack = UnitData.archon.attack * .25
+				attackUnit.bonusDmg = UnitData.archon.bonusDmg * .25
+				attackUnit.weaponsUp = UnitData.archon.weaponsUp * .25
+				
 
-var observer:Unit = Unit.new("Observer", "Protoss", ["light", "mechanical"], [25, 75, 1], true, 40, 20, 0, 0, 2.63, false, false, false, false, null, null, null, null, null, null, "", null, 1, 1)
+class Observer:
+	extends Unit
+	
+	func _ready():
+		type = "Observer" 
+		faction = "Protoss"
+		tags = ["light", "mechanical"]
+		cost = [25, 75, 1]
+		flying = true
+		health = 40
+		shields = 20
+		armor = 0
+		shieldArmor = 0 
+		moveSpeed = 2.63
+		canAttack = false
+		spell = false
+		hitGround = false
+		hitAir = false
+		attackRange = 0
+		attack = 0
+		attackSpeed = 1
+		attackMult = 1
+		bonusDmg = 0
+		bonusUp = 0
+		bonusVs = ""
+		weaponsUp = 0
+		armorUp = 1
+		shieldUp = 1
 
-var prism:Unit = Unit.new("Warp Prism", "Protoss", ["armored", "mechanical", "psionic"], [250, 0, 2], true, 80, 100, 0, 0, 4.13, false, false, false, false, null, null, null, null, null, null, "", null, 1, 1)
+class Prism:
+	extends Unit
+	
+	func _ready():
+		type = "Warp Prism"
+		faction = "Protoss"
+		tags = ["armored", "mechanical", "psionic"]
+		cost = [250, 0, 2]
+		flying = true
+		health = 80
+		shields = 100
+		armor = 0
+		shieldArmor = 0
+		moveSpeed = 4.13
+		canAttack = false
+		spell = false
+		hitGround = false
+		hitAir = false
+		attackRange = 0
+		attack = 0
+		attackSpeed = 1
+		attackMult = 1
+		bonusDmg = 0
+		bonusUp = 0
+		bonusVs = ""
+		weaponsUp = 0
+		armorUp = 1
+		shieldUp = 1
+		
+	func applyUpgrade(b:bool):
+		if b:
+			moveSpeed = 5.36
+		else:
+			moveSpeed = 4.13
 
-var immortal:Unit = Unit.new("Immortal", "Protoss", ["armored", "mechanical"], [275, 100, 4], false, 200, 100, 1, 0, 3.15, true, false, true, false, 6, 20, 1.04, 1, 30, 3, "armored", 2, 1, 1)
+class Immortal:
+	extends Unit
+	
+	func _ready():
+		type = "Immortal" 
+		faction = "Protoss"
+		tags = ["armored", "mechanical"]
+		cost = [275, 100, 4]
+		flying = false
+		health = 200
+		shields = 100
+		armor = 1
+		shieldArmor = 0 
+		moveSpeed = 3.15
+		canAttack = true
+		spell = false
+		hitGround = true
+		hitAir = false
+		attackRange = 6
+		attack = 20
+		attackSpeed = 1.04
+		attackMult = 1
+		bonusDmg = 30
+		bonusUp = 3
+		bonusVs = "armored"
+		weaponsUp = 2
+		armorUp = 1
+		shieldUp = 1
 
-var colossus:Unit = Unit.new("Colossus", "Protoss", ["armored", "massive", "mechanical"], [300, 200, 6], false, 200, 150, 1, 0, 3.15, true, false, true, false, 7, 10, 1.07, 2, 5, 1, "light", 1, 1, 1)
+class Colossus:
+	extends Unit
+	
+	func _ready():
+		type = "Colossus"
+		faction = "Protoss"
+		tags = ["armored", "mechanical", "massive"]
+		cost = [300, 200]
+		flying = false
+		health = 200
+		shields = 150
+		armor = 1
+		shieldArmor = 0 
+		moveSpeed = 3.15
+		canAttack = true
+		spell = false
+		hitGround = true
+		hitAir = false
+		attackRange = 7
+		attack = 10
+		attackSpeed = 1.07 
+		attackMult = 2
+		bonusDmg = 5
+		bonusUp = 1
+		bonusVs = "light"
+		weaponsUp = 1
+		armorUp = 1
+		shieldUp = 1
 
-var disruptor:Unit = Unit.new("Disruptor", "Protoss", ["armored", "mechanical", "spell"], [150, 150, 3], false, 100, 100, 1, 0, 3.15, true, true, true, false, 13.245, 145, 2.1, 1, 0, 0, "", 0, 1, 1)
+class Disruptor:
+	extends Unit
+	
+	func _ready():
+		type = "Disruptor"
+		faction = "Protoss"
+		tags = ["armored", "mechanical"]
+		cost = [150, 150, 3]
+		flying = false
+		health = 100
+		shields = 100
+		armor = 1
+		shieldArmor = 0 
+		moveSpeed = 3.15
+		canAttack = true
+		spell = true
+		hitGround = true
+		hitAir = false
+		attackRange = 13.245
+		attack = 145
+		attackSpeed = 2.1
+		attackMult = 1
+		bonusDmg = 55
+		bonusUp = 0
+		bonusVs = ""
+		weaponsUp = 0
+		armorUp = 1
+		shieldUp = 1
 
-var phoenix:Unit = Unit.new("Phoenix", "Protoss", ["light", "mechanical"], [150, 100, 2], true, 120, 60, 0, 0, 5.95, true, false, false, true, 5, 5, .79, 2, 5, 0, "light", 1, 1, 1)
+class Phoenix:
+	extends Unit
+	
+	func _ready():
+		type = "Phoenix" 
+		faction = "Protoss"
+		tags = ["light", "mechanical"]
+		cost = [150, 100, 2]
+		flying = true
+		health = 120
+		shields = 60
+		armor = 0
+		shieldArmor = 0 
+		moveSpeed = 5.95
+		canAttack = true
+		spell = false
+		hitGround = false
+		hitAir = true
+		attackRange = 5 
+		attack = 5
+		attackSpeed = .79
+		attackMult = 2
+		bonusDmg = 5
+		bonusUp = 0
+		bonusVs = "light"
+		weaponsUp = 1
+		armorUp = 1
+		shieldUp = 1
 
-var voidray:Unit = Unit.new("Void Ray", "Protoss", ["armored", "mechanical"], [250, 150, 4], true, 150, 100, 0, 0, 3.85, 
+class Voidray:
+	extends Unit
+	
+	func _ready():
+		type = "Voidray"
+		faction = "Protoss"
+		tags = ["armored", "mechanical"]
+		cost = [250, 150, 4]
+		flying = true
+		health = 150
+		shields = 100
+		armor = 0
+		shieldArmor = 1
+		moveSpeed = 3.85
+		canAttack = true
+		spell = false
+		hitGround = true
+		hitAir = true
+		attackRange = 6
+		attack = 6
+		attackSpeed = .36 
+		attackMult = 1
+		bonusDmg = 4
+		bonusUp = 0
+		bonusVs = "armored"
+		weaponsUp = 1
+		armorUp = 1
+		shieldUp = 1
+		
+	func applyUpgrade(b:bool):
+		if b:
+			bonusDmg = 10
+		else:
+			bonusDmg = 4
 
-var oracle:Unit = Unit.new("Oracle", "Protoss", ["mechanical", "armored", "psionic", "spell"]
+class Oracle:
+	extends Unit
+	
+	func _ready():
+		type = "Oracle" 
+		faction = "Protoss"
+		tags = ["armored", "mechanical", "psionic"]
+		cost = [150, 150, 3]
+		flying = true
+		health = 100
+		shields = 60
+		armor = 0
+		shieldArmor = 0
+		moveSpeed = 5.6
+		canAttack = true
+		spell = true
+		hitGround = true
+		hitAir = false
+		attackRange = 4
+		attack = 15
+		attackSpeed = .61 
+		attackMult = 1
+		bonusDmg = 7
+		bonusUp = 0
+		bonusVs = "light"
+		weaponsUp = 0
+		armorUp = 1
+		shieldUp = 1
 
-var tempest:Unit = Unit.new("Tempest", "Protoss", ["armored", "mechanical", "massive"]
+class Tempest:
+	extends Unit
+	
+	func _ready():
+		type = "Tempest"
+		faction = "Protoss"
+		tags = ["armored", "mechanical", "massive"]
+		cost = [250, 175, 5]
+		flying = true
+		health = 200
+		shields = 100
+		armor = 2
+		shieldArmor = 0 
+		moveSpeed = 3.15
+		canAttack = true
+		spell = false
+		hitGround = true
+		hitAir = false
+		attackRange = 10
+		attack = 40
+		attackSpeed = 2.36
+		attackMult = 1
+		bonusDmg = 0
+		bonusUp = 0
+		bonusVs = 0
+		weaponsUp = 4 
+		armorUp = 1
+		shieldUp = 1
+	func applyUpgrade(b:bool):
+		if b:
+			bonusDmg = 40
+			bonusVs = "structure"
+	func changeWeapon(att:int):
+		match att:
+			0:
+				attackRange = 10
+				attack = 40
+				weaponsUp = 4
+				bonusVs = "structure"
+				bonusDmg = 0
+				bonusUp = 0
+			1:
+				attackRange = 14
+				attack = 30
+				weaponsUp = 3
+				bonusVs = "massive"
+				bonusDmg = 22
+				bonusUp = 2
 
-var carrier:Unit = Unit.new("Carrier", "Protoss", ["armored", "mechanical", "massive"]
+class Carrier:
+	extends Unit
+	
+	func _ready():
+		type = "Carrier"
+		faction = "Protoss"
+		tags = ["armored", "mechanical", "massive"]
+		cost = [350, 250, 6]
+		flying = true
+		health = 300
+		shields = 150
+		armor = 2
+		shieldArmor = 0 
+		moveSpeed = 2.62
+		canAttack = true
+		spell = false
+		hitGround = true
+		hitAir = true
+		attackRange =  8
+		attack = 5
+		attackSpeed = 2.14 
+		attackMult = 16
+		bonusDmg = 0
+		bonusUp = 0
+		bonusVs = ""
+		weaponsUp = 1
+		armorUp = 1
+		shieldUp = 1
 
-var interceptor:Unit = Unit.new("Interceptor", "Protoss", ["light", "mechanical"]
+class Interceptor:
+	extends Unit
+	
+	func _ready():
+		type = "Interceptor"
+		faction = "Protoss"
+		tags = ["light", "mechanical"]
+		cost = [15, 0, 0]
+		flying = true
+		health = 40
+		shields = 40
+		armor = 0
+		shieldArmor = 0 
+		moveSpeed = 10.5
+		canAttack = true
+		spell = false
+		hitGround = true
+		hitAir = true
+		attackRange = 2
+		attack = 5
+		attackSpeed = 2.14 
+		attackMult = 2
+		bonusDmg = 0
+		bonusUp = 0
+		bonusVs = ""
+		weaponsUp = 1
+		armorUp = 1
+		shieldUp = 1
 
-var mothership:Unit = Unit.new("Mothership", "Protoss", ["armored", "massive", "psionic", "mechanical", "heroic"]
+class Mothership:
+	extends Unit
+	
+	func _ready():
+		type = "Mothership"
+		faction = "Protoss"
+		tags = ["armored", "mechanical", "psionic", "massive", "heroic"]
+		cost = [400, 400, 8]
+		flying = true
+		health = 350
+		shields = 350
+		armor = 2
+		shieldArmor = 2 
+		moveSpeed = 2.62
+		canAttack = true
+		spell = false
+		hitGround = true
+		hitAir = true
+		attackRange = 7 
+		attack = 6
+		attackSpeed = 1.58 
+		attackMult = 6
+		bonusDmg = 0
+		bonusUp = 0
+		bonusVs = ""
+		weaponsUp = 1
+		armorUp = 1
+		shieldUp = 1
 
-var cannon:Unit = Unit.new("Cannon", "Protoss", ["armored", "structure"]
+class Cannon:
+	extends Unit
+	
+	func _ready():
+		type = "Photon Cannon"
+		faction = "Protoss"
+		tags = ["armored", "structure"]
+		cost = [150, 0, 0]
+		flying = false
+		health = 150
+		shields = 150
+		armor = 1
+		shieldArmor = 0 
+		moveSpeed = 0
+		canAttack = true
+		spell = false
+		hitGround = true
+		hitAir = true
+		attackRange = 7 
+		attack = 20
+		attackSpeed = .89 
+		attackMult = 1
+		bonusDmg = 0
+		bonusUp = 0
+		bonusVs = ""
+		weaponsUp = 0
+		armorUp = 0
+		shieldUp = 1
 
-var battery:Unit = Unit.new("Shield battery", "Protoss", ["armored", "structure"]
-
+class Battery:
+	extends Unit
+	
+	func _ready():
+		type = "Shield Battery"
+		faction = "Protoss"
+		tags = ["armored", "structure"]
+		cost = [100, 0, 0]
+		flying = false
+		health = 150
+		shields = 150
+		armor = 1
+		shieldArmor = 0 
+		moveSpeed = 0
+		canAttack = false
+		spell = false
+		hitGround = false
+		hitAir = false
+		attackRange = 0
+		attack = 0
+		attackSpeed = 1 
+		attackMult = 1
+		bonusDmg = 0
+		bonusUp = 0
+		bonusVs = ""
+		weaponsUp = 0
+		armorUp = 0
+		shieldUp = 1
 
 #---terran units---#
 
+class SCV:
+	extends Unit
+	
+	func _ready():
+		type = "SCV"
+		faction = "Terran"
+		tags = ["light", "biological", "mechanical"]
+		cost = [50, 0, 1]
+		flying = false
+		health = 45
+		shields = 0
+		armor = 0
+		shieldArmor = 0
+		moveSpeed = 3.94 
+		canAttack = true
+		spell = false
+		hitGround = true
+		hitAir = false
+		attackRange = .1
+		attack = 5
+		attackSpeed = 1.07 
+		attackMult = 1
+		bonusDmg = 0
+		bonusUp = 0
+		bonusVs = ""
+		weaponsUp = 0
+		armorUp = 1
+		shieldUp = 0
+
+class MULE:
+	extends Unit
+	
+	func _ready():
+		type = "MULE"
+		faction = "Terran"
+		tags = ["light", "mechanical"]
+		cost = [0, 0, 0]
+		flying = false
+		health = 60
+		shields = 0
+		armor = 0
+		shieldArmor = 0
+		moveSpeed = 3.94 
+		canAttack = false
+		spell = false
+		hitGround = false
+		hitAir = false
+		attackRange = 0
+		attack = 0
+		attackSpeed = 1 
+		attackMult = 1
+		bonusDmg = 0
+		bonusUp = 0
+		bonusVs = ""
+		weaponsUp = 0
+		armorUp = 1
+		shieldUp = 0
+
+class Marine:
+	extends Unit
+	
+	func _ready():
+		type = "Marine" 
+		faction = "Terran"
+		tags = ["light", "biological"]
+		cost = [50, 0, 1]
+		flying = false
+		health = 45
+		shields = 0
+		armor = 0
+		shieldArmor = 0
+		moveSpeed = 3.15 
+		canAttack = true
+		spell = false
+		hitGround = true
+		hitAir = true
+		attackRange = 5 
+		attack = 6
+		attackSpeed = .61 
+		attackMult = 1
+		bonusDmg = 0
+		bonusUp = 0
+		bonusVs = ""
+		weaponsUp = 1
+		armorUp = 1
+		shieldUp = 0
+		
+	func applyUpgrade(b:bool):
+		if b:
+			health = 55
+			speed = 4.72
+			attackSpeed = .61/1.5
+		else:
+			health = 45
+			speed = 3.15
+			attackSpeed = .61
+
+class Reaper:
+	extends Unit
+	
+	func _ready():
+		type = "Reaper"
+		faction = "Terran"
+		tags = ["light", "biological"]
+		cost = [50, 50, 1]
+		flying = false
+		health = 60
+		shields = 0
+		armor = 0
+		shieldArmor = 0
+		moveSpeed = 3.75 
+		canAttack = true
+		spell = false
+		hitGround = true
+		hitAir = false
+		attackRange = 5
+		attack = 4
+		attackSpeed = .79 
+		attackMult = 2
+		bonusDmg = 0
+		bonusUp = 0
+		bonusVs = ""
+		weaponsUp = 1
+		armorUp = 1
+		shieldUp = 0
+
+class Marauder:
+	extends Unit
+	
+	func _ready():
+		type = "Marauder"
+		faction = "Terran"
+		tags = ["armored", "biological"]
+		cost = [100, 25, 2]
+		flying = false
+		health = 125
+		shields = 0
+		armor = 1
+		shieldArmor = 0
+		moveSpeed = 3.15 
+		canAttack = true
+		spell = false
+		hitGround = true
+		hitAir = false
+		attackRange = 6
+		attack = 10
+		attackSpeed = 1.07 
+		attackMult = 1
+		bonusDmg = 10
+		bonusUp = 1
+		bonusVs = "armored"
+		weaponsUp = 1
+		armorUp = 1
+		shieldUp = 0
+	func applyUpgrade(b:bool):
+		if b:
+			speed = 4.72
+			attackSpeed = 1.07/1.5
+		else:
+			speed = 3.15
+			attackSpeed = 1.07
+
+class Ghost:
+	extends Unit
+	
+	func _ready():
+		type = "Ghost"
+		faction = "Terran"
+		tags = ["biological", "psionic"]
+		cost = [150, 125]
+		flying = false
+		health = 100
+		shields = 0
+		armor = 0
+		shieldArmor = 0
+		moveSpeed = 3.94 
+		canAttack = true
+		spell = false
+		hitGround = true
+		hitAir = true
+		attackRange = 6 
+		attack = 10
+		attackSpeed = 1.07 
+		attackMult = 1
+		bonusDmg = 10
+		bonusUp = 1
+		bonusVs = "light"
+		weaponsUp = 1
+		armorUp = 1
+		shieldUp = 0
+	func changeWeapon(att:int):
+		match index:
+			0:
+				attack = 10
+				attackSpeed = 1.07
+				bonusDmg = 10
+				bonusVs = "light"
+				spell = false
+			1:
+				attackUnit.attack = 170
+				attackUnit.attackSpeed = 1.43
+				attackUnit.bonusDmg = 0
+				attackUnit.bonusVs = ""
+				attackUnit.spell = true
+			2:
+				attackUnit.attack = 300
+				attackUnit.attackSpeed = 14
+				attackUnit.bonusDmg = 200
+				attackUnit.bonusVs = "structure"
+				attackUnit.spell = true
+
+class Hellion:
+	extends Unit
+	
+	func _ready():
+		type = "Hellion"
+		faction = "Terran"
+		tags = ["light", "mechanical"]
+		cost = [100, 0, 2]
+		flying = false
+		health = 90
+		shields = 0
+		armor = 0
+		shieldArmor = 0
+		moveSpeed = 5.95 
+		canAttack = true
+		spell = false
+		hitGround = true
+		hitAir = true
+		attackRange = 5 
+		attack = 8
+		attackSpeed = 1.79 
+		attackMult = 1
+		bonusDmg = 6
+		bonusUp = 1
+		bonusVs = "light"
+		weaponsUp = 1
+		armorUp = 1
+		shieldUp = 0
+	func applyUpgrade(b:bool):
+		if b:
+			bonusDmg = 11
+		else:
+			bonusDmg = 6
+
+class Hellbat:
+	extends Unit
+	
+	func _ready():
+		type = "Hellbat"
+		faction = "Terran"
+		tags = ["light", "biological", "mechanical"]
+		cost = [100, 0, 2]
+		flying = false
+		health = 135
+		shields = 0
+		armor = 0
+		shieldArmor = 0
+		moveSpeed = 3.15 
+		canAttack = true
+		spell = false
+		hitGround = true
+		hitAir = false
+		attackRange = 2
+		attack = 18
+		attackSpeed = 1.43 
+		attackMult = 1
+		bonusDmg = 0
+		bonusUp = 1
+		bonusVs = ""
+		weaponsUp = 0
+		armorUp = 1
+		shieldUp = 0
+	func applyUpgrade(b:bool):
+		if b:
+			bonusDmg = 12
+		else:
+			bonusDmg = 0
+
+class Widowmine:
+	extends Unit
+	
+	func _ready():
+		type = "Widowmine"
+		faction = "Terran"
+		tags = ["light", "mechanical"]
+		cost = [75, 25, 2]
+		flying = false
+		health = 90
+		shields = 0
+		armor = 0
+		shieldArmor = 0
+		moveSpeed = 3.94 
+		canAttack = true
+		spell = true
+		hitGround = true
+		hitAir = true
+		attackRange = 5
+		attack = 125
+		attackSpeed = 1.07 
+		attackMult = 1
+		bonusDmg = 35
+		bonusUp = 0
+		bonusVs = ""
+		weaponsUp = 0
+		armorUp = 1
+		shieldUp = 0
+
+class Cyclone:
+	extends Unit
+	
+	func _ready():
+		type = "Cyclone"
+		faction = "Terran"
+		tags = ["armored", "mechanical"]
+		cost = [150, 100, 3]
+		flying = false
+		health = 120
+		shields = 0
+		armor = 1
+		shieldArmor = 0
+		moveSpeed = 4.73 
+		canAttack = true
+		spell = false
+		hitGround = true
+		hitAir = false
+		attackRange = 5
+		attack = 18
+		attackSpeed = .71 
+		attackMult = 1
+		bonusDmg = 0
+		bonusUp = 0
+		bonusVs = ""
+		weaponsUp = 2
+		armorUp = 1
+		shieldUp = 0
+	func changeWeapon(att:int):
+		pass
+
+class Tank:
+	extends Unit
+	
+	func _ready():
+		type = "Siege Tank"
+		faction = "Terran"
+		tags = ["armored", "mechanical"]
+		cost = [150, 125, 3]
+		flying = false
+		health = 175
+		shields = 0
+		armor = 1
+		shieldArmor = 0
+		moveSpeed = 3.15 
+		canAttack = true
+		spell = false
+		hitGround = true
+		hitAir = false
+		attackRange = 7
+		attack = 15
+		attackSpeed = .74 
+		attackMult = 1
+		bonusDmg = 10
+		bonusUp = 1
+		bonusVs = "armored"
+		weaponsUp = 2
+		armorUp = 1
+		shieldUp = 0
+	func changeWeapon(att:int):
+		pass
+
+class Thor:
+	extends Unit
+	
+	func _ready():
+		type = "Thor"
+		faction = "Terran"
+		tags = ["armored", "mechanical", "massive"]
+		cost = [300, 200, 6]
+		flying = false
+		health = 400
+		shields = 0
+		armor = 1
+		shieldArmor = 0
+		moveSpeed = 2.62
+		canAttack = true
+		spell = false
+		hitGround = true
+		hitAir = false
+		attackRange = 7
+		attack = 30
+		attackSpeed = .91 
+		attackMult = 2
+		bonusDmg = 0
+		bonusUp = 0
+		bonusVs = ""
+		weaponsUp = 3
+		armorUp = 1
+		shieldUp = 0
+	func changeWeapon(att:int):
+		pass
+
+class Viking:
+	extends Unit
+	
+	func _ready():
+		type = "Viking"
+		faction = "Terran"
+		tags = ["armored", "mechanical"]
+		cost = [150, 75, 2]
+		flying = true
+		health = 135
+		shields = 0
+		armor = 0
+		shieldArmor = 0
+		moveSpeed = 3.85 
+		canAttack = true
+		spell = false
+		hitGround = false
+		hitAir = true
+		attackRange = 9
+		attack = 10
+		attackSpeed = 1.43 
+		attackMult = 2
+		bonusDmg = 4
+		bonusUp = 0
+		bonusVs = "armored"
+		weaponsUp = 1
+		armorUp = 1
+		shieldUp = 0
+
+class Medivac:
+	extends Unit
+	
+	func _ready():
+		type = "Medivac"
+		faction = "Terran"
+		tags = ["armored", "mechanical"]
+		cost = [100, 100, 2]
+		flying = true
+		health = 150
+		shields = 0
+		armor = 1
+		shieldArmor = 0
+		moveSpeed = 3.5 
+		canAttack = false
+		spell = false
+		hitGround = true
+		hitAir = false
+		attackRange = 0
+		attack = 0
+		attackSpeed = 1 
+		attackMult = 1
+		bonusDmg = 0
+		bonusUp = 0
+		bonusVs = ""
+		weaponsUp = 0
+		armorUp = 1
+		shieldUp = 0
+
+class Liberator:
+	extends Unit
+	
+	func _ready():
+		type = "Liberator"
+		faction = "Terran"
+		tags = ["armored", "mechanical"]
+		cost = [150, 150, 3]
+		flying = true
+		health = 180
+		shields = 0
+		armor = 0
+		shieldArmor = 0
+		moveSpeed = 4.72
+		canAttack = true
+		spell = false
+		hitGround = false
+		hitAir = true
+		attackRange = 5
+		attack = 5
+		attackSpeed = 1.29 
+		attackMult = 2
+		bonusDmg = 0
+		bonusUp = 0
+		bonusVs = ""
+		weaponsUp = 1
+		armorUp = 1
+		shieldUp = 0
+
+class Raven:
+	extends Unit
+	
+	func _ready():
+		type = "Raven"
+		faction = "Terran"
+		tags = ["light", "mechanical"]
+		cost = [100, 200, 2]
+		flying = false
+		health = 140
+		shields = 0
+		armor = 1
+		shieldArmor = 0
+		moveSpeed = 4.13 
+		canAttack = false
+		spell = false
+		hitGround = false
+		hitAir = false
+		attackRange = 0
+		attack = 0
+		attackSpeed = 1
+		attackMult = 1
+		bonusDmg = 0
+		bonusUp = 0
+		bonusVs = ""
+		weaponsUp = 0
+		armorUp = 1
+		shieldUp = 0
+
+"""
 var scv:Unit = Unit.new("SCV", "Terran", ["light", "biological", "mechanical"]
 
 var mule:Unit = Unit.new("MULE", "Terran", ["light", "mechanical"]
@@ -184,3 +1367,4 @@ var spinecrawler:Unit = Unit.new("Spine Crawler", "Zerg", ["armored", "biologica
 
 var sporecrawler:Unit = Unit.new("Spore Crawler", "Zerg", ["armored", "biological", "structure"]
 }
+"""

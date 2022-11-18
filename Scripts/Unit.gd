@@ -97,3 +97,9 @@ func _init():
 func applyUpgrade():
 	pass
 
+func changeWeapon():
+	pass
+
+func applyModifier():
+	pass
+	
