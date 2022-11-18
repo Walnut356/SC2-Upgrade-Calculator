@@ -3,7 +3,7 @@ extends Node
 func ToKill(attackUnit, defendUnit, attackboxUp, armorboxUp, shieldboxUp, healing):
 	var health:float = defendUnit.health
 	var shields:float = defendUnit.shields
-	
+
 	var armor = defendUnit.armor
 	var armorUp = defendUnit.armorUp
 	var shieldUp = defendUnit.shieldUp
