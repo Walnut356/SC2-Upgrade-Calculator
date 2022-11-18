@@ -748,6 +748,9 @@ class Battery:
 		armorUp = 0
 		shieldUp = 1
 
+
+
+
 #---terran units---#
 
 class SCV:
@@ -1262,8 +1265,6 @@ class Viking:
 		weaponsUp = 1
 		armorUp = 1
 		shieldUp = 0
-	func changeWeapon(att:int): #ground mode
-		pass
 	func applyUpgrade(b:bool): #ground toggle
 		if b:
 			hitAir = false
@@ -1593,6 +1594,9 @@ class Autoturret:
 	func applyUpgrade(b:bool): #auto tracking and building armor
 		if b: armor = 3
 		else: armor = 1
+
+
+
 
 #---zerg units---#
 

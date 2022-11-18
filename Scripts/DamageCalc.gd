@@ -96,10 +96,9 @@ func ToKill(attackUnit, defendUnit, attackboxUp, armorboxUp, shieldboxUp, healin
 		while health > 0:
 			health -= healthDmg
 			shotsToKill += 1.0
-			health += zergRegen * (attackSpeed/attackMult)
-			health += healing * (attackSpeed/attackMult)
-			if healing > 0 and health < (healthDmg * attackMult):
-				break
+			if shotsToKill > 1:
+				health += zergRegen * (attackSpeed/attackMult)
+				health += healing * (attackSpeed/attackMult)
 			if shotsToKill >= 10000:
 				break
 		if shotsToKill < 10000:
