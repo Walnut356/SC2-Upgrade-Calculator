@@ -1,0 +1,41 @@
+[gd_scene format=2]
+
+[node name="Control" type="Panel"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="TabContainer" type="TabContainer" parent="."]
+margin_right = 591.0
+margin_bottom = 295.0
+
+[node name="VBoxContainer2" type="ItemList" parent="TabContainer"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 8.0
+margin_top = 61.0
+margin_right = -8.0
+margin_bottom = -8.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="HBoxContainer" type="HBoxContainer" parent="TabContainer/VBoxContainer2"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_right = -2.0
+
+[node name="ItemList" type="ItemList" parent="TabContainer/VBoxContainer2/HBoxContainer"]
+margin_right = 282.0
+margin_bottom = 226.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+items = [ "Shots To Kill", null, false, "Time To Kill", null, false, "Shield Break Shots", null, false, "Shield Break Time", null, false, "Item 4", null, false ]
+auto_height = true
+max_columns = 2
+same_column_width = true
+
+[node name="ItemList2" type="ItemList" parent="TabContainer/VBoxContainer2/HBoxContainer"]
+margin_left = 290.0
+margin_right = 573.0
+margin_bottom = 226.0
+size_flags_horizontal = 3
+size_flags_vertical = 3

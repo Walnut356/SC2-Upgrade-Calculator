@@ -164,9 +164,9 @@ class Adept:
 		shieldUp = 1
 	func applyUpgrade(b:bool): #glaives
 		if b:
-			self.attackspeed = 1.10837
+			attackSpeed = 1.10837
 		else:
-			self.attackSpeed = 1.60714
+			attackSpeed = 1.60714
 
 class HT:
 	extends Unit

@@ -1,11 +1,18 @@
 extends Control
 
-#
+#Current:
+#Interface damage calc with new UI
+# -better damage -> label interaface, maybe func returns array of strings or array of values?
+#fix warning/info for
+#add "custom" unit
+
+
 #TODO:
 #fix health regen on multi-part attacks (i.e. zealot -> zergling w/ +1)
 #fix locust air/ground interaction
 #add some kind of logic for broodling attack, since it'll usually attack twice the first time
 #fix phoenix hitting ground
+#does guardian shield .pressed(false) in func input affect unit stats?
 
 #loaded bunker attack stats?
 #supply structures, town halls, stasis ward, creep tumor, nydus, sensor tower
@@ -36,6 +43,8 @@ var sZoneBox
 
 #---Process Functions---#
 func _ready():
+	OS.min_window_size = Vector2(550, 600)
+	#OS.max_window_size = Vector2(max_x, max_y)
 	aModeBox = $"%AModeChoice".get_popup()
 	dModeBox = $"%DModeChoice".get_popup()
 	sZoneBox = $"%SplashZone".get_popup()
@@ -43,27 +52,21 @@ func _ready():
 
 func _input(_event):
 	if attackUnit and defendUnit:
-		$VBoxContainer2/HBoxContainer.visible = true
+		if attackUnit.spell:
+			$"%ToKillLabels".set_item_text(0, "Casts to Kill")
+			$"%ToKillLabels".set_item_text(2, "Shield Break Casts")
+		else:
+			$"%ToKillLabels".set_item_text(0, "Shots to Kill")
+			$"%ToKillLabels".set_item_text(2, "Shield Break Shots")
+
 		if defendUnit.faction == "Protoss":
 			$"%ShieldUpgrade".visible = true
-			if attackUnit.spell:
-				$"%Label".text = "Casts to Break Shields:\nTime to Break Shields:\n\nCasts to Kill:\nTime to Kill:"
-			elif attackUnit.type == "Carrier":
-				$"%Label".text = "Volleys to Break Shields:\nTime to Break Shields:\n\nVolleys to Kill:\nTime to Kill:"
-			else:
-				$"%Label".text = "Shots to Break Shields:\nTime to Break Shields:\n\nShots to Kill:\nTime to Kill:"
 			if attackUnit.attackRange > 1:
 				$"%GuardianShield".visible = true
 			else:
 				$"%GuardianShield".visible = false
 		else:
 			$"%ShieldUpgrade".visible = false
-			if attackUnit.spell:
-				$"%Label".text = "Casts to Kill:\nTime to Kill:"
-			elif attackUnit.type == "Carrier":
-				$"%Label".text = "Volleys to Kill:\nTime to Kill:"
-			else:
-				$"%Label".text = "Shots to Kill:\nTime to Kill:"
 			$"%GuardianShield".visible = false
 			$"%GuardianShield".pressed = false
 
@@ -78,7 +81,6 @@ func _input(_event):
 			$"%ArmorUpgrade".set_editable(false)
 			$"%ShieldUpgrade".set_editable(false)
 		else:
-
 			$"%AttackUpgrade".set_editable(true)
 			$"%ArmorUpgrade".set_editable(true)
 			$"%ShieldUpgrade".set_editable(true)
@@ -245,11 +247,11 @@ func _input(_event):
 					$"%DefenderModifier".emit_signal("_on_DefenderModifier_toggled",!attackUnit.hitAir)
 					$"%DefenderModifier".disabled = true
 
-
-
 		CalcCheck()
+
 	else:
-			$VBoxContainer2/HBoxContainer.visible = false
+		pass
+			#$VBoxContainer2/HBoxContainer.visible = false
 
 
 func CalcCheck():
@@ -274,17 +276,14 @@ func CalcCheck():
 		$"%Label".visible = true
 		$"%Label2".text = DamageCalc.ToKill(attackUnit, defendUnit, attackboxUp, armorboxUp, shieldboxUp, healing)
 
+
 #---UI input---#
-
-
-#de-ID's the units into their dictionaries
-
 
 
 func _on_AttackUnit_item_selected(_index):
 	#Garbage  collection
 	if attackUnit:
-		attackUnit.free()
+		attackUnit.queue_free()
 	$"%AttackerModifier".pressed = false
 	$"%AttackerModifier".visible = false
 	$"%AttackerModifier".disabled = false
@@ -450,7 +449,7 @@ func _on_AttackUnit_item_selected(_index):
 func _on_DefendUnit_item_selected(_index):
 	#Garbage Collection
 	if defendUnit:
-		defendUnit.free()
+		defendUnit.queue_free()
 	$"%DefenderModifier".pressed = false
 	$"%DefenderModifier".visible = false
 	$"%DefenderModifier".pressed = false
@@ -511,11 +510,11 @@ func _on_DefendUnit_item_selected(_index):
 
 #apply/remove upgrades dynamically based on checkbox
 func _on_AttackerModifier_toggled(button_pressed):
-	attackUnit.applyUpgrade(button_pressed)
+	if attackUnit: attackUnit.applyUpgrade(button_pressed)
 
 #---Toggles---#
 func _on_DefenderModifier_toggled(button_pressed):
-	defendUnit.applyUpgrade(button_pressed)
+	if defendUnit: defendUnit.applyUpgrade(button_pressed)
 
 func _on_AModeChoice_item_selected(index):
 	attackUnit.changeWeapon(index)

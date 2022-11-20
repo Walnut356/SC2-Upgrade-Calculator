@@ -1,43 +1,56 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://Theme.tres" type="Theme" id=1]
 [ext_resource path="res://Scripts/attackunitselection.gd" type="Script" id=2]
 [ext_resource path="res://Scripts/Main.gd" type="Script" id=3]
+[ext_resource path="res://Themes/StatListTheme.tres" type="Theme" id=4]
 
 [sub_resource type="Theme" id=1]
 OptionButton/constants/hseparation = 2
 
+[sub_resource type="Theme" id=2]
+VBoxContainer/constants/separation = 0
+
 [node name="Control" type="Control"]
 anchor_right = 1.0
 anchor_bottom = 1.0
-rect_min_size = Vector2( 550, 600 )
+size_flags_horizontal = 2
+size_flags_vertical = 2
 theme = ExtResource( 1 )
 script = ExtResource( 3 )
 
 [node name="Panel" type="Panel" parent="."]
 anchor_right = 1.0
 anchor_bottom = 1.0
+size_flags_horizontal = 2
+size_flags_vertical = 2
 
-[node name="VBoxContainer2" type="VBoxContainer" parent="."]
+[node name="AspectRatioContainer" type="AspectRatioContainer" parent="."]
 anchor_right = 1.0
 anchor_bottom = 1.0
 margin_left = 20.0
 margin_top = 20.0
 margin_right = -20.0
 margin_bottom = -20.0
+alignment_horizontal = 0
+alignment_vertical = 0
+
+[node name="MainArea" type="VBoxContainer" parent="AspectRatioContainer"]
+margin_right = 560.0
+margin_bottom = 560.0
 __meta__ = {
 "_edit_use_anchors_": true
 }
 
-[node name="VBoxContainer" type="VBoxContainer" parent="VBoxContainer2"]
-margin_right = 510.0
+[node name="AttackSelectionArea" type="VBoxContainer" parent="AspectRatioContainer/MainArea"]
+margin_right = 560.0
 margin_bottom = 90.0
 
-[node name="HBoxContainer2" type="HBoxContainer" parent="VBoxContainer2/VBoxContainer"]
-margin_right = 510.0
+[node name="AttackSelectBoxes" type="HBoxContainer" parent="AspectRatioContainer/MainArea/AttackSelectionArea"]
+margin_right = 560.0
 margin_bottom = 37.0
 
-[node name="AttackUnit" type="OptionButton" parent="VBoxContainer2/VBoxContainer/HBoxContainer2"]
+[node name="AttackUnit" type="OptionButton" parent="AspectRatioContainer/MainArea/AttackSelectionArea/AttackSelectBoxes"]
 unique_name_in_owner = true
 margin_right = 207.0
 margin_bottom = 37.0
@@ -48,37 +61,37 @@ text = "Attacking Unit"
 align = 1
 script = ExtResource( 2 )
 
-[node name="AModeChoice" type="OptionButton" parent="VBoxContainer2/VBoxContainer/HBoxContainer2"]
+[node name="AModeChoice" type="OptionButton" parent="AspectRatioContainer/MainArea/AttackSelectionArea/AttackSelectBoxes"]
 unique_name_in_owner = true
 visible = false
-margin_left = 259.0
-margin_right = 452.0
+margin_left = 284.0
+margin_right = 477.0
 margin_bottom = 37.0
 size_flags_horizontal = 2
 size_flags_vertical = 2
 text = "Attack Mode"
 
-[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer2/VBoxContainer"]
+[node name="AttackModBoxes" type="HBoxContainer" parent="AspectRatioContainer/MainArea/AttackSelectionArea"]
 margin_top = 45.0
-margin_right = 510.0
+margin_right = 560.0
 margin_bottom = 90.0
 alignment = 1
 
-[node name="AttackUpgrade" type="SpinBox" parent="VBoxContainer2/VBoxContainer/HBoxContainer"]
+[node name="AttackUpgrade" type="SpinBox" parent="AspectRatioContainer/MainArea/AttackSelectionArea/AttackModBoxes"]
 unique_name_in_owner = true
-margin_left = 157.0
-margin_right = 353.0
+margin_left = 182.0
+margin_right = 378.0
 margin_bottom = 45.0
 max_value = 3.0
 rounded = true
 prefix = "+"
 suffix = "Attack"
 
-[node name="InterceptorCount" type="SpinBox" parent="VBoxContainer2/VBoxContainer/HBoxContainer"]
+[node name="InterceptorCount" type="SpinBox" parent="AspectRatioContainer/MainArea/AttackSelectionArea/AttackModBoxes"]
 unique_name_in_owner = true
 visible = false
-margin_left = 259.0
-margin_right = 469.0
+margin_left = 83.0
+margin_right = 279.0
 margin_bottom = 45.0
 min_value = 1.0
 max_value = 8.0
@@ -86,32 +99,32 @@ value = 8.0
 rounded = true
 suffix = "Interceptors"
 
-[node name="SplashZone" type="OptionButton" parent="VBoxContainer2/VBoxContainer/HBoxContainer"]
+[node name="SplashZone" type="OptionButton" parent="AspectRatioContainer/MainArea/AttackSelectionArea/AttackModBoxes"]
 unique_name_in_owner = true
 visible = false
-margin_left = 262.0
-margin_right = 451.0
-margin_bottom = 45.0
+margin_left = 185.0
+margin_right = 374.0
+margin_bottom = 37.0
 text = "Splash Zone"
 
-[node name="AttackerModifier" type="CheckBox" parent="VBoxContainer2/VBoxContainer"]
+[node name="AttackerModifier" type="CheckBox" parent="AspectRatioContainer/MainArea/AttackSelectionArea"]
 unique_name_in_owner = true
 visible = false
-margin_top = 98.0
-margin_right = 440.0
-margin_bottom = 146.0
+margin_top = 53.0
+margin_right = 560.0
+margin_bottom = 101.0
 icon_align = 1
 
-[node name="VBoxContainer2" type="VBoxContainer" parent="VBoxContainer2"]
+[node name="DefendSelectionArea" type="VBoxContainer" parent="AspectRatioContainer/MainArea"]
 margin_top = 98.0
-margin_right = 510.0
+margin_right = 560.0
 margin_bottom = 188.0
 
-[node name="HBoxContainer2" type="HBoxContainer" parent="VBoxContainer2/VBoxContainer2"]
-margin_right = 510.0
+[node name="DefendSelectBoxes" type="HBoxContainer" parent="AspectRatioContainer/MainArea/DefendSelectionArea"]
+margin_right = 560.0
 margin_bottom = 37.0
 
-[node name="DefendUnit" type="OptionButton" parent="VBoxContainer2/VBoxContainer2/HBoxContainer2"]
+[node name="DefendUnit" type="OptionButton" parent="AspectRatioContainer/MainArea/DefendSelectionArea/DefendSelectBoxes"]
 unique_name_in_owner = true
 margin_right = 218.0
 margin_bottom = 37.0
@@ -121,52 +134,52 @@ text = "Defending Unit"
 align = 1
 script = ExtResource( 2 )
 
-[node name="DModeChoice" type="OptionButton" parent="VBoxContainer2/VBoxContainer2/HBoxContainer2"]
+[node name="DModeChoice" type="OptionButton" parent="AspectRatioContainer/MainArea/DefendSelectionArea/DefendSelectBoxes"]
 unique_name_in_owner = true
 visible = false
-margin_left = 259.0
-margin_right = 414.0
+margin_left = 302.0
+margin_right = 457.0
 margin_bottom = 37.0
 size_flags_horizontal = 2
 size_flags_vertical = 2
 text = "Egg Type"
 
-[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer2/VBoxContainer2"]
+[node name="DefendModBoxes" type="HBoxContainer" parent="AspectRatioContainer/MainArea/DefendSelectionArea"]
 margin_top = 45.0
-margin_right = 510.0
+margin_right = 560.0
 margin_bottom = 90.0
 alignment = 1
 
-[node name="ArmorUpgrade" type="SpinBox" parent="VBoxContainer2/VBoxContainer2/HBoxContainer"]
+[node name="ArmorUpgrade" type="SpinBox" parent="AspectRatioContainer/MainArea/DefendSelectionArea/DefendModBoxes"]
 unique_name_in_owner = true
-margin_left = 157.0
-margin_right = 353.0
+margin_left = 182.0
+margin_right = 378.0
 margin_bottom = 45.0
 max_value = 3.0
 rounded = true
 prefix = "+"
 suffix = "Armor"
 
-[node name="ShieldUpgrade" type="SpinBox" parent="VBoxContainer2/VBoxContainer2/HBoxContainer"]
+[node name="ShieldUpgrade" type="SpinBox" parent="AspectRatioContainer/MainArea/DefendSelectionArea/DefendModBoxes"]
 unique_name_in_owner = true
 visible = false
-margin_left = 259.0
-margin_right = 455.0
+margin_left = 284.0
+margin_right = 480.0
 margin_bottom = 45.0
 max_value = 3.0
 rounded = true
 prefix = "+"
 suffix = "Shields"
 
-[node name="GuardianShield" type="CheckBox" parent="VBoxContainer2/VBoxContainer2"]
+[node name="GuardianShield" type="CheckBox" parent="AspectRatioContainer/MainArea/DefendSelectionArea"]
 unique_name_in_owner = true
 visible = false
 margin_top = 98.0
-margin_right = 510.0
+margin_right = 597.0
 margin_bottom = 146.0
 text = "Guardian Shield (+2 Armor vs Ranged)"
 
-[node name="Healing" type="CheckBox" parent="VBoxContainer2/VBoxContainer2"]
+[node name="Healing" type="CheckBox" parent="AspectRatioContainer/MainArea/DefendSelectionArea"]
 unique_name_in_owner = true
 visible = false
 margin_top = 98.0
@@ -174,7 +187,7 @@ margin_right = 510.0
 margin_bottom = 146.0
 text = "Medivac Support"
 
-[node name="AntiArmor" type="CheckBox" parent="VBoxContainer2/VBoxContainer2"]
+[node name="AntiArmor" type="CheckBox" parent="AspectRatioContainer/MainArea/DefendSelectionArea"]
 unique_name_in_owner = true
 visible = false
 margin_top = 98.0
@@ -182,62 +195,109 @@ margin_right = 510.0
 margin_bottom = 146.0
 text = "Anti-Armor Missile (-3 Armor)"
 
-[node name="DefenderModifier" type="CheckBox" parent="VBoxContainer2/VBoxContainer2"]
+[node name="DefenderModifier" type="CheckBox" parent="AspectRatioContainer/MainArea/DefendSelectionArea"]
 unique_name_in_owner = true
 visible = false
 margin_top = 98.0
 margin_right = 510.0
 margin_bottom = 146.0
 
-[node name="HSeparator" type="HSeparator" parent="VBoxContainer2"]
+[node name="HSeparator" type="HSeparator" parent="AspectRatioContainer/MainArea"]
 margin_top = 196.0
-margin_right = 510.0
+margin_right = 560.0
 margin_bottom = 204.0
 size_flags_horizontal = 3
 
-[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer2"]
+[node name="TabContainer" type="TabContainer" parent="AspectRatioContainer/MainArea"]
 margin_top = 212.0
-margin_right = 510.0
-margin_bottom = 392.0
-
-[node name="Label" type="Label" parent="VBoxContainer2/HBoxContainer"]
-unique_name_in_owner = true
-margin_right = 251.0
-margin_bottom = 180.0
+margin_right = 560.0
+margin_bottom = 560.0
 size_flags_horizontal = 3
-size_flags_vertical = 2
-text = "Shots to Break Shields:
-Time to Break Shields:
+size_flags_vertical = 3
 
-Shots to Kill:
-Time to Kill:
-"
-align = 2
+[node name="To Kill" type="ScrollContainer" parent="AspectRatioContainer/MainArea/TabContainer"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 8.0
+margin_top = 61.0
+margin_right = -8.0
+margin_bottom = -8.0
 
-[node name="Label2" type="Label" parent="VBoxContainer2/HBoxContainer"]
-unique_name_in_owner = true
-margin_left = 259.0
-margin_right = 510.0
-margin_bottom = 149.0
+[node name="ToKillCont" type="GridContainer" parent="AspectRatioContainer/MainArea/TabContainer/To Kill"]
+margin_right = 544.0
+margin_bottom = 278.0
 size_flags_horizontal = 3
-size_flags_vertical = 2
-text = "0
-0
+theme = SubResource( 2 )
+custom_constants/hseparation = 0
+columns = 2
 
-0
-0"
+[node name="ToKillLabels" type="ItemList" parent="AspectRatioContainer/MainArea/TabContainer/To Kill/ToKillCont"]
+unique_name_in_owner = true
+margin_right = 272.0
+margin_bottom = 278.0
+size_flags_horizontal = 3
+theme = ExtResource( 4 )
+items = [ "Shots To Kill", null, true, "Time to Kill", null, true, "Shield Break Shots", null, true, "Shield Break Time", null, true ]
+auto_height = true
 
-[connection signal="item_selected" from="VBoxContainer2/VBoxContainer/HBoxContainer2/AttackUnit" to="." method="_on_AttackUnit_item_selected"]
-[connection signal="item_selected" from="VBoxContainer2/VBoxContainer/HBoxContainer2/AModeChoice" to="." method="_on_AModeChoice_item_selected"]
-[connection signal="value_changed" from="VBoxContainer2/VBoxContainer/HBoxContainer/AttackUpgrade" to="." method="_on_AttackUpgrade_value_changed"]
-[connection signal="value_changed" from="VBoxContainer2/VBoxContainer/HBoxContainer/InterceptorCount" to="." method="_on_InterceptorCount_value_changed"]
-[connection signal="item_selected" from="VBoxContainer2/VBoxContainer/HBoxContainer/SplashZone" to="." method="_on_SplashZone_item_selected"]
-[connection signal="toggled" from="VBoxContainer2/VBoxContainer/AttackerModifier" to="." method="_on_AttackerModifier_toggled"]
-[connection signal="item_selected" from="VBoxContainer2/VBoxContainer2/HBoxContainer2/DefendUnit" to="." method="_on_DefendUnit_item_selected"]
-[connection signal="item_selected" from="VBoxContainer2/VBoxContainer2/HBoxContainer2/DModeChoice" to="." method="_on_DModeChoice_item_selected"]
-[connection signal="value_changed" from="VBoxContainer2/VBoxContainer2/HBoxContainer/ArmorUpgrade" to="." method="_on_ArmorUpgrade_value_changed"]
-[connection signal="value_changed" from="VBoxContainer2/VBoxContainer2/HBoxContainer/ShieldUpgrade" to="." method="_on_ShieldUpgrade_value_changed"]
-[connection signal="toggled" from="VBoxContainer2/VBoxContainer2/GuardianShield" to="." method="_on_GuardianShield_toggled"]
-[connection signal="toggled" from="VBoxContainer2/VBoxContainer2/Healing" to="." method="_on_Healing_toggled"]
-[connection signal="toggled" from="VBoxContainer2/VBoxContainer2/AntiArmor" to="." method="_on_AntiArmor_toggled"]
-[connection signal="toggled" from="VBoxContainer2/VBoxContainer2/DefenderModifier" to="." method="_on_DefenderModifier_toggled"]
+[node name="ToKillNums" type="ItemList" parent="AspectRatioContainer/MainArea/TabContainer/To Kill/ToKillCont"]
+unique_name_in_owner = true
+margin_left = 272.0
+margin_right = 544.0
+margin_bottom = 278.0
+size_flags_horizontal = 3
+size_flags_stretch_ratio = 2.0
+theme = ExtResource( 4 )
+items = [ " -", null, false, " -", null, false, " -", null, false, " -", null, false ]
+auto_height = true
+
+[node name="Misc Stats" type="ScrollContainer" parent="AspectRatioContainer/MainArea/TabContainer"]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 8.0
+margin_top = 61.0
+margin_right = -8.0
+margin_bottom = -8.0
+
+[node name="StatsCont" type="GridContainer" parent="AspectRatioContainer/MainArea/TabContainer/Misc Stats"]
+margin_right = 544.0
+margin_bottom = 343.0
+size_flags_horizontal = 3
+theme = SubResource( 2 )
+custom_constants/hseparation = 0
+columns = 2
+
+[node name="StatsLabels" type="ItemList" parent="AspectRatioContainer/MainArea/TabContainer/Misc Stats/StatsCont"]
+unique_name_in_owner = true
+margin_right = 260.0
+margin_bottom = 343.0
+size_flags_horizontal = 3
+theme = ExtResource( 4 )
+items = [ "Dmg/Shot", null, true, "Dmg/Sec", null, true, "Total Dmg", null, true, "Overkill Amt", null, true, "Total Healing", null, true ]
+auto_height = true
+
+[node name="StatsNums" type="ItemList" parent="AspectRatioContainer/MainArea/TabContainer/Misc Stats/StatsCont"]
+unique_name_in_owner = true
+margin_left = 260.0
+margin_right = 520.0
+margin_bottom = 343.0
+size_flags_horizontal = 3
+theme = ExtResource( 4 )
+items = [ " -", null, false, " -", null, false, " -", null, false, " -", null, false, " -", null, false ]
+auto_height = true
+
+[connection signal="item_selected" from="AspectRatioContainer/MainArea/AttackSelectionArea/AttackSelectBoxes/AttackUnit" to="." method="_on_AttackUnit_item_selected"]
+[connection signal="item_selected" from="AspectRatioContainer/MainArea/AttackSelectionArea/AttackSelectBoxes/AModeChoice" to="." method="_on_AModeChoice_item_selected"]
+[connection signal="value_changed" from="AspectRatioContainer/MainArea/AttackSelectionArea/AttackModBoxes/AttackUpgrade" to="." method="_on_AttackUpgrade_value_changed"]
+[connection signal="value_changed" from="AspectRatioContainer/MainArea/AttackSelectionArea/AttackModBoxes/InterceptorCount" to="." method="_on_InterceptorCount_value_changed"]
+[connection signal="item_selected" from="AspectRatioContainer/MainArea/AttackSelectionArea/AttackModBoxes/SplashZone" to="." method="_on_SplashZone_item_selected"]
+[connection signal="toggled" from="AspectRatioContainer/MainArea/AttackSelectionArea/AttackerModifier" to="." method="_on_AttackerModifier_toggled"]
+[connection signal="item_selected" from="AspectRatioContainer/MainArea/DefendSelectionArea/DefendSelectBoxes/DefendUnit" to="." method="_on_DefendUnit_item_selected"]
+[connection signal="item_selected" from="AspectRatioContainer/MainArea/DefendSelectionArea/DefendSelectBoxes/DModeChoice" to="." method="_on_DModeChoice_item_selected"]
+[connection signal="value_changed" from="AspectRatioContainer/MainArea/DefendSelectionArea/DefendModBoxes/ArmorUpgrade" to="." method="_on_ArmorUpgrade_value_changed"]
+[connection signal="value_changed" from="AspectRatioContainer/MainArea/DefendSelectionArea/DefendModBoxes/ShieldUpgrade" to="." method="_on_ShieldUpgrade_value_changed"]
+[connection signal="toggled" from="AspectRatioContainer/MainArea/DefendSelectionArea/GuardianShield" to="." method="_on_GuardianShield_toggled"]
+[connection signal="toggled" from="AspectRatioContainer/MainArea/DefendSelectionArea/Healing" to="." method="_on_Healing_toggled"]
+[connection signal="toggled" from="AspectRatioContainer/MainArea/DefendSelectionArea/AntiArmor" to="." method="_on_AntiArmor_toggled"]
+[connection signal="toggled" from="AspectRatioContainer/MainArea/DefendSelectionArea/DefenderModifier" to="." method="_on_DefenderModifier_toggled"]
