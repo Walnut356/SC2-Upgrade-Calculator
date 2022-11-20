@@ -54,7 +54,7 @@ class Zealot:
 		health = 100
 		shields = 50
 		armor = 1
-		shieldArmor =  0
+		shieldArmor = 0
 		moveSpeed = 3.15
 		canAttack = true
 		spell = false
@@ -88,7 +88,7 @@ class Stalker:
 		health = 80
 		shields = 80
 		armor = 1
-		shieldArmor = 1
+		shieldArmor = 0
 		moveSpeed = 4.1342
 		canAttack = true
 		spell = false
@@ -484,7 +484,7 @@ class Voidray:
 		health = 150
 		shields = 100
 		armor = 0
-		shieldArmor = 1
+		shieldArmor = 0
 		moveSpeed = 3.85
 		canAttack = true
 		spell = false
@@ -673,7 +673,7 @@ class Mothership:
 		health = 350
 		shields = 350
 		armor = 2
-		shieldArmor = 2
+		shieldArmor = 0
 		moveSpeed = 2.62
 		canAttack = true
 		spell = false

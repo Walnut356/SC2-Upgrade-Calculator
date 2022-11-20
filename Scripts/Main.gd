@@ -1,11 +1,11 @@
 extends Control
 
 #Current:
-#Interface damage calc with new UI
-# -better damage -> label interaface, maybe func returns array of strings or array of values?
 #fix warning/info for
 #add "custom" unit
-
+#check editor for actual medivac healing amounts
+#add shield battery and battery overcharge healing amounts
+#add repair?
 
 #TODO:
 #fix health regen on multi-part attacks (i.e. zealot -> zergling w/ +1)
@@ -49,6 +49,14 @@ func _ready():
 	dModeBox = $"%DModeChoice".get_popup()
 	sZoneBox = $"%SplashZone".get_popup()
 	$"%InterceptorCount".get_line_edit().expand_to_text_length = true
+	for i in range(0, $"AspectRatioContainer/MainArea/TabContainer/To Kill/ToKillCont/ToKillLabels".get_item_count()):
+		$"AspectRatioContainer/MainArea/TabContainer/To Kill/ToKillCont/ToKillLabels".set_item_tooltip_enabled(i, false)
+	for i in range(0, $"%ToKillNums".get_item_count()):
+		$"%ToKillNums".set_item_tooltip_enabled(i, false)
+	for i in range(0, $"AspectRatioContainer/MainArea/TabContainer/Misc Stats/StatsCont/StatsLabels".get_item_count()):
+		$"AspectRatioContainer/MainArea/TabContainer/Misc Stats/StatsCont/StatsLabels".set_item_tooltip_enabled(i, false)
+	for i in range(0, $"%StatsNums".get_item_count()):
+		$"%StatsNums".set_item_tooltip_enabled(i, false)
 
 func _input(_event):
 	if attackUnit and defendUnit:
@@ -256,7 +264,7 @@ func _input(_event):
 
 func CalcCheck():
 	if not DamageCalc.CanAttack(attackUnit, defendUnit):
-		$"%Label".visible = false
+		#$"%Label".visible = false
 		#there literally has to be a better way to do this
 		var dumb
 		var dumb2
@@ -271,10 +279,18 @@ func CalcCheck():
 			_:
 				dumb2 = "a"
 
-		$"%Label2".text = "%s %s cannot attack %s %s" % [dumb, attackUnit.type, dumb2, defendUnit.type]
+		#$"%Label2".text = "%s %s cannot attack %s %s" % [dumb, attackUnit.type, dumb2, defendUnit.type]
 	else:
-		$"%Label".visible = true
-		$"%Label2".text = DamageCalc.ToKill(attackUnit, defendUnit, attackboxUp, armorboxUp, shieldboxUp, healing)
+		var result = DamageCalc.ToKill(attackUnit, defendUnit, attackboxUp, armorboxUp, shieldboxUp, healing)
+		$"%ToKillNums".set_item_text(0, "  " + str(result["STK"]))
+		$"%ToKillNums".set_item_text(1, "  " + str(result["TTK"]))
+		$"%ToKillNums".set_item_text(2, "  " + str(result["SSHB"]))
+		$"%ToKillNums".set_item_text(3, "  " + str(result["TSHB"]))
+		$"%StatsNums".set_item_text(0, "  " + str(result["shotdmg"]))
+		$"%StatsNums".set_item_text(1, "  " + str(result["DPS"]))
+		$"%StatsNums".set_item_text(2, "  " + str(result["totaldmg"]))
+		$"%StatsNums".set_item_text(3, "  " + str(result["overkill"]))
+		$"%StatsNums".set_item_text(4, "  " + str(result["totalhealing"]))
 
 
 #---UI input---#
@@ -457,7 +473,7 @@ func _on_DefendUnit_item_selected(_index):
 	defendUnit = $"%DefendUnit".get_selected_id()
 	defendUnit = UnitData.unitCode[defendUnit].new()
 
-	if defendUnit.faction == "terran" and "biological" in defendUnit.tags:
+	if defendUnit.faction == "Terran" and "biological" in defendUnit.tags:
 		$"%Healing".visible = true
 	else:
 		$"%Healing".visible = false
@@ -540,7 +556,7 @@ func _on_AntiArmor_toggled(button_pressed):
 
 func _on_Healing_toggled(button_pressed):
 	match defendUnit.faction:
-		"terran":
+		"Terran":
 			if button_pressed: healing = 12.6
 			else: healing = 0
 

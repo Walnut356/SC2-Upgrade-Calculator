@@ -30,23 +30,29 @@ func ToKill(attackUnit, defendUnit, attackboxUp, armorboxUp, shieldboxUp, healin
 
 	var shotsToKill = 0.0
 
-	var shotTotals:String
-
 	var Dmg = (attack + (weaponsUp * attackboxUp) + (bonusUp * attackboxUp))
 	var healthDmg = max((Dmg - (armor + (armorUp * armorboxUp))), .5)
-	var shieldDmg = max((Dmg - (shieldArmor + (shieldUp * shieldboxUp))), .5)
+	var shieldDmg = 0
+	if defendUnit.faction == "Protoss":
+		shieldDmg = max((Dmg - (shieldArmor + (shieldUp * shieldboxUp))), .5)
+	
 
+	var shotTotals:Dictionary = {"STK" : "-", "TTK" : "-", "SSHB" : "-", "TSHB" : "-", "totaldmg" : 0, "DPS": 0,
+	"totalhealing" : 0, "overkill" : 0, "shotdmg" : str(healthDmg) + " | " + str(shieldDmg)}
+	
 	if attackUnit.type in ["Ghost", "Disruptor", "Widowmine", "Battlecruiser"]:
 		if defendUnit.type == "Protoss":
 			shields -= bonusDmg
 		shotsToKill = (health + max(shields, 0))/attack
-		shotTotals = str(ceil(shotsToKill)) + "\n"
-		shotTotals = shotTotals + str(attackSpeed*shotsToKill) + "s\n\n"
+		shotTotals["STK"] = shotsToKill
+		shotTotals["TTK"] = attackSpeed*shotsToKill
+		shotTotals["totaldmg"] = (shotsToKill * attack) + bonusDmg
 		return shotTotals
 
 	if defendUnit.faction == "Protoss":
 		while shields > 0:
 			shields -= shieldDmg
+			shotTotals["totaldmg"] += shieldDmg
 			shotsToKill += 1.0
 			barrierCD -= attackSpeed
 			#immortal barrier logic: kicks in AFTER first shot, bonus 100 shields for
@@ -56,6 +62,7 @@ func ToKill(attackUnit, defendUnit, attackboxUp, armorboxUp, shieldboxUp, healin
 				barrierCD = 2 - attackSpeed
 				while barrier > 0:
 					barrier -= shieldDmg
+					shotTotals["totaldmg"] += shieldDmg
 					shotsToKill += 1.0
 					barrierCD -= attackSpeed
 					if barrierCD < attackSpeed:
@@ -65,13 +72,14 @@ func ToKill(attackUnit, defendUnit, attackboxUp, armorboxUp, shieldboxUp, healin
 		var timeToKill = ceil(shotsToKill/attackMult) * attackSpeed
 		if attackUnit.spell:
 				timeToKill = shotsToKill * attackSpeed
-		shotTotals = str(ceil(shotsToKill/attackMult)) + "\n"
-		shotTotals = shotTotals + str(timeToKill) + "s\n\n"
+		shotTotals["SSHB"] = ceil(shotsToKill/attackMult)
+		shotTotals["TSHB"] = timeToKill
 
 		health -= (shields * -1) - (armor + (armorUp * armorboxUp))
 
 		while health > 0:
 			health -= healthDmg
+			shotTotals["totaldmg"] += healthDmg
 			shotsToKill += 1.0
 			barrierCD -= attackSpeed
 			if defendUnit.type == "Immortal" and $"%DefenderModifier".pressed == true and barrierCD < 0:
@@ -79,36 +87,34 @@ func ToKill(attackUnit, defendUnit, attackboxUp, armorboxUp, shieldboxUp, healin
 				barrierCD = 2.0
 				while barrier > 0:
 					barrier -= healthDmg
+					shotTotals["totaldmg"] += healthDmg
 					shotsToKill += 1.0
 					barrierCD -= attackSpeed
 					if barrierCD < attackSpeed:
 						barrier = 0
 				barrierCD = 30.0
-		timeToKill = ceil(shotsToKill/attackMult) * attackSpeed
-		if attackUnit.spell:
-			timeToKill = shotsToKill * attackSpeed
-		shotTotals = shotTotals + str(ceil(shotsToKill/attackMult)) + "\n"
-		shotTotals = shotTotals + str(timeToKill) + "s\n"
-
-
 	else:
 		#non-protoss defender
 		while health > 0:
 			health -= healthDmg
+			shotTotals["totaldmg"] += healthDmg
 			shotsToKill += 1.0
 			if shotsToKill > 1:
 				health += zergRegen * (attackSpeed/attackMult)
 				health += healing * (attackSpeed/attackMult)
+				shotTotals["totalhealing"] += (zergRegen * (attackSpeed/attackMult)) + (healing * (attackSpeed/attackMult))
 			if shotsToKill >= 10000:
 				break
-		if shotsToKill < 10000:
-			var timeToKill = ceil(shotsToKill/attackMult) * attackSpeed
-			if attackUnit.spell:
-				timeToKill = shotsToKill * attackSpeed
-			shotTotals = str(ceil(shotsToKill/attackMult)) + "\n"
-			shotTotals = shotTotals + str(timeToKill) + "s\n"
-		else:
-			shotTotals = ">10,000 (Infinite?)\nInfinite?"
+	if shotsToKill < 10000:
+		var timeToKill = ceil(shotsToKill/attackMult) * attackSpeed
+		if attackUnit.spell:
+			timeToKill = shotsToKill * attackSpeed
+		shotTotals["STK"] = ceil(shotsToKill/attackMult)
+		shotTotals["TTK"] = timeToKill
+		shotTotals["DPS"] = shotTotals["totaldmg"] / timeToKill
+		shotTotals["overkill"] = abs(health)
+	else:
+		shotTotals["STK"] = ">10,000 (Infinite?)"
 	return shotTotals
 
 func CanAttack(attackUnit, defendUnit) -> bool:

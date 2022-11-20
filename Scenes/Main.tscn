@@ -90,8 +90,8 @@ suffix = "Attack"
 [node name="InterceptorCount" type="SpinBox" parent="AspectRatioContainer/MainArea/AttackSelectionArea/AttackModBoxes"]
 unique_name_in_owner = true
 visible = false
-margin_left = 83.0
-margin_right = 279.0
+margin_left = 284.0
+margin_right = 480.0
 margin_bottom = 45.0
 min_value = 1.0
 max_value = 8.0
@@ -110,9 +110,9 @@ text = "Splash Zone"
 [node name="AttackerModifier" type="CheckBox" parent="AspectRatioContainer/MainArea/AttackSelectionArea"]
 unique_name_in_owner = true
 visible = false
-margin_top = 53.0
+margin_top = 98.0
 margin_right = 560.0
-margin_bottom = 101.0
+margin_bottom = 146.0
 icon_align = 1
 
 [node name="DefendSelectionArea" type="VBoxContainer" parent="AspectRatioContainer/MainArea"]
@@ -137,8 +137,8 @@ script = ExtResource( 2 )
 [node name="DModeChoice" type="OptionButton" parent="AspectRatioContainer/MainArea/DefendSelectionArea/DefendSelectBoxes"]
 unique_name_in_owner = true
 visible = false
-margin_left = 302.0
-margin_right = 457.0
+margin_left = 284.0
+margin_right = 439.0
 margin_bottom = 37.0
 size_flags_horizontal = 2
 size_flags_vertical = 2
@@ -175,7 +175,7 @@ suffix = "Shields"
 unique_name_in_owner = true
 visible = false
 margin_top = 98.0
-margin_right = 597.0
+margin_right = 560.0
 margin_bottom = 146.0
 text = "Guardian Shield (+2 Armor vs Ranged)"
 
@@ -183,7 +183,7 @@ text = "Guardian Shield (+2 Armor vs Ranged)"
 unique_name_in_owner = true
 visible = false
 margin_top = 98.0
-margin_right = 510.0
+margin_right = 560.0
 margin_bottom = 146.0
 text = "Medivac Support"
 
@@ -191,7 +191,7 @@ text = "Medivac Support"
 unique_name_in_owner = true
 visible = false
 margin_top = 98.0
-margin_right = 510.0
+margin_right = 560.0
 margin_bottom = 146.0
 text = "Anti-Armor Missile (-3 Armor)"
 
@@ -199,7 +199,7 @@ text = "Anti-Armor Missile (-3 Armor)"
 unique_name_in_owner = true
 visible = false
 margin_top = 98.0
-margin_right = 510.0
+margin_right = 560.0
 margin_bottom = 146.0
 
 [node name="HSeparator" type="HSeparator" parent="AspectRatioContainer/MainArea"]
@@ -212,6 +212,7 @@ size_flags_horizontal = 3
 margin_top = 212.0
 margin_right = 560.0
 margin_bottom = 560.0
+rect_min_size = Vector2( 0, 347 )
 size_flags_horizontal = 3
 size_flags_vertical = 3
 
@@ -222,6 +223,7 @@ margin_left = 8.0
 margin_top = 61.0
 margin_right = -8.0
 margin_bottom = -8.0
+size_flags_vertical = 3
 
 [node name="ToKillCont" type="GridContainer" parent="AspectRatioContainer/MainArea/TabContainer/To Kill"]
 margin_right = 544.0
@@ -262,7 +264,6 @@ margin_bottom = -8.0
 
 [node name="StatsCont" type="GridContainer" parent="AspectRatioContainer/MainArea/TabContainer/Misc Stats"]
 margin_right = 544.0
-margin_bottom = 343.0
 size_flags_horizontal = 3
 theme = SubResource( 2 )
 custom_constants/hseparation = 0
@@ -274,7 +275,7 @@ margin_right = 260.0
 margin_bottom = 343.0
 size_flags_horizontal = 3
 theme = ExtResource( 4 )
-items = [ "Dmg/Shot", null, true, "Dmg/Sec", null, true, "Total Dmg", null, true, "Overkill Amt", null, true, "Total Healing", null, true ]
+items = [ "Dmg/Shot (hp|shields)", null, true, "Dmg/Sec", null, true, "Total Dmg", null, true, "Overkill Amt", null, true, "Total Healing", null, true ]
 auto_height = true
 
 [node name="StatsNums" type="ItemList" parent="AspectRatioContainer/MainArea/TabContainer/Misc Stats/StatsCont"]
