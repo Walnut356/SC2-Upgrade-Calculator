@@ -26,7 +26,7 @@ func ToKill(attackUnit, defendUnit, attackboxUp, armorboxUp, shieldboxUp, healin
 	var barrierCD:float = 0.0
 	var zergRegen = 0
 	if defendUnit.faction == "Zerg":
-		zergRegen = .38 if defendUnit.type != "Mutalisk" else 1.4
+		zergRegen = .3822 if defendUnit.type != "Mutalisk" else 1.4
 
 	var shotsToKill = 0.0
 
@@ -35,11 +35,11 @@ func ToKill(attackUnit, defendUnit, attackboxUp, armorboxUp, shieldboxUp, healin
 	var shieldDmg = 0
 	if defendUnit.faction == "Protoss":
 		shieldDmg = max((Dmg - (shieldArmor + (shieldUp * shieldboxUp))), .5)
-	
+
 
 	var shotTotals:Dictionary = {"STK" : "-", "TTK" : "-", "SSHB" : "-", "TSHB" : "-", "totaldmg" : 0, "DPS": 0,
 	"totalhealing" : 0, "overkill" : 0, "shotdmg" : str(healthDmg) + " | " + str(shieldDmg)}
-	
+
 	if attackUnit.type in ["Ghost", "Disruptor", "Widowmine", "Battlecruiser"]:
 		if defendUnit.type == "Protoss":
 			shields -= bonusDmg
@@ -59,7 +59,7 @@ func ToKill(attackUnit, defendUnit, attackboxUp, armorboxUp, shieldboxUp, healin
 			#my best approx of 2 seconds, does take armor upgrades into account
 			if defendUnit.type == "Immortal" and $"%DefenderModifier".pressed == true and barrierCD < 0:
 				var barrier:float = 100
-				barrierCD = 2 - attackSpeed
+				barrierCD = 2.14286 - attackSpeed
 				while barrier > 0:
 					barrier -= shieldDmg
 					shotTotals["totaldmg"] += shieldDmg
@@ -84,7 +84,7 @@ func ToKill(attackUnit, defendUnit, attackboxUp, armorboxUp, shieldboxUp, healin
 			barrierCD -= attackSpeed
 			if defendUnit.type == "Immortal" and $"%DefenderModifier".pressed == true and barrierCD < 0:
 				var barrier:float = 100
-				barrierCD = 2.0
+				barrierCD = 2.14286
 				while barrier > 0:
 					barrier -= healthDmg
 					shotTotals["totaldmg"] += healthDmg
@@ -111,7 +111,7 @@ func ToKill(attackUnit, defendUnit, attackboxUp, armorboxUp, shieldboxUp, healin
 			timeToKill = shotsToKill * attackSpeed
 		shotTotals["STK"] = ceil(shotsToKill/attackMult)
 		shotTotals["TTK"] = timeToKill
-		shotTotals["DPS"] = shotTotals["totaldmg"] / timeToKill
+		shotTotals["DPS"] = (defendUnit.health + defendUnit.shields + shotTotals["totalhealing"]) / timeToKill
 		shotTotals["overkill"] = abs(health)
 	else:
 		shotTotals["STK"] = ">10,000 (Infinite?)"

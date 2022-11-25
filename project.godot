@@ -32,6 +32,10 @@ window/vsync/use_vsync=false
 window/energy_saving/keep_screen_on=false
 window/handheld/orientation="portrait"
 
+[global]
+
+processor=false
+
 [gui]
 
 common/drop_mouse_on_gui_input_disabled=true

@@ -39,3 +39,8 @@ margin_right = 573.0
 margin_bottom = 226.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
+
+[node name="AcceptDialog" type="AcceptDialog" parent="."]
+visible = true
+margin_right = 154.0
+margin_bottom = 110.0

@@ -8,8 +8,8 @@ export var flying:bool
 
 export var health:float
 export var shields:float
-export var armor:int
-export var shieldArmor:int
+export var armor:float
+export var shieldArmor:float
 
 export var moveSpeed:float
 """
