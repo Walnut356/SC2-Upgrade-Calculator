@@ -1,4 +1,4 @@
-extends Node
+extends Resource
 
 export var type:String
 export var faction:String
@@ -44,7 +44,13 @@ func changeWeapon(att:int):
 
 func applyModifier(mod:int):
 	pass
-
+	
+func perCost(): 
+	var perStats = {"health" : 0, "DPS" : 0}
+	var totalCost = cost[0] + cost[1]
+	perStats["health"] = (health + shields)/totalCost
+	perStats["DPS"] = ((attack + (attack + bonusDmg))/2/attackSpeed)/totalCost
+	return perStats
 #func _init():
 #	self.type = ""
 #	self.faction = ""

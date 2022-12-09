@@ -58,7 +58,7 @@ func _ready():
 	for i in range(0, $"%StatsNums".get_item_count()):
 		$"%StatsNums".set_item_tooltip_enabled(i, false)
 
-func _input(_event):
+func _process(delta):
 	if attackUnit and defendUnit:
 		if attackUnit.spell:
 			$"%ToKillLabels".set_item_text(0, "Casts to Kill")
@@ -298,8 +298,8 @@ func CalcCheck():
 
 func _on_AttackUnit_item_selected(_index):
 	#Garbage  collection
-	if attackUnit:
-		attackUnit.queue_free()
+#	if attackUnit:
+#		attackUnit.queue_free()
 	$"%AttackerModifier".pressed = false
 	$"%AttackerModifier".visible = false
 	$"%AttackerModifier".disabled = false
@@ -464,8 +464,8 @@ func _on_AttackUnit_item_selected(_index):
 
 func _on_DefendUnit_item_selected(_index):
 	#Garbage Collection
-	if defendUnit:
-		defendUnit.queue_free()
+#	if defendUnit:
+#		defendUnit.queue_free()
 	$"%DefenderModifier".pressed = false
 	$"%DefenderModifier".visible = false
 	$"%DefenderModifier".pressed = false

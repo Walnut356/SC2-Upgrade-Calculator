@@ -1,6 +1,6 @@
 extends Node
 
-func ToKill(attackUnit, defendUnit, attackboxUp, armorboxUp, shieldboxUp, healing):
+func ToKill(attackUnit, defendUnit, attackboxUp = 0, armorboxUp = 0, shieldboxUp = 0, healing = 0):
 	var health:float = defendUnit.health
 	var shields:float = defendUnit.shields
 
@@ -57,7 +57,7 @@ func ToKill(attackUnit, defendUnit, attackboxUp, armorboxUp, shieldboxUp, healin
 			barrierCD -= attackSpeed
 			#immortal barrier logic: kicks in AFTER first shot, bonus 100 shields for
 			#my best approx of 2 seconds, does take armor upgrades into account
-			if defendUnit.type == "Immortal" and $"%DefenderModifier".pressed == true and barrierCD < 0:
+			if defendUnit.type == "Immortal" and get_tree().get_root().get_node("Control/AspectRatioContainer/MainArea/DefendSelectionArea/DefenderModifier").pressed == true and barrierCD < 0:
 				var barrier:float = 100
 				barrierCD = 2.14286 - attackSpeed
 				while barrier > 0:
@@ -74,15 +74,17 @@ func ToKill(attackUnit, defendUnit, attackboxUp, armorboxUp, shieldboxUp, healin
 				timeToKill = shotsToKill * attackSpeed
 		shotTotals["SSHB"] = ceil(shotsToKill/attackMult)
 		shotTotals["TSHB"] = timeToKill
-
-		health -= (shields * -1) - (armor + (armorUp * armorboxUp))
+		
+		if shields < 0:
+			health -= (shields * -1) - (armor + (armorUp * armorboxUp))
+			shields = 0
 
 		while health > 0:
 			health -= healthDmg
 			shotTotals["totaldmg"] += healthDmg
 			shotsToKill += 1.0
 			barrierCD -= attackSpeed
-			if defendUnit.type == "Immortal" and $"%DefenderModifier".pressed == true and barrierCD < 0:
+			if defendUnit.type == "Immortal" and get_tree().get_root().get_node("Control/AspectRatioContainer/MainArea/DefendSelectionArea/DefenderModifier").pressed == true and barrierCD < 0:
 				var barrier:float = 100
 				barrierCD = 2.14286
 				while barrier > 0:

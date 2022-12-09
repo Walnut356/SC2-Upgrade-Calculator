@@ -4,6 +4,15 @@ var unitCode = {-1 : null, 0 : null, 101 : Probe, 102 : Zealot, 103 : Stalker, 1
 201 : SCV, 202 : MULE, 203 : Marine, 204 : Marauder, 205 : Reaper, 206 : Ghost, 207 : Hellion, 208 : Hellbat, 209 : Widowmine, 210 : Cyclone, 211 : Tank, 212 : Thor, 213 : Viking, 214 : Medivac, 215 : Liberator, 216 : Raven, 217 : Banshee, 218 : Battlecruiser, 219 : Planetary, 220 : Turret, 221 : Bunker, 222 : Autoturret,
 301 : Larva, 302 : Egg, 303 : Drone, 304 : Overlord, 305 : Queen, 306 : Zergling, 307 : Baneling, 308 : Roach, 309 : Ravager, 310 : Hydralisk, 311 : Lurker, 312 : Mutalisk, 313 : Corruptor, 314 : Swarmhost, 315 : Locust, 316 : Infestor, 317 : Viper, 318 : Ultralisk, 319 : Broodlord, 320 : Broodling, 321 : Spine, 322 : Spore}
 
+var allUnits = [Probe, Zealot, Stalker, Sentry, Adept, HT, DT, Archon, Observer, Prism, Immortal, Colossus, Disruptor, Phoenix, Voidray, Oracle, Tempest, Carrier, Interceptor, Mothership,
+SCV, MULE, Marine, Reaper, Marauder, Ghost, Hellion, Hellbat, Widowmine, Cyclone, Tank, Thor, Viking, Medivac, Liberator, Raven, Banshee, Battlecruiser,
+Larva, Egg, Drone, Overlord, Queen, Zergling, Baneling, Roach, Ravager, Hydralisk, Lurker, Mutalisk, Corruptor, Swarmhost, Locust, Infestor, Viper, Ultralisk, Broodlord, Broodling]
+
+var protossUnits = allUnits.slice(0, 19)
+
+var terranUnits = allUnits.slice(20, 37)
+
+var zergUnits = allUnits.slice(38, 59)
 #---------------#
 #---Unit Data---#
 #---------------#
