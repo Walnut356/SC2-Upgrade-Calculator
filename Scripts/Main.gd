@@ -58,7 +58,7 @@ func _ready():
 	for i in range(0, $"%StatsNums".get_item_count()):
 		$"%StatsNums".set_item_tooltip_enabled(i, false)
 
-func _input(_event):
+func loop():
 	if attackUnit and defendUnit:
 		if attackUnit.spell:
 			$"%ToKillLabels".set_item_text(0, "Casts to Kill")
@@ -116,19 +116,18 @@ func _input(_event):
 			"Void Ray":
 				pass
 			"Tempest":
-				if defendUnit.flying:
-					$"%AModeChoice".select(1)
-					$"%AModeChoice".emit_signal("item_selected", 1)
-					$"%AModeChoice".disabled = true
-					$"%AttackerModifier".visible = false
-				else:
-					$"%AModeChoice".select(0)
-					$"%AModeChoice".emit_signal("item_selected", 0)
-					$"%AModeChoice".disabled = true
+					if defendUnit.flying:
+						$"%AModeChoice".select(1)
+						$"%AModeChoice".emit_signal("item_selected", 1)
+						$"%AModeChoice".disabled = true
+						$"%AttackerModifier".disabled = true
+					else:
+						$"%AModeChoice".select(0)
+						$"%AModeChoice".emit_signal("item_selected", 0)
+						$"%AModeChoice".disabled = true
+						$"%AttackerModifier".disabled = false
+						attackUnit.applyUpgrade($"%AttackerModifier".pressed)
 
-				if $"%AModeChoice".selected == 0:
-					$"%AttackerModifier".visible = true
-					$"%AttackerModifier".text = "Tectonic Destabilizers (vs Struct: +40)"
 			"Ghost":
 				aModeBox.set_item_disabled(1, true)
 				$"%SplashZone".disabled = false
@@ -158,11 +157,12 @@ func _input(_event):
 					$"%AModeChoice".emit_signal("item_selected", 1)
 				if $"%AModeChoice".selected == 1:
 					$"%SplashZone".visible = true
+					$"%SplashZone".disabled = false
 					if $"%SplashZone".selected < 0:
 						$"%SplashZone".select(0)
 						$"%SplashZone".emit_signal("item_selected", 0)
 				else:
-					$"%SplashZone".visible = false
+					$"%SplashZone".disabled = true
 					$"%SplashZone".select(0)
 					$"%SplashZone".emit_signal("item_selected", 0)
 			"Thor":
@@ -280,6 +280,15 @@ func CalcCheck():
 				dumb2 = "a"
 
 		#$"%Label2".text = "%s %s cannot attack %s %s" % [dumb, attackUnit.type, dumb2, defendUnit.type]
+		$"%ToKillNums".set_item_text(0, "  -")
+		$"%ToKillNums".set_item_text(1, "  -")
+		$"%ToKillNums".set_item_text(2, "  -")
+		$"%ToKillNums".set_item_text(3, "  -")
+		$"%StatsNums".set_item_text(0, "  -")
+		$"%StatsNums".set_item_text(1, "  -")
+		$"%StatsNums".set_item_text(2, "  -")
+		$"%StatsNums".set_item_text(3, "  -")
+		$"%StatsNums".set_item_text(4, "  -")
 	else:
 		var result = DamageCalc.ToKill(attackUnit, defendUnit, attackboxUp, armorboxUp, shieldboxUp, healing)
 		$"%ToKillNums".set_item_text(0, "  " + str(result["STK"]))
@@ -309,6 +318,7 @@ func _on_AttackUnit_item_selected(_index):
 	$"%AModeChoice".select(-1)
 	$"%SplashZone".visible = false
 	$"%SplashZone".select(-1)
+	$"%SplashZone".disabled = false
 	for i in range (0, sZoneBox.get_item_count()):
 		sZoneBox.remove_item(0)
 	for i in range (0, aModeBox.get_item_count()):
@@ -354,6 +364,8 @@ func _on_AttackUnit_item_selected(_index):
 			$"%AModeChoice".visible = true
 			aModeBox.add_item("Resonance Coil (AtG)", 0)
 			aModeBox.add_item("Kinetic Overload (AtA)", 1)
+			$"%AttackerModifier".visible = true
+			$"%AttackerModifier".text = "Tectonic Destabilizers (vs Struct: +40)"
 		"Carrier":
 			$"%InterceptorCount".visible = true
 			attackUnit.attackMult = 2 * $"%InterceptorCount".value
@@ -462,6 +474,9 @@ func _on_AttackUnit_item_selected(_index):
 			$"%AttackerModifier".visible = false
 			$"%AttackerModifier".text = ""
 
+	if attackUnit and defendUnit:
+		loop()
+
 func _on_DefendUnit_item_selected(_index):
 	#Garbage Collection
 	if defendUnit:
@@ -524,21 +539,37 @@ func _on_DefendUnit_item_selected(_index):
 			$"%DefenderModifier".visible = false
 			$"%DefenderModifier".text = ""
 
+	if attackUnit and defendUnit:
+		loop()
+
 #apply/remove upgrades dynamically based on checkbox
 func _on_AttackerModifier_toggled(button_pressed):
 	if attackUnit: attackUnit.applyUpgrade(button_pressed)
+
+	if attackUnit and defendUnit:
+		loop()
 
 #---Toggles---#
 func _on_DefenderModifier_toggled(button_pressed):
 	if defendUnit: defendUnit.applyUpgrade(button_pressed)
 
+	if attackUnit and defendUnit:
+		loop()
+
 func _on_AModeChoice_item_selected(index):
-	attackUnit.changeWeapon(index)
+	if attackUnit: attackUnit.changeWeapon(index)
+
+	if attackUnit and defendUnit:
+		loop()
 
 func _on_DModeChoice_item_selected(index):
-	defendUnit.applyModifier(index)
+	if defendUnit: defendUnit.applyModifier(index)
+
+	if attackUnit and defendUnit:
+		loop()
 
 func _on_GuardianShield_toggled(button_pressed):
+	if !defendUnit: return
 	if button_pressed:
 		defendUnit.armor += 2
 		defendUnit.shieldArmor += 2
@@ -546,7 +577,11 @@ func _on_GuardianShield_toggled(button_pressed):
 		defendUnit.armor -= 2
 		defendUnit.shieldArmor -= 2
 
+	if attackUnit and defendUnit:
+		loop()
+
 func _on_AntiArmor_toggled(button_pressed):
+	if !defendUnit: return
 	if button_pressed:
 		defendUnit.armor -= 3
 		defendUnit.shieldArmor -= 3
@@ -554,28 +589,52 @@ func _on_AntiArmor_toggled(button_pressed):
 		defendUnit.armor += 3
 		defendUnit.shieldArmor += 3
 
+	if attackUnit and defendUnit:
+		loop()
+
 func _on_Healing_toggled(button_pressed):
+	if !defendUnit: return
 	match defendUnit.faction:
 		"Terran":
 			if button_pressed: healing = 12.6
 			else: healing = 0
 
+	if attackUnit and defendUnit:
+		loop()
+
 
 #---Spin Boxes---#
 func _on_InterceptorCount_value_changed(value):
+	if !attackUnit: return
 	if attackUnit.type == "Carrier":
 		attackUnit.applyModifier(value)
 
+	if attackUnit and defendUnit:
+		loop()
+
 func _on_SplashZone_item_selected(index):
+	if !attackUnit: return
 	attackUnit.applyModifier(index)
+
+	if attackUnit and defendUnit:
+		loop()
 
 func _on_AttackUpgrade_value_changed(value):
 	attackboxUp = value
 
+	if attackUnit and defendUnit:
+		loop()
+
 func _on_ArmorUpgrade_value_changed(value):
 	armorboxUp = value
 
+	if attackUnit and defendUnit:
+		loop()
+
 func _on_ShieldUpgrade_value_changed(value):
 	shieldboxUp = value
+
+	if attackUnit and defendUnit:
+		loop()
 
 

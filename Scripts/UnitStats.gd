@@ -552,7 +552,7 @@ class Tempest:
 		canAttack = true
 		spell = false
 		hitGround = true
-		hitAir = false
+		hitAir = true
 		attackRange = 10
 		attack = 40
 		attackSpeed = 2.35714
@@ -563,12 +563,9 @@ class Tempest:
 		weaponsUp = 4
 		armorUp = 1
 		shieldUp = 1
-	func applyUpgrade(b:bool): #tectonic destabilizers
-		if b:
-			bonusDmg = 40
-		else:
-			bonusDmg = 0
+		weaponType = 0
 	func changeWeapon(att:int):
+		weaponType = att
 		match att:
 			0:#vs ground
 				attackRange = 10
@@ -584,22 +581,13 @@ class Tempest:
 				bonusVs = "massive"
 				bonusDmg = 22
 				bonusUp = 2
-#						"Tempest":
-#			if index == 0:
-#				$"%AttackerModifier".text = "Tectonic Destabilizers (vs Struct: +40)"
-#				$"%AttackerModifier".visible = true
-#				attack = 40
-#				weaponsUp = 4
-#				bonusVs = "structure"
-#				bonusDmg = 0 if not $"%AttackerModifier".pressed else 40
-#				bonusUp = 0
-#			else:
-#				$"%AttackerModifier".visible = false
-#				attack = 30
-#				weaponsUp = 3
-#				bonusVs = "massive"
-#				bonusDmg = 22
-#				bonusUp = 2
+	func applyUpgrade(b:bool): #tectonic destabilizers
+		if weaponType != 0: return
+		if b:
+			bonusDmg = 40
+		else:
+			bonusDmg = 0
+
 
 class Carrier:
 	extends Unit
@@ -942,7 +930,9 @@ class Ghost:
 		weaponsUp = 1
 		armorUp = 1
 		shieldUp = 0
+		weaponType = 0
 	func changeWeapon(att:int):
+		weaponType = att
 		match att:
 			0: #main weapon
 				attack = 10
@@ -963,6 +953,7 @@ class Ghost:
 				bonusVs = "structure"
 				spell = true
 	func applyModifier(mod:int): #nuke splash
+		if weaponType != 2: return
 		match mod:
 			0:
 				attack = 300
@@ -1150,7 +1141,9 @@ class Tank:
 		weaponsUp = 2
 		armorUp = 1
 		shieldUp = 0
+		weaponType = 0
 	func changeWeapon(att:int): #siege mode
+		weaponType = att
 		match att:
 			0:
 				attack = 15
@@ -1168,6 +1161,7 @@ class Tank:
 				bonusDmg = 30
 				bonusUp = 1
 	func applyModifier(mod:int): #siege splash
+		if weaponType != 1: return
 		match mod:
 			0:
 				attack = 40
@@ -1199,7 +1193,7 @@ class Thor:
 		canAttack = true
 		spell = false
 		hitGround = true
-		hitAir = false
+		hitAir = true
 		attackRange = 7
 		attack = 30
 		attackSpeed = 0.914286

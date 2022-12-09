@@ -35,6 +35,7 @@ export var bonusVs:String
 export var weaponsUp:float
 export var armorUp:float
 export var shieldUp:float
+export var weaponType:int
 
 func applyUpgrade(b:bool):
 	pass

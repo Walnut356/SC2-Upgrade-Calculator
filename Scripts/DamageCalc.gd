@@ -43,7 +43,7 @@ func ToKill(attackUnit, defendUnit, attackboxUp, armorboxUp, shieldboxUp, healin
 	if attackUnit.type in ["Ghost", "Disruptor", "Widowmine", "Battlecruiser"]:
 		if defendUnit.type == "Protoss":
 			shields -= bonusDmg
-		shotsToKill = (health + max(shields, 0))/attack
+		shotsToKill = ceil((health + max(shields, 0))/attack)
 		shotTotals["STK"] = shotsToKill
 		shotTotals["TTK"] = attackSpeed*shotsToKill
 		shotTotals["totaldmg"] = (shotsToKill * attack) + bonusDmg
