@@ -40,7 +40,7 @@ func ToKill(attackUnit, defendUnit, attackboxUp = 0, armorboxUp = 0, shieldboxUp
 	var shotTotals:Dictionary = {"STK" : "-", "TTK" : "-", "SSHB" : "-", "TSHB" : "-", "totaldmg" : 0, "DPS": 0,
 	"totalhealing" : 0, "overkill" : 0, "shotdmg" : str(healthDmg) + " | " + str(shieldDmg)}
 
-	if attackUnit.type in ["Ghost", "Disruptor", "Widowmine", "Battlecruiser"]:
+	if attackUnit.spell and attackUnit.type in ["Ghost", "Disruptor", "Widowmine", "Battlecruiser"]:
 		if defendUnit.type == "Protoss":
 			shields -= bonusDmg
 		shotsToKill = ceil((health + max(shields, 0))/attack)
@@ -95,8 +95,7 @@ func ToKill(attackUnit, defendUnit, attackboxUp = 0, armorboxUp = 0, shieldboxUp
 					if barrierCD < attackSpeed:
 						barrier = 0
 				barrierCD = 30.0
-	else:
-		#non-protoss defender
+	else: #non-protoss defender
 		while health > 0:
 			health -= healthDmg
 			shotTotals["totaldmg"] += healthDmg
