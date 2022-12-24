@@ -108,9 +108,14 @@ func ToKill(attackUnit, defendUnit, attackboxUp = 0, armorboxUp = 0, shieldboxUp
 			if shotsToKill >= 10000:
 				break
 	if shotsToKill < 10000:
-		var timeToKill = ceil(shotsToKill/attackMult) * attackSpeed
+		var timeToKill 
 		if attackUnit.spell:
 			timeToKill = shotsToKill * attackSpeed
+		else:
+			timeToKill = [ceil((shotsToKill + randomDelayMin)/attackMult) * attackSpeed, ceil((shotsToKill + randomDelayMax)/attackMult) * attackSpeed]
+		if is_equal_approx(timeToKill[0], timeToKill[1]):
+			timeToKill = timeToKill[0]
+		
 		shotTotals["STK"] = ceil(shotsToKill/attackMult)
 		shotTotals["TTK"] = timeToKill
 		shotTotals["DPS"] = (defendUnit.health + defendUnit.shields + shotTotals["totalhealing"]) / timeToKill
