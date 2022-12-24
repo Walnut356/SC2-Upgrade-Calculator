@@ -39,3 +39,17 @@ v1.2
 -fixed battlecruiser vs ground attack
 
 -enabled cyclone in terran selection submenu(lol)
+
+v1.3
+---
+-various accuracy fixes for regen, spell damage, and 
+
+-attackspeed values replaced with ones directly from the editor, multiplied by 1.4 to match in-game speed, up to 4 decimal places of accuracy
+
+-altered UI slightly for a more scaleable and professional look
+
+-added an additional tab with more information (effective DPS, damage density, etc.)
+
+-added splash damage zone selector
+
+-changed TTK values to a range to represent the best/worst possible RNG on random attack delay
