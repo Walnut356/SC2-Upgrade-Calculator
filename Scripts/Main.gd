@@ -292,7 +292,10 @@ func CalcCheck():
 	else:
 		var result = DamageCalc.ToKill(attackUnit, defendUnit, attackboxUp, armorboxUp, shieldboxUp, healing)
 		$"%ToKillNums".set_item_text(0, "  " + str(result["STK"]))
-		$"%ToKillNums".set_item_text(1, "  " + str(result["TTK"]))
+		if typeof(timeToKill) == TYPE_ARRAY:
+			$"%ToKillNums".set_item_text(1, "  " + str(result["TTK"][0]) + "-" + "str(result["TTK"][1])")
+		else:
+			$"%ToKillNums".set_item_text(1, "  " + str(result["TTK"]))
 		$"%ToKillNums".set_item_text(2, "  " + str(result["SSHB"]))
 		$"%ToKillNums".set_item_text(3, "  " + str(result["TSHB"]))
 		$"%StatsNums".set_item_text(0, "  " + str(result["shotdmg"]))
