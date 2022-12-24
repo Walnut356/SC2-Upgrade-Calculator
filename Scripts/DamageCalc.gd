@@ -1,6 +1,7 @@
 extends Node
 
 func ToKill(attackUnit, defendUnit, attackboxUp, armorboxUp, shieldboxUp, healing):
+	
 	var health:float = defendUnit.health
 	var shields:float = defendUnit.shields
 
@@ -35,8 +36,10 @@ func ToKill(attackUnit, defendUnit, attackboxUp, armorboxUp, shieldboxUp, healin
 	var Dmg = (attack + (weaponsUp * attackboxUp) + (bonusUp * attackboxUp))
 	var healthDmg = max((Dmg - (armor + (armorUp * armorboxUp))), .5)
 	var shieldDmg = max((Dmg - (shieldArmor + (shieldUp * shieldboxUp))), .5)
-
-	if attackUnit.type in ["Ghost", "Disruptor", "Widowmine", "Battlecruiser"]:
+	
+	#single instance spell damage bypasses traditional calculation to handle bonus shield damage
+	#DoT spells calculate based on proper instances of damageand use the traditional calculation instead
+	if attackUnit.spell attackUnit.type in ["Ghost", "Disruptor", "Widowmine", "Battlecruiser"]:
 		if defendUnit.type == "Protoss":
 			shields -= bonusDmg
 		shotsToKill = (health + max(shields, 0))/attack
@@ -44,13 +47,14 @@ func ToKill(attackUnit, defendUnit, attackboxUp, armorboxUp, shieldboxUp, healin
 		shotTotals = shotTotals + str(attackSpeed*shotsToKill) + "s\n\n"
 		return shotTotals
 
+
 	if defendUnit.faction == "Protoss":
 		while shields > 0:
 			shields -= shieldDmg
 			shotsToKill += 1.0
 			barrierCD -= attackSpeed
-			#immortal barrier logic: kicks in AFTER first shot, bonus 100 shields for
-			#my best approx of 2 seconds, does take armor upgrades into account
+			#immortal barrier logic: kicks in AFTER first shot, bonus 100 shields for my best approx of 2 seconds.
+			#Armor comes from shields if there are shields underneath the barrier, otherwise hull armor
 			if defendUnit.type == "Immortal" and $"%DefenderModifier".pressed == true and barrierCD < 0:
 				var barrier:float = 100
 				barrierCD = 2 - attackSpeed
@@ -91,8 +95,7 @@ func ToKill(attackUnit, defendUnit, attackboxUp, armorboxUp, shieldboxUp, healin
 		shotTotals = shotTotals + str(timeToKill) + "s\n"
 
 
-	else:
-		#non-protoss defender
+	else: #non-protoss defender	
 		while health > 0:
 			health -= healthDmg
 			shotsToKill += 1.0
