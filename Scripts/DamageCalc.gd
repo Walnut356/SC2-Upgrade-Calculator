@@ -39,7 +39,7 @@ func ToKill(attackUnit, defendUnit, attackboxUp, armorboxUp, shieldboxUp, healin
 	
 	#single instance spell damage bypasses traditional calculation to handle bonus shield damage
 	#DoT spells calculate based on proper instances of damageand use the traditional calculation instead
-	if attackUnit.spell attackUnit.type in ["Ghost", "Disruptor", "Widowmine", "Battlecruiser"]:
+	if attackUnit.spell and attackUnit.type in ["Ghost", "Disruptor", "Widowmine", "Battlecruiser"]:
 		if defendUnit.type == "Protoss":
 			shields -= bonusDmg
 		shotsToKill = (health + max(shields, 0))/attack
