@@ -20,6 +20,36 @@ var zergUnits = allUnits.slice(38, 59)
 #future changes:
 #re-calc movespeed to match editor rather than liquipedia
 
+class Custom:
+	extends Unit
+
+	func _init():
+		type = "Custom"
+		faction = ""
+		tags = [""]
+		cost = [0, 0, 0]
+		flying =  false
+		health = 0
+		shields = 0
+		armor = 0
+		shieldArmor = 0
+		moveSpeed = 0
+		canAttack = true
+		spell = false
+		hitGround = true
+		hitAir = true
+		attackRange = 5
+		attack = 0
+		attackSpeed = 1
+		attackMult = 1
+		bonusDmg = 0
+		bonusUp = 0
+		bonusVs = ""
+		weaponsUp = 0
+		armorUp = 1
+		shieldUp = 1
+		moveRadius = .5
+
 #---protoss units---#
 
 class Probe:
@@ -50,7 +80,7 @@ class Probe:
 		weaponsUp = 0
 		armorUp = 1
 		shieldUp = 1
-
+		moveRadius = .375
 class Zealot:
 	extends Unit
 
@@ -79,6 +109,7 @@ class Zealot:
 		weaponsUp = 1
 		armorUp = 1
 		shieldUp = 1
+		moveRadius = .5
 	func applyUpgrade(b:bool): #charge passive movespeed
 		if b:
 			moveSpeed = 4.725
@@ -113,6 +144,7 @@ class Stalker:
 		weaponsUp = 1
 		armorUp = 1
 		shieldUp = 1
+		moveRadius = .625
 
 class Sentry:
 	extends Unit
@@ -142,6 +174,7 @@ class Sentry:
 		weaponsUp = 1
 		armorUp = 1
 		shieldUp = 1
+		moveRadius = .5
 
 class Adept:
 	extends Unit
@@ -171,6 +204,7 @@ class Adept:
 		weaponsUp = 1
 		armorUp = 1
 		shieldUp = 1
+		moveRadius = 0.5
 	func applyUpgrade(b:bool): #glaives
 		if b:
 			attackSpeed = 1.10837
@@ -205,6 +239,7 @@ class HT:
 		weaponsUp = 1
 		armorUp = 1
 		shieldUp = 1
+		moveRadius = .375
 
 	func changeWeapon(att:int):
 		match att:
@@ -249,6 +284,7 @@ class DT:
 		weaponsUp = 5
 		armorUp = 1
 		shieldUp = 1
+		moveRadius = .375
 
 class Archon:
 	extends Unit
@@ -278,6 +314,7 @@ class Archon:
 		weaponsUp = 3
 		armorUp = 1
 		shieldUp = 1
+		moveRadius = 1
 	func applyModifier(mod:int):
 		match mod:
 			0: #splash zone 1
@@ -322,6 +359,7 @@ class Observer:
 		weaponsUp = 0
 		armorUp = 1
 		shieldUp = 1
+		moveRadius = .5
 	func applyUpgrade(b:bool): #obs speed upgrade
 		if b:
 			moveSpeed = 3.94
@@ -356,6 +394,7 @@ class Prism:
 		weaponsUp = 0
 		armorUp = 1
 		shieldUp = 1
+		moveRadius = .875
 
 	func applyUpgrade(b:bool): #prism speed upgrade
 		if b:
@@ -391,6 +430,7 @@ class Immortal:
 		weaponsUp = 2
 		armorUp = 1
 		shieldUp = 1
+		moveRadius = .625
 
 class Colossus:
 	extends Unit
@@ -420,6 +460,7 @@ class Colossus:
 		weaponsUp = 1
 		armorUp = 1
 		shieldUp = 1
+		moveRadius = .75
 		#add colossus range
 
 class Disruptor:
@@ -450,6 +491,7 @@ class Disruptor:
 		weaponsUp = 0
 		armorUp = 1
 		shieldUp = 1
+		moveRadius = .5
 
 class Phoenix:
 	extends Unit
@@ -479,6 +521,7 @@ class Phoenix:
 		weaponsUp = 1
 		armorUp = 1
 		shieldUp = 1
+		moveRadius = .75
 		#add phoenix range
 
 class Voidray:
@@ -509,6 +552,7 @@ class Voidray:
 		weaponsUp = 1
 		armorUp = 1
 		shieldUp = 1
+		moveRadius = .75
 	func applyUpgrade(b:bool): #prismatic alignment
 		if b:
 			bonusDmg = 10
@@ -543,6 +587,7 @@ class Oracle:
 		weaponsUp = 0
 		armorUp = 1
 		shieldUp = 1
+		moveRadius = .75
 
 class Tempest:
 	extends Unit
@@ -573,6 +618,7 @@ class Tempest:
 		armorUp = 1
 		shieldUp = 1
 		weaponType = 0
+		moveRadius = 1.25
 	func changeWeapon(att:int):
 		weaponType = att
 		match att:
@@ -626,6 +672,7 @@ class Carrier:
 		weaponsUp = 1
 		armorUp = 1
 		shieldUp = 1
+		moveRadius = 1.25
 	func applyModifier(mod:int):#interceptor count
 		attackMult = mod * 2
 
@@ -657,6 +704,7 @@ class Interceptor:
 		weaponsUp = 1
 		armorUp = 1
 		shieldUp = 1
+		moveRadius = .25
 
 class Mothership:
 	extends Unit
@@ -686,6 +734,7 @@ class Mothership:
 		weaponsUp = 1
 		armorUp = 1
 		shieldUp = 1
+		moveRadius = 1.375
 
 class Cannon:
 	extends Unit
@@ -715,6 +764,7 @@ class Cannon:
 		weaponsUp = 0
 		armorUp = 0
 		shieldUp = 1
+		moveRadius = 1
 
 class Battery:
 	extends Unit
@@ -744,6 +794,7 @@ class Battery:
 		weaponsUp = 0
 		armorUp = 0
 		shieldUp = 1
+		moveRadius = 1
 
 
 
@@ -778,6 +829,7 @@ class SCV:
 		weaponsUp = 0
 		armorUp = 1
 		shieldUp = 0
+		moveRadius = .375
 
 class MULE:
 	extends Unit
@@ -807,6 +859,7 @@ class MULE:
 		weaponsUp = 0
 		armorUp = 1
 		shieldUp = 0
+		moveRadius = .375
 
 class Marine:
 	extends Unit
@@ -836,6 +889,7 @@ class Marine:
 		weaponsUp = 1
 		armorUp = 1
 		shieldUp = 0
+		moveRadius = .375
 	func applyUpgrade(b:bool): #stim and combat shields
 		if b:
 			health = 55
@@ -874,6 +928,7 @@ class Reaper:
 		weaponsUp = 1
 		armorUp = 1
 		shieldUp = 0
+		moveRadius = .375
 
 class Marauder:
 	extends Unit
@@ -903,6 +958,7 @@ class Marauder:
 		weaponsUp = 1
 		armorUp = 1
 		shieldUp = 0
+		moveRadius = .5625
 	func applyUpgrade(b:bool): #stim
 		if b:
 			moveSpeed = 4.72
@@ -940,6 +996,7 @@ class Ghost:
 		armorUp = 1
 		shieldUp = 0
 		weaponType = 0
+		moveRadius = .375
 	func changeWeapon(att:int):
 		weaponType = att
 		match att:
@@ -1002,6 +1059,7 @@ class Hellion:
 		weaponsUp = 1
 		armorUp = 1
 		shieldUp = 0
+		moveRadius = .625
 	func applyUpgrade(b:bool): #blueflame
 		if b:
 			bonusDmg = 11
@@ -1036,6 +1094,7 @@ class Hellbat:
 		weaponsUp = 0
 		armorUp = 1
 		shieldUp = 0
+		moveRadius = .625
 	func applyUpgrade(b:bool): #blueflame
 		if b:
 			bonusDmg = 12
@@ -1071,6 +1130,7 @@ class Widowmine:
 		weaponsUp = 0
 		armorUp = 1
 		shieldUp = 0
+		moveRadius = .5
 	func applyModifier(mod:int):
 		match mod:
 				0: attack = 125
@@ -1104,6 +1164,7 @@ class Cyclone:
 		weaponsUp = 2
 		armorUp = 1
 		shieldUp = 0
+		moveRadius = .75
 	func applyUpgrade(b:bool):
 		if b: bonusDmg = 20
 		else: bonusDmg = 0
@@ -1151,6 +1212,7 @@ class Tank:
 		armorUp = 1
 		shieldUp = 0
 		weaponType = 0
+		moveRadius = .875
 	func changeWeapon(att:int): #siege mode
 		weaponType = att
 		match att:
@@ -1213,6 +1275,7 @@ class Thor:
 		weaponsUp = 3
 		armorUp = 1
 		shieldUp = 0
+		moveRadius = 1
 	func changeWeapon(att:int):
 		match att:
 			0: #vs ground
@@ -1268,6 +1331,7 @@ class Viking:
 		weaponsUp = 1
 		armorUp = 1
 		shieldUp = 0
+		moveRadius = .75 #both ground and air
 	func applyUpgrade(b:bool): #ground toggle
 		if b:
 			hitAir = false
@@ -1318,6 +1382,7 @@ class Medivac:
 		weaponsUp = 0
 		armorUp = 1
 		shieldUp = 0
+		moveRadius = .75
 
 class Liberator:
 	extends Unit
@@ -1347,6 +1412,7 @@ class Liberator:
 		weaponsUp = 1
 		armorUp = 1
 		shieldUp = 0
+		moveRadius = .75
 	func changeWeapon(att:int): #siege mode
 		match att:
 			0:
@@ -1392,6 +1458,7 @@ class Raven:
 		weaponsUp = 0
 		armorUp = 1
 		shieldUp = 0
+		moveRadius = .625
 
 class Banshee:
 	extends Unit
@@ -1421,6 +1488,7 @@ class Banshee:
 		weaponsUp = 1
 		armorUp = 1
 		shieldUp = 0
+		moveRadius = .75
 
 class Battlecruiser:
 	extends Unit
@@ -1450,6 +1518,7 @@ class Battlecruiser:
 		weaponsUp = 1
 		armorUp = 1
 		shieldUp = 0
+		moveRadius = 1.25
 	func changeWeapon(att:int):
 		match att:
 			0:
@@ -1493,6 +1562,7 @@ class Planetary:
 		weaponsUp = 0
 		armorUp = 0
 		shieldUp = 0
+		moveRadius = 2.5
 	func applyUpgrade(b:bool): #plating and auto tracking
 		if b: armor = 5
 		else: armor = 3
@@ -1530,6 +1600,7 @@ class Turret:
 		weaponsUp = 0
 		armorUp = 0
 		shieldUp = 0
+		moveRadius = .75
 	func applyUpgrade(b:bool): #building armor and auto tracking
 		if b: armor = 2
 		else: armor = 0
@@ -1562,6 +1633,7 @@ class Bunker:
 		weaponsUp = 0
 		armorUp = 0
 		shieldUp = 0
+		moveRadius = 1.25
 	func applyUpgrade(b:bool): #building armor
 		if b: armor = 3
 		else: armor = 1
@@ -1594,6 +1666,7 @@ class Autoturret:
 		weaponsUp = 0
 		armorUp = 0
 		shieldUp = 0
+		moveRadius = 1
 	func applyUpgrade(b:bool): #auto tracking and building armor
 		if b: armor = 3
 		else: armor = 1
@@ -1631,6 +1704,7 @@ class Larva:
 		weaponsUp = 0
 		armorUp = 0
 		shieldUp = 0
+		moveRadius = .125
 
 class Egg:
 	extends Unit
@@ -1660,6 +1734,7 @@ class Egg:
 		weaponsUp = 0
 		armorUp = 0
 		shieldUp = 0
+		moveRadius = .125 #changes per egg but i can't be bothered atm
 	func applyModifier(mod:int): #egg types
 		match mod:
 			0: #default
@@ -1727,6 +1802,7 @@ class Drone:
 		weaponsUp = 0
 		armorUp = 1
 		shieldUp = 0
+		moveRadius = .375
 
 class Overlord:
 	extends Unit
@@ -1756,6 +1832,7 @@ class Overlord:
 		weaponsUp = 0
 		armorUp = 1
 		shieldUp = 0
+		moveRadius = 1
 	func applyUpgrade(b:bool): #overseer morph
 		if b: armor = 1
 		else: armor = 0
@@ -1788,6 +1865,7 @@ class Queen:
 		weaponsUp = 1
 		armorUp = 1
 		shieldUp = 0
+		moveRadius = .875
 	func changeWeapon(att:int): #anti air attack
 		match att:
 			0:
@@ -1825,9 +1903,10 @@ class Zergling:
 		weaponsUp = 1
 		armorUp = 1
 		shieldUp = 0
-	func applyUpgrade(b:bool): #speed and adrenal
-		if b: attackSpeed = 0.355102
-		else: attackSpeed = 0.497143
+		moveRadius = .375
+#	func applyUpgrade(b:bool): #speed and adrenal
+#		if b: attackSpeed = 0.355102
+#		else: attackSpeed = 0.497143
 
 class Baneling:
 	extends Unit
@@ -1857,6 +1936,7 @@ class Baneling:
 		weaponsUp = 2
 		armorUp = 1
 		shieldUp = 0
+		moveRadius = .375
 	func applyUpgrade(b:bool): #hooks speed/hp
 		if b: health = 35
 		else: health = 30
@@ -1891,6 +1971,7 @@ class Roach:
 		weaponsUp = 2
 		armorUp = 1
 		shieldUp = 0
+		moveRadius = .625
 
 class Ravager:
 	extends Unit
@@ -1899,7 +1980,7 @@ class Ravager:
 		type = "Ravager"
 		faction = "Zerg"
 		tags = ["biological"]
-		cost = [25, 75, 1]
+		cost = [100, 100, 3]
 		flying = false
 		health = 120
 		shields = 0
@@ -1920,6 +2001,7 @@ class Ravager:
 		weaponsUp = 2
 		armorUp = 1
 		shieldUp = 0
+		moveRadius = .75
 	func changeWeapon(att:int):
 		match att:
 			0:
@@ -1961,6 +2043,7 @@ class Hydralisk:
 		weaponsUp = 1
 		armorUp = 1
 		shieldUp = 0
+		moveRadius = .625
 
 class Lurker:
 	extends Unit
@@ -1990,6 +2073,7 @@ class Lurker:
 		weaponsUp = 2
 		armorUp = 1
 		shieldUp = 0
+		moveRadius = .9375
 
 class Mutalisk:
 	extends Unit
@@ -2019,6 +2103,7 @@ class Mutalisk:
 		weaponsUp = 1
 		armorUp = 1
 		shieldUp = 0
+		moveRadius = .5
 	func applyModifier(mod:int): #attack bounces
 		match mod:
 			0:
@@ -2059,6 +2144,7 @@ class Corruptor:
 		weaponsUp = 1
 		armorUp = 1
 		shieldUp = 0
+		moveRadius = .625
 
 class Swarmhost:
 	extends Unit
@@ -2088,6 +2174,7 @@ class Swarmhost:
 		weaponsUp = 0
 		armorUp = 1
 		shieldUp = 0
+		moveRadius = .8125
 
 class Locust:
 	extends Unit
@@ -2117,6 +2204,7 @@ class Locust:
 		weaponsUp = 1
 		armorUp = 1
 		shieldUp = 0
+		moveRadius = .375
 
 class Infestor:
 	extends Unit
@@ -2146,6 +2234,7 @@ class Infestor:
 		weaponsUp = 0
 		armorUp = 1
 		shieldUp = 0
+		moveRadius = .625
 
 class Viper:
 	extends Unit
@@ -2175,6 +2264,7 @@ class Viper:
 		weaponsUp = 0
 		armorUp = 1
 		shieldUp = 0
+		moveRadius = 1
 
 class Ultralisk:
 	extends Unit
@@ -2204,6 +2294,7 @@ class Ultralisk:
 		weaponsUp = 3
 		armorUp = 1
 		shieldUp = 0
+		moveRadius = 1
 	func applyUpgrade(b:bool): #plating
 		if b: armor = 4
 		else: armor = 2
@@ -2244,6 +2335,7 @@ class Broodlord:
 		weaponsUp = 2
 		armorUp = 1
 		shieldUp = 0
+		moveRadius = 1
 
 class Broodling:
 	extends Unit
@@ -2273,6 +2365,7 @@ class Broodling:
 		weaponsUp = 1
 		armorUp = 1
 		shieldUp = 0
+		moveRadius = .375
 
 class Spine:
 	extends Unit
@@ -2302,6 +2395,7 @@ class Spine:
 		weaponsUp = 0
 		armorUp = 0
 		shieldUp = 0
+		moveRadius = .875
 
 class Spore:
 	extends Unit
@@ -2331,4 +2425,5 @@ class Spore:
 		weaponsUp = 0
 		armorUp = 0
 		shieldUp = 0
+		moveRadius = .875
 

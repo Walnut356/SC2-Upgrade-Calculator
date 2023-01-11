@@ -43,7 +43,7 @@ var sZoneBox
 
 #---Process Functions---#
 func _ready():
-	OS.min_window_size = Vector2(550, 600)
+	OS.min_window_size = Vector2(605, 700)
 	#OS.max_window_size = Vector2(max_x, max_y)
 	aModeBox = $"%AModeChoice".get_popup()
 	dModeBox = $"%DModeChoice".get_popup()
@@ -264,22 +264,7 @@ func loop():
 
 func CalcCheck():
 	if not DamageCalc.CanAttack(attackUnit, defendUnit):
-		#$"%Label".visible = false
-		#there literally has to be a better way to do this
-		var dumb
-		var dumb2
-		match attackUnit.type[0]:
-			"A", "E", "I", "O", "U":
-				 dumb = "An"
-			_:
-				 dumb = "A"
-		match defendUnit.type[0]:
-			"A", "E", "I", "O", "U":
-				dumb2 = "an"
-			_:
-				dumb2 = "a"
 
-		#$"%Label2".text = "%s %s cannot attack %s %s" % [dumb, attackUnit.type, dumb2, defendUnit.type]
 		$"%ToKillNums".set_item_text(0, "  -")
 		$"%ToKillNums".set_item_text(1, "  -")
 		$"%ToKillNums".set_item_text(2, "  -")
@@ -636,5 +621,7 @@ func _on_ShieldUpgrade_value_changed(value):
 
 	if attackUnit and defendUnit:
 		loop()
+
+
 
 

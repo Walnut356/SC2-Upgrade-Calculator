@@ -25,39 +25,46 @@ anchor_bottom = 1.0
 size_flags_horizontal = 2
 size_flags_vertical = 2
 
-[node name="AspectRatioContainer" type="AspectRatioContainer" parent="."]
+[node name="AspectRatioContainer" type="MarginContainer" parent="."]
 anchor_right = 1.0
 anchor_bottom = 1.0
 margin_left = 20.0
 margin_top = 20.0
 margin_right = -20.0
 margin_bottom = -20.0
-alignment_horizontal = 0
-alignment_vertical = 0
 
 [node name="MainArea" type="VBoxContainer" parent="AspectRatioContainer"]
-margin_right = 560.0
-margin_bottom = 560.0
+margin_right = 565.0
+margin_bottom = 660.0
 __meta__ = {
 "_edit_use_anchors_": true
 }
 
+[node name="MenuButton" type="MenuButton" parent="AspectRatioContainer/MainArea"]
+visible = false
+margin_right = 201.0
+margin_bottom = 37.0
+focus_mode = 2
+size_flags_horizontal = 0
+text = "Calculator Mode"
+flat = false
+
 [node name="AttackSelectionArea" type="VBoxContainer" parent="AspectRatioContainer/MainArea"]
-margin_right = 560.0
+margin_right = 565.0
 margin_bottom = 90.0
 
 [node name="AttackSelectBoxes" type="HBoxContainer" parent="AspectRatioContainer/MainArea/AttackSelectionArea"]
-margin_right = 560.0
+margin_right = 565.0
 margin_bottom = 37.0
 
 [node name="AttackUnit" type="OptionButton" parent="AspectRatioContainer/MainArea/AttackSelectionArea/AttackSelectBoxes"]
 unique_name_in_owner = true
-margin_right = 207.0
+margin_right = 174.0
 margin_bottom = 37.0
 size_flags_horizontal = 2
 size_flags_vertical = 2
 theme = SubResource( 1 )
-text = "Attacking Unit"
+text = "Attack Unit"
 align = 1
 script = ExtResource( 2 )
 
@@ -69,18 +76,17 @@ margin_right = 477.0
 margin_bottom = 37.0
 size_flags_horizontal = 2
 size_flags_vertical = 2
-text = "Attack Mode"
 
 [node name="AttackModBoxes" type="HBoxContainer" parent="AspectRatioContainer/MainArea/AttackSelectionArea"]
 margin_top = 45.0
-margin_right = 560.0
+margin_right = 565.0
 margin_bottom = 90.0
 alignment = 1
 
 [node name="AttackUpgrade" type="SpinBox" parent="AspectRatioContainer/MainArea/AttackSelectionArea/AttackModBoxes"]
 unique_name_in_owner = true
-margin_left = 182.0
-margin_right = 378.0
+margin_left = 184.0
+margin_right = 380.0
 margin_bottom = 45.0
 max_value = 3.0
 rounded = true
@@ -105,7 +111,6 @@ visible = false
 margin_left = 185.0
 margin_right = 374.0
 margin_bottom = 37.0
-text = "Splash Zone"
 
 [node name="AttackerModifier" type="CheckBox" parent="AspectRatioContainer/MainArea/AttackSelectionArea"]
 unique_name_in_owner = true
@@ -117,20 +122,20 @@ icon_align = 1
 
 [node name="DefendSelectionArea" type="VBoxContainer" parent="AspectRatioContainer/MainArea"]
 margin_top = 98.0
-margin_right = 560.0
+margin_right = 565.0
 margin_bottom = 188.0
 
 [node name="DefendSelectBoxes" type="HBoxContainer" parent="AspectRatioContainer/MainArea/DefendSelectionArea"]
-margin_right = 560.0
+margin_right = 565.0
 margin_bottom = 37.0
 
 [node name="DefendUnit" type="OptionButton" parent="AspectRatioContainer/MainArea/DefendSelectionArea/DefendSelectBoxes"]
 unique_name_in_owner = true
-margin_right = 218.0
+margin_right = 185.0
 margin_bottom = 37.0
 size_flags_horizontal = 2
 theme = SubResource( 1 )
-text = "Defending Unit"
+text = "Defend Unit"
 align = 1
 script = ExtResource( 2 )
 
@@ -142,18 +147,17 @@ margin_right = 439.0
 margin_bottom = 37.0
 size_flags_horizontal = 2
 size_flags_vertical = 2
-text = "Egg Type"
 
 [node name="DefendModBoxes" type="HBoxContainer" parent="AspectRatioContainer/MainArea/DefendSelectionArea"]
 margin_top = 45.0
-margin_right = 560.0
+margin_right = 565.0
 margin_bottom = 90.0
 alignment = 1
 
 [node name="ArmorUpgrade" type="SpinBox" parent="AspectRatioContainer/MainArea/DefendSelectionArea/DefendModBoxes"]
 unique_name_in_owner = true
-margin_left = 182.0
-margin_right = 378.0
+margin_left = 184.0
+margin_right = 380.0
 margin_bottom = 45.0
 max_value = 3.0
 rounded = true
@@ -204,14 +208,14 @@ margin_bottom = 146.0
 
 [node name="HSeparator" type="HSeparator" parent="AspectRatioContainer/MainArea"]
 margin_top = 196.0
-margin_right = 560.0
+margin_right = 565.0
 margin_bottom = 204.0
 size_flags_horizontal = 3
 
 [node name="TabContainer" type="TabContainer" parent="AspectRatioContainer/MainArea"]
 margin_top = 212.0
-margin_right = 560.0
-margin_bottom = 560.0
+margin_right = 565.0
+margin_bottom = 596.0
 rect_min_size = Vector2( 0, 347 )
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -226,7 +230,7 @@ margin_bottom = -8.0
 size_flags_vertical = 3
 
 [node name="ToKillCont" type="GridContainer" parent="AspectRatioContainer/MainArea/TabContainer/To Kill"]
-margin_right = 544.0
+margin_right = 549.0
 margin_bottom = 278.0
 size_flags_horizontal = 3
 theme = SubResource( 2 )
@@ -235,7 +239,7 @@ columns = 2
 
 [node name="ToKillLabels" type="ItemList" parent="AspectRatioContainer/MainArea/TabContainer/To Kill/ToKillCont"]
 unique_name_in_owner = true
-margin_right = 272.0
+margin_right = 275.0
 margin_bottom = 278.0
 size_flags_horizontal = 3
 theme = ExtResource( 4 )
@@ -244,8 +248,8 @@ auto_height = true
 
 [node name="ToKillNums" type="ItemList" parent="AspectRatioContainer/MainArea/TabContainer/To Kill/ToKillCont"]
 unique_name_in_owner = true
-margin_left = 272.0
-margin_right = 544.0
+margin_left = 275.0
+margin_right = 549.0
 margin_bottom = 278.0
 size_flags_horizontal = 3
 size_flags_stretch_ratio = 2.0
@@ -263,7 +267,7 @@ margin_right = -8.0
 margin_bottom = -8.0
 
 [node name="StatsCont" type="GridContainer" parent="AspectRatioContainer/MainArea/TabContainer/Misc Stats"]
-margin_right = 544.0
+margin_right = 549.0
 size_flags_horizontal = 3
 theme = SubResource( 2 )
 custom_constants/hseparation = 0
@@ -275,7 +279,7 @@ margin_right = 260.0
 margin_bottom = 343.0
 size_flags_horizontal = 3
 theme = ExtResource( 4 )
-items = [ "Dmg/Shot (hp|shields)", null, true, "Dmg/Sec", null, true, "Total Dmg", null, true, "Overkill Amt", null, true, "Total Healing", null, true ]
+items = [ "Dmg/Shot (hp|shields)", null, true, "Effective DPS", null, true, "Total Dmg", null, true, "Overkill Amt", null, true, "Total Healing", null, true ]
 auto_height = true
 
 [node name="StatsNums" type="ItemList" parent="AspectRatioContainer/MainArea/TabContainer/Misc Stats/StatsCont"]
@@ -287,6 +291,14 @@ size_flags_horizontal = 3
 theme = ExtResource( 4 )
 items = [ " -", null, false, " -", null, false, " -", null, false, " -", null, false, " -", null, false ]
 auto_height = true
+
+[node name="Label" type="Label" parent="AspectRatioContainer/MainArea"]
+margin_top = 604.0
+margin_right = 565.0
+margin_bottom = 660.0
+custom_colors/font_color = Color( 0.22, 0.22, 0.25, 1 )
+text = "v1.3
+github.com/walnut356"
 
 [connection signal="item_selected" from="AspectRatioContainer/MainArea/AttackSelectionArea/AttackSelectBoxes/AttackUnit" to="." method="_on_AttackUnit_item_selected"]
 [connection signal="item_selected" from="AspectRatioContainer/MainArea/AttackSelectionArea/AttackSelectBoxes/AModeChoice" to="." method="_on_AModeChoice_item_selected"]

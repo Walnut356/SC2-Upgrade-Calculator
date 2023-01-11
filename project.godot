@@ -26,8 +26,8 @@ Unit="*res://Scripts/Unit.gd"
 
 [display]
 
-window/size/width=600
-window/size/height=900
+window/size/width=605
+window/size/height=700
 window/dpi/allow_hidpi=true
 window/vsync/use_vsync=false
 window/energy_saving/keep_screen_on=false

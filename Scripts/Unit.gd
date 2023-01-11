@@ -36,6 +36,7 @@ export var weaponsUp:float
 export var armorUp:float
 export var shieldUp:float
 export var weaponType:int
+export var moveRadius:float #air units use Separation Radius
 
 func applyUpgrade(b:bool):
 	pass
@@ -45,13 +46,41 @@ func changeWeapon(att:int):
 
 func applyModifier(mod:int):
 	pass
-	
-func perCost(): 
-	var perStats = {"health" : 0, "DPS" : 0}
-	var totalCost = cost[0] + cost[1]
-	perStats["health"] = (health + shields)/totalCost
-	perStats["DPS"] = ((attack + (attack + bonusDmg))/2/attackSpeed)/totalCost
-	return perStats
+
+func dps(bonus = false):
+	if bonus:
+		return ((attack + bonusDmg) * attackMult)/attackSpeed
+	else:
+		return (attack * attackMult)/attackSpeed
+
+func healthPerCost(bonus = false, upgrade = false):
+	if upgrade: applyUpgrade(true)
+	return (health + shields)/(cost[0] + cost[1])
+
+func dpsPerCost(bonus = false, upgrade = false):
+	if upgrade: applyUpgrade(true)
+	return dps(bonus)/(cost[0] + cost[1])
+
+func damagePerSupply(bonus = false, upgrade = false):
+	if upgrade: applyUpgrade(true)
+	return dps(bonus)/cost[2]
+
+func healthPerSupply(bonus = false, upgrade = false):
+	if upgrade: applyUpgrade(true)
+	return(health + shields)/cost[2]
+
+func damageDensity(bonus = false, upgrade = false):
+	if upgrade: applyUpgrade(true)
+	return dps(bonus)/moveRadius
+
+func healthDensity(bonus = false, upgrade = false):
+	if upgrade: applyUpgrade(true)
+	return (health + shields)/moveRadius
+
+func damageDensityPerCost(bonus = false, upgrade = false):
+	return damageDensity(bonus, upgrade)/(cost[0] + cost[1])
+
+
 #func _init():
 #	self.type = ""
 #	self.faction = ""

@@ -74,7 +74,7 @@ func ToKill(attackUnit, defendUnit, attackboxUp = 0, armorboxUp = 0, shieldboxUp
 				timeToKill = shotsToKill * attackSpeed
 		shotTotals["SSHB"] = ceil(shotsToKill/attackMult)
 		shotTotals["TSHB"] = timeToKill
-		
+
 		if shields < 0:
 			health -= (shields * -1) - (armor + (armorUp * armorboxUp))
 			shields = 0
