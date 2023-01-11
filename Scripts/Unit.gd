@@ -36,6 +36,8 @@ export var weaponsUp:float
 export var armorUp:float
 export var shieldUp:float
 export var weaponType:int
+export var randomDelayMin:float = -0.0625 / 1.4 #0.0446429
+export var randomDelayMax:float = 0.125 / 1.4 #0.0892857
 export var moveRadius:float #air units use Separation Radius
 
 func applyUpgrade(b:bool):
