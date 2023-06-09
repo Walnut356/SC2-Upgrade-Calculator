@@ -2,7 +2,7 @@
 
 Simple windows desktop app calculator for starcraft 2. Calculates  shots to kill and time to kill for any unit at any upgrade, including unit-specific upgrades and attack types (resonating glaives, stim, high impact payload, etc.)
 
-https://imgur.com/a/mRM08Bb.gif
+![](https://imgur.com/QZ2VwrB)
 
 
 v1.0
